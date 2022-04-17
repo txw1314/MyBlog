@@ -1,0 +1,404 @@
+# 基本优化结束
+custom_css:
+  toc_smooth: true
+  cursor:
+    enable: true
+    text: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/text.png
+    pointer: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/pointer.png
+    default: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/left_ptr.png
+    not-allowed: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/circle.png
+    zoom-out: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/zoom-out.png
+    zoom-in: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/zoom-in.png
+    grab: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/openhand.png
+  scrollbar:
+    size: 4px
+    border: 2px  
+  fontsize:
+    root: 16px
+    footnote: .78rem
+  navbar:
+    height: 64px
+    width: auto
+    effect: [floatable]
+  sidebar:
+    effect: [floatable]
+  body:
+    effect: [floatable]
+  fontfamily:
+    logofont:
+      fontfamily: '"SentyGoldenBell", "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
+      url: https://cdn.jsdelivr.net/gh/inkss/common@1/fonts/canva/SentyGoldenBell.woff2
+    bodyfont:
+      fontfamily: '"Noto Serif SC","Microsoft Yahei",sans-serif,Menlo,Monaco,monospace,sans-serif'
+    codefont:
+      fontfamily: 'JetBrainsMono,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace'
+
+#基本优化结束
+color_scheme:
+  common:
+    selection: '#ddf4ff'
+  light:
+    site_bg: '#f7f9fe'
+    meta: '#666'
+    site_footer: '#444'
+  dark:
+    site_bg: '#21252b'
+    site_footer: '#abb2bf'
+    card: '#282c34'
+    text: '#abb2bf'
+    block: '#21252b'
+    h1: '#979fa-duotone'
+    h2: '#979fa-duotone'
+    h3: '#979fa-duotone'
+    h4: '#979fa-duotone'
+    h5: '#979fa-duotone'
+    h6: '#979fa-duotone'
+    p: '#abb2bf'
+
+# 右键菜单
+rightmenu:
+  enable: true
+  faicon: fal PETERRIVE
+  layout: [copy, navigation, hr, source_docs, friends, text, about, hr, print, reading, darkmode, hr, music]
+  print:                
+    name: 打印页面
+    icon: fal fa-print TURQUOISE
+    defaultStyles: true   
+    js:                 
+      - document.querySelector('article#comments').remove()
+  darkmode:
+    name: 暗黑模式
+    icon: fal fa-moon WISTERIA
+  reading:
+    name: 阅读模式
+    icon: fal fa-book-open EMERALD
+  customPicUrl:    
+    enable: false 
+    old: 
+    new: 
+  music:          
+    alwaysShow: true
+  friends:
+    name: 我的朋友们
+    icon: fal fa-flower-daffodil AMETHYST
+    url: /friends/
+  examples:
+    name: 我的团队
+    icon: fal fa-book-open CARROT
+    url: https://sakurasep.club/
+  source_docs:
+    name: 本站源码
+    icon: fal fa-code-branch SUNFLOWER
+    url: httsp://github.com/sakurasep
+  text:
+    name: 文章归档
+    icon: fal fa-globe-asia CONCRETE
+    url: /archives/
+  about:
+    name: 关于我
+    icon: fal fa-gingerbread-man WISTERIA
+    url: /about/
+
+# 导航栏
+navbar:
+  visiable: auto
+  logo:
+    img: 
+    icon: 
+    title: 上杉九月的博客
+  menu:
+    - name: 首页
+      icon: fal fa-home SUNFLOWER faa-vertical
+      url: /
+    #- name: 分站
+    #  icon: fas fa-rss CARROT faa-vertical
+    #  rows:
+    #   - name: Shoka
+    #      url: shoka/
+    #    - name: Butterfly
+    #      url: butterfly/
+    #    - name: Next
+    #      url: next/
+    #    - name: Matery
+    #      url: matery/
+    #    - name: Fluid
+    #      url: fluid/
+    #    - name: Yun
+    #      url: yun/
+
+    - name: 文章
+      icon: fas fa-book-reader GREENSEA faa-vertical
+      rows:
+        - name: 分类
+          icon: fas fa-folder-open TURQUOISE faa-vertical
+          url: categories/
+        - name: 标签
+          icon: fas fa-tags PETERRIVE faa-vertical
+          url: tags/
+        - name: 归档
+          icon: fas fa-archive GREENSEA faa-vertical
+          url: archives/
+    - name: 导航
+      icon: fas fa-cube NEPHRITIS faa-vertical
+      rows:
+        - name: 关于
+          icon: fas fa-info-circle SUNFLOWER faa-vertical
+          url: about/
+        - name: 留言板
+          icon: fas fa-comment-alt-dots GREENSEA faa-vertical
+          url: info/
+        - name: 追番
+          icon: fas fa-video EMERALD faa-vertical
+          url: bangumis/
+        - name: hr
+        - name: 友链
+          icon: fas fa-link POMEGRANATE faa-vertical
+          url: friends/
+        - name: 朋友的文章
+          icon: fas fa-user-friends ALIZARIN faa-vertical
+          url: friendcircle/
+        - name: 说说
+          icon: fas fa-comments PETERRIVE faa-vertical
+          url: bb/  
+    - name: 功能
+      icon: fas fa-tools ALIZARIN faa-vertical
+      rows:
+        - name: 深色模式
+          icon: fas fa-moon POMEGRANATE faa-vertical
+          toggle: darkmode
+        - name: 背景音乐
+          icon: fas fa-compact-disc EMERALD faa-vertical
+        - name: hr  
+        - name: 开往
+          icon: fas fa-subway PETERRIVE faa-ring faa-slow
+          url: https://travellings.link
+        - name: RSS 订阅
+          icon: fas fa-rss SUNFLOWER faa-vertical
+          url: atom/
+        - name: 网站运行状态
+          icon: fas fa-user-clock PETERRIVE faa-vertical
+          url: https://stats.uptimerobot.com/jJZj1SjwDJ
+    - name: 更多 # 可自定义
+      icon: fas fa-compass WISTERIA faa-vertical # 可自定义
+      rows: 
+        - name: Typecho
+          icon: fas fa-blog POMEGRANATE faa-vertical
+          url: https://blog.sakurasep.club/
+        - name: Halo
+          icon: fas fa-blog ALIZARIN faa-vertical
+          url: https://halo.sakurasep.club/
+        - name: hr
+        - name: Chevereto
+          icon: fas fa-images EMERALD faa-vertical
+          url: https://pic.sakurasep.top/
+        - name: Oneindex
+          icon: fas fa-images SUNFLOWER faa-vertical
+          url: https://pic.sakurasep.club/
+        - name: Cloudreve
+          icon: fas fa-browser PETERRIVE faa-vertical
+          url: https://cloud.sakurasep.club/
+
+# 网站页脚
+site_footer:
+  layout: [aplayer, social, lic, cpy, me, icon]
+  social:
+    - img: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/static/icon/020-rss.svg
+      url: atom.xml
+    - img: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/static/icon/029-github.svg
+      url: https://github.com/sakurasep
+    - img: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/static/icon/012-blogger.svg
+      url: https://blog.sakurasep.club
+    - img: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/static/icon/006-youtube.svg
+      url: https://www.youtube.com/channel/UCTJn92N-puJAJj82Kn05wpw
+  lic: '<div class="footerMax560"><p>博客内容遵循 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">「署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)」</a> 协议</p></div>'
+  cpy: '<div class="footerMax490">Copyright 2019 - 2022 SakuraSep. All Rights Reserved</div>'
+  me: '<a href="/">上杉九月</a> '
+  icon: '<i class="fad fa-heartbeat POMEGRANATE faa-flash faa-slow animated"></i>'
+
+# 封面
+cover:
+  height_scheme: full
+  layout_scheme: dock
+  display:
+    home: true
+    archive: true
+    others: true
+  background: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper.jpg
+  title: '九月的生活'
+  search: 搜索你想知道的内容...
+  features:
+    - name: 博客
+      url: /
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
+    - name: 分类
+      icon: #
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg
+      url: /categories/
+    - name: 标签
+      icon: #
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5d2.svg
+      url: /tags/
+    - name: 归档
+      icon: #
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5de.svg
+      url: /archives/
+    - name: 友链
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4e2.svg
+      url: /friends/
+    - name: 关于
+      icon: #
+      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5a5.svg
+      url: /about/
+
+# 文章
+article:
+  preview:
+    line_style: hidden
+    pin_icon: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4cc.svg
+  body:
+    top_meta: [author, wordcount, category, updated, counter]
+    bottom_meta: [category, tags, updated, share]
+    meta_library:
+      author:
+        avatar: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.jpg
+        name: 上杉九月
+        url: /
+      date:
+        icon: fas fa-calendar-alt BELIZEHOLE faa-vertical
+      updated:
+        icon: fas fa-edit WISTERIA faa-vertical
+      category:
+        icon: fas fa-folder-open EMERALD faa-vertical
+      counter:
+        icon: fas fa-eye SUNFLOWER faa-vertical
+      valinecount:
+        icon: fas fa-comment-dots SUNFLOWER faa-vertical
+      walinecount:
+        icon: fas fa-comment-dots SUNFLOWER faa-vertical
+      wordcount:
+        icon_wordcount: fas fa-keyboard EMERALD
+        icon_duration: fas fa-hourglass-half EMERALD
+      tags:
+        icon: fas fa-hashtag EMERALD
+      share:
+        - id: qq
+          img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png
+        - id: qzone
+          img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png
+        - id: weibo
+          img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png
+        - id: qrcode
+          img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png
+        - id:  telegram
+          img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/telegram.png
+    footer_widget:
+      related_posts:
+        enable: true
+        icon: fas fa-bookmark WISTERIA faa-vertical
+        placeholder_img: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/upload.jpg
+      references:
+        icon: fas fa-quote-left WISTERIA faa-vertical
+      copyright:
+        enable: true
+        content:
+          - '博客内容遵循 <a href="/page/cc">署名-相同方式共享 4.0 国际 (CC BY-SA 4.0)</a> 协议。'
+      donate:
+        enable: true
+        images: 
+          - https://gitee.com/sakurasep/pictures/raw/master/QRCode/AliPay.png
+          - https://gitee.com/sakurasep/pictures/raw/master/QRCode/Wechat.png
+
+# 第三方插件
+plugins:
+  fontawesome: https://cdn.jsdelivr.net/gh/inkss/fontawesome@5.15.3/css/all.min.css
+
+  parallax:
+    enable: true
+    position: fixed      
+    duration: 100000       
+    fade: 300            
+    images:           
+     - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/www.acg.gy_11.png
+     - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/www.acg.gy_41.png
+     - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/acg.gy_75.jpg
+     - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/18.png
+     - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/acg.gy_41.jpg
+     - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/32.jpg
+     - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/acg.gy_55.jpg
+
+# 侧边栏
+sidebar:
+  position: left
+  for_page: [blogger, navigation ,webinfo, category, tagcloud, lastupdate]
+  for_post: [blogger, navigation, toc]
+  widget_library:
+    blogger:
+      display: [desktop]
+      avatar: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.jpg
+      shape: circle
+      title: 上杉九月
+      subtitle: New Dream New Start
+      jinrishici: false
+      social:
+    toc:
+      class: toc
+      header:
+        icon: fas fa-list SUNFLOWER faa-vertical
+        title: 本文目录
+      min_depth: 1
+      max_depth: 6
+
+    category:
+      header:
+        icon: fas fa-folder-open SUNFLOWER faa-vertical
+
+    tagcloud:
+      header:
+        icon: fas fa-tags SUNFLOWER faa-vertical
+
+    webinfo:
+      header:
+        icon: fas fa-award SUNFLOWER faa-vertical
+      type:
+        runtime:
+          data: '2019/07/27' 
+        visitcounter:
+          service: leancloud
+
+    lastupdate:
+      header:
+        icon: fas fa-clock WISTERIA faa-vertical
+ 
+    navigation:
+      class: grid
+      display: [desktop]
+      header:
+        icon: fal fa-map-signs POMEGRANATE 
+        title: 站内导航
+      fixed: true 
+      rows:
+        - name: 留言板
+          icon: fal fa-comments-alt GREENSEA faa-ring faa-slow
+          url:  /info/
+        - name: 关于本站
+          icon: fal fa-drafting-compass NEPHRITIS faa-ring faa-slow
+          url: /about/  
+        - name: 博主说说
+          icon: fal fa-history POMEGRANATE faa-ring faa-slow
+          url: /bb/
+        - name: 番剧推荐
+          icon: fal fa-film-alt WISTERIA faa-ring faa-slow
+          url: /bangumis/
+        - name: 小伙伴们
+          icon: fal fa-stamp CONCRETE faa-ring faa-slow
+          url: /friends/
+        - name: 开往
+          icon: fal fa-subway PETERRIVE faa-ring faa-slow
+          url: https://travellings.link
+
+# 展位图
+default:
+  avatar: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/static/icon/avatar.svg
+  link: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/static/icon/link.svg
+  cover: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/static/icon/cover.svg
+  image: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/static/icon/image.svg

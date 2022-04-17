@@ -1,12 +1,19 @@
-# Hexo Configuration
-# Hexo 配置
-# 汉化资料参考来源: https://blog.csdn.net/zemprogram/article/details/104288872
-# 由上杉九月(https://sakurasep.site)，进行修改和测试
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
+---
+title: 从零开始部署Hexo博客(番外篇一)
+date: 2022-04-11 19:20:50
+---
 
-# Site
-# 网站
+# 前言
+
+此文件是对于Hexo最基本的修改，在使用主题后，由于主题作者设计的不同，某些设置将不会生效，你只需要填写必要设置，并且按照主题作者的文档进行修改即可。
+
+本文参考了以下文章，对部分内容进行了修改
+
+[个人博客搭建笔记-hexo根目录下的`_config.yml`配置解释-前端小黑的博客-CSDN博客](https://blog.csdn.net/zemprogram/article/details/104288872)
+
+## Site
+
+```yml
 # 网站标题(必填)
 title: 九月的生活 
 # 副标题(在某些主题不生效)
@@ -24,9 +31,11 @@ language:
 - zh-TW 
 # 网站对应的时区(无需设置)
 timezone: '' 
+```
 
-# URL
-# 网址
+## Url
+
+```yml
 ## url这里有个主题分站的玩法，后期会讲到
 # 网站网址，如果设置了自定义域名，这里改为自定义的域名(必填)
 # Github: https://Github用户名.github.io
@@ -39,9 +48,11 @@ permalink_defaults:
 pretty_urls:
   trailing_index: true 
   trailing_html: true 
+```
 
+## Directory
 
-# Directory
+```yml
 # 以下内容保持默认即可
 source_dir: source
 public_dir: public
@@ -52,8 +63,11 @@ code_dir: downloads/code
 i18n_dir: :lang
 # 跳过指定文件的渲染，这里在后期做分站时需要跳过分站的目录，防止二次渲染
 skip_render:
+```
 
-# Writing
+## Writing
+
+```yml
 # 新建文章的默认名称(无需修改)
 new_post_name: :title.md 
 # 预设布局，hexo new命令可以创建post,draft,page三种页面，这里的值为post，hexo new "文章名“ 默认生成的是post
@@ -94,18 +108,22 @@ prismjs:
   preprocess: true
   line_number: true
   tab_replace: ''
+```
 
-# Home page setting
-# 主页设置
+## Home page setting
+
+```yml
 index_generator:
   path: ''
   # 每页显示的文章数量(按需修改)
   per_page: 7
   # 文章排序方式，默认最新日期在最前面(无需修改)
   order_by: -date
+```
 
-# Category & Tag
-# 分类与标签
+## Category & Tag
+
+```yml
 # 以下内容不建议修改
 # 默认分类
 default_category: uncategorized
@@ -113,12 +131,18 @@ default_category: uncategorized
 category_map:
 # 标签别名
 tag_map:
+```
 
-# Metadata elements
+## Metadata elements
+
+```yml
 # 元数据元素(无需修改)
 meta_generator: true
+```
 
-# Date / Time format
+## Date / Time format
+
+```yml
 # 时间/日期格式(无需修改)
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
@@ -128,25 +152,36 @@ time_format: HH:mm:ss
 # date: 将文章创建时间作为文章更新时间
 # empty: 没有文章更新时间
 updated_option: 'mtime'
+```
 
-# Pagination
-# 分页
+## Pagination
+
+```yml
 # 分页时每页文章数量 设置为0 不分页(按需修改)
 per_page: 7
 pagination_dir: page
+```
 
-# Include / Exclude file(s)
+## Include / Exclude file(s)
+
+```yml
 # 包括/不包括的文件(无需修改)
 include:
 exclude:
 ignore:
+```
 
-# Extensions
+## Extensions
+
+```yml
 # 主题
 # 使用的主题名
 theme: volantis
+```
 
-# Deployment
+## Deployment
+
+```yml
 # 部署设置
 deploy:
   type: git
@@ -154,11 +189,8 @@ deploy:
   repo: https://gitee.com/sakurasep/sakurasep.git
   # 仓库分支
   branch: master
+```
 
-import:
-  link:
-    - <link href="https://cdn.jsdelivr.net/gh/inkss/common@1/css/roboto.min.css" rel="stylesheet" media="print" onload="this.media='all'">
-    - <link href="https://cdn.jsdelivr.net/gh/inkss/common@1/css/jetbrains.min.css" rel="stylesheet" media="print" onload="this.media='all'">
-    
-# 网站图标，更多尺寸等图标请使用import方式批量导入
-favicon: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/favicon.ico
+---
+
+![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png)
