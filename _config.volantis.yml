@@ -1,3 +1,8 @@
+# Volantis信息
+info:
+  theme_name: Volantis-Sakurasep
+  theme_version: '5.0.0-rc'
+
 # 基本优化结束
 custom_css:
   toc_smooth: true
@@ -40,7 +45,7 @@ color_scheme:
   light:
     site_bg: '#f7f9fe'
     meta: '#666'
-    site_footer: '#444'
+    site_footer: '#fff'
   dark:
     site_bg: '#21252b'
     site_footer: '#abb2bf'
@@ -99,6 +104,58 @@ rightmenu:
     icon: fal fa-gingerbread-man WISTERIA
     url: /about/
 
+rightmenus:
+  enable: true
+  order: 
+    - plugins.navigation
+    - hr
+    - plugins.inputBox
+    - plugins.seletctText
+    - plugins.elementCheck
+    - plugins.elementImage
+    - menus.link
+    - hr
+    - menus.darkMode
+    - plugins.articlePage
+    - music
+  options:
+    iconPrefix: fa-duotone PETERRIVE
+    articleShowLink: true
+  plugins:
+    navigation: 
+      - {id: 'left', name: '转到上一页', icon: 'fa-duotone fa-arrow-left PETERRIVE', event: 'history.back()', group: 'navigation'}
+      - {id: 'right', name: '转到下一页', icon: 'fa-duotone fa-arrow-right PETERRIVE', event: 'history.forward()', group: 'navigation'}
+      - {id: 'redo', name: '刷新当前页面', icon: 'fa-duotone fa-redo PETERRIVE', event: 'window.location.reload()', group: 'navigation'}
+      - {id: 'up', name: '回到顶部', icon: 'fa-duotone fa-arrow-up PETERRIVE', event: 'VolantisApp.scrolltoElement(volantis.dom.bodyAnchor)', group: 'navigation'}
+      - {id: 'home', name: '回到首页', icon: 'fa-duotone fa-home PETERRIVE', link: '/', group: 'navigation'}
+    inputBox:
+      - {id: 'copyPaste', name: '粘贴文本', icon: 'fa-duotone PETERRIVE fa-paste', event: 'copyPaste', group: 'inputBox'}
+      - {id: 'copyAll', name: '全选文本', icon: 'fa-duotone PETERRIVE fa-object-ungroup', event: 'copyAll', group: 'inputBox'}
+      - {id: 'copyCut', name: '剪切文本', icon: 'fa-duotone PETERRIVE fa-cut', event: 'copyCut', group: 'inputBox'} 
+    seletctText:
+      - {id: 'copyText', name: '复制文本', icon: 'fa-duotone PETERRIVE fa-copy', event: 'copyText', group: 'seletctText'}
+      - {id: 'searchWord', name: '站内搜索', icon: 'fa-duotone PETERRIVE fa-search', event: 'OpenSearch(__text__)', group: 'seletctText'}
+      - {id: 'bingSearch', name: '必应搜索', icon: 'fa-duotone PETERRIVE fa-search', event: 'window.open(`https://cn.bing.com/search?q=${__text__}`)', group: 'seletctText'}
+    elementCheck:
+      - {id: 'openTab', name: '新标签页打开', icon: 'fa-duotone PETERRIVE fa-external-link-square-alt', event: 'window.open(__link__)', group: 'elementCheck'}
+      - {id: 'copyLink', name: '复制链接地址', icon: 'fa-duotone PETERRIVE fa-link', event: 'copyLink', group: 'elementCheck'}
+      - {id: 'copyImg', name: '复制图片文件', icon: 'fa-duotone PETERRIVE fa-image', event: 'copyImg', group: 'elementCheck'}
+    elementImage:
+      - {id: 'copyImg', name: '复制图片', icon: 'fa-solid fa-image', event: 'copyImg', group: 'elementImage'}
+      - {id: 'googleImg', name: '谷歌识图', icon: 'fa-solid fa-images', event: 'window.open(`https://www.google.com.hk/searchbyimage?image_url=${__link__}`)', group: 'elementImage'}
+    articlePage:
+      - {id: 'printMode', name: '打印页面', icon: 'fa-duotone fa-print TURQUOISE', event: 'printMode', group: 'articlePage'}
+      - {id: 'readMode', name: '阅读模式', icon: 'fa-duotone fa-book-open EMERALD', event: 'readMode', group: 'articlePage'}
+# 右键自定义菜单区域
+  menus:
+    link:
+      - {id: 'github', name: '本站源码', icon: 'fa-duotone fa-code-branch SUNFLOWER', link: 'httsp://github.com/sakurasep', group: 'link'}
+      - {id: 'friends', name: '我的朋友们', icon: 'fa-duotone fa-flower-daffodil AMETHYST', link: '/friends/', group: 'link'}
+      - {id: 'archive', name: '文章归档', icon: 'fa-duotone fa-globe-asia CONCRETE', link: '/archives/', group: 'link'}
+      - {id: 'about', name: '关于我', icon: 'fa-duotone fa-gingerbread-man WISTERIA', link: '/about/', group: 'link'}
+    darkMode: 
+      - {id: 'darkMode', name: '暗黑模式', icon: 'fa-duotone fa-eclipse-alt WISTERIA', event: 'volantis.dark.toggle()', group: 'darkMode'}
+
 # 导航栏
 navbar:
   visiable: auto
@@ -106,26 +163,26 @@ navbar:
     img: 
     icon: 
     title: 上杉九月的博客
+  search: 搜索你想知道的内容
   menu:
     - name: 首页
       icon: fal fa-home SUNFLOWER faa-vertical
       url: /
-    #- name: 分站
-    #  icon: fas fa-rss CARROT faa-vertical
-    #  rows:
-    #   - name: Shoka
-    #      url: shoka/
-    #    - name: Butterfly
-    #      url: butterfly/
-    #    - name: Next
-    #      url: next/
-    #    - name: Matery
-    #      url: matery/
-    #    - name: Fluid
-    #      url: fluid/
-    #    - name: Yun
-    #      url: yun/
-
+    - name: 分站(未开放)
+      icon: fal fa-rss CARROT faa-vertical
+      rows:
+        - name: Shoka
+          url: shoka/
+        - name: Butterfly
+          url: butterfly/
+        - name: Next
+          url: next/
+        - name: Matery
+          url: matery/
+        - name: Fluid
+          url: fluid/
+        - name: Yun
+          url: yun/
     - name: 文章
       icon: fas fa-book-reader GREENSEA faa-vertical
       rows:
@@ -197,6 +254,9 @@ navbar:
         - name: Cloudreve
           icon: fas fa-browser PETERRIVE faa-vertical
           url: https://cloud.sakurasep.club/
+    - name: 开往
+      icon: fas fa-subway PETERRIVE faa-ring faa-slow
+      url: https://travellings.link
 
 # 网站页脚
 site_footer:
@@ -282,15 +342,15 @@ article:
         icon: fas fa-hashtag EMERALD
       share:
         - id: qq
-          img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qq.png
+          img:  volantis-static/media/org.volantis/logo/128/qq.png 
         - id: qzone
-          img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/qzone.png
+          img: volantis-static/media/org.volantis/logo/128/qzone.png 
         - id: weibo
-          img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/weibo.png
-        - id: qrcode
-          img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/wechat.png
-        - id:  telegram
-          img: https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/telegram.png
+          img: volantis-static/media/org.volantis/logo/128/weibo.png 
+        - id: qrcode 
+          img: volantis-static/media/org.volantis/logo/128/wechat.png 
+        - id: telegram
+          img: volantis-static/media/org.volantis/logo/128/telegram.png
     footer_widget:
       related_posts:
         enable: true
@@ -308,9 +368,17 @@ article:
           - https://gitee.com/sakurasep/pictures/raw/master/QRCode/AliPay.png
           - https://gitee.com/sakurasep/pictures/raw/master/QRCode/Wechat.png
 
+
 # 第三方插件
 plugins:
-  fontawesome: https://cdn.jsdelivr.net/gh/inkss/fontawesome@5.15.3/css/all.min.css
+
+  fontawesome: https://cdn.jsdelivr.net/gh/inkss/fontawesome@6.0.0/css/all.min.css
+  fontawesome_animation:
+    enable: true
+
+  aplayer:
+    enable: true
+    id: 2768120286
 
   parallax:
     enable: true
@@ -325,6 +393,31 @@ plugins:
      - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/acg.gy_41.jpg
      - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/32.jpg
      - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/acg.gy_55.jpg
+
+  scrollreveal:
+    enable: true
+
+  wordcount:
+    enable: true
+
+  comment_typing:
+    enable: true
+
+  pjax:
+    banUrl:              
+       - '/bbtalk/'    
+
+  darkmode:
+    enable: true
+
+  bbtalk:
+    js: https://unpkg.com/bbtalk@0.1.5/dist/bbtalk.min.js
+    appId: w69Q3H9ULXStdK6VmTfNxI2T-MdYXbMMI
+    appKey: ug5wcVHclRzU1jeNf6m7yAoN
+
+  fcircle:
+    api: 'https://circle-friends-api.vercel.app/api' 
+
 
 # 侧边栏
 sidebar:
@@ -402,3 +495,24 @@ default:
   link: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/static/icon/link.svg
   cover: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/static/icon/cover.svg
   image: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/static/icon/image.svg
+
+# 评论
+comments:
+  title: <i class='fas fa-comments POMEGRANATE'></i> 评论
+  service: twikoo 
+  twikoo:
+    js: https://cdn.jsdelivr.net/npm/twikoo@1.5.3
+    envId: twikoo-8g109qz0365c3388
+
+
+# 标签note
+tag_plugins:
+  note:
+    iconfont: 'Font Awesome 6 Pro'
+
+# 数据分析
+analytics:
+  leancloud: 
+    app_id: 6AlMmDb6FMNtaNh3XlKYsizU-MdYXbMMI
+    app_key: jTB2tRPg1t2zVKxnRvrD0lYn
+
