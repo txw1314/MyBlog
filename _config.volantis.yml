@@ -166,10 +166,10 @@ navbar:
   search: 搜索你想知道的内容
   menu:
     - name: 首页
-      icon: fal fa-home SUNFLOWER faa-vertical
+      icon: fas fa-home SUNFLOWER faa-vertical
       url: /
     - name: 分站(未开放)
-      icon: fal fa-rss CARROT faa-vertical
+      icon: fas fa-rss CARROT faa-vertical
       rows:
         - name: Shoka
           url: shoka/
@@ -207,6 +207,9 @@ navbar:
         - name: 追番
           icon: fas fa-video EMERALD faa-vertical
           url: bangumis/
+        - name: 追剧
+          icon: fas fa-video EMERALD faa-vertical
+          url: cinemas/
         - name: hr
         - name: 友链
           icon: fas fa-link POMEGRANATE faa-vertical
@@ -284,7 +287,7 @@ cover:
     archive: true
     others: true
   background: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper.jpg
-  title: '九月的生活'
+  title: '上杉九月的博客'
   search: 搜索你想知道的内容...
   features:
     - name: 博客

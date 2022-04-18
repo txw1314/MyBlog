@@ -1,6 +1,38 @@
 ---
 title: 从零开始部署Hexo博客(一)
+author: 上杉九月
 date: 2022-04-11 17:55:00
+## 基本设置
+tags: 
+- Hexo
+- 零基础
+categories: Hexo系列
+excerpt: 初步讲述了Hexo博客的搭建
+## 密码设置
+password: 20220411
+abstract: 本文章暂不开放
+wrong_pass_message: 密码错误,请重新输入
+## 置顶设置
+sticky:
+top: false
+pin: false
+## 文章头图设置
+index_img: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/1 (6).jpg
+banner_img: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/1 (6).jpg
+headimg: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/1 (6).jpg
+img: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/1 (6).jpg
+cover: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/1 (6).jpg
+## 相关开关
+mermaid: false
+mathjax: false
+math: false
+comments: true
+hide: false
+## Aplayer播放器设置
+music:
+  server: netease
+  type: song
+  id: 31134461
 ---
 # Hexo博客的基本搭建
 
@@ -10,31 +42,41 @@ date: 2022-04-11 17:55:00
 
 ### 1. [Git官网](https://git-scm.com/)
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/4.jpg)
+   {% endgallery %}
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/5.jpg)
+   {% endgallery %}
 
 ### 2. [Node.js v12版本](https://registry.npmmirror.com/binary.html?path=node/latest-v12.x/)
 
    Node.js建议使用v12版本，使用高版本会出现不影响使用的小bug，如果你并非强迫症，以及你的其他项目要求更高版本，请下载最新版
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/6.jpg)
+   {% endgallery %}
 
    如果你的网络无法进行下载，请访问以下链接进行下载
 
    >[Git-来自上杉九月的网盘分享](https://cloud.sakurasep.club/api/v3/file/source/16/Git-2.35.1.2-64-bit.exe?sign=YRIorNXqrSq89bc4BujGL10Klg4clmkBRKC3efReYpQ%3D%3A0)
-   >
+   
    >[Node.js-来自上杉九月的网盘分享](https://cloud.sakurasep.club/api/v3/file/source/17/node-v12.22.10-x64_2.msi?sign=oeBdUBvJMtOa5UYLPHJ2jvfzSW5_GZwRgytdnfxXK1U%3D%3A0)
 
 ### 3. 检查安装是否成功
 
    打开cmd命令行，输入`node -v`后显示下图所示，即为安装成功
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/7.jpg)
+   {% endgallery %}
 
    在电脑的任意目录点击右键，能够显示`Git Bash Here`
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/8.jpg)
+   {% endgallery %}
 
 ## 博客本地化部署
 
@@ -46,9 +88,13 @@ date: 2022-04-11 17:55:00
    npm install -g cnpm --registry=https://registry.npm.taobao.org
    ```
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/1.jpg)
+   {% endgallery %}
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/2.jpg)
+   {% endgallery %}
 
 ### 2. 安装hexo命令行
 
@@ -58,7 +104,9 @@ date: 2022-04-11 17:55:00
    cnpm install hexo-cli -g
    ```
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/3.jpg)
+   {% endgallery %}
 
 ### 3. Hexo博客初始化
 
@@ -68,11 +116,15 @@ date: 2022-04-11 17:55:00
    hexo init
    ```
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/9.jpg)
+   {% endgallery %}
 
    此时文件夹内应有初始化文件
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/10.jpg)
+   {% endgallery %}
 
 ### 4. 运行博客
 
@@ -90,7 +142,9 @@ date: 2022-04-11 17:55:00
    >
    > hexo s 启动本地服务器
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/11.jpg)
+   {% endgallery %}
 
    出现上图最后一句话，并且没有后续的警告语句，说明部署成功，在浏览器中输入以下网址查看部署效果
 
@@ -98,7 +152,9 @@ date: 2022-04-11 17:55:00
    http://localhost:4000
    ```
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/12.jpg)
+   {% endgallery %}
 
    >  如果你的端口4000被占用，可以使用hexo s -p 端口号
    >
@@ -116,13 +172,17 @@ Gitee虽然是国内的代码托管平台，访问速度可以保证，但是它
 
 [GitHub: Where the world builds software · GitHub](https://github.com/)   
 
+{% gallery %}
 ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/13.jpg)
+{% endgallery %}
 
 #### 1. 创建Github仓库
 
    注册完成Github账号，新建仓库用于保存上传博客代码
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/14.jpg)
+   {% endgallery %}
 
 > 这里我已经存在该仓库，所以会爆红
 
@@ -138,16 +198,22 @@ Gitee虽然是国内的代码托管平台，访问速度可以保证，但是它
    ssh-keygen -t rsa -C "你的GitHub注册邮箱"
    ```
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/15.jpg)
+   {% endgallery %}
 
    输入第三个命令后只需要连续按下三次回车，就会在`C:\Users\用户名\.ssh`中生成密钥文件
 
    打开`id_rsa.pub`，复制文件内容，添加到
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/17.jpg)
+   {% endgallery %}
 
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/18.jpg)
+   {% endgallery %}
 
    然后在`Git Bash`中输入以下命令测试是否连通Github
 
@@ -155,7 +221,9 @@ Gitee虽然是国内的代码托管平台，访问速度可以保证，但是它
    ssh -T git@github.com
    ```
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/19.jpg)
+   {% endgallery %}
 
 #### 3.  上传博客到Github
 
@@ -165,15 +233,21 @@ Gitee虽然是国内的代码托管平台，访问速度可以保证，但是它
    cnpm install hexo-deployer-git --save
    ```
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/20.jpg)
+   {% endgallery %}
 
    打开根目录下的`_config.yml`文件
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/21.jpg)
+   {% endgallery %}
 
    repo 可以复制此处的链接
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/22.jpg)
+   {% endgallery %}
 
    填好后在`Git Bash`中输入下列命令部署到Github仓库
 
@@ -181,17 +255,23 @@ Gitee虽然是国内的代码托管平台，访问速度可以保证，但是它
    hexo clean && hexo g && hexo d
    ```
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/23.jpg)
+   {% endgallery %}
 
    此时访问`https://Github用户名.github.io`即可访问
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/24.jpg)
+   {% endgallery %}
 
 #### 4. 绑定自定义域名
 
 你可以自行选择域名提供商，购买完域名后，在域名解析里设置以下解析记录
 
+{% gallery %}
 ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/33.jpg)
+{% endgallery %}
 
 >  主机记录：设置为`@`为泛解析，即访问域名为`https://域名`。如果想要设置为二级域名，请将主机记录设置为想要设置的名称，比如主机记录设置为`hexo`，即访问域名为`https://hexo.域名`
 >
@@ -199,25 +279,35 @@ Gitee虽然是国内的代码托管平台，访问速度可以保证，但是它
 
 然后在`_config.yml`中设置url为你解析的域名
 
+{% gallery %}
 ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/34.jpg)
+{% endgallery %}
 
 最后再`博客根目录/source`下新建CNAME文件
 
+{% gallery %}
 ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/36.jpg)
+{% endgallery %}
 
 文件内容为自定义的域名
 
+{% gallery %}
 ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/35.jpg)
+{% endgallery %}
 
 ### 二. 部署到Gitee(备用方法)
 
    [Gitee - 基于 Git 的代码托管和研发协作平台](https://gitee.com/)
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/25.jpg)
+   {% endgallery %}
 
 #### 1.  创建Gitee仓库
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/26.jpg)
+   {% endgallery %}
 
 #### 2. 获取与Gitee的连接
 
@@ -228,22 +318,26 @@ Gitee虽然是国内的代码托管平台，访问速度可以保证，但是它
    git config --global user.email "你的Gitee注册邮箱"
    ssh-keygen -t rsa -C "你的Gitee注册邮箱"
    ```
-
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/15.jpg)
+   {% endgallery %}
 
    输入第三个命令后只需要连续按下三次回车，就会在`C:\Users\用户名\.ssh`中生成密钥文件
 
    打开`id_rsa.pub`，复制文件内容，添加到
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/27.jpg)
+   {% endgallery %}
 
    然后在`Git Bash`中输入以下命令测试是否连通Gitee
 
    ```
    ssh -T git@gitee.com
    ```
-
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/28.jpg)
+   {% endgallery %}
 
 #### 3.  上传博客到Gitee
 
@@ -252,16 +346,21 @@ Gitee虽然是国内的代码托管平台，访问速度可以保证，但是它
    ```
    cnpm install hexo-deployer-git --save
    ```
-
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/20.jpg)
+   {% endgallery %}
 
    打开根目录下的`_config.yml`文件
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/29.jpg)
+   {% endgallery %}
 
    repo 可以复制此处的链接
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/30.jpg)
+   {% endgallery %}
 
    填好后在`Git Bash`中输入下列命令部署到Gitee仓库
 
@@ -269,19 +368,27 @@ Gitee虽然是国内的代码托管平台，访问速度可以保证，但是它
    hexo clean && hexo g && hexo d
    ```
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/23.jpg)
+   {% endgallery %}
 
    在仓库的`服务-Gitee Pages`进行手动部署
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/31.jpg)
+   {% endgallery %}
 
    打开`强制使用Https`，更新部署
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/32.jpg)
+   {% endgallery %}
 
    等待部署结束后，访问`Https://Gitee用户名.gitee.io`查看部署结果
 
+   {% gallery %}
    ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/24.jpg)
+   {% endgallery %}
 
 # 后记
 
@@ -291,4 +398,6 @@ Gitee虽然是国内的代码托管平台，访问速度可以保证，但是它
 
 ---
 
+{% gallery %}
 ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png)
+{% endgallery %}

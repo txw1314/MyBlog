@@ -1,0 +1,24 @@
+sakura_team:
+  title:
+  description:
+  items:
+    - title: 上杉九月
+      avatar: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.jpg
+      url: https://sakurasep.site/
+      screenshot: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/blog_index.png
+      description: 分享生活，探索未来！
+    - title: Ven_殃雾
+      avatar: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/ven.jpg
+      url: https://youngfog.cn/
+      screenshot: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/youngfog.jpg
+      description: 只做灵感的信徒，秉持热爱的信条
+
+sakurasep:
+  title:
+  description:
+  items:
+    - title: 九月的生活
+      avatar: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.jpg
+      url: https://blog.sakurasep.club/
+      screenshot: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/blog.png
+      description: 分享自己的生活

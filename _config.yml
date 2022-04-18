@@ -31,7 +31,7 @@ timezone: ''
 # 网站网址，如果设置了自定义域名，这里改为自定义的域名(必填)
 # Github: https://Github用户名.github.io
 # Gitee: https://Gitee仓库路径名.gitee.io
-url: https://sakurasep.gitee.io 
+url: https://sakurasep.site
 # 文章的永久链接格式(选择性修改)
 permalink: :year/:title/  
 # (无需修改)
@@ -151,7 +151,9 @@ theme: volantis
 deploy:
   type: git
   # 仓库地址
-  repo: https://gitee.com/sakurasep/sakurasep.git
+  repo: 
+    gitee: https://gitee.com/sakurasep/sakurasep.git
+    github: git@github.com:sakurasep/sakurasep.github.io.git
   # 仓库分支
   branch: master
 
@@ -162,3 +164,35 @@ import:
     
 # 网站图标，更多尺寸等图标请使用import方式批量导入
 favicon: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/favicon.ico
+
+# 番剧
+bangumi: # 追番设置
+  enable: true
+  path:
+  vmid: 632762501
+  title: '上杉九月的追番列表'
+  quote: '正在追的动漫'
+  show: 1
+  lazyload: true
+  loading:
+  metaColor:
+  color:
+  webp:
+  progress:
+  extra_options:
+    key: value
+cinema: # 追剧设置
+  enable: true
+  path:
+  vmid: 632762501
+  title: '上杉九月的追剧列表'
+  quote: '最近在看五郎叔'
+  show: 1
+  lazyload: true
+  loading:
+  metaColor:
+  color:
+  webp:
+  progress:
+  extra_options:
+    key: value
