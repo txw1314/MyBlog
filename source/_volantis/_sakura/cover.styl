@@ -31,32 +31,6 @@
       .widget.mobile
         border-radius: 0
 
-// 禁止文本选中
-.not-select,
-figcaption,
-footer,
-section,
-details summary,
-.new-meta-box,
-.nav-tabs
-  -webkit-touch-callout none
-  -webkit-user-select none
-  -khtml-user-select none
-  -moz-user-select none
-  -ms-user-select none
-  user-select none
-  & p,
-  & span
-    cursor: $default,default
-  &.default-cursor
-    cursor: $default,default !important
-.allow-select
-  -webkit-touch-callout all
-  -webkit-user-select all
-  -khtml-user-select all
-  -moz-user-select all
-  -ms-user-select all
-  user-select all
 
 // 修改链接的下划线样式
 .article a:not([class]):not([data-fancybox]),
@@ -100,17 +74,6 @@ article#post
   text-align: left
   text-indent: 2em
 
-// 卡片透明模式
-// 添加透明度
-#l_header
-  background-color: rgba(255,255,255,0.9)
-#l_main .post,
-#l_side .widget
-  background-color: rgba(255,255,255,0.9)
-  box-shadow: 0 4px 10px -4px #ebedf0
-// 文章不透明
-#post.post
-  background-color: var(--color-card)
 
 // 文章页不显示头图
 #l_main .article .headimg-div
@@ -187,13 +150,6 @@ h1.title.common_read_h1
 #l_main li p
   text-indent initial !important
 
-
-// 透明模式哟
-#l_header
-  background-color: hsla(0,0%,100%,.9)
-#l_side .widget
-  background-color: rgba(255,255,255,0.9)
-  box-shadow: 0 4px 10px -4px #ebedf0
 
 // 个人卡片
 .blogger .text

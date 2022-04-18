@@ -62,7 +62,7 @@ color_scheme:
 
 # 右键菜单
 rightmenu:
-  enable: true
+  enable: false
   faicon: fal PETERRIVE
   layout: [copy, navigation, hr, source_docs, friends, text, about, hr, print, reading, darkmode, hr, music]
   print:                
