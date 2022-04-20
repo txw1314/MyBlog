@@ -13,15 +13,15 @@ password: 20220411
 abstract: 本文章暂不开放
 wrong_pass_message: 密码错误,请重新输入
 ## 置顶设置
-sticky:
+sticky: 10000
 top: false
 pin: false
 ## 文章头图设置
-index_img: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/1 (5).jpg
-banner_img: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/1 (5).jpg
-headimg: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/1 (5).jpg
-img: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/1 (5).jpg
-cover: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/1 (5).jpg
+index_img: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/8.jpg
+banner_img: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/8.jpg
+headimg: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/8.jpg
+img: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/8.jpg
+cover: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/8.jpg
 ## 相关开关
 mermaid: false
 mathjax: false

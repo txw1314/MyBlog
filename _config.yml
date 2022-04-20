@@ -1,7 +1,7 @@
 # Hexo Configuration
 # Hexo 配置
 # 汉化资料参考来源: https://blog.csdn.net/zemprogram/article/details/104288872
-# 由上杉九月(https://sakurasep.site)，进行修改和测试
+# 由上杉九月(https://blog.sakurasep.site)，进行修改和测试
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
@@ -31,7 +31,7 @@ timezone: ''
 # 网站网址，如果设置了自定义域名，这里改为自定义的域名(必填)
 # Github: https://Github用户名.github.io
 # Gitee: https://Gitee仓库路径名.gitee.io
-url: https://sakurasep.site
+url: https://blog.sakurasep.site
 # 文章的永久链接格式(选择性修改)
 permalink: :year/:title/  
 # (无需修改)
@@ -52,7 +52,8 @@ code_dir: downloads/code
 i18n_dir: :lang
 # 跳过指定文件的渲染，这里在后期做分站时需要跳过分站的目录，防止二次渲染
 skip_render:
-
+  - fonts/*
+  - CNAME
 # Writing
 # 新建文章的默认名称(无需修改)
 new_post_name: :title.md 

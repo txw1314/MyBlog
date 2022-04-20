@@ -32,7 +32,7 @@ custom_css:
   fontfamily:
     logofont:
       fontfamily: '"SentyGoldenBell", "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
-      url: https://cdn.jsdelivr.net/gh/inkss/common@1/fonts/canva/SentyGoldenBell.woff2
+      url: https://css.sakurasep.club/SentyGoldenBell.woff2
     bodyfont:
       fontfamily: '"Noto Serif SC","Microsoft Yahei",sans-serif,Menlo,Monaco,monospace,sans-serif'
     codefont:
@@ -368,14 +368,14 @@ article:
       donate:
         enable: true
         images: 
-          - https://gitee.com/sakurasep/pictures/raw/master/QRCode/AliPay.png
-          - https://gitee.com/sakurasep/pictures/raw/master/QRCode/Wechat.png
+          - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/AliPay.png
+          - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wechat.png
 
 
 # 第三方插件
 plugins:
 
-  fontawesome: https://cdn.jsdelivr.net/gh/inkss/fontawesome@6.0.0/css/all.min.css
+  fontawesome: https://css.sakurasep.club/fontawesome/css/all.min.css
   fontawesome_animation:
     enable: true
 
@@ -388,14 +388,15 @@ plugins:
     position: fixed      
     duration: 100000       
     fade: 300            
-    images:           
-     - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/www.acg.gy_11.png
-     - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/www.acg.gy_41.png
-     - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/acg.gy_75.jpg
-     - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/18.png
-     - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/acg.gy_41.jpg
-     - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/32.jpg
-     - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/acg.gy_55.jpg
+    images:
+      - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/2.jpg
+      - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/21.jpg
+      - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/20.jpg
+      - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/18.jpg
+      - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/15.jpg
+      - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/14.jpg
+      - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/8.jpg
+      - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/3.jpg
 
   scrollreveal:
     enable: true

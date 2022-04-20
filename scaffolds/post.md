@@ -12,8 +12,8 @@ abstract: 这是加密提示文字
 wrong_pass_message: 密码错误,请重新输入
 ## 置顶设置
 sticky:
-top: true
-pin: true
+top: false
+pin: false
 ## 文章头图设置
 index_img: 
 banner_img: 
