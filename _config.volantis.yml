@@ -433,9 +433,6 @@ plugins:
 
 
 
-  preload:
-    enable: false
-
 # 侧边栏
 sidebar:
   position: left
