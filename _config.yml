@@ -174,7 +174,7 @@ bangumi: # 追番设置
   title: '上杉九月的追番列表'
   quote: '正在追的动漫'
   show: 1
-  lazyload: true
+  lazyload: false
   loading:
   metaColor:
   color:
@@ -189,7 +189,7 @@ cinema: # 追剧设置
   title: '上杉九月的追剧列表'
   quote: '最近在看五郎叔'
   show: 1
-  lazyload: true
+  lazyload: false
   loading:
   metaColor:
   color:
@@ -197,3 +197,13 @@ cinema: # 追剧设置
   progress:
   extra_options:
     key: value
+
+
+#RSS订阅
+plugin:
+- hexo-generator-feed
+#Feed Atom
+feed:
+type: atom
+path: atom.xml
+limit: 20

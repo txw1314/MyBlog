@@ -49,4 +49,16 @@ title: 我的朋友们
       url: https://blog.inpan.top/ 
     - title: ChiHiro
       url: https://sheep7.xyz 
+    - title: Caviar-X
+      url: https://pigeons.cyou/
+    - title: LeFlacon’s Blog
+      url: https://leflacon.top/
+    - title: Wonder
+      url: https://www.wonder1999.com/
+    - title: 雨中的博客
+      url: https://wenchong.space/
+    - title: eeeeeeeeeeeeeeeea
+      url: https://eeeeeeeeeeeeeeeea.cn
+    - title: 丧狼博客
+      url: https://slbk.icu/
 ```

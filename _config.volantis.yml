@@ -216,7 +216,7 @@ navbar:
           url: friends/
         - name: 朋友的文章
           icon: fas fa-user-friends ALIZARIN faa-vertical
-          url: friendcircle/
+          url: fcircle/
         - name: 说说
           icon: fas fa-comments PETERRIVE faa-vertical
           url: bb/  
@@ -234,7 +234,7 @@ navbar:
           url: https://travellings.link
         - name: RSS 订阅
           icon: fas fa-rss SUNFLOWER faa-vertical
-          url: atom/
+          url: atom.xml
         - name: 网站运行状态
           icon: fas fa-user-clock PETERRIVE faa-vertical
           url: https://stats.uptimerobot.com/jJZj1SjwDJ
@@ -374,8 +374,15 @@ article:
 
 # 第三方插件
 plugins:
+  # issues api
+  sitesjs:
+    enable: false
+  friendsjs:
+    enable: false
+  contributorsjs:
+    enable: false
 
-  fontawesome: https://css.sakurasep.club/fontawesome/css/all.min.css
+  fontawesome: https://cdn.jsdelivr.net/gh/inkss/fontawesome@6.0.0/css/all.min.css
   fontawesome_animation:
     enable: true
 
@@ -409,19 +416,25 @@ plugins:
 
   pjax:
     banUrl:              
-       - '/bbtalk/'    
+       - '/bb/'    
 
   darkmode:
     enable: true
 
   bbtalk:
-    js: https://unpkg.com/bbtalk@0.1.5/dist/bbtalk.min.js
+    js: https://cdn.jsdelivr.net/npm/bbtalk@0.1.5/dist/bbtalk.min.js
     appId: w69Q3H9ULXStdK6VmTfNxI2T-MdYXbMMI
     appKey: ug5wcVHclRzU1jeNf6m7yAoN
+    serverURLs: https://w69Q3H9U.api.lncldglobal.com
 
   fcircle:
-    api: 'https://circle-friends-api.vercel.app/api' 
+    api: 'https://hexo-circle-of-friends-sakurasep.vercel.app/' 
+    message: '连接中'
 
+
+
+  preload:
+    enable: false
 
 # 侧边栏
 sidebar:
@@ -520,3 +533,6 @@ analytics:
     app_id: 6AlMmDb6FMNtaNh3XlKYsizU-MdYXbMMI
     app_key: jTB2tRPg1t2zVKxnRvrD0lYn
 
+
+# 替换
+replace:
