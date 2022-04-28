@@ -154,7 +154,7 @@ deploy:
   type: git
   # 仓库地址
   repo: 
-    gitee: https://gitee.com/sakurasep/sakurasep.git
+    # gitee: https://gitee.com/sakurasep/sakurasep.git
     github: git@github.com:sakurasep/sakurasep.github.io.git
   # 仓库分支
   branch: master
