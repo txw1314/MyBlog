@@ -332,8 +332,6 @@ article:
         icon: fas fa-folder-open EMERALD faa-vertical
       counter:
         icon: fas fa-eye SUNFLOWER faa-vertical
-      valinecount:
-        icon: fas fa-comment-dots SUNFLOWER faa-vertical
       walinecount:
         icon: fas fa-comment-dots SUNFLOWER faa-vertical
       wordcount:
