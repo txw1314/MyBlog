@@ -511,9 +511,12 @@ comments:
   title: <i class='fas fa-comments POMEGRANATE'></i> 评论
   service: twikoo 
   twikoo:
-    js: https://cdn.jsdelivr.net/npm/twikoo@1.5.4
+    js: https://cdn.jsdelivr.net/npm/twikoo@1.5.3
     envId: twikoo-8g109qz0365c3388
 
+# CSP
+csp:
+  enable: false
 
 # 标签note
 tag_plugins:
