@@ -168,13 +168,13 @@ navbar:
     - name: 首页
       icon: fas fa-home SUNFLOWER faa-vertical
       url: /
-    - name: 分站(未开放)
+    - name: 分站
       icon: fas fa-rss CARROT faa-vertical
       rows:
         - name: Shoka
           url: shoka/
         - name: Butterfly
-          url: butterfly/
+          url: Butterfly/
         - name: Next
           url: next/
         - name: Matery
@@ -229,9 +229,6 @@ navbar:
         - name: 背景音乐
           icon: fas fa-compact-disc EMERALD faa-vertical
         - name: hr  
-        - name: 开往
-          icon: fas fa-subway PETERRIVE faa-ring faa-slow
-          url: https://travellings.link
         - name: RSS 订阅
           icon: fas fa-rss SUNFLOWER faa-vertical
           url: atom.xml
@@ -263,7 +260,7 @@ navbar:
 
 # 网站页脚
 site_footer:
-  layout: [aplayer, social, lic, cpy, me, icon]
+  layout: [aplayer, social, lic, cpy, me, icp, cdn]
   social:
     - img: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/static/icon/020-rss.svg
       url: atom.xml
@@ -276,7 +273,8 @@ site_footer:
   lic: '<div class="footerMax560"><p>博客内容遵循 <a target="_blank" rel="external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">「署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0)」</a> 协议</p></div>'
   cpy: '<div class="footerMax490">Copyright 2019 - 2022 SakuraSep. All Rights Reserved</div>'
   me: '<a href="/">上杉九月</a> '
-  icon: '<i class="fad fa-heartbeat POMEGRANATE faa-flash faa-slow animated"></i>'
+  icp: '<a href="https://beian.miit.gov.cn/#/Integrated/index"><span>鲁ICP备2020049838号-3</span></a>'
+  cdn: '<div class="footer-support"><p>本网站由</p><a class="footer-support-logo" href="https://www.upyun.com" target="blank" title="又拍云"><img height="35" src="https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/logo/upyun-logo.png" alt="又拍云"></a><p>提供 CDN 加速</p></div>'
 
 # 封面
 cover:
@@ -376,13 +374,13 @@ article:
 plugins:
   # issues api
   sitesjs:
-    enable: false
+    enable: true
   friendsjs:
-    enable: false
+    enable: true
   contributorsjs:
-    enable: false
+    enable: true
 
-  fontawesome: https://cdn.jsdelivr.net/gh/inkss/fontawesome@6.0.0/css/all.min.css
+  fontawesome: https://css.sakurasep.club/fontawesome/css/all.min.css
   fontawesome_animation:
     enable: true
 

@@ -14,19 +14,24 @@ sidebar: [blogger,  webinfo]
 > 希望自己能够安静的一天天生活下去
 >
 > 写写文章，做做创作
-
-![Sakurasep](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.jpg)
-
+>
 > 19岁了，为梦想付出努力中
 
 * 爱好：ACGN，Coding，创作
+
 * 喜欢：探索新奇的事物，可爱的女孩子（bushi
+
 * 目前在玩的游戏：Arknights（二周年入坑），Mihoyo（半弃坑），GTAV（联机首选），各种各样的音游（首玩邦邦）
+
 * 运动：散步，骑行
+
 * 目标：人民教师||自由开发者||自媒体
+
 * 希望拥有的技能：多国语言||美术设计||3D建模
 
 ![很可怕](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/haimao01.gif)
+
+# 目标
 
 <details>
 <summary>此生想要完成的事情</summary>

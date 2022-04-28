@@ -15,7 +15,13 @@ title: 我的朋友们
 
 ## 我的朋友们
 
+{% sites only:MyFriends %}
+
+## Github Issue(目前存在问题)
+
+
 {% sites repo:sakurasep/MyFriends %}
+
 
 # 注意事项
 

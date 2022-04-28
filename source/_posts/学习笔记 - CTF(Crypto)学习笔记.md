@@ -51,7 +51,9 @@ cover: 'https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wa
 
 ## [BUUCTF在线评测 (buuoj.cn) -- MD5](https://buuoj.cn/challenges#MD5)
 
+{% gallery %}
 ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/1.png)
+{% endgallery %}
 
 ### 题目
 
@@ -63,13 +65,19 @@ e00cf25ad42683b3df678c61f42c6bda
 
 扔到**[MD5解密网站](https://www.cmd5.com/)**得到`flag{admin1}`
 
+{% gallery %}
 ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/2.png)
+{% endgallery %}
 
+{% gallery %}
 ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/3.png)
+{% endgallery %}
 
 ## [BUUCTF在线评测 (buuoj.cn) -- 一眼就解密](https://buuoj.cn/challenges#一眼就解密)
 
+{% gallery %}
 ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/4.png)
+{% endgallery %}
 
 ## 题目
 
@@ -79,14 +87,19 @@ flag：ZmxhZ3tUSEVfRkxBR19PRl9USElTX1NUUklOR30=
 
 Base64编码有个特点，编码末尾会出现`=`
 
+{% gallery %}
 ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/5.png)
+{% endgallery %}
 
 所以说仍然是放到**[Base64解密网站](https://www.qqxiuzi.cn/bianma/base64.htm)**
 
+{% gallery %}
 ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/6.png)
+{% endgallery %}
 
+{% gallery %}
 ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/7.png)
-
+{% endgallery %}
 ---
 
 {% gallery %}

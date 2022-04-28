@@ -2,6 +2,7 @@
 title: {{ title }}
 author: 作者
 date: {{ date }}
+updated: {{ date }}
 ## 基本设置
 tags: 标签
 categories: 分类
