@@ -170,7 +170,7 @@ favicon: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/f
 # 番剧
 bangumi: # 追番设置
   enable: true
-  path:
+  path: 
   vmid: 632762501
   title: '上杉九月的追番列表'
   quote: '正在追的动漫'
@@ -179,7 +179,7 @@ bangumi: # 追番设置
   loading:
   metaColor:
   color:
-  webp:
+  webp: false
   progress:
   extra_options:
     key: value
@@ -194,7 +194,7 @@ cinema: # 追剧设置
   loading:
   metaColor:
   color:
-  webp:
+  webp: false
   progress:
   extra_options:
     key: value
