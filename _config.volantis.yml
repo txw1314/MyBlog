@@ -260,7 +260,7 @@ navbar:
 
 # 网站页脚
 site_footer:
-  layout: [aplayer, social, lic, cpy, me, icp, cdn]
+  layout: [aplayer, social, lic, cpy, me, icp]
   social:
     - img: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/static/icon/020-rss.svg
       url: atom.xml
