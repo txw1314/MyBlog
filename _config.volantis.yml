@@ -204,6 +204,7 @@ navbar:
         - name: 留言板
           icon: fas fa-comment-alt-dots GREENSEA faa-vertical
           url: info/
+        - name: hr
         - name: 追番
           icon: fas fa-video EMERALD faa-vertical
           url: bangumis/
@@ -217,9 +218,16 @@ navbar:
         - name: 朋友的文章
           icon: fas fa-user-friends ALIZARIN faa-vertical
           url: fcircle/
-        - name: 说说
+        - name: hr
+        - name: BBTalk
           icon: fas fa-comments PETERRIVE faa-vertical
           url: bb/  
+        - name: ArtiTalk
+          icon: fas fa-comments PETERRIVE faa-vertical
+          url: artitalk/
+        - name: HPPTalk
+          icon: fas fa-comments PETERRIVE faa-vertical
+          url: hpptalk/
     - name: 功能
       icon: fas fa-tools ALIZARIN faa-vertical
       rows:
@@ -413,6 +421,7 @@ plugins:
   pjax:
     banUrl:              
        - '/bb/'    
+       - '/artitalk/'
 
   darkmode:
     enable: true
@@ -422,6 +431,12 @@ plugins:
     appId: w69Q3H9ULXStdK6VmTfNxI2T-MdYXbMMI
     appKey: ug5wcVHclRzU1jeNf6m7yAoN
     serverURLs: https://w69Q3H9U.api.lncldglobal.com
+
+  artitalk:
+    js: https://unpkg.com/artitalk
+    appId: a48J9aEbfVNsKjoXYMDUN6Lc-MdYXbMMI
+    appKey: TRl1pnzSlI9WhOCCKqs7NFqL
+
 
   fcircle:
     api: 'https://hexo-circle-of-friends-sakurasep.vercel.app/' 
@@ -532,3 +547,16 @@ analytics:
 
 # 替换
 replace:
+
+
+# HPP Talk
+hpptalk:
+  enable: true
+  domain: hpp.sakurasep.site
+  path:
+  limit:
+  start:
+  js:
+  css:
+  option:
+  front_matter:
