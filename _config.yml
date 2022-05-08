@@ -102,7 +102,7 @@ prismjs:
 index_generator:
   path: ''
   # 每页显示的文章数量(按需修改)
-  per_page: 7
+  per_page: 5
   # 文章排序方式，默认最新日期在最前面(无需修改)
   order_by: -date
 
@@ -134,7 +134,7 @@ updated_option: 'mtime'
 # Pagination
 # 分页
 # 分页时每页文章数量 设置为0 不分页(按需修改)
-per_page: 7
+per_page: 5
 pagination_dir: page
 
 # Include / Exclude file(s)
