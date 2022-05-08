@@ -17,7 +17,7 @@ title: 我的朋友们
 
 {% sites only:MyFriends %}
 
-## Github Issue(目前存在问题)
+## Github Issue
 
 
 {% sites repo:sakurasep/MyFriends %}

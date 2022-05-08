@@ -225,9 +225,6 @@ navbar:
         - name: ArtiTalk
           icon: fas fa-comments PETERRIVE faa-vertical
           url: artitalk/
-        - name: HPPTalk
-          icon: fas fa-comments PETERRIVE faa-vertical
-          url: hpptalk/
     - name: 功能
       icon: fas fa-tools ALIZARIN faa-vertical
       rows:
