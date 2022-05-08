@@ -34,7 +34,7 @@ custom_css:
       fontfamily: '"SentyGoldenBell", "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
       url: https://css.sakurasep.club/SentyGoldenBell.woff2
     bodyfont:
-      fontfamily: '"Noto Serif SC","Microsoft Yahei",sans-serif,Menlo,Monaco,monospace,sans-serif'
+      fontfamily: '"Roboto,"Noto Serif SC","Microsoft Yahei",sans-serif,Menlo,Monaco,monospace,sans-serif'
     codefont:
       fontfamily: 'JetBrainsMono,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace'
 
