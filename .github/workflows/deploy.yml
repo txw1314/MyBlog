@@ -33,7 +33,6 @@ jobs:
           git config --global user.email "13562008871@163.com"
           git config --global user.name "sakurasep"
           npm install hexo-cli -g
-          npm install --global gulp-cli
           npm install
 
       - name: Deploy
