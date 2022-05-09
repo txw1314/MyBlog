@@ -432,7 +432,7 @@ int main()
 
 ##### AC代码
 
-```c++
+```cpp
 #include <iostream>
 #include <cstdio>
 #include <cmath>
@@ -580,7 +580,7 @@ int main()
 * 本题存在规律（代码结尾处）。先进行向右的移动，然后就是两次循环，按照下左上右的规律。
 * 本题和接下来几个题使用的动态二维数组定义代码是通用的，可以直接当作模板套用
 
-```c++
+```cpp
     int **element = NULL;
 	int size;
 	cin>>size;
@@ -859,7 +859,7 @@ int main()
 
 ##### AC代码
 
-```c++
+```cpp
 #include <iostream>
 #include <cstdio>
 #include <iomanip>

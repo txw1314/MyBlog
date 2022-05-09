@@ -436,7 +436,7 @@ plugins:
 
 
   fcircle:
-    api: 'https://hexo-circle-of-friends-sakurasep.vercel.app/' 
+    api: 'https://hexo-circle-of-friends-sakurasep.vercel.app/'
     message: '连接中'
 
 
