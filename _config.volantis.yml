@@ -172,17 +172,17 @@ navbar:
       icon: fas fa-rss CARROT faa-vertical
       rows:
         - name: Shoka
-          url: shoka/
+          url: Shoka/
         - name: Butterfly
           url: Butterfly/
         - name: Next
-          url: next/
+          url: Next/
         - name: Matery
-          url: matery/
+          url: Matery/
         - name: Fluid
-          url: fluid/
+          url: Fluid/
         - name: Yun
-          url: yun/
+          url: Yun/
     - name: 文章
       icon: fas fa-book-reader GREENSEA faa-vertical
       rows:
