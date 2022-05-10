@@ -27,7 +27,7 @@ title: 我的朋友们
 
 ## 如何申请友链
 
-本站有两种友链展示格式如果你想要展示你网站的首页缩略图，请填写screenshot选项
+本站有两种友链展示格式,如果你想要展示你网站的首页缩略图，请填写screenshot选项
 
 本站采用的是动态issue申请，请访问[Github Issue](https://github.com/sakurasep/MyFriends/issues)，按照模板添加友链申请。
 
@@ -42,7 +42,7 @@ title: 我的朋友们
 ```yml
     title: 上杉九月的博客
     avatar: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.jpg
-    url: https://sakurasep.site/
+    url: https://blog.sakurasep.site/
     screenshot: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/blog_index.png
     description: 分享生活，探索未来！
 ```

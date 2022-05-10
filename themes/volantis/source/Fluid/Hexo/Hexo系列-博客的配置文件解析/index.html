@@ -1,0 +1,610 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN,en,zh-TW,default" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.png">
+  <link rel="icon" href="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="上杉九月">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="本篇文章讲述了&#96;_config.yml&#96;的内容配置">
+<meta property="og:type" content="article">
+<meta property="og:title" content="从零开始部署Hexo博客(番外篇一)">
+<meta property="og:url" content="https://blog.sakurasep.site/Fluid/Hexo/Hexo%E7%B3%BB%E5%88%97-%E5%8D%9A%E5%AE%A2%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E6%9E%90/index.html">
+<meta property="og:site_name" content="九月的生活">
+<meta property="og:description" content="本篇文章讲述了&#96;_config.yml&#96;的内容配置">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/8.jpg">
+<meta property="article:published_time" content="2022-04-11T11:20:50.000Z">
+<meta property="article:modified_time" content="2022-05-09T15:23:06.859Z">
+<meta property="article:author" content="上杉九月">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="零基础">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/8.jpg">
+  
+  
+  <title>从零开始部署Hexo博客(番外篇一) - 九月的生活</title>
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
+
+
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@4/github-markdown.min.css" />
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hint.css@2/hint.min.css" />
+
+  
+    
+    
+      
+      <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@10/styles/github-gist.min.css" />
+    
+  
+
+  
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.css" />
+  
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/Fluid/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"blog.sakurasep.site","root":"/Fluid/","version":"1.8.14","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"touch","icon":"§"},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"6AlMmDb6FMNtaNh3XlKYsizU-MdYXbMMI","app_key":"jTB2tRPg1t2zVKxnRvrD0lYn","server_url":null,"path":"window.location.pathname","ignore_local":true}},"search_path":"/Fluid/local-search.xml"};
+  </script>
+  <script  src="/Fluid/js/utils.js" ></script>
+  <script  src="/Fluid/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 6.1.0"></head>
+
+
+<body>
+  <header style="height: 70vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/Fluid/">
+      <strong>上杉九月的博客</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Fluid/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Fluid/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Fluid/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Fluid/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Fluid/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Fluid/links/">
+                <i class="iconfont icon-link-fill"></i>
+                友链
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Fluid/bangumis/">
+                <i class="iconfont icon-bilibili"></i>
+                追番
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Fluid/cinemas/">
+                <i class="iconfont icon-youtube-fill"></i>
+                追剧
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner" id="banner" parallax=true
+         style="background: url('https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/8.jpg') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="从零开始部署Hexo博客(番外篇一)">
+              
+            </span>
+
+            
+              <div class="mt-3">
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-author" aria-hidden="true"></i>
+      上杉九月
+    </span>
+  
+  
+    <span class="post-meta">
+      <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+      <time datetime="2022-04-11 19:20" pubdate>
+        2022年4月11日 晚上
+      </time>
+    </span>
+  
+</div>
+
+<div class="mt-1">
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-chart"></i>
+      2.5k 字
+    </span>
+  
+
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-clock-fill"></i>
+      
+      
+      21 分钟
+    </span>
+  
+
+  
+  
+    
+      <!-- LeanCloud 统计文章PV -->
+      <span id="leancloud-page-views-container" class="post-meta" style="display: none">
+        <i class="iconfont icon-eye" aria-hidden="true"></i>
+        <span id="leancloud-page-views"></span> 次
+      </span>
+    
+  
+</div>
+
+            
+          </div>
+
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div class="py-5" id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">从零开始部署Hexo博客(番外篇一)</h1>
+            
+              <p class="note note-info">
+                
+                  本文最后更新于：2022年5月9日 晚上
+                
+              </p>
+            
+            <div class="markdown-body">
+              <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>此文件是对于Hexo最基本的修改，在使用主题后，由于主题作者设计的不同，某些设置将不会生效，你只需要填写必要设置，并且按照主题作者的文档进行修改即可。</p>
+<p>本文参考了以下文章，对部分内容进行了修改</p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/zemprogram/article/details/104288872">个人博客搭建笔记-hexo根目录下的<code>_config.yml</code>配置解释-前端小黑的博客-CSDN博客</a></p>
+<h2 id="Site"><a href="#Site" class="headerlink" title="Site"></a>Site</h2><figure class="highlight yml"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></div></td><td class="code"><pre><code class="hljs yml"><span class="hljs-comment"># 网站标题(必填)</span><br><span class="hljs-attr">title:</span> <span class="hljs-string">九月的生活</span> <br><span class="hljs-comment"># 副标题(在某些主题不生效)</span><br><span class="hljs-attr">subtitle:</span> <span class="hljs-string">New</span> <span class="hljs-string">Dream</span> <span class="hljs-string">New</span> <span class="hljs-string">Start</span> <br><span class="hljs-comment"># 网站描述(建议填写，优化SEO)</span><br><span class="hljs-attr">description:</span> <span class="hljs-string">希望在这里分享我的经验与生活！</span> <br><span class="hljs-comment"># 网站的关键字(选填，优化SEO)</span><br><span class="hljs-attr">keywords:</span> <br><span class="hljs-comment"># 网站作者(必填)</span><br><span class="hljs-attr">author:</span> <span class="hljs-string">上杉九月</span> <br><span class="hljs-comment"># 网站使用的语言(取决于你主题目录下的语言文件)</span><br><span class="hljs-attr">language:</span><br><span class="hljs-bullet">-</span> <span class="hljs-string">zh-CN</span><br><span class="hljs-bullet">-</span> <span class="hljs-string">en</span><br><span class="hljs-bullet">-</span> <span class="hljs-string">zh-TW</span> <br><span class="hljs-comment"># 网站对应的时区(无需设置)</span><br><span class="hljs-attr">timezone:</span> <span class="hljs-string">&#x27;&#x27;</span> <br></code></pre></td></tr></table></figure>
+
+<h2 id="Url"><a href="#Url" class="headerlink" title="Url"></a>Url</h2><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><code class="hljs yml"><span class="hljs-comment">## url这里有个主题分站的玩法，后期会讲到</span><br><span class="hljs-comment"># 网站网址，如果设置了自定义域名，这里改为自定义的域名(必填)</span><br><span class="hljs-comment"># Github: https://Github用户名.github.io</span><br><span class="hljs-comment"># Gitee: https://Gitee仓库路径名.gitee.io</span><br><span class="hljs-attr">url:</span> <span class="hljs-string">https://sakurasep.gitee.io</span> <br><span class="hljs-comment"># 文章的永久链接格式(选择性修改)</span><br><span class="hljs-attr">permalink:</span> <span class="hljs-string">:year/:title/</span>  <br><span class="hljs-comment"># (无需修改)</span><br><span class="hljs-attr">permalink_defaults:</span><br><span class="hljs-attr">pretty_urls:</span><br>  <span class="hljs-attr">trailing_index:</span> <span class="hljs-literal">true</span> <br>  <span class="hljs-attr">trailing_html:</span> <span class="hljs-literal">true</span> <br></code></pre></td></tr></table></figure>
+
+<h2 id="Directory"><a href="#Directory" class="headerlink" title="Directory"></a>Directory</h2><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs yml"><span class="hljs-comment"># 以下内容保持默认即可</span><br><span class="hljs-attr">source_dir:</span> <span class="hljs-string">source</span><br><span class="hljs-attr">public_dir:</span> <span class="hljs-string">public</span><br><span class="hljs-attr">tag_dir:</span> <span class="hljs-string">tags</span><br><span class="hljs-attr">archive_dir:</span> <span class="hljs-string">archives</span><br><span class="hljs-attr">category_dir:</span> <span class="hljs-string">categories</span><br><span class="hljs-attr">code_dir:</span> <span class="hljs-string">downloads/code</span><br><span class="hljs-attr">i18n_dir:</span> <span class="hljs-string">:lang</span><br><span class="hljs-comment"># 跳过指定文件的渲染，这里在后期做分站时需要跳过分站的目录，防止二次渲染</span><br><span class="hljs-attr">skip_render:</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="Writing"><a href="#Writing" class="headerlink" title="Writing"></a>Writing</h2><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><code class="hljs yml"><span class="hljs-comment"># 新建文章的默认名称(无需修改)</span><br><span class="hljs-attr">new_post_name:</span> <span class="hljs-string">:title.md</span> <br><span class="hljs-comment"># 预设布局，hexo new命令可以创建post,draft,page三种页面，这里的值为post，hexo new &quot;文章名“ 默认生成的是post</span><br><span class="hljs-attr">default_layout:</span> <span class="hljs-string">post</span><br><span class="hljs-comment"># 将标题转换为首字母大写(无需修改)</span><br><span class="hljs-comment"># 影响的是title属性，后续可以通过安装插件实现该功能，所以此处的设置在某些主题不生效</span><br><span class="hljs-attr">titlecase:</span> <span class="hljs-literal">false</span><br><span class="hljs-comment"># 是否在新标签页中打开链接(按需修改)</span><br><span class="hljs-attr">external_link:</span><br>  <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span> <br>  <span class="hljs-comment"># 仅仅对post类型的文章生效</span><br>  <span class="hljs-attr">field:</span> <span class="hljs-string">site</span> <br>  <span class="hljs-comment"># 排除的域名</span><br>  <span class="hljs-attr">exclude:</span> <span class="hljs-string">&#x27;&#x27;</span><br><span class="hljs-comment"># 文件名称转换 0是不转换 1小写 2大写(无需修改)</span><br><span class="hljs-attr">filename_case:</span> <span class="hljs-number">0</span><br><span class="hljs-comment"># 是否渲染草稿文件(无需修改)</span><br><span class="hljs-attr">render_drafts:</span> <span class="hljs-literal">false</span><br><span class="hljs-comment"># 是否启用资源文件夹(按需修改)</span><br><span class="hljs-comment"># 开启此选项后在hexo new文章时，会创建一个同名文件夹，用于保存你文章中所需资源。不过我建议使用网络图床。</span><br><span class="hljs-attr">post_asset_folder:</span> <span class="hljs-literal">false</span><br><span class="hljs-comment"># 相对链接(无需修改)</span><br><span class="hljs-attr">relative_link:</span> <span class="hljs-literal">false</span><br><span class="hljs-comment"># 是否显示未来的文章(按需修改)</span><br><span class="hljs-comment"># 如果你文章的时间设置的未来的时间，打开这个即可显示</span><br><span class="hljs-comment"># 这个可以用于定时发布某些文章，建议关闭</span><br><span class="hljs-attr">future:</span> <span class="hljs-literal">false</span><br><span class="hljs-comment"># 代码块高亮设置(根据所用主题按需设置)</span><br><span class="hljs-attr">highlight:</span><br>  <span class="hljs-attr">enable:</span> <span class="hljs-literal">true</span><br>  <span class="hljs-attr">line_number:</span> <span class="hljs-literal">true</span><br>  <span class="hljs-attr">auto_detect:</span> <span class="hljs-literal">false</span><br>  <span class="hljs-attr">tab_replace:</span> <span class="hljs-string">&#x27;&#x27;</span><br>  <span class="hljs-attr">wrap:</span> <span class="hljs-literal">true</span><br>  <span class="hljs-attr">hljs:</span> <span class="hljs-literal">false</span><br><span class="hljs-attr">prismjs:</span><br>  <span class="hljs-attr">enable:</span> <span class="hljs-literal">false</span><br>  <span class="hljs-attr">preprocess:</span> <span class="hljs-literal">true</span><br>  <span class="hljs-attr">line_number:</span> <span class="hljs-literal">true</span><br>  <span class="hljs-attr">tab_replace:</span> <span class="hljs-string">&#x27;&#x27;</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="Home-page-setting"><a href="#Home-page-setting" class="headerlink" title="Home page setting"></a>Home page setting</h2><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs yml"><span class="hljs-attr">index_generator:</span><br>  <span class="hljs-attr">path:</span> <span class="hljs-string">&#x27;&#x27;</span><br>  <span class="hljs-comment"># 每页显示的文章数量(按需修改)</span><br>  <span class="hljs-attr">per_page:</span> <span class="hljs-number">7</span><br>  <span class="hljs-comment"># 文章排序方式，默认最新日期在最前面(无需修改)</span><br>  <span class="hljs-attr">order_by:</span> <span class="hljs-string">-date</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="Category-amp-Tag"><a href="#Category-amp-Tag" class="headerlink" title="Category &amp; Tag"></a>Category &amp; Tag</h2><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs yml"><span class="hljs-comment"># 以下内容不建议修改</span><br><span class="hljs-comment"># 默认分类</span><br><span class="hljs-attr">default_category:</span> <span class="hljs-string">uncategorized</span><br><span class="hljs-comment"># 分类别名</span><br><span class="hljs-attr">category_map:</span><br><span class="hljs-comment"># 标签别名</span><br><span class="hljs-attr">tag_map:</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="Metadata-elements"><a href="#Metadata-elements" class="headerlink" title="Metadata elements"></a>Metadata elements</h2><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs yml"><span class="hljs-comment"># 元数据元素(无需修改)</span><br><span class="hljs-attr">meta_generator:</span> <span class="hljs-literal">true</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="Date-x2F-Time-format"><a href="#Date-x2F-Time-format" class="headerlink" title="Date &#x2F; Time format"></a>Date &#x2F; Time format</h2><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><code class="hljs yml"><span class="hljs-comment"># 时间/日期格式(无需修改)</span><br><span class="hljs-attr">date_format:</span> <span class="hljs-string">YYYY-MM-DD</span><br><span class="hljs-attr">time_format:</span> <span class="hljs-string">HH:mm:ss</span><br><span class="hljs-comment"># 文章更新时间格式(按需修改)</span><br><span class="hljs-comment"># 提供了三个选项 </span><br><span class="hljs-comment"># mtime: 将文章修改时间作为文章更新时间</span><br><span class="hljs-comment"># date: 将文章创建时间作为文章更新时间</span><br><span class="hljs-comment"># empty: 没有文章更新时间</span><br><span class="hljs-attr">updated_option:</span> <span class="hljs-string">&#x27;mtime&#x27;</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="Pagination"><a href="#Pagination" class="headerlink" title="Pagination"></a>Pagination</h2><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs yml"><span class="hljs-comment"># 分页时每页文章数量 设置为0 不分页(按需修改)</span><br><span class="hljs-attr">per_page:</span> <span class="hljs-number">7</span><br><span class="hljs-attr">pagination_dir:</span> <span class="hljs-string">page</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="Include-x2F-Exclude-file-s"><a href="#Include-x2F-Exclude-file-s" class="headerlink" title="Include &#x2F; Exclude file(s)"></a>Include &#x2F; Exclude file(s)</h2><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs yml"><span class="hljs-comment"># 包括/不包括的文件(无需修改)</span><br><span class="hljs-attr">include:</span><br><span class="hljs-attr">exclude:</span><br><span class="hljs-attr">ignore:</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="Extensions"><a href="#Extensions" class="headerlink" title="Extensions"></a>Extensions</h2><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs yml"><span class="hljs-comment"># 主题</span><br><span class="hljs-comment"># 使用的主题名</span><br><span class="hljs-attr">theme:</span> <span class="hljs-string">volantis</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="Deployment"><a href="#Deployment" class="headerlink" title="Deployment"></a>Deployment</h2><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs yml"><span class="hljs-comment"># 部署设置</span><br><span class="hljs-attr">deploy:</span><br>  <span class="hljs-attr">type:</span> <span class="hljs-string">git</span><br>  <span class="hljs-comment"># 仓库地址</span><br>  <span class="hljs-attr">repo:</span> <span class="hljs-string">https://gitee.com/sakurasep/sakurasep.git</span><br>  <span class="hljs-comment"># 仓库分支</span><br>  <span class="hljs-attr">branch:</span> <span class="hljs-string">master</span><br></code></pre></td></tr></table></figure>
+
+<hr>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png" srcset="/Fluid/img/loading.gif" lazyload></p>
+
+            </div>
+            <hr>
+            <div>
+              <div class="post-metas mb-3">
+                
+                  <div class="post-meta mr-3">
+                    <i class="iconfont icon-category"></i>
+                    
+                      <a class="hover-with-bg" href="/Fluid/categories/Hexo%E7%B3%BB%E5%88%97/">Hexo系列</a>
+                    
+                  </div>
+                
+                
+                  <div class="post-meta">
+                    <i class="iconfont icon-tags"></i>
+                    
+                      <a class="hover-with-bg" href="/Fluid/tags/Hexo/">Hexo</a>
+                    
+                      <a class="hover-with-bg" href="/Fluid/tags/%E9%9B%B6%E5%9F%BA%E7%A1%80/">零基础</a>
+                    
+                  </div>
+                
+              </div>
+              
+                <p class="note note-warning">
+                  
+                    本博客所有文章除特别声明外，均采用 <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh" rel="nofollow noopener noopener">CC BY-SA 4.0 协议</a> ，转载请注明出处！
+                  
+                </p>
+              
+              
+                <div class="post-prevnext">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/Fluid/Hexo/Hexo%E7%B3%BB%E5%88%97-%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%90%AD%E5%BB%BA/">
+                        <span class="hidden-mobile">从零开始部署Hexo博客(一)</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+              <!-- Comments -->
+              <article class="comments" id="comments" lazyload>
+                
+                  
+                
+                
+  <div id="twikoo"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#comments', function() {
+      Fluid.utils.createScript('https://cdn.jsdelivr.net/npm/twikoo@1/dist/twikoo.all.min.js', function() {
+        var options = Object.assign(
+          {"envId":"twikoo-8g109qz0365c3388","region":"ap-shanghai","path":"window.location.pathname"},
+          {
+            el: '#twikoo',
+            path: 'window.location.pathname',
+            onCommentLoaded: function() {
+              Fluid.plugins.initFancyBox('#twikoo .tk-content img:not(.tk-owo-emotion)');
+            }
+          }
+        )
+        twikoo.init(options)
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+              </article>
+            
+          </article>
+        </div>
+      </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="footer-content">
+     <div class="footerMax490">Copyright 2019 - 2022 SakuraSep. All Rights Reserved</div> <a href="/">上杉九月</a>  <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+
+  </div>
+  
+  <div class="statistics">
+    
+    
+
+    
+      
+        <!-- LeanCloud 统计PV -->
+        <span id="leancloud-site-pv-container" style="display: none">
+            总访问量 
+            <span id="leancloud-site-pv"></span>
+             次
+          </span>
+      
+      
+        <!-- LeanCloud 统计UV -->
+        <span id="leancloud-site-uv-container" style="display: none">
+            总访客数 
+            <span id="leancloud-site-uv"></span>
+             人
+          </span>
+      
+
+    
+  </div>
+
+
+  
+  <!-- 备案信息 -->
+  <div class="beian">
+    <span>
+      <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">
+        鲁ICP备2020049838号-3
+      </a>
+    </span>
+    
+  </div>
+
+
+  
+</footer>
+
+
+  <!-- SCRIPTS -->
+  
+  <script  src="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js" ></script>
+<script  src="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/js/bootstrap.min.js" ></script>
+<script  src="/Fluid/js/events.js" ></script>
+<script  src="/Fluid/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+  <script  src="/Fluid/js/local-search.js" ></script>
+
+
+
+  
+    <script  src="/Fluid/js/img-lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+  
+    <script  src="https://cdn.jsdelivr.net/npm/tocbot@4/dist/tocbot.min.js" ></script>
+  
+  
+    <script  src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3/dist/jquery.fancybox.min.js" ></script>
+  
+  
+    <script  src="https://cdn.jsdelivr.net/npm/anchor-js@4/anchor.min.js" ></script>
+  
+  
+    <script defer src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js" ></script>
+  
+
+
+
+
+  <script defer src="/Fluid/js/leancloud.js" ></script>
+
+
+
+  <script  src="https://cdn.jsdelivr.net/npm/typed.js@2/lib/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var title = document.getElementById('subtitle').title;
+      
+        typing(title);
+      
+    })(window, document);
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/Fluid/js/boot.js" ></script>
+
+
+</body>
+</html>

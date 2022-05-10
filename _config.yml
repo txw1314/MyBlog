@@ -55,6 +55,8 @@ skip_render:
   - fonts/*
   - CNAME
   - Butterfly
+  - Fluid
+  - Shoka
 # Writing
 # 新建文章的默认名称(无需修改)
 new_post_name: :title.md 

@@ -523,7 +523,7 @@ comments:
   title: <i class='fas fa-comments POMEGRANATE'></i> 评论
   service: twikoo 
   twikoo:
-    js: https://cdn.jsdelivr.net/npm/twikoo@1.5.5
+    js: https://cdn.jsdelivr.net/npm/twikoo@1.5.9
     envId: twikoo-8g109qz0365c3388
 
 # CSP
