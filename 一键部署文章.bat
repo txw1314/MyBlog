@@ -40,4 +40,7 @@ hexo bangumi -u
 hexo cinema -u
 hexo g
 gulp
-pause
+
+git add .
+git commit -m "fix bugs"
+git push -u origin master

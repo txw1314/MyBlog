@@ -149,7 +149,7 @@ rightmenus:
 # 右键自定义菜单区域
   menus:
     link:
-      - {id: 'github', name: '本站源码', icon: 'fa-duotone fa-code-branch SUNFLOWER', link: 'httsp://github.com/sakurasep', group: 'link'}
+      - {id: 'github', name: '本站源码', icon: 'fa-duotone fa-code-branch SUNFLOWER', link: 'https://github.com/sakurasep', group: 'link'}
       - {id: 'friends', name: '我的朋友们', icon: 'fa-duotone fa-flower-daffodil AMETHYST', link: '/friends/', group: 'link'}
       - {id: 'archive', name: '文章归档', icon: 'fa-duotone fa-globe-asia CONCRETE', link: '/archives/', group: 'link'}
       - {id: 'about', name: '关于我', icon: 'fa-duotone fa-gingerbread-man WISTERIA', link: '/about/', group: 'link'}

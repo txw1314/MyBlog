@@ -3,15 +3,15 @@
     <channel>
         <title>九月的生活</title>
         <subtitle>New Dream New Start</subtitle>
-        <icon>https://blog.sakurasep.site/Shoka/images/favicon.ico</icon>
-        <link>https://blog.sakurasep.site/Shoka</link>
+        <icon>https://cdn.sakurasep.site/Shoka/images/favicon.ico</icon>
+        <link>https://cdn.sakurasep.site/Shoka</link>
         <author>
           <name>上杉九月</name>
         </author>
         <description>希望在这里分享我的经验与生活！</description>
         <language>zh-CN,en,zh-TW,default</language>
-        <pubDate>Fri, 13 May 2022 00:15:37 +0800</pubDate>
-        <lastBuildDate>Fri, 13 May 2022 00:15:37 +0800</lastBuildDate>
+        <pubDate>Sat, 14 May 2022 08:17:38 +0800</pubDate>
+        <lastBuildDate>Sat, 14 May 2022 08:17:38 +0800</lastBuildDate>
         <category term="Shoka" />
         <category term="分站" />
     </channel>

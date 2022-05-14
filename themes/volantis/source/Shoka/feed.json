@@ -2,8 +2,8 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "九月的生活",
     "subtitle": "New Dream New Start",
-    "icon": "https://blog.sakurasep.site/Shoka/images/favicon.ico",
+    "icon": "https://cdn.sakurasep.site/Shoka/images/favicon.ico",
     "description": "希望在这里分享我的经验与生活！",
-    "home_page_url": "https://blog.sakurasep.site/Shoka",
+    "home_page_url": "https://cdn.sakurasep.site/Shoka",
     "items": []
 }
