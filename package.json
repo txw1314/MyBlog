@@ -12,6 +12,7 @@
     "version": "5.4.2"
   },
   "dependencies": {
+    "@copoko/hexo-renderer-stylus": "^0.0.1652693005052",
     "gulp": "^4.0.2",
     "gulp-htmlclean": "^2.7.22",
     "gulp-htmlmin": "^5.0.1",
@@ -32,7 +33,6 @@
     "hexo-related-popular-posts": "^5.0.1",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-marked": "^5.0.0",
-    "hexo-renderer-stylus": "^2.0.1",
     "hexo-server": "^3.0.0",
     "hexo-wordcount": "^6.0.1",
     "stylus": "^0.57.0",

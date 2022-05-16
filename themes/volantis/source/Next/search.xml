@@ -47,51 +47,74 @@
       </tags>
   </entry>
   <entry>
-    <title>《零基础教程》云服务器实现定时签到_第1期</title>
-    <url>/Next/HowToDo/%E9%9B%B6%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B%20-%20%E6%99%BA%E6%85%A7%E6%9B%B2%E5%9B%AD%E8%87%AA%E5%8A%A8%E6%89%93%E5%8D%A1%E4%BA%91%E7%AB%AF/</url>
-    <content><![CDATA[<h2 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h2><blockquote>
-<p>作者：上杉九月</p>
-<p>排版及发布：上杉九月</p>
-<p>项目原作者：Polo</p>
-<p><strong>本篇教程在腾讯云会出现问题，请等待更新！</strong></p>
-</blockquote>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>每日健康提交？要不是不交，要不是随便填。</p>
-<p>意义何在？</p>
-<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><blockquote>
-<p>原贴:<a href="https://polosec.github.io/2021/01/19/server%E9%85%B1%E5%AE%9E%E7%8E%B0%E7%AD%BE%E5%88%B0%E6%8F%90%E9%86%92/">Polo’s Blog 智慧曲园自动签到+微信推送</a></p>
-</blockquote>
+    <title>博客日志-记录博客最新动态</title>
+    <url>/Next/About/%E5%8D%9A%E5%AE%A2%E5%85%AC%E5%91%8A%20-%20%E4%B8%8A%E6%9D%89%E4%B9%9D%E6%9C%88%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>如遇到问题请留言，谢谢支持。</p>
+<p>这里我想要感谢</p>
 <blockquote>
-<p>github项目地址:<a href="https://github.com/polosec/qfnuAutoTemperatureSubmit">qfnuAutoTemperatureSubmit</a></p>
+<p><a href="http://wenchong.space/">雨中的博客(wenchong.space)</a>提供美化问题解答，非常感谢。</p>
+<p><a href="https://inkss.cn/">枋柚梓的猫会发光 (inkss.cn)</a>提供自己网站的源码开放参考，对我的美化进程帮助很大，非常感谢。</p>
 </blockquote>
-<h3 id="1-需要准备"><a href="#1-需要准备" class="headerlink" title="1.需要准备"></a>1.需要准备</h3><ul>
-<li>云服务器（使用宝塔面板）</li>
-<li>配置好的python脚本 或者 项目原脚本</li>
+<h1 id="网站公告"><a href="#网站公告" class="headerlink" title="网站公告"></a>网站公告</h1><h2 id="关于主站"><a href="#关于主站" class="headerlink" title="关于主站"></a>关于主站</h2><p><strong>网站基本信息</strong></p>
+<p>主站使用的是<code>Github + Hexo + 腾讯云CDN</code>的部署模式，最大程度保证访问速度。</p>
+<p>分享文件全部采用依靠Onedrive API的Cloudreve，毕竟没有限速，文件大小限制也少。</p>
+<p>目前的加载速度已经经过很多优化，如果有加载缓慢的情况请联系站长。</p>
+<p><strong>网站内容</strong></p>
+<p>主要是分享知识。我个人认为知识应当没有门槛，做好知识分级，给不同阶段的朋友们都能带来收获。</p>
+<p>目前个人技术有限，仅仅会写一些入门知识分享。</p>
+<p>希望自己能够慢慢变强吧。</p>
+<p>欢迎各位朋友能在思考之后积极的和我探讨交流。</p>
+<h2 id="关于分站"><a href="#关于分站" class="headerlink" title="关于分站"></a>关于分站</h2><p>注意，分站仅仅是同步主站点的文章更新，有些信息可能没有及时更新。</p>
+<p>当然，你在分站的评论博主也是能够看见的。</p>
+<blockquote>
+<p>本站将以往的配置的主题作为分站部署<code>https://blog.sakurasep.site/主题名称</code>下，通过导航栏可以直接访问</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo_About/1.jpg" alt="about_me"></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo_About/2.jpg" alt="about_me"></p>
+<blockquote>
+<p>你可以选择你所喜欢的博客主题进行文章阅读，希望带给你最好的阅读体验。</p>
+</blockquote>
+<h2 id="关于评论"><a href="#关于评论" class="headerlink" title="关于评论"></a>关于评论</h2><ol>
+<li>本站在主站的评论系统已经更换为Twikoo，更棒的评论系统，欢迎大家使用！</li>
+<li>本站的评论邮件提醒已经恢复，你在主站的评论收到回复后将可以接收邮件提醒。</li>
+</ol>
+<h2 id="关于更新"><a href="#关于更新" class="headerlink" title="关于更新"></a>关于更新</h2><p>首先可以确定的是，我会首先保证质量，目前我的技术水平不足，很多地方做的不是很好，还希望各位能提出修改建议，我也会积极进行修改。</p>
+<p>目前将学业与更新做个平衡的话，基本确定是月更，一篇or两篇，得看我的空闲时间。</p>
+<p>目前的规划是</p>
+<ul>
+<li>旧文章的维护</li>
+<li>稳定两个系列的更新（应用使用指南 + 学习笔记）</li>
 </ul>
-<h3 id="2-开始配置"><a href="#2-开始配置" class="headerlink" title="2.开始配置"></a>2.开始配置</h3><p>在宝塔面板的文件管理中新建文件夹用来存放项目的脚本文件。</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/1.jpg"></p>
-<h4 id="方案一：对python脚本进行单独配置"><a href="#方案一：对python脚本进行单独配置" class="headerlink" title="方案一：对python脚本进行单独配置"></a>方案一：对python脚本进行单独配置</h4><p>如图所示是我们宿舍四人的python脚本</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/2.jpg"></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/3.jpg"></p>
-<p>所以此时的脚本执行命令为</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">python3 /www/wwwroot/qfnuAutoTemperatureSubmit/xxx.py</span><br></pre></td></tr></table></figure>
-
-
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/4.jpg"></p>
-<h4 id="方案二：使用原python文件"><a href="#方案二：使用原python文件" class="headerlink" title="方案二：使用原python文件"></a>方案二：使用原python文件</h4><p>直接将demo1.py放在文件夹内<br>此时命令变为</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">python3 /www/wwwroot/qfnuAutoTemperatureSubmit/demo1.py 学号 密码</span><br></pre></td></tr></table></figure>
-
-<h3 id="3-注意事项"><a href="#3-注意事项" class="headerlink" title="3.注意事项"></a>3.注意事项</h3><p>执行python脚本报错的话</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/5.png"></p>
+<p>以下是更新平台</p>
+<ol>
+<li>首发更新 ：</li>
+</ol>
+<ul>
+<li><a href="https://blog.sakurasep.site/">上杉九月的博客</a></li>
+<li>上杉九月的知识屋（微信公众号）</li>
+</ul>
+<ol start="2">
+<li>其他平台 ：</li>
+</ol>
+<ul>
+<li>酷安数码 </li>
+<li>哔哩哔哩</li>
+<li>微博</li>
+</ul>
+<h1 id="博客日志"><a href="#博客日志" class="headerlink" title="博客日志"></a>博客日志</h1><h2 id="更新预告"><a href="#更新预告" class="headerlink" title="更新预告"></a>更新预告</h2><h3 id="老文章修改计划"><a href="#老文章修改计划" class="headerlink" title="老文章修改计划"></a>老文章修改计划</h3><h4 id="1-《应用使用指南》存储空间隔离-第1期"><a href="#1-《应用使用指南》存储空间隔离-第1期" class="headerlink" title="1. 《应用使用指南》存储空间隔离_第1期"></a>1. <a href="">《应用使用指南》存储空间隔离_第1期</a></h4><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/IndexImg.png"></p>
+<h4 id="2-《应用使用指南》Perfdog-第2期"><a href="#2-《应用使用指南》Perfdog-第2期" class="headerlink" title="2. 《应用使用指南》Perfdog_第2期"></a>2. <a href="">《应用使用指南》Perfdog_第2期</a></h4><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/PerfDog/IndexImg.png"></p>
+<h3 id="新系列"><a href="#新系列" class="headerlink" title="新系列"></a>新系列</h3><h4 id="1-《Hexo零基础教程》使用Hexo完成博客的基本搭建-第1期"><a href="#1-《Hexo零基础教程》使用Hexo完成博客的基本搭建-第1期" class="headerlink" title="1. 《Hexo零基础教程》使用Hexo完成博客的基本搭建_第1期"></a>1. <a href="">《Hexo零基础教程》使用Hexo完成博客的基本搭建_第1期</a></h4><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo/IndexImg.png"></p>
+<h3 id="恢复更新系列"><a href="#恢复更新系列" class="headerlink" title="恢复更新系列"></a>恢复更新系列</h3><h4 id="1-《应用使用指南》FilterBox-第3期"><a href="#1-《应用使用指南》FilterBox-第3期" class="headerlink" title="1. 《应用使用指南》FilterBox_第3期"></a>1. <a href="">《应用使用指南》FilterBox_第3期</a></h4><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/FilterBox/IndexImg.jpg"></p>
 <hr>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png"></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png" alt="about_me"></p>
 ]]></content>
       <categories>
-        <category>零基础教程</category>
+        <category>公告</category>
       </categories>
       <tags>
-        <tag>零基础</tag>
-        <tag>Python</tag>
-        <tag>云服务器</tag>
+        <tag>博客</tag>
+        <tag>日志</tag>
+        <tag>公告</tag>
       </tags>
   </entry>
   <entry>
@@ -302,6 +325,54 @@
       </tags>
   </entry>
   <entry>
+    <title>《零基础教程》云服务器实现定时签到_第1期</title>
+    <url>/Next/HowToDo/%E9%9B%B6%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B%20-%20%E6%99%BA%E6%85%A7%E6%9B%B2%E5%9B%AD%E8%87%AA%E5%8A%A8%E6%89%93%E5%8D%A1%E4%BA%91%E7%AB%AF/</url>
+    <content><![CDATA[<h2 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h2><blockquote>
+<p>作者：上杉九月</p>
+<p>排版及发布：上杉九月</p>
+<p>项目原作者：Polo</p>
+<p><strong>本篇教程在腾讯云会出现问题，请等待更新！</strong></p>
+</blockquote>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>每日健康提交？要不是不交，要不是随便填。</p>
+<p>意义何在？</p>
+<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><blockquote>
+<p>原贴:<a href="https://polosec.github.io/2021/01/19/server%E9%85%B1%E5%AE%9E%E7%8E%B0%E7%AD%BE%E5%88%B0%E6%8F%90%E9%86%92/">Polo’s Blog 智慧曲园自动签到+微信推送</a></p>
+</blockquote>
+<blockquote>
+<p>github项目地址:<a href="https://github.com/polosec/qfnuAutoTemperatureSubmit">qfnuAutoTemperatureSubmit</a></p>
+</blockquote>
+<h3 id="1-需要准备"><a href="#1-需要准备" class="headerlink" title="1.需要准备"></a>1.需要准备</h3><ul>
+<li>云服务器（使用宝塔面板）</li>
+<li>配置好的python脚本 或者 项目原脚本</li>
+</ul>
+<h3 id="2-开始配置"><a href="#2-开始配置" class="headerlink" title="2.开始配置"></a>2.开始配置</h3><p>在宝塔面板的文件管理中新建文件夹用来存放项目的脚本文件。</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/1.jpg"></p>
+<h4 id="方案一：对python脚本进行单独配置"><a href="#方案一：对python脚本进行单独配置" class="headerlink" title="方案一：对python脚本进行单独配置"></a>方案一：对python脚本进行单独配置</h4><p>如图所示是我们宿舍四人的python脚本</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/2.jpg"></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/3.jpg"></p>
+<p>所以此时的脚本执行命令为</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">python3 /www/wwwroot/qfnuAutoTemperatureSubmit/xxx.py</span><br></pre></td></tr></table></figure>
+
+
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/4.jpg"></p>
+<h4 id="方案二：使用原python文件"><a href="#方案二：使用原python文件" class="headerlink" title="方案二：使用原python文件"></a>方案二：使用原python文件</h4><p>直接将demo1.py放在文件夹内<br>此时命令变为</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">python3 /www/wwwroot/qfnuAutoTemperatureSubmit/demo1.py 学号 密码</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-注意事项"><a href="#3-注意事项" class="headerlink" title="3.注意事项"></a>3.注意事项</h3><p>执行python脚本报错的话</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/5.png"></p>
+<hr>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png"></p>
+]]></content>
+      <categories>
+        <category>零基础教程</category>
+      </categories>
+      <tags>
+        <tag>零基础</tag>
+        <tag>云服务器</tag>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>《应用使用指南》Perfdog_第2期</title>
     <url>/Next/HowToUse/%E5%BA%94%E7%94%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20-%20Perfdog/</url>
     <content><![CDATA[<h1 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h1><blockquote>
@@ -498,394 +569,6 @@
         <tag>零基础</tag>
         <tag>PC</tag>
         <tag>应用使用指南</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客日志-记录博客最新动态</title>
-    <url>/Next/About/%E5%8D%9A%E5%AE%A2%E5%85%AC%E5%91%8A%20-%20%E4%B8%8A%E6%9D%89%E4%B9%9D%E6%9C%88%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>如遇到问题请留言，谢谢支持。</p>
-<p>这里我想要感谢</p>
-<blockquote>
-<p><a href="http://wenchong.space/">雨中的博客(wenchong.space)</a>提供美化问题解答，非常感谢。</p>
-<p><a href="https://inkss.cn/">枋柚梓的猫会发光 (inkss.cn)</a>提供自己网站的源码开放参考，对我的美化进程帮助很大，非常感谢。</p>
-</blockquote>
-<h1 id="网站公告"><a href="#网站公告" class="headerlink" title="网站公告"></a>网站公告</h1><h2 id="关于主站"><a href="#关于主站" class="headerlink" title="关于主站"></a>关于主站</h2><p><strong>网站基本信息</strong></p>
-<p>主站使用的是<code>Github + Hexo + 腾讯云CDN</code>的部署模式，最大程度保证访问速度。</p>
-<p>分享文件全部采用依靠Onedrive API的Cloudreve，毕竟没有限速，文件大小限制也少。</p>
-<p>目前的加载速度已经经过很多优化，如果有加载缓慢的情况请联系站长。</p>
-<p><strong>网站内容</strong></p>
-<p>主要是分享知识。我个人认为知识应当没有门槛，做好知识分级，给不同阶段的朋友们都能带来收获。</p>
-<p>目前个人技术有限，仅仅会写一些入门知识分享。</p>
-<p>希望自己能够慢慢变强吧。</p>
-<p>欢迎各位朋友能在思考之后积极的和我探讨交流。</p>
-<h2 id="关于分站"><a href="#关于分站" class="headerlink" title="关于分站"></a>关于分站</h2><p>注意，分站仅仅是同步主站点的文章更新，有些信息可能没有及时更新。</p>
-<p>当然，你在分站的评论博主也是能够看见的。</p>
-<blockquote>
-<p>本站将以往的配置的主题作为分站部署<code>https://blog.sakurasep.site/主题名称</code>下，通过导航栏可以直接访问</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo_About/1.jpg" alt="about_me"></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo_About/2.jpg" alt="about_me"></p>
-<blockquote>
-<p>你可以选择你所喜欢的博客主题进行文章阅读，希望带给你最好的阅读体验。</p>
-</blockquote>
-<h2 id="关于评论"><a href="#关于评论" class="headerlink" title="关于评论"></a>关于评论</h2><ol>
-<li>本站在主站的评论系统已经更换为Twikoo，更棒的评论系统，欢迎大家使用！</li>
-<li>本站的评论邮件提醒已经恢复，你在主站的评论收到回复后将可以接收邮件提醒。</li>
-</ol>
-<h2 id="关于更新"><a href="#关于更新" class="headerlink" title="关于更新"></a>关于更新</h2><p>首先可以确定的是，我会首先保证质量，目前我的技术水平不足，很多地方做的不是很好，还希望各位能提出修改建议，我也会积极进行修改。</p>
-<p>目前将学业与更新做个平衡的话，基本确定是月更，一篇or两篇，得看我的空闲时间。</p>
-<p>目前的规划是</p>
-<ul>
-<li>旧文章的维护</li>
-<li>稳定两个系列的更新（应用使用指南 + 学习笔记）</li>
-</ul>
-<p>以下是更新平台</p>
-<ol>
-<li>首发更新 ：</li>
-</ol>
-<ul>
-<li><a href="https://blog.sakurasep.site/">上杉九月的博客</a></li>
-<li>上杉九月的知识屋（微信公众号）</li>
-</ul>
-<ol start="2">
-<li>其他平台 ：</li>
-</ol>
-<ul>
-<li>酷安数码 </li>
-<li>哔哩哔哩</li>
-<li>微博</li>
-</ul>
-<h1 id="博客日志"><a href="#博客日志" class="headerlink" title="博客日志"></a>博客日志</h1><h2 id="更新预告"><a href="#更新预告" class="headerlink" title="更新预告"></a>更新预告</h2><h3 id="老文章修改计划"><a href="#老文章修改计划" class="headerlink" title="老文章修改计划"></a>老文章修改计划</h3><h4 id="1-《应用使用指南》存储空间隔离-第1期"><a href="#1-《应用使用指南》存储空间隔离-第1期" class="headerlink" title="1. 《应用使用指南》存储空间隔离_第1期"></a>1. <a href="">《应用使用指南》存储空间隔离_第1期</a></h4><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/IndexImg.png"></p>
-<h4 id="2-《应用使用指南》Perfdog-第2期"><a href="#2-《应用使用指南》Perfdog-第2期" class="headerlink" title="2. 《应用使用指南》Perfdog_第2期"></a>2. <a href="">《应用使用指南》Perfdog_第2期</a></h4><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/PerfDog/IndexImg.png"></p>
-<h3 id="新系列"><a href="#新系列" class="headerlink" title="新系列"></a>新系列</h3><h4 id="1-《Hexo零基础教程》使用Hexo完成博客的基本搭建-第1期"><a href="#1-《Hexo零基础教程》使用Hexo完成博客的基本搭建-第1期" class="headerlink" title="1. 《Hexo零基础教程》使用Hexo完成博客的基本搭建_第1期"></a>1. <a href="">《Hexo零基础教程》使用Hexo完成博客的基本搭建_第1期</a></h4><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo/IndexImg.png"></p>
-<h3 id="恢复更新系列"><a href="#恢复更新系列" class="headerlink" title="恢复更新系列"></a>恢复更新系列</h3><h4 id="1-《应用使用指南》FilterBox-第3期"><a href="#1-《应用使用指南》FilterBox-第3期" class="headerlink" title="1. 《应用使用指南》FilterBox_第3期"></a>1. <a href="">《应用使用指南》FilterBox_第3期</a></h4><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/FilterBox/IndexImg.jpg"></p>
-<hr>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png" alt="about_me"></p>
-]]></content>
-      <categories>
-        <category>公告</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-        <tag>日志</tag>
-        <tag>公告</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《应用使用指南》存储空间隔离_第1期</title>
-    <url>/Next/HowToUse/%E5%BA%94%E7%94%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20-%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E9%9A%94%E7%A6%BB/</url>
-    <content><![CDATA[<h1 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h1><blockquote>
-<p>作者： 上杉九月</p>
-</blockquote>
-<blockquote>
-<p>头图设计：上杉九月</p>
-</blockquote>
-<blockquote>
-<p>排版及发布：上杉九月</p>
-</blockquote>
-<blockquote>
-<p>感谢提供修改建议: </p>
-<ul>
-<li>酷安@量子米君 </li>
-<li>酷安@苍玄之包</li>
-</ul>
-</blockquote>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h3 id="安卓根目录的混乱现象"><a href="#安卓根目录的混乱现象" class="headerlink" title="安卓根目录的混乱现象"></a>安卓根目录的混乱现象</h3><p>每一次打开文件管理去寻找你所想要的文件，或是在聊天软件给朋友发送文件，总会看到目录里有着大量莫名奇妙的文件夹。一是不方便找到目标文件所在，二是对于强迫症挺不舒服的。</p>
-<p><strong>优化前的根目录，充斥着各种文件夹</strong></p>
-<p>造成这种现象，主要是国内软件厂商不遵守开发规范导致。根据安卓规范，在 <code>Android/data/包名</code> 路径应该保存对应应用的数据文件，<code>Android/obb/包名</code>路径应该保存对应应用的数据包文件。这两个文件夹是用户不应该去访问的，因此安卓11的新规范禁止系统（仅对于定制UI）的文件管理直接访问。如果介意（例如MIUI的默认文件管理）访问受限，可以安装相应的旧版本。</p>
-<h3 id="安卓11的新限制"><a href="#安卓11的新限制" class="headerlink" title="安卓11的新限制"></a>安卓11的新限制</h3><p><strong>如图所示，MIUI的文件管理在一次升级中已经不在允许访问，点击前往查看将会跳转安卓原生的文件管理。</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/1.jpg"></p>
-<p>应用应该将自身数据保存在Android文件夹内部，将用户数据按照分类保存在标准文件夹，但是国内应用大部分不会遵循开发规范，便造成了安卓根目录混乱的现状。</p>
-<h3 id="某些应用开发者的错误理解"><a href="#某些应用开发者的错误理解" class="headerlink" title="某些应用开发者的错误理解"></a>某些应用开发者的错误理解</h3><p>很多应用开发者为了适配安卓11的要求，做出了很多令人迷惑的行为。这里以腾讯的令人迷惑的操作举例。在QQ 8.2.8版本之后，将用户的下载文件位置从根目录更改到了Android文件夹内部，同时也是自身的数据文件夹。这让用户去查看自己下载的文件时十分麻烦。而且QQ在根目录仍然有着许多未知用途的文件夹。</p>
-<h3 id="标准文件夹的示例（MIUI）"><a href="#标准文件夹的示例（MIUI）" class="headerlink" title="标准文件夹的示例（MIUI）"></a>标准文件夹的示例（MIUI）</h3><ul>
-<li>DCIM 保存相机拍摄的照片和视频（MIUI在该文件夹还存储了截图和屏幕录制）</li>
-<li>Documents 保存文档</li>
-<li>Download 保存下载文件</li>
-<li>Fonts 保存字体文件（MIUI系统字体文件保存在主题文件夹中）</li>
-<li>Movie 保存视频文件</li>
-<li>Music 保存音频文件</li>
-<li>Pictures 保存图片文件</li>
-<li>等等</li>
-</ul>
-<p>对于不同的定制系统同时也有自己存放关键系统文件的文件夹，例如MIUI会在根目录建立一个MIUI文件夹，用来存放各种系统软件的缓存文件和数据。</p>
-<h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><ul>
-<li>依靠安卓大版本更新更严格的文件访问策略，强制应用使用更高的targetAPI。</li>
-<li>依靠定制系统完善文件访问限制功能，感觉最近Flyme和MIUI的沙盒已经有了雏形了。</li>
-<li>依靠Rikka开发的存储空间隔离（原名存储重定向），这也是我写本文的目的。</li>
-</ul>
-<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>这款软件在酷安上即有下载，原名存储重定向，现名存储空间隔离。<br>在使用这款软件之前，你需要接受以下的要求</p>
-<ul>
-<li>手机已经获取了root权限</li>
-<li>愿意为这款软件支付一定的费用</li>
-<li>有耐心</li>
-<li>可以接受某些奇奇怪怪的问题</li>
-<li>可以主动寻找问题的解决方法</li>
-</ul>
-<h2 id="第一步-安装必要的环境"><a href="#第一步-安装必要的环境" class="headerlink" title="第一步 安装必要的环境"></a>第一步 安装必要的环境</h2><h3 id="本机的使用环境为"><a href="#本机的使用环境为" class="headerlink" title="本机的使用环境为"></a>本机的使用环境为</h3><ul>
-<li>小米10 MIUI12.5 21.2.3 Simplicity官改</li>
-<li>Magsik 21.4 App 22.0</li>
-</ul>
-<h3 id="模块介绍"><a href="#模块介绍" class="headerlink" title="模块介绍"></a>模块介绍</h3><p><strong>在满足root的环境下，在Magsik模块安装页面，搜索riru关键字便可以看到riru系列模块</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/2.jpg"></p>
-<p><strong>我们这里只安装两个模块</strong></p>
-<p>Riru V23.6</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/4.jpg"></p>
-<p>Riru - Enhanced mode for Storage Isolation V23.6</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/3.jpg"></p>
-<p>这里提醒一下，如果不安装Riru，而先去安装Riru - Enhanced mode for Storage Isolation，将会无法安装。所以请按照顺序安装模块。</p>
-<h2 id="第二步-安装软件并进行基本配置"><a href="#第二步-安装软件并进行基本配置" class="headerlink" title="第二步 安装软件并进行基本配置"></a>第二步 安装软件并进行基本配置</h2><h3 id="下载途径"><a href="#下载途径" class="headerlink" title="下载途径"></a>下载途径</h3><h4 id="在酷安搜索存储空间隔离并下载"><a href="#在酷安搜索存储空间隔离并下载" class="headerlink" title="在酷安搜索存储空间隔离并下载"></a>在酷安搜索存储空间隔离并下载</h4><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/6_02.jpg"></p>
-<h4 id="在Google-Play搜索存储空间隔离并下载"><a href="#在Google-Play搜索存储空间隔离并下载" class="headerlink" title="在Google Play搜索存储空间隔离并下载"></a>在Google Play搜索存储空间隔离并下载</h4><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/6.jpg"></p>
-<p>这里我推荐从Google Play下载，在Play商店购买的该软件，使用同一个谷歌账号可以多设备使用。</p>
-<p>目前软件的内购验证做的很完善，如果你是在Google Play下载，无需登录外网，直接点击恢复购买即可。</p>
-<h3 id="安装过程"><a href="#安装过程" class="headerlink" title="安装过程"></a>安装过程</h3><p><strong>下载完成后打开软件，便显示了软件的基本介绍</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/8.jpg"></p>
-<p><strong>允许存储空间隔离获取Root权限，当出现提示成功时便可以进行下一步了。</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/9.jpg"></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/10.jpg"></p>
-<p>如果出现问题，请按照以上步骤重新安装环境。</p>
-<p>不过有的机型的确是有兼容问题。</p>
-<p><strong>到这一步，就已经安装完成了</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/11.jpg"></p>
-<h3 id="备份文件"><a href="#备份文件" class="headerlink" title="备份文件"></a>备份文件</h3><p>在这里，我会提供一份自己使用，基本没有错误的配置文件，你只需要在备份与还原里还原备份文件即可开始使用。</p>
-<blockquote>
-<p><strong><a href="https://cloud.sakurasep.club/s/wRcq">备份文件_密码0314</a></strong></p>
-</blockquote>
-<p>注意：</p>
-<ul>
-<li>本配置文件的应用可能无法包含你所使用的应用，如果你想达到近乎完美的效果，请继续看下去。</li>
-<li>本配置文件有的地方会有一些问题，你需要自行修改。已知QQ存在侧漏问题。</li>
-</ul>
-<h2 id="第三步-原理解释以及详细配置"><a href="#第三步-原理解释以及详细配置" class="headerlink" title="第三步 原理解释以及详细配置"></a>第三步 原理解释以及详细配置</h2><h3 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h3><p>在存储空间隔离的官网，我们可以找到一些我们所需要的内容</p>
-<blockquote>
-<p><a href="https://sr.rikka.app/zh-hans/">官方网站</a></p>
-</blockquote>
-<p>以下内容是对官网指南的部分摘录以及我自己的理解</p>
-<ul>
-<li>公共文件夹</li>
-</ul>
-<p>DCIM,Pictures,Download 等公共文件夹，用来保存用户的文件，允许应用在此根据需求新建文件夹来保存对应的文件。例如QQ应该将用户下载的文件保存在 <code>Download/QQ</code>，而不是<code>Android/data/包名</code>。</p>
-<p>但是应用对于公共文件夹的访问应该是一次性的，有目的的。例如在QQ发送图片给好友，QQ在获取用户的允许后访问DCIM和Pictures文件夹，发送结束后系统应该收回访问权限。</p>
-<ul>
-<li>数据文件夹</li>
-</ul>
-<p>Android文件夹内部对于用户来说是不应该进行访问的，对于应用来说则是无需授权就能够访问，在此保存应用的数据和缓存。</p>
-<p>遗憾的是，目前原生安卓对于存储权限的选项只有允许和拒绝，此外，国内存在的大量“坏应用”如果被拒绝授权将不会运行。</p>
-<p>存储空间隔离便是为了解决这一乱象而开发，这里感谢Rikka大佬开发了这款应用，在一定程度上很好解决了以上问题。</p>
-<p>一般来说，不规范的应用会在根目录创建各种各样的文件夹。在启用存储空间隔离之后，应用将会在<code>Android/data/包名/sdcard</code> 内保存文件。</p>
-<p>优点如下</p>
-<ul>
-<li>因为卸载应用时只会清理应用的数据文件夹，在对应用进行隔离后，卸载时将会将下载文件和应用数据一并删除</li>
-<li>系统统计应用占用空间大小仅会统计数据文件夹，在对应用进行隔离后，系统统计大小功能将会正常工作</li>
-</ul>
-<h3 id="使用教程"><a href="#使用教程" class="headerlink" title="使用教程"></a>使用教程</h3><h4 id="软件权限"><a href="#软件权限" class="headerlink" title="软件权限"></a>软件权限</h4><p>对于MIUI用户，因为MIUI魔改了很多对于应用的控制权限，这里需要手动为存储空间隔离打开部分权限</p>
-<ul>
-<li>在后台弹出界面</li>
-</ul>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/12.jpg"></p>
-<ul>
-<li>应用自启动以及省电策略</li>
-</ul>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/13.jpg"></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/14.jpg"></p>
-<h4 id="默认存储空间位置"><a href="#默认存储空间位置" class="headerlink" title="默认存储空间位置"></a>默认存储空间位置</h4><p><strong>在软件的设置 - 行为 - 默认隔离存储空间位置中，你有两种选择</strong></p>
-<ul>
-<li>保存在数据文件夹</li>
-<li>保存在缓存文件夹</li>
-<li>缓存文件夹有着和数据文件夹一样的特性，但是缓存文件夹可能被清理软件所清理。这里根据自己的需求吧。一般来说保存在数据文件夹即可。</li>
-</ul>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/15.jpg"></p>
-<h4 id="可访问文件夹模板"><a href="#可访问文件夹模板" class="headerlink" title="可访问文件夹模板"></a>可访问文件夹模板</h4><p>然后回到上一级，在可访问文件夹模板中进行设置<br>在这里所设置的文件夹就是允许应用访问的公共文件夹</p>
-<p><strong>我在默认的基础上添加了对于Movie文件夹的访问</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/16.jpg"></p>
-<p>现在回到主页面，点击应用管理，就可以对应用进行单独设置</p>
-<p><strong>为了避免重定向系统应用带来各种各样的bug，我们先对第三方应用进行配置</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/17.jpg"></p>
-<h3 id="根据需求配置"><a href="#根据需求配置" class="headerlink" title="根据需求配置"></a>根据需求配置</h3><p>白描是一款特别好用的OCR识别和PDF导出应用，这里我们拿它来讲解如何对一款应用重定向。</p>
-<h4 id="需求考虑"><a href="#需求考虑" class="headerlink" title="需求考虑"></a>需求考虑</h4><p>我们应该考虑，这款应用会获取什么信息，因为我常常用它将图片转成PDF格式，所以DCIM（拍摄的图片）和Pictures（下载的图片）是可访问的文件夹。所以说我们对白描设置可访问文件夹为DCIM和Pictures。</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/18.jpg"></p>
-<h4 id="模拟正常使用过程"><a href="#模拟正常使用过程" class="headerlink" title="模拟正常使用过程"></a>模拟正常使用过程</h4><p>使用白描正常导出一次PDF，在查看文件历史里可以看到PDF保存在Download&#x2F;Baimiao中。因为我希望保存在Document&#x2F;白描，所以我们打开白描的Download访问权限（刚才是白描试图访问Download，但是被定向到了数据文件夹内部的Download），重新保存一次PDF，这时白描就会创建此文件夹。</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/19.jpg"></p>
-<h4 id="将隔离的文件同步到标准文件夹"><a href="#将隔离的文件同步到标准文件夹" class="headerlink" title="将隔离的文件同步到标准文件夹"></a>将隔离的文件同步到标准文件夹</h4><p>在导出被隔离的文件中添加同步文件夹规则，来源路径选择Download（新版存储空间隔离导出时会将该应用在目录内的全部文件进行同步）</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/20.jpg"></p>
-<h4 id="4-检查结果"><a href="#4-检查结果" class="headerlink" title="4.检查结果"></a>4.检查结果</h4><p>可以看到PDF文件成功保存到指定位置</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/21.jpg"></p>
-<p>这里很多使用者都会有一个误区-既然我要把文件保存到Documents目录，那么为什么不把Documents设置为可访问的文件夹呢？其实很好解释，你把可访问的文件夹当做读取权限，把导出被隔离的文件当作写入权限，这样就明白了吧。</p>
-<p>但是有些应用是很规范的，他们保存在标准文件夹，所以你应该允许该应用访问。</p>
-<h3 id="应用之间互相访问"><a href="#应用之间互相访问" class="headerlink" title="应用之间互相访问"></a>应用之间互相访问</h3><p>用过存储重定向的老用户都应该遇到过哔哩哔哩的视频分享到QQ，会出现系统繁忙的提示，就算偶尔可能分享成功，视频的封面也不见了。</p>
-<p>这是因为哔哩哔哩老版本在根目录的tv.danmuku.bili存放自己的图片缓存，而对哔哩哔哩和QQ进行隔离后，QQ是访问不到这个文件夹的，就造成了分享失败的问题。</p>
-<p><del>目前这个问题貌似得到了解决，哔哩哔哩在某一个版本对缓存文件的位置做了更改，移动到了数据文件夹，这是一个可能的原因。此外还可能因为哔哩哔哩的分享在QQ上被改为了小程序分享，分享短链接包含了封面地址，所以分享成功进行。</del></p>
-<p><del>因为目前我并没有遇到该问题，所以希望各位可以在评论区反馈你们的使用情况，我会抽时间测试一下对应的软件版本。</del></p>
-<p>好了，最近遇到了这一问题。同时也讲一下解决方案。同类问题都可以按照此思路解决。</p>
-<p>哔哩哔哩的视频想要分享到QQ（空间，联系人等），QQ需要读取哔哩哔哩的封面缓存信息，而因为存储重定向的缘故，QQ无法对你允许访问文件夹之外的内容进行读取和写入操作，这就导致了分享的失败。所以为了解决这一问题，首先通过文件历史找到正常情况下哔哩哔哩的缓存保存位置。最新版缓存保存位置在 <code>Android/data/tv.danmaku.bili/files/Images</code> 。然后在QQ可访问的文件夹，在其他应用的文件夹中创建新的规则。</p>
-<p><strong>如下图所示。</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/22.jpg"></p>
-<h3 id="最终的清理"><a href="#最终的清理" class="headerlink" title="最终的清理"></a>最终的清理</h3><p>按照以上的例子，对用户应用一一设置。设置完成之后，删除除了标准文件夹的所有冗余文件，正常使用一段时间，你会发现根目录仍然会有一些文件夹，这时候就需要精准定位。</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/23.jpg"></p>
-<p>如上图所示，比如说我们想知道<code>com.miui.voiceassist</code>(其实很明显，是小爱同学，但请假装不知道)是由哪一个应用创建。</p>
-<p><strong>我们将文件夹名复制，在文件监视中粘贴。</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/24.jpg"></p>
-<p>然后就会显示有那些应用对该文件夹进行读取或者是写入。</p>
-<p>不过我们要清楚读取和写入的区别，比如说这里显示了媒体存储设备对该文件夹的访问，而我们了解一点相关内容便可以知道个该软件是在扫描各个文件夹来查找媒体文件，并没有进行写入，所以文件夹不是由它创建。</p>
-<p><strong>向下拉便可以找到小爱同学的文件访问记录。</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/25.jpg"></p>
-<p><strong>现在点击小爱同学，对其进行隔离。</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/26.jpg"></p>
-<h3 id="或许会更完美"><a href="#或许会更完美" class="headerlink" title="或许会更完美"></a>或许会更完美</h3><h4 id="解决某些文件无法读取媒体文件的问题"><a href="#解决某些文件无法读取媒体文件的问题" class="headerlink" title="解决某些文件无法读取媒体文件的问题"></a>解决某些文件无法读取媒体文件的问题</h4><p>在安卓11使用存储空间隔离会导致导出的媒体文件不在软件显示的问题。实际举例（QQ发送图片无法获取导出的媒体文件）。</p>
-<p><strong><a href="https://www.coolapk.com/feed/24310395?shareKey=NDVlZDZkYjUzNDBmNjA0Y2I2NmU~&shareUid=3334957&shareFrom=com.coolapk.market_11.0.3">酷安@余空_Yuk</a></strong></p>
-<p>开发的给安卓11启用sdcardfs的模块可以解决这一问题。</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/27.jpg"></p>
-<h4 id="2-解决下载文件被某些应用存储在Android目录的问题"><a href="#2-解决下载文件被某些应用存储在Android目录的问题" class="headerlink" title="2. 解决下载文件被某些应用存储在Android目录的问题"></a>2. 解决下载文件被某些应用存储在Android目录的问题</h4><p>QQ这类将用户下载的文件保存在数据文件夹的应用</p>
-<p>**<a href="https://www.coolapk.com/feed/24654978?shareKey=MzIxM2M0ZDcxYmE2NjA0Y2I3MzU~&shareUid=3334957&shareFrom=com.coolapk.market_11.0.3">酷安@阿巴酱</a>**给出了一种解决方案。</p>
-<p>我采用的是Rikka开发的另一款应用-保存副本</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/28.jpg"></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/29.jpg"></p>
-<p><strong>当你在QQ下载文件之后，只需要在打开方式里选择保存副本，软件就可以在Download目录复制一份相同的文件。</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/30.jpg"></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/31.jpg"></p>
-<h2 id="第四步-效果展示"><a href="#第四步-效果展示" class="headerlink" title="第四步 效果展示"></a>第四步 效果展示</h2><p>这里我自己把Malody的谱面文件存在了Map文件夹。</p>
-<p>miad这一个空文件是为了防止MIUI的应用开屏广告产生（直接卸载掉智能服务<code>com.miui.systemAdSolution</code>即可。可以使用搞机助手进行卸载。一直用官改，不知道MIUI将广告服务集成在此应用里，感谢<strong>酷安@水水水淼</strong>的建议）</p>
-<p>mm是Magsik的MM管理器</p>
-<p><strong>如果和文章开头对比一下，可以说是强迫症狂喜。</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/32.jpg"></p>
-<h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>简单说一些东西吧</p>
-<h2 id="个人情况"><a href="#个人情况" class="headerlink" title="个人情况"></a>个人情况</h2><p>我在寒假里策划了很多内容，从这一篇文章开始，我会逐渐向给各位展示我策划的优质内容。</p>
-<h2 id="新的开始"><a href="#新的开始" class="headerlink" title="新的开始"></a>新的开始</h2><p>这算是一个新坑，目的就是向各位推荐一些优质的应用，他们真的可以方便你的生活。目前我的更新频率（如果没有什么意外的话基本就是一个月更新两次，一次是安卓上的应用，一次是PC上的应用），毕竟我刚进入大学，自己安排了很多学习的内容，时间并不是很充裕，保证质量是第一位（还有要填坑）。</p>
-<h2 id="欢迎交流"><a href="#欢迎交流" class="headerlink" title="欢迎交流"></a>欢迎交流</h2><p>这些应用对于各位来说有的可能没用过，有的可能早就熟练上手。我希望我写的图文可以帮助小白零基础上手优质应用，从而提高效率。同时期待和各路大佬交流使用心得，不断完善文章内容和呈现形式。</p>
-<p>在这里我也会虚心听取意见，无论是对图文内容的建议，或是对某些优质应用的推荐等等。</p>
-<h1 id="多平台发布"><a href="#多平台发布" class="headerlink" title="多平台发布"></a>多平台发布</h1><p>周六晚八点：</p>
-<ul>
-<li><a href="https://blog.sakurasep.site/">个人博客</a></li>
-</ul>
-<p>周日晚八点：</p>
-<ul>
-<li>Bilibili专栏：上杉九月</li>
-<li>微信公众号：上杉九月的知识屋</li>
-<li>Weibo：上杉九月</li>
-<li>酷安：上杉九月</li>
-</ul>
-<hr>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png"></p>
-]]></content>
-      <categories>
-        <category>应用使用指南</category>
-      </categories>
-      <tags>
-        <tag>零基础</tag>
-        <tag>应用使用指南</tag>
-        <tag>安卓</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>《学习笔记》</title>
-    <url>/Next/Study/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20-%20%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>要填的坑挺多的，精力有限，目前先集中更新本篇文章。</p>
-<p>本篇文章参考书籍为<strong>《洛谷-深入浅出程序设计竞赛》</strong></p>
-<h1 id="2021-09-24"><a href="#2021-09-24" class="headerlink" title="2021.09.24"></a>2021.09.24</h1><h2 id="1-P3156-【深基15-例1】询问学号-洛谷-入门"><a href="#1-P3156-【深基15-例1】询问学号-洛谷-入门" class="headerlink" title="1. P3156 【深基15.例1】询问学号 - 洛谷 - 入门"></a>1. <a href="https://www.luogu.com.cn/problem/P3156">P3156 【深基15.例1】询问学号 - 洛谷 - 入门</a></h2><h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>有 $n(n \le 2 \times 10^6)$ 名同学陆陆续续进入教室。我们知道每名同学的学号（在 1 到 $10^9$ 之间），按进教室的顺序给出。上课了，老师想知道第 $i$ 个进入教室的同学的学号是什么（最先进入教室的同学 $i&#x3D;1$），询问次数不超过 $10^5$ 次。</p>
-<h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>第一行 2 个整数 n 和 m，表示学生个数和询问次数。</p>
-<p>第二行 n 个整数，表示按顺序进入教室的学号。</p>
-<p>第三行 m 个整数，表示询问第几个进入教室的同学。</p>
-<h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>m 个整数表示答案，用换行隔开。</p>
-<h2 id="样例"><a href="#样例" class="headerlink" title="样例"></a>样例</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">输入：</span><br><span class="line"><span class="number">10</span> <span class="number">3</span></span><br><span class="line"><span class="number">1</span> <span class="number">9</span> <span class="number">2</span> <span class="number">60</span> <span class="number">8</span> <span class="number">17</span> <span class="number">11</span> <span class="number">4</span> <span class="number">5</span> <span class="number">14</span></span><br><span class="line"><span class="number">1</span> <span class="number">5</span> <span class="number">9</span></span><br><span class="line">输出：</span><br><span class="line"><span class="number">1</span></span><br><span class="line"><span class="number">8</span></span><br><span class="line"><span class="number">5</span></span><br></pre></td></tr></table></figure>
-<h2 id="思路和知识点"><a href="#思路和知识点" class="headerlink" title="思路和知识点"></a>思路和知识点</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">vector基本用法</span><br><span class="line"><span class="number">1.</span> vector &lt;<span class="type">int</span>&gt; <span class="built_in">array</span> (N, i); 新建一个初始长度为N，N个数据为i的vector数组</span><br><span class="line"><span class="number">2.</span> array.<span class="built_in">push_back</span>(a); 将a元素添加到数组array的末尾，并增加数组长度</span><br><span class="line"><span class="number">3.</span> array.<span class="built_in">size</span>(); 返回数组的长度</span><br><span class="line"><span class="number">4.</span> array.<span class="built_in">resize</span>(n, m); 重新将数组长度设置为n，若原数组比n长，则删除多余元素，若短，新增加的数组初始化为m</span><br><span class="line"><span class="number">5.</span> array.<span class="built_in">begin</span>(); 返回array数组的首元素，也就是array[<span class="number">0</span>]的指针</span><br><span class="line"><span class="number">6.</span> array.<span class="built_in">end</span>(); 返回array数组末尾下一个元素的指针</span><br></pre></td></tr></table></figure>
-
-<h2 id="AC代码"><a href="#AC代码" class="headerlink" title="AC代码"></a>AC代码</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;vector&gt;</span> </span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> n, m;</span><br><span class="line">    vector &lt;<span class="type">int</span>&gt; student; <span class="comment">// 创建vector数组</span></span><br><span class="line">    <span class="type">int</span> temp = <span class="number">0</span>;</span><br><span class="line">    cin&gt;&gt;n&gt;&gt;m;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        cin&gt;&gt;temp;</span><br><span class="line">        student.<span class="built_in">push_back</span>(temp); <span class="comment">// 将temp压入动态vector数组的末尾，并且vector数组的长度+1</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; m; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        cin&gt;&gt;temp;</span><br><span class="line">        cout&lt;&lt;student[temp - <span class="number">1</span>]&lt;&lt;<span class="string">&quot;\n&quot;</span>;<span class="comment">// 数组一般是从0开始存储数据，而我们询问学号是从1开始寻找</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="2-P3613-【深基15-例2】寄包柜-洛谷-普及"><a href="#2-P3613-【深基15-例2】寄包柜-洛谷-普及" class="headerlink" title="2. P3613 【深基15.例2】寄包柜 - 洛谷 - 普及 "></a>2. <a href="https://www.luogu.com.cn/problem/P3613">P3613 【深基15.例2】寄包柜 - 洛谷 - 普及 </a></h2><h2 id="题目描述-1"><a href="#题目描述-1" class="headerlink" title="题目描述"></a>题目描述</h2><p>超市里有 $n(n\le10^5)$ 个寄包柜。每个寄包柜格子数量不一，第 $i$ 个寄包柜有 $a_i(a_i\le10^5)$ 个格子，不过我们并不知道各个 $a_i$ 的值。对于每个寄包柜，格子编号从 1 开始，一直到 $a_i$。现在有 $q(q\le10^5)$ 次操作：</p>
-<ul>
-<li><code>1 i j k</code>：在第 $i$ 个柜子的第 $j$ 个格子存入物品 $k(0\le k\le 10^9)$。当 $k&#x3D;0$ 时说明清空该格子。</li>
-<li><code>2 i j</code>：查询第 $i$ 个柜子的第 $j$ 个格子中的物品是什么，保证查询的柜子有存过东西。</li>
-</ul>
-<p>已知超市里共计不会超过 $10^7$ 个寄包格子，$a_i$ 是确定然而未知的，但是保证一定不小于该柜子存物品请求的格子编号的最大值。当然也有可能某些寄包柜中一个格子都没有。</p>
-<h2 id="输入格式-1"><a href="#输入格式-1" class="headerlink" title="输入格式"></a>输入格式</h2><p>第一行 2 个整数 n 和 q，寄包柜个数和询问次数。</p>
-<p>接下来 q 个整数，表示一次操作。</p>
-<h2 id="输出格式-1"><a href="#输出格式-1" class="headerlink" title="输出格式"></a>输出格式</h2><p>对于查询操作时，输出答案。</p>
-<h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例"></a>样例</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">输入：</span><br><span class="line"><span class="number">5</span> <span class="number">4</span></span><br><span class="line"><span class="number">1</span> <span class="number">3</span> <span class="number">10000</span> <span class="number">114514</span></span><br><span class="line"><span class="number">1</span> <span class="number">1</span> <span class="number">1</span> <span class="number">1</span></span><br><span class="line"><span class="number">2</span> <span class="number">3</span> <span class="number">10000</span></span><br><span class="line"><span class="number">2</span> <span class="number">1</span> <span class="number">1</span></span><br><span class="line">输出：</span><br><span class="line"><span class="number">114514</span></span><br><span class="line"><span class="number">1</span></span><br></pre></td></tr></table></figure>
-<h2 id="思路和知识点-1"><a href="#思路和知识点-1" class="headerlink" title="思路和知识点"></a>思路和知识点</h2><p><a href="#%E6%80%9D%E8%B7%AF%E5%92%8C%E7%9F%A5%E8%AF%86%E7%82%B9">vector相关操作</a></p>
-<p>注意 此题的数据范围是$10^5$,如果开一个$10^5$ * $10^5$ 的二维数组，空间占用将会十分离谱</p>
-<p>所以此类题目使用vector便可以最大程度的减少空间的占用</p>
-<h2 id="AC代码-1"><a href="#AC代码-1" class="headerlink" title="AC代码"></a>AC代码</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> n, q, op;</span><br><span class="line">    <span class="type">int</span> i, j, k;</span><br><span class="line">    cin&gt;&gt;n&gt;&gt;q;</span><br><span class="line">    vector &lt; vector &lt;<span class="type">int</span>&gt; &gt; <span class="built_in">block</span> (n + <span class="number">1</span>);<span class="comment">// 此时仅仅是开了一个长度为n的一维数组</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> count = <span class="number">0</span>; count &lt; q; count++)</span><br><span class="line">    &#123;</span><br><span class="line">        cin&gt;&gt;op;</span><br><span class="line">        <span class="keyword">if</span>(op == <span class="number">1</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            cin&gt;&gt;i&gt;&gt;j&gt;&gt;k;</span><br><span class="line">            <span class="keyword">if</span>(block[i].<span class="built_in">size</span>() &lt; j + <span class="number">1</span>)<span class="comment">// 如果柜子里格子不足，那么就扩展第i个柜子的格子到j + 1</span></span><br><span class="line">            &#123;</span><br><span class="line">                block[i].<span class="built_in">resize</span>(j + <span class="number">1</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            block[i][j] = k;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            cin&gt;&gt;i&gt;&gt;j;</span><br><span class="line">            cout&lt;&lt;block[i][j]&lt;&lt;<span class="string">&quot;\n&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="3-手写栈的操作"><a href="#3-手写栈的操作" class="headerlink" title="3. 手写栈的操作"></a>3. <a href="about:blank">手写栈的操作</a></h2><h2 id="题目描述-2"><a href="#题目描述-2" class="headerlink" title="题目描述"></a>题目描述</h2><p>栈作为一个先进先出的数据结构，尽管<stack>头文件已经提供了现成的关于栈的操作</p>
-<p>但是在STL里面，使用这些操作而不使用O2优化</p>
-<p>会导致程序有一点点慢</p>
-<h2 id="思路和知识点-2"><a href="#思路和知识点-2" class="headerlink" title="思路和知识点"></a>思路和知识点</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">C语言提供了栈的相关快捷操作&lt;stack&gt;</span><br><span class="line"><span class="number">1.</span> stack &lt;<span class="type">int</span>&gt; s; 新建一个栈</span><br><span class="line"><span class="number">2.</span> s.<span class="built_in">push</span>(a); 将元素a压入栈</span><br><span class="line"><span class="number">3.</span> s.<span class="built_in">pop</span>(); 将s的栈顶元素弹出</span><br><span class="line"><span class="number">4.</span> s.<span class="built_in">top</span>(); 查询s的栈顶元素</span><br><span class="line"><span class="number">5.</span> s.<span class="built_in">size</span>(); 查询s的元素个数</span><br><span class="line"><span class="number">6.</span> s.<span class="built_in">empty</span>(); 查询s是否为空</span><br></pre></td></tr></table></figure>
-
-<h2 id="手写栈模板-请根据实际情况进行修改"><a href="#手写栈模板-请根据实际情况进行修改" class="headerlink" title="手写栈模板(请根据实际情况进行修改)"></a>手写栈模板(请根据实际情况进行修改)</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> stack[<span class="number">10000</span>];</span><br><span class="line"><span class="type">int</span> p = <span class="number">0</span>;<span class="comment">// 指针，指向的是下一个栈元素</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">push</span><span class="params">(<span class="type">int</span> x)</span><span class="comment">// 压栈操作</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    stack[p++] = x;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">pop</span><span class="params">()</span><span class="comment">// 弹出栈顶元素</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    stack[--p] = <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">top</span><span class="params">()</span><span class="comment">// 查询栈顶元素</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> stack[p - <span class="number">1</span>];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="4-UVA673-平衡的括号-Parentheses-Balance-洛谷-普及"><a href="#4-UVA673-平衡的括号-Parentheses-Balance-洛谷-普及" class="headerlink" title="4. UVA673 平衡的括号 Parentheses Balance - 洛谷 - 普及 "></a>4. <a href="https://www.luogu.com.cn/problem/UVA673">UVA673 平衡的括号 Parentheses Balance - 洛谷 - 普及 </a></h2><h2 id="题目描述-3"><a href="#题目描述-3" class="headerlink" title="题目描述"></a>题目描述</h2><p>输入一个包含“()”和“[]”的括号序列，判断是否合法。<br>具体规则：</p>
-<ol>
-<li>空串合法；</li>
-<li>如果A和B合法，那么AB合法；</li>
-<li>如果A合法(A)和[A]都合法</li>
-</ol>
-<p>感谢 @陶文祥  提供的翻译。</p>
-<h2 id="样例-2"><a href="#样例-2" class="headerlink" title="样例"></a>样例</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">输入:</span><br><span class="line"><span class="number">3</span></span><br><span class="line">([])</span><br><span class="line">(([()])))</span><br><span class="line">([()[]()])()</span><br><span class="line">输出:</span><br><span class="line">Yes</span><br><span class="line">No</span><br><span class="line">Yes</span><br></pre></td></tr></table></figure>
-
-<h2 id="思路和知识点-3"><a href="#思路和知识点-3" class="headerlink" title="思路和知识点"></a>思路和知识点</h2><p>你可以将含有括号的这一个字符串人为的分为左右两边。</p>
-<p>出栈判定是右边的括号可以将左边正处于栈顶的括号匹配消除</p>
-<p>入栈判定是栈为空或者是没有对应的括号可以匹配</p>
-<h2 id="AC代码-2"><a href="#AC代码-2" class="headerlink" title="AC代码"></a>AC代码</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> stack[<span class="number">1000</span>];</span><br><span class="line"><span class="type">int</span> p = <span class="number">0</span>;<span class="comment">// 栈顶指针,指的是下一个待插入的数组位置</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">push</span><span class="params">(<span class="type">int</span> x)</span><span class="comment">// 压栈操作</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    stack[p++] = x;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">pop</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    stack[--p] = <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">top</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> stack[p - <span class="number">1</span>];</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">char</span> <span class="title">judge</span><span class="params">(<span class="type">char</span> a)</span><span class="comment">// 因为要让右边的括号匹配左边的括号，所以说对于每一种右括号都应该返回相对应的左括号形式</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(a == <span class="string">&#x27;)&#x27;</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&#x27;(&#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(a == <span class="string">&#x27;]&#x27;</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&#x27;[&#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(a == <span class="string">&#x27;&#125;&#x27;</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&#x27;&#123;&#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&#x27;/0&#x27;</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> num;</span><br><span class="line">    cin&gt;&gt;num;</span><br><span class="line">    string str;</span><br><span class="line">    <span class="built_in">getline</span>(cin, str);<span class="comment">// C++在使用cin输入时，光标停留在数字行的末尾，如果此时用getline读取一行，那么将读取到空行</span></span><br><span class="line">    <span class="keyword">while</span>(num--)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">while</span>(p != <span class="number">0</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">pop</span>();</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">getline</span>(cin, str);<span class="comment">// 这里才是真正的去读入字符串</span></span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; str.<span class="built_in">size</span>(); i++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(p == <span class="number">0</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="built_in">push</span>(str[i]);<span class="comment">// 栈空则压入数据</span></span><br><span class="line">                <span class="keyword">continue</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>(<span class="built_in">judge</span>(str[i]) == <span class="built_in">top</span>())<span class="comment">// 栈顶左括号与右括号匹配</span></span><br><span class="line">            &#123;</span><br><span class="line">                <span class="built_in">pop</span>();</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">            &#123;</span><br><span class="line">                <span class="built_in">push</span>(str[i]);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(p == <span class="number">0</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            cout&lt;&lt;<span class="string">&quot;Yes\n&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            cout&lt;&lt;<span class="string">&quot;No\n&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h1 id="2021-09-26"><a href="#2021-09-26" class="headerlink" title="2021.09.26"></a>2021.09.26</h1><h2 id="5-P1449-后缀表达式-洛谷-普及"><a href="#5-P1449-后缀表达式-洛谷-普及" class="headerlink" title="5. P1449 后缀表达式 - 洛谷 - 普及 "></a>5. <a href="https://www.luogu.com.cn/problem/P1449">P1449 后缀表达式 - 洛谷 - 普及 </a></h2><h3 id="题目描述-4"><a href="#题目描述-4" class="headerlink" title="题目描述"></a>题目描述</h3><p>所谓后缀表达式是指这样的一个表达式：式中不再引用括号，运算符号放在两个运算对象之后，所有计算按运算符号出现的顺序，严格地由左而右新进行（不用考虑运算符的优先级）。</p>
-<p>如：3*(5–2)+7对应的后缀表达式为：3．5．2．-*7．+@。’@’为表达式的结束符号。‘.’为操作数的结束符号。</p>
-<h2 id="样例-3"><a href="#样例-3" class="headerlink" title="样例"></a>样例</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">输入：</span><br><span class="line"><span class="number">3.5</span><span class="number">.2</span>.-*<span class="number">7.</span>+@</span><br><span class="line">输出：</span><br><span class="line"><span class="number">16</span>  </span><br></pre></td></tr></table></figure>
-
-<h2 id="思路和知识点-4"><a href="#思路和知识点-4" class="headerlink" title="思路和知识点"></a>思路和知识点</h2><p>首先注意一点，运算符号前面的两位数字便是进行运算的两位数。</p>
-<p>当在字符串读取到运算符号的时候，便从栈顶的顶部取两个数，然后进行运算，运算后的结果仍然放在栈顶。</p>
-<h2 id="AC代码-3"><a href="#AC代码-3" class="headerlink" title="AC代码"></a>AC代码</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> stack[<span class="number">1000</span>];</span><br><span class="line"><span class="type">int</span> p = <span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">push</span><span class="params">(<span class="type">int</span> x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    stack[p++] = x;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">pop</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    stack[--p] = <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">top</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> stack[p - <span class="number">1</span>];</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> x, y; <span class="comment">// x, y是用于存放两个算数的临时变量</span></span><br><span class="line">    <span class="type">int</span> sum = <span class="number">0</span>;</span><br><span class="line">    <span class="type">char</span> ch;</span><br><span class="line">    <span class="keyword">do</span></span><br><span class="line">    &#123;</span><br><span class="line">        ch = <span class="built_in">getchar</span>();</span><br><span class="line">        <span class="keyword">if</span>(ch &lt;= <span class="string">&#x27;9&#x27;</span> &amp;&amp; ch &gt;= <span class="string">&#x27;0&#x27;</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            sum = sum * <span class="number">10</span> + (ch - <span class="string">&#x27;0&#x27;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(ch == <span class="string">&#x27;.&#x27;</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">push</span>(sum);</span><br><span class="line">            sum = <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(ch != <span class="string">&#x27;@&#x27;</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            x = <span class="built_in">top</span>();</span><br><span class="line">            <span class="built_in">pop</span>();</span><br><span class="line">            y = <span class="built_in">top</span>();</span><br><span class="line">            <span class="built_in">pop</span>();</span><br><span class="line">            <span class="keyword">switch</span> (ch)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&#x27;+&#x27;</span>:</span><br><span class="line">                    <span class="built_in">push</span>(x + y);</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&#x27;-&#x27;</span>:</span><br><span class="line">                    <span class="built_in">push</span>(y - x);</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&#x27;*&#x27;</span>:</span><br><span class="line">                    <span class="built_in">push</span>(x * y);</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&#x27;/&#x27;</span>:</span><br><span class="line">                    <span class="built_in">push</span>(y / x);</span><br><span class="line">                    <span class="keyword">break</span>;            </span><br><span class="line">                <span class="comment">//default:</span></span><br><span class="line">                    <span class="comment">//break;</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125; <span class="keyword">while</span> (ch != <span class="string">&#x27;@&#x27;</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>, <span class="built_in">top</span>());</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="6-P1739-表达式括号匹配-洛谷-入门"><a href="#6-P1739-表达式括号匹配-洛谷-入门" class="headerlink" title="6. P1739 表达式括号匹配 - 洛谷 - 入门"></a>6. <a href="https://www.luogu.com.cn/problem/P1739">P1739 表达式括号匹配 - 洛谷 - 入门</a></h2><h3 id="题目描述-5"><a href="#题目描述-5" class="headerlink" title="题目描述"></a>题目描述</h3><p>假设一个表达式有英文字母（小写）、运算符（+，—，*，&#x2F;）和左右小（圆）括号构成，以“@”作为表达式的结束符。请编写一个程序检查表达式中的左右圆括号是否匹配，若匹配，则返回“YES”；否则返回“NO”。表达式长度小于255，左圆括号少于20个。</p>
-<h2 id="样例-4"><a href="#样例-4" class="headerlink" title="样例"></a>样例</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">输入：</span><br><span class="line"><span class="number">2</span>*(x+y)/(<span class="number">1</span>-x)@</span><br><span class="line">输出：</span><br><span class="line">YES</span><br><span class="line">输入：</span><br><span class="line">(<span class="number">25</span>+x)*(a*(a+b+b)@</span><br><span class="line">输出</span><br><span class="line">NO</span><br></pre></td></tr></table></figure>
-
-<h2 id="思路和知识点-5"><a href="#思路和知识点-5" class="headerlink" title="思路和知识点"></a>思路和知识点</h2><p>这个相比于前面那道括号匹配题更加简单。</p>
-<p>只要程序读取到左括号就压入栈顶，读入右括号就将栈顶弹出。</p>
-<p>如果到最后栈非空，输出NO，反之，输出YES。</p>
-<h2 id="AC代码-4"><a href="#AC代码-4" class="headerlink" title="AC代码"></a>AC代码</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> stack[<span class="number">1000</span>];</span><br><span class="line"><span class="type">int</span> p = <span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">push</span><span class="params">(<span class="type">int</span> x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    stack[p++] = x;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">pop</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    stack[--p] = <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">top</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> stack[p - <span class="number">1</span>];</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    string s;</span><br><span class="line">    <span class="built_in">getline</span>(cin, s);</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; s.<span class="built_in">size</span>(); i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(s[i] == <span class="string">&#x27;(&#x27;</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">push</span>(s[i]);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(s[i] == <span class="string">&#x27;)&#x27;</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(<span class="built_in">top</span>() == <span class="string">&#x27;(&#x27;</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="built_in">pop</span>();</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">            &#123;</span><br><span class="line">                <span class="built_in">push</span>(s[i]);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(p != <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;NO&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;YES&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="7-P1044-NOIP2003-普及组-栈-洛谷-普及"><a href="#7-P1044-NOIP2003-普及组-栈-洛谷-普及" class="headerlink" title="7. P1044 (NOIP2003 普及组)栈 - 洛谷 - 普及"></a>7. <a href="https://www.luogu.com.cn/problem/P1044">P1044 (NOIP2003 普及组)栈 - 洛谷 - 普及</a></h2><h3 id="题目描述-6"><a href="#题目描述-6" class="headerlink" title="题目描述"></a>题目描述</h3><p>栈是计算机中经典的数据结构，简单的说，栈就是限制在一端进行插入删除操作的线性表。</p>
-<p>栈有两种最重要的操作，即 pop（从栈顶弹出一个元素）和 push（将一个元素进栈）。</p>
-<p>栈的重要性不言自明，任何一门数据结构的课程都会介绍栈。宁宁同学在复习栈的基本概念时，想到了一个书上没有讲过的问题，而他自己无法给出答案，所以需要你的帮忙。</p>
-<p><img data-src="https://cdn.luogu.com.cn/upload/pic/18.png"> </p>
-<p>宁宁考虑的是这样一个问题：一个操作数序列，$1,2,\ldots ,n$（图示为 1 到 3 的情况），栈 A 的深度大于 $n$。</p>
-<p>现在可以进行两种操作，</p>
-<ol>
-<li>将一个数，从操作数序列的头端移到栈的头端（对应数据结构栈的 push 操作）</li>
-<li>将一个数，从栈的头端移到输出序列的尾端（对应数据结构栈的 pop 操作）</li>
-</ol>
-<p>使用这两种操作，由一个操作数序列就可以得到一系列的输出序列，下图所示为由 <code>1 2 3</code> 生成序列 <code>2 3 1</code> 的过程。</p>
-<p><img data-src="https://cdn.luogu.com.cn/upload/pic/19.png"> </p>
-<p>（原始状态如上图所示）</p>
-<p>你的程序将对给定的 $n$，计算并输出由操作数序列 $1,2,\ldots,n$ 经过操作可能得到的输出序列的总数。</p>
-<h2 id="样例-5"><a href="#样例-5" class="headerlink" title="样例"></a>样例</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">输入：</span><br><span class="line"><span class="number">3</span></span><br><span class="line">输出：</span><br><span class="line"><span class="number">5</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="思路和知识点-6"><a href="#思路和知识点-6" class="headerlink" title="思路和知识点"></a>思路和知识点</h2><p>本题我暂时也没搞得太明白，只是推算出了数学规律为卡特兰数。</p>
-<p>至于卡特兰数怎么推导的，我再看看吧。</p>
-<h2 id="AC代码-5"><a href="#AC代码-5" class="headerlink" title="AC代码"></a>AC代码</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> k[<span class="number">100</span>];</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line">    cin&gt;&gt;n;</span><br><span class="line">    k[<span class="number">0</span>] = <span class="number">1</span>; k[<span class="number">1</span>] = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">2</span>; i &lt;= n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j = <span class="number">0</span>; j &lt; i; j++)</span><br><span class="line">        &#123;</span><br><span class="line">            k[i] += k[j] * k[i - j - <span class="number">1</span>];</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    cout&lt;&lt;k[n];</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<hr>
-<h2 id="P1996-约瑟夫问题-洛谷-普及"><a href="#P1996-约瑟夫问题-洛谷-普及" class="headerlink" title="P1996 约瑟夫问题 - 洛谷 - 普及"></a><a href="https://www.luogu.com.cn/problem/P1996">P1996 约瑟夫问题 - 洛谷 - 普及</a></h2><h2 id="题目描述-7"><a href="#题目描述-7" class="headerlink" title="题目描述"></a>题目描述</h2><p>$n$ 个人围成一圈，从第一个人开始报数,数到 $m$ 的人出列，再由下一个人重新从 $1$ 开始报数，数到 $m$ 的人再出圈，依次类推，直到所有的人都出圈，请输出依次出圈人的编号。</p>
-<p><strong>注意：本题和《深入浅出-基础篇》上例题的表述稍有不同。书上表述是给出淘汰 n-1 名小朋友，而该题是全部出圈。</strong></p>
-<h2 id="样例-6"><a href="#样例-6" class="headerlink" title="样例"></a>样例</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">输入：</span><br><span class="line"><span class="number">10</span> <span class="number">3</span></span><br><span class="line">输出：</span><br><span class="line"><span class="number">3</span> <span class="number">6</span> <span class="number">9</span> <span class="number">2</span> <span class="number">7</span> <span class="number">1</span> <span class="number">8</span> <span class="number">5</span> <span class="number">10</span> <span class="number">4</span></span><br></pre></td></tr></table></figure>
-
-<h2 id="思路和知识点-7"><a href="#思路和知识点-7" class="headerlink" title="思路和知识点"></a>思路和知识点</h2><p>典型的队列问题。</p>
-<p>这里我们先将$n$个数按照从小到大的顺序以此加入队列，此时我们再每次将$m-1$个数从队前迁移到队尾,那么此时在队伍最前的便是要淘汰的数，输出后直接弹出。</p>
-<p>直到$head &#x3D;&#x3D; tail$结束。</p>
-<h2 id="AC代码-6"><a href="#AC代码-6" class="headerlink" title="AC代码"></a>AC代码</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> queue[<span class="number">100000</span>];</span><br><span class="line"><span class="type">int</span> head = <span class="number">0</span>, tail = <span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">push</span><span class="params">(<span class="type">int</span> x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    queue[tail++] = x;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">pop</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    queue[head++] = <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">front</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> queue[head];</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> n, m;</span><br><span class="line">    cin&gt;&gt;n&gt;&gt;m;</span><br><span class="line">    <span class="keyword">if</span>(n == <span class="number">0</span> &amp;&amp; m == <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout&lt;&lt;<span class="string">&quot;1&quot;</span>;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">push</span>(i);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">while</span>(head != tail)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt; m; i++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">push</span>(<span class="built_in">front</span>());</span><br><span class="line">            <span class="built_in">pop</span>();</span><br><span class="line">        &#125;</span><br><span class="line">        cout&lt;&lt;<span class="built_in">front</span>()&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">        <span class="built_in">pop</span>();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<hr>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png"></p>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>C语言</tag>
-        <tag>算法</tag>
       </tags>
   </entry>
   <entry>
@@ -1173,6 +856,119 @@
       </tags>
   </entry>
   <entry>
+    <title>《学习笔记》</title>
+    <url>/Next/Study/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20-%20%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>要填的坑挺多的，精力有限，目前先集中更新本篇文章。</p>
+<p>本篇文章参考书籍为<strong>《洛谷-深入浅出程序设计竞赛》</strong></p>
+<h1 id="2021-09-24"><a href="#2021-09-24" class="headerlink" title="2021.09.24"></a>2021.09.24</h1><h2 id="1-P3156-【深基15-例1】询问学号-洛谷-入门"><a href="#1-P3156-【深基15-例1】询问学号-洛谷-入门" class="headerlink" title="1. P3156 【深基15.例1】询问学号 - 洛谷 - 入门"></a>1. <a href="https://www.luogu.com.cn/problem/P3156">P3156 【深基15.例1】询问学号 - 洛谷 - 入门</a></h2><h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>有 $n(n \le 2 \times 10^6)$ 名同学陆陆续续进入教室。我们知道每名同学的学号（在 1 到 $10^9$ 之间），按进教室的顺序给出。上课了，老师想知道第 $i$ 个进入教室的同学的学号是什么（最先进入教室的同学 $i&#x3D;1$），询问次数不超过 $10^5$ 次。</p>
+<h2 id="输入格式"><a href="#输入格式" class="headerlink" title="输入格式"></a>输入格式</h2><p>第一行 2 个整数 n 和 m，表示学生个数和询问次数。</p>
+<p>第二行 n 个整数，表示按顺序进入教室的学号。</p>
+<p>第三行 m 个整数，表示询问第几个进入教室的同学。</p>
+<h2 id="输出格式"><a href="#输出格式" class="headerlink" title="输出格式"></a>输出格式</h2><p>m 个整数表示答案，用换行隔开。</p>
+<h2 id="样例"><a href="#样例" class="headerlink" title="样例"></a>样例</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">输入：</span><br><span class="line"><span class="number">10</span> <span class="number">3</span></span><br><span class="line"><span class="number">1</span> <span class="number">9</span> <span class="number">2</span> <span class="number">60</span> <span class="number">8</span> <span class="number">17</span> <span class="number">11</span> <span class="number">4</span> <span class="number">5</span> <span class="number">14</span></span><br><span class="line"><span class="number">1</span> <span class="number">5</span> <span class="number">9</span></span><br><span class="line">输出：</span><br><span class="line"><span class="number">1</span></span><br><span class="line"><span class="number">8</span></span><br><span class="line"><span class="number">5</span></span><br></pre></td></tr></table></figure>
+<h2 id="思路和知识点"><a href="#思路和知识点" class="headerlink" title="思路和知识点"></a>思路和知识点</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">vector基本用法</span><br><span class="line"><span class="number">1.</span> vector &lt;<span class="type">int</span>&gt; <span class="built_in">array</span> (N, i); 新建一个初始长度为N，N个数据为i的vector数组</span><br><span class="line"><span class="number">2.</span> array.<span class="built_in">push_back</span>(a); 将a元素添加到数组array的末尾，并增加数组长度</span><br><span class="line"><span class="number">3.</span> array.<span class="built_in">size</span>(); 返回数组的长度</span><br><span class="line"><span class="number">4.</span> array.<span class="built_in">resize</span>(n, m); 重新将数组长度设置为n，若原数组比n长，则删除多余元素，若短，新增加的数组初始化为m</span><br><span class="line"><span class="number">5.</span> array.<span class="built_in">begin</span>(); 返回array数组的首元素，也就是array[<span class="number">0</span>]的指针</span><br><span class="line"><span class="number">6.</span> array.<span class="built_in">end</span>(); 返回array数组末尾下一个元素的指针</span><br></pre></td></tr></table></figure>
+
+<h2 id="AC代码"><a href="#AC代码" class="headerlink" title="AC代码"></a>AC代码</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;vector&gt;</span> </span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> n, m;</span><br><span class="line">    vector &lt;<span class="type">int</span>&gt; student; <span class="comment">// 创建vector数组</span></span><br><span class="line">    <span class="type">int</span> temp = <span class="number">0</span>;</span><br><span class="line">    cin&gt;&gt;n&gt;&gt;m;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        cin&gt;&gt;temp;</span><br><span class="line">        student.<span class="built_in">push_back</span>(temp); <span class="comment">// 将temp压入动态vector数组的末尾，并且vector数组的长度+1</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; m; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        cin&gt;&gt;temp;</span><br><span class="line">        cout&lt;&lt;student[temp - <span class="number">1</span>]&lt;&lt;<span class="string">&quot;\n&quot;</span>;<span class="comment">// 数组一般是从0开始存储数据，而我们询问学号是从1开始寻找</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="2-P3613-【深基15-例2】寄包柜-洛谷-普及"><a href="#2-P3613-【深基15-例2】寄包柜-洛谷-普及" class="headerlink" title="2. P3613 【深基15.例2】寄包柜 - 洛谷 - 普及 "></a>2. <a href="https://www.luogu.com.cn/problem/P3613">P3613 【深基15.例2】寄包柜 - 洛谷 - 普及 </a></h2><h2 id="题目描述-1"><a href="#题目描述-1" class="headerlink" title="题目描述"></a>题目描述</h2><p>超市里有 $n(n\le10^5)$ 个寄包柜。每个寄包柜格子数量不一，第 $i$ 个寄包柜有 $a_i(a_i\le10^5)$ 个格子，不过我们并不知道各个 $a_i$ 的值。对于每个寄包柜，格子编号从 1 开始，一直到 $a_i$。现在有 $q(q\le10^5)$ 次操作：</p>
+<ul>
+<li><code>1 i j k</code>：在第 $i$ 个柜子的第 $j$ 个格子存入物品 $k(0\le k\le 10^9)$。当 $k&#x3D;0$ 时说明清空该格子。</li>
+<li><code>2 i j</code>：查询第 $i$ 个柜子的第 $j$ 个格子中的物品是什么，保证查询的柜子有存过东西。</li>
+</ul>
+<p>已知超市里共计不会超过 $10^7$ 个寄包格子，$a_i$ 是确定然而未知的，但是保证一定不小于该柜子存物品请求的格子编号的最大值。当然也有可能某些寄包柜中一个格子都没有。</p>
+<h2 id="输入格式-1"><a href="#输入格式-1" class="headerlink" title="输入格式"></a>输入格式</h2><p>第一行 2 个整数 n 和 q，寄包柜个数和询问次数。</p>
+<p>接下来 q 个整数，表示一次操作。</p>
+<h2 id="输出格式-1"><a href="#输出格式-1" class="headerlink" title="输出格式"></a>输出格式</h2><p>对于查询操作时，输出答案。</p>
+<h2 id="样例-1"><a href="#样例-1" class="headerlink" title="样例"></a>样例</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">输入：</span><br><span class="line"><span class="number">5</span> <span class="number">4</span></span><br><span class="line"><span class="number">1</span> <span class="number">3</span> <span class="number">10000</span> <span class="number">114514</span></span><br><span class="line"><span class="number">1</span> <span class="number">1</span> <span class="number">1</span> <span class="number">1</span></span><br><span class="line"><span class="number">2</span> <span class="number">3</span> <span class="number">10000</span></span><br><span class="line"><span class="number">2</span> <span class="number">1</span> <span class="number">1</span></span><br><span class="line">输出：</span><br><span class="line"><span class="number">114514</span></span><br><span class="line"><span class="number">1</span></span><br></pre></td></tr></table></figure>
+<h2 id="思路和知识点-1"><a href="#思路和知识点-1" class="headerlink" title="思路和知识点"></a>思路和知识点</h2><p><a href="#%E6%80%9D%E8%B7%AF%E5%92%8C%E7%9F%A5%E8%AF%86%E7%82%B9">vector相关操作</a></p>
+<p>注意 此题的数据范围是$10^5$,如果开一个$10^5$ * $10^5$ 的二维数组，空间占用将会十分离谱</p>
+<p>所以此类题目使用vector便可以最大程度的减少空间的占用</p>
+<h2 id="AC代码-1"><a href="#AC代码-1" class="headerlink" title="AC代码"></a>AC代码</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> n, q, op;</span><br><span class="line">    <span class="type">int</span> i, j, k;</span><br><span class="line">    cin&gt;&gt;n&gt;&gt;q;</span><br><span class="line">    vector &lt; vector &lt;<span class="type">int</span>&gt; &gt; <span class="built_in">block</span> (n + <span class="number">1</span>);<span class="comment">// 此时仅仅是开了一个长度为n的一维数组</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> count = <span class="number">0</span>; count &lt; q; count++)</span><br><span class="line">    &#123;</span><br><span class="line">        cin&gt;&gt;op;</span><br><span class="line">        <span class="keyword">if</span>(op == <span class="number">1</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            cin&gt;&gt;i&gt;&gt;j&gt;&gt;k;</span><br><span class="line">            <span class="keyword">if</span>(block[i].<span class="built_in">size</span>() &lt; j + <span class="number">1</span>)<span class="comment">// 如果柜子里格子不足，那么就扩展第i个柜子的格子到j + 1</span></span><br><span class="line">            &#123;</span><br><span class="line">                block[i].<span class="built_in">resize</span>(j + <span class="number">1</span>);</span><br><span class="line">            &#125;</span><br><span class="line">            block[i][j] = k;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            cin&gt;&gt;i&gt;&gt;j;</span><br><span class="line">            cout&lt;&lt;block[i][j]&lt;&lt;<span class="string">&quot;\n&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="3-手写栈的操作"><a href="#3-手写栈的操作" class="headerlink" title="3. 手写栈的操作"></a>3. <a href="about:blank">手写栈的操作</a></h2><h2 id="题目描述-2"><a href="#题目描述-2" class="headerlink" title="题目描述"></a>题目描述</h2><p>栈作为一个先进先出的数据结构，尽管<stack>头文件已经提供了现成的关于栈的操作</p>
+<p>但是在STL里面，使用这些操作而不使用O2优化</p>
+<p>会导致程序有一点点慢</p>
+<h2 id="思路和知识点-2"><a href="#思路和知识点-2" class="headerlink" title="思路和知识点"></a>思路和知识点</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">C语言提供了栈的相关快捷操作&lt;stack&gt;</span><br><span class="line"><span class="number">1.</span> stack &lt;<span class="type">int</span>&gt; s; 新建一个栈</span><br><span class="line"><span class="number">2.</span> s.<span class="built_in">push</span>(a); 将元素a压入栈</span><br><span class="line"><span class="number">3.</span> s.<span class="built_in">pop</span>(); 将s的栈顶元素弹出</span><br><span class="line"><span class="number">4.</span> s.<span class="built_in">top</span>(); 查询s的栈顶元素</span><br><span class="line"><span class="number">5.</span> s.<span class="built_in">size</span>(); 查询s的元素个数</span><br><span class="line"><span class="number">6.</span> s.<span class="built_in">empty</span>(); 查询s是否为空</span><br></pre></td></tr></table></figure>
+
+<h2 id="手写栈模板-请根据实际情况进行修改"><a href="#手写栈模板-请根据实际情况进行修改" class="headerlink" title="手写栈模板(请根据实际情况进行修改)"></a>手写栈模板(请根据实际情况进行修改)</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> stack[<span class="number">10000</span>];</span><br><span class="line"><span class="type">int</span> p = <span class="number">0</span>;<span class="comment">// 指针，指向的是下一个栈元素</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">push</span><span class="params">(<span class="type">int</span> x)</span><span class="comment">// 压栈操作</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    stack[p++] = x;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">pop</span><span class="params">()</span><span class="comment">// 弹出栈顶元素</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    stack[--p] = <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">top</span><span class="params">()</span><span class="comment">// 查询栈顶元素</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> stack[p - <span class="number">1</span>];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="4-UVA673-平衡的括号-Parentheses-Balance-洛谷-普及"><a href="#4-UVA673-平衡的括号-Parentheses-Balance-洛谷-普及" class="headerlink" title="4. UVA673 平衡的括号 Parentheses Balance - 洛谷 - 普及 "></a>4. <a href="https://www.luogu.com.cn/problem/UVA673">UVA673 平衡的括号 Parentheses Balance - 洛谷 - 普及 </a></h2><h2 id="题目描述-3"><a href="#题目描述-3" class="headerlink" title="题目描述"></a>题目描述</h2><p>输入一个包含“()”和“[]”的括号序列，判断是否合法。<br>具体规则：</p>
+<ol>
+<li>空串合法；</li>
+<li>如果A和B合法，那么AB合法；</li>
+<li>如果A合法(A)和[A]都合法</li>
+</ol>
+<p>感谢 @陶文祥  提供的翻译。</p>
+<h2 id="样例-2"><a href="#样例-2" class="headerlink" title="样例"></a>样例</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">输入:</span><br><span class="line"><span class="number">3</span></span><br><span class="line">([])</span><br><span class="line">(([()])))</span><br><span class="line">([()[]()])()</span><br><span class="line">输出:</span><br><span class="line">Yes</span><br><span class="line">No</span><br><span class="line">Yes</span><br></pre></td></tr></table></figure>
+
+<h2 id="思路和知识点-3"><a href="#思路和知识点-3" class="headerlink" title="思路和知识点"></a>思路和知识点</h2><p>你可以将含有括号的这一个字符串人为的分为左右两边。</p>
+<p>出栈判定是右边的括号可以将左边正处于栈顶的括号匹配消除</p>
+<p>入栈判定是栈为空或者是没有对应的括号可以匹配</p>
+<h2 id="AC代码-2"><a href="#AC代码-2" class="headerlink" title="AC代码"></a>AC代码</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> stack[<span class="number">1000</span>];</span><br><span class="line"><span class="type">int</span> p = <span class="number">0</span>;<span class="comment">// 栈顶指针,指的是下一个待插入的数组位置</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">push</span><span class="params">(<span class="type">int</span> x)</span><span class="comment">// 压栈操作</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    stack[p++] = x;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">pop</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    stack[--p] = <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">top</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> stack[p - <span class="number">1</span>];</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">char</span> <span class="title">judge</span><span class="params">(<span class="type">char</span> a)</span><span class="comment">// 因为要让右边的括号匹配左边的括号，所以说对于每一种右括号都应该返回相对应的左括号形式</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(a == <span class="string">&#x27;)&#x27;</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&#x27;(&#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(a == <span class="string">&#x27;]&#x27;</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&#x27;[&#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(a == <span class="string">&#x27;&#125;&#x27;</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&#x27;&#123;&#x27;</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="string">&#x27;/0&#x27;</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> num;</span><br><span class="line">    cin&gt;&gt;num;</span><br><span class="line">    string str;</span><br><span class="line">    <span class="built_in">getline</span>(cin, str);<span class="comment">// C++在使用cin输入时，光标停留在数字行的末尾，如果此时用getline读取一行，那么将读取到空行</span></span><br><span class="line">    <span class="keyword">while</span>(num--)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">while</span>(p != <span class="number">0</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">pop</span>();</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">getline</span>(cin, str);<span class="comment">// 这里才是真正的去读入字符串</span></span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; str.<span class="built_in">size</span>(); i++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(p == <span class="number">0</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="built_in">push</span>(str[i]);<span class="comment">// 栈空则压入数据</span></span><br><span class="line">                <span class="keyword">continue</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">if</span>(<span class="built_in">judge</span>(str[i]) == <span class="built_in">top</span>())<span class="comment">// 栈顶左括号与右括号匹配</span></span><br><span class="line">            &#123;</span><br><span class="line">                <span class="built_in">pop</span>();</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">            &#123;</span><br><span class="line">                <span class="built_in">push</span>(str[i]);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(p == <span class="number">0</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            cout&lt;&lt;<span class="string">&quot;Yes\n&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            cout&lt;&lt;<span class="string">&quot;No\n&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h1 id="2021-09-26"><a href="#2021-09-26" class="headerlink" title="2021.09.26"></a>2021.09.26</h1><h2 id="5-P1449-后缀表达式-洛谷-普及"><a href="#5-P1449-后缀表达式-洛谷-普及" class="headerlink" title="5. P1449 后缀表达式 - 洛谷 - 普及 "></a>5. <a href="https://www.luogu.com.cn/problem/P1449">P1449 后缀表达式 - 洛谷 - 普及 </a></h2><h3 id="题目描述-4"><a href="#题目描述-4" class="headerlink" title="题目描述"></a>题目描述</h3><p>所谓后缀表达式是指这样的一个表达式：式中不再引用括号，运算符号放在两个运算对象之后，所有计算按运算符号出现的顺序，严格地由左而右新进行（不用考虑运算符的优先级）。</p>
+<p>如：3*(5–2)+7对应的后缀表达式为：3．5．2．-*7．+@。’@’为表达式的结束符号。‘.’为操作数的结束符号。</p>
+<h2 id="样例-3"><a href="#样例-3" class="headerlink" title="样例"></a>样例</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">输入：</span><br><span class="line"><span class="number">3.5</span><span class="number">.2</span>.-*<span class="number">7.</span>+@</span><br><span class="line">输出：</span><br><span class="line"><span class="number">16</span>  </span><br></pre></td></tr></table></figure>
+
+<h2 id="思路和知识点-4"><a href="#思路和知识点-4" class="headerlink" title="思路和知识点"></a>思路和知识点</h2><p>首先注意一点，运算符号前面的两位数字便是进行运算的两位数。</p>
+<p>当在字符串读取到运算符号的时候，便从栈顶的顶部取两个数，然后进行运算，运算后的结果仍然放在栈顶。</p>
+<h2 id="AC代码-3"><a href="#AC代码-3" class="headerlink" title="AC代码"></a>AC代码</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> stack[<span class="number">1000</span>];</span><br><span class="line"><span class="type">int</span> p = <span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">push</span><span class="params">(<span class="type">int</span> x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    stack[p++] = x;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">pop</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    stack[--p] = <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">top</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> stack[p - <span class="number">1</span>];</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> x, y; <span class="comment">// x, y是用于存放两个算数的临时变量</span></span><br><span class="line">    <span class="type">int</span> sum = <span class="number">0</span>;</span><br><span class="line">    <span class="type">char</span> ch;</span><br><span class="line">    <span class="keyword">do</span></span><br><span class="line">    &#123;</span><br><span class="line">        ch = <span class="built_in">getchar</span>();</span><br><span class="line">        <span class="keyword">if</span>(ch &lt;= <span class="string">&#x27;9&#x27;</span> &amp;&amp; ch &gt;= <span class="string">&#x27;0&#x27;</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            sum = sum * <span class="number">10</span> + (ch - <span class="string">&#x27;0&#x27;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(ch == <span class="string">&#x27;.&#x27;</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">push</span>(sum);</span><br><span class="line">            sum = <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(ch != <span class="string">&#x27;@&#x27;</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            x = <span class="built_in">top</span>();</span><br><span class="line">            <span class="built_in">pop</span>();</span><br><span class="line">            y = <span class="built_in">top</span>();</span><br><span class="line">            <span class="built_in">pop</span>();</span><br><span class="line">            <span class="keyword">switch</span> (ch)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&#x27;+&#x27;</span>:</span><br><span class="line">                    <span class="built_in">push</span>(x + y);</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&#x27;-&#x27;</span>:</span><br><span class="line">                    <span class="built_in">push</span>(y - x);</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&#x27;*&#x27;</span>:</span><br><span class="line">                    <span class="built_in">push</span>(x * y);</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                <span class="keyword">case</span> <span class="string">&#x27;/&#x27;</span>:</span><br><span class="line">                    <span class="built_in">push</span>(y / x);</span><br><span class="line">                    <span class="keyword">break</span>;            </span><br><span class="line">                <span class="comment">//default:</span></span><br><span class="line">                    <span class="comment">//break;</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125; <span class="keyword">while</span> (ch != <span class="string">&#x27;@&#x27;</span>);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>, <span class="built_in">top</span>());</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="6-P1739-表达式括号匹配-洛谷-入门"><a href="#6-P1739-表达式括号匹配-洛谷-入门" class="headerlink" title="6. P1739 表达式括号匹配 - 洛谷 - 入门"></a>6. <a href="https://www.luogu.com.cn/problem/P1739">P1739 表达式括号匹配 - 洛谷 - 入门</a></h2><h3 id="题目描述-5"><a href="#题目描述-5" class="headerlink" title="题目描述"></a>题目描述</h3><p>假设一个表达式有英文字母（小写）、运算符（+，—，*，&#x2F;）和左右小（圆）括号构成，以“@”作为表达式的结束符。请编写一个程序检查表达式中的左右圆括号是否匹配，若匹配，则返回“YES”；否则返回“NO”。表达式长度小于255，左圆括号少于20个。</p>
+<h2 id="样例-4"><a href="#样例-4" class="headerlink" title="样例"></a>样例</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">输入：</span><br><span class="line"><span class="number">2</span>*(x+y)/(<span class="number">1</span>-x)@</span><br><span class="line">输出：</span><br><span class="line">YES</span><br><span class="line">输入：</span><br><span class="line">(<span class="number">25</span>+x)*(a*(a+b+b)@</span><br><span class="line">输出</span><br><span class="line">NO</span><br></pre></td></tr></table></figure>
+
+<h2 id="思路和知识点-5"><a href="#思路和知识点-5" class="headerlink" title="思路和知识点"></a>思路和知识点</h2><p>这个相比于前面那道括号匹配题更加简单。</p>
+<p>只要程序读取到左括号就压入栈顶，读入右括号就将栈顶弹出。</p>
+<p>如果到最后栈非空，输出NO，反之，输出YES。</p>
+<h2 id="AC代码-4"><a href="#AC代码-4" class="headerlink" title="AC代码"></a>AC代码</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> stack[<span class="number">1000</span>];</span><br><span class="line"><span class="type">int</span> p = <span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">push</span><span class="params">(<span class="type">int</span> x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    stack[p++] = x;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">pop</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    stack[--p] = <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">top</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> stack[p - <span class="number">1</span>];</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    string s;</span><br><span class="line">    <span class="built_in">getline</span>(cin, s);</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; s.<span class="built_in">size</span>(); i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(s[i] == <span class="string">&#x27;(&#x27;</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">push</span>(s[i]);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(s[i] == <span class="string">&#x27;)&#x27;</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(<span class="built_in">top</span>() == <span class="string">&#x27;(&#x27;</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="built_in">pop</span>();</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">            &#123;</span><br><span class="line">                <span class="built_in">push</span>(s[i]);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(p != <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;NO&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">&quot;YES&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="7-P1044-NOIP2003-普及组-栈-洛谷-普及"><a href="#7-P1044-NOIP2003-普及组-栈-洛谷-普及" class="headerlink" title="7. P1044 (NOIP2003 普及组)栈 - 洛谷 - 普及"></a>7. <a href="https://www.luogu.com.cn/problem/P1044">P1044 (NOIP2003 普及组)栈 - 洛谷 - 普及</a></h2><h3 id="题目描述-6"><a href="#题目描述-6" class="headerlink" title="题目描述"></a>题目描述</h3><p>栈是计算机中经典的数据结构，简单的说，栈就是限制在一端进行插入删除操作的线性表。</p>
+<p>栈有两种最重要的操作，即 pop（从栈顶弹出一个元素）和 push（将一个元素进栈）。</p>
+<p>栈的重要性不言自明，任何一门数据结构的课程都会介绍栈。宁宁同学在复习栈的基本概念时，想到了一个书上没有讲过的问题，而他自己无法给出答案，所以需要你的帮忙。</p>
+<p><img data-src="https://cdn.luogu.com.cn/upload/pic/18.png"> </p>
+<p>宁宁考虑的是这样一个问题：一个操作数序列，$1,2,\ldots ,n$（图示为 1 到 3 的情况），栈 A 的深度大于 $n$。</p>
+<p>现在可以进行两种操作，</p>
+<ol>
+<li>将一个数，从操作数序列的头端移到栈的头端（对应数据结构栈的 push 操作）</li>
+<li>将一个数，从栈的头端移到输出序列的尾端（对应数据结构栈的 pop 操作）</li>
+</ol>
+<p>使用这两种操作，由一个操作数序列就可以得到一系列的输出序列，下图所示为由 <code>1 2 3</code> 生成序列 <code>2 3 1</code> 的过程。</p>
+<p><img data-src="https://cdn.luogu.com.cn/upload/pic/19.png"> </p>
+<p>（原始状态如上图所示）</p>
+<p>你的程序将对给定的 $n$，计算并输出由操作数序列 $1,2,\ldots,n$ 经过操作可能得到的输出序列的总数。</p>
+<h2 id="样例-5"><a href="#样例-5" class="headerlink" title="样例"></a>样例</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">输入：</span><br><span class="line"><span class="number">3</span></span><br><span class="line">输出：</span><br><span class="line"><span class="number">5</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="思路和知识点-6"><a href="#思路和知识点-6" class="headerlink" title="思路和知识点"></a>思路和知识点</h2><p>本题我暂时也没搞得太明白，只是推算出了数学规律为卡特兰数。</p>
+<p>至于卡特兰数怎么推导的，我再看看吧。</p>
+<h2 id="AC代码-5"><a href="#AC代码-5" class="headerlink" title="AC代码"></a>AC代码</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> k[<span class="number">100</span>];</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> n;</span><br><span class="line">    cin&gt;&gt;n;</span><br><span class="line">    k[<span class="number">0</span>] = <span class="number">1</span>; k[<span class="number">1</span>] = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">2</span>; i &lt;= n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j = <span class="number">0</span>; j &lt; i; j++)</span><br><span class="line">        &#123;</span><br><span class="line">            k[i] += k[j] * k[i - j - <span class="number">1</span>];</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    cout&lt;&lt;k[n];</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h2 id="P1996-约瑟夫问题-洛谷-普及"><a href="#P1996-约瑟夫问题-洛谷-普及" class="headerlink" title="P1996 约瑟夫问题 - 洛谷 - 普及"></a><a href="https://www.luogu.com.cn/problem/P1996">P1996 约瑟夫问题 - 洛谷 - 普及</a></h2><h2 id="题目描述-7"><a href="#题目描述-7" class="headerlink" title="题目描述"></a>题目描述</h2><p>$n$ 个人围成一圈，从第一个人开始报数,数到 $m$ 的人出列，再由下一个人重新从 $1$ 开始报数，数到 $m$ 的人再出圈，依次类推，直到所有的人都出圈，请输出依次出圈人的编号。</p>
+<p><strong>注意：本题和《深入浅出-基础篇》上例题的表述稍有不同。书上表述是给出淘汰 n-1 名小朋友，而该题是全部出圈。</strong></p>
+<h2 id="样例-6"><a href="#样例-6" class="headerlink" title="样例"></a>样例</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">输入：</span><br><span class="line"><span class="number">10</span> <span class="number">3</span></span><br><span class="line">输出：</span><br><span class="line"><span class="number">3</span> <span class="number">6</span> <span class="number">9</span> <span class="number">2</span> <span class="number">7</span> <span class="number">1</span> <span class="number">8</span> <span class="number">5</span> <span class="number">10</span> <span class="number">4</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="思路和知识点-7"><a href="#思路和知识点-7" class="headerlink" title="思路和知识点"></a>思路和知识点</h2><p>典型的队列问题。</p>
+<p>这里我们先将$n$个数按照从小到大的顺序以此加入队列，此时我们再每次将$m-1$个数从队前迁移到队尾,那么此时在队伍最前的便是要淘汰的数，输出后直接弹出。</p>
+<p>直到$head &#x3D;&#x3D; tail$结束。</p>
+<h2 id="AC代码-6"><a href="#AC代码-6" class="headerlink" title="AC代码"></a>AC代码</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> queue[<span class="number">100000</span>];</span><br><span class="line"><span class="type">int</span> head = <span class="number">0</span>, tail = <span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">push</span><span class="params">(<span class="type">int</span> x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    queue[tail++] = x;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">pop</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    queue[head++] = <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">front</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> queue[head];</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> n, m;</span><br><span class="line">    cin&gt;&gt;n&gt;&gt;m;</span><br><span class="line">    <span class="keyword">if</span>(n == <span class="number">0</span> &amp;&amp; m == <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        cout&lt;&lt;<span class="string">&quot;1&quot;</span>;</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">push</span>(i);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">while</span>(head != tail)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt; m; i++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="built_in">push</span>(<span class="built_in">front</span>());</span><br><span class="line">            <span class="built_in">pop</span>();</span><br><span class="line">        &#125;</span><br><span class="line">        cout&lt;&lt;<span class="built_in">front</span>()&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">        <span class="built_in">pop</span>();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<hr>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png"></p>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>C语言</tag>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>《洛谷刷题日记》</title>
     <url>/Next/Study/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20-%20%E6%B4%9B%E8%B0%B7%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<h1 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h1><blockquote>
@@ -1223,6 +1019,210 @@
       <tags>
         <tag>C语言</tag>
         <tag>洛谷</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《应用使用指南》存储空间隔离_第1期</title>
+    <url>/Next/HowToUse/%E5%BA%94%E7%94%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20-%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E9%9A%94%E7%A6%BB/</url>
+    <content><![CDATA[<h1 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h1><blockquote>
+<p>作者： 上杉九月</p>
+</blockquote>
+<blockquote>
+<p>头图设计：上杉九月</p>
+</blockquote>
+<blockquote>
+<p>排版及发布：上杉九月</p>
+</blockquote>
+<blockquote>
+<p>感谢提供修改建议: </p>
+<ul>
+<li>酷安@量子米君 </li>
+<li>酷安@苍玄之包</li>
+</ul>
+</blockquote>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h3 id="安卓根目录的混乱现象"><a href="#安卓根目录的混乱现象" class="headerlink" title="安卓根目录的混乱现象"></a>安卓根目录的混乱现象</h3><p>每一次打开文件管理去寻找你所想要的文件，或是在聊天软件给朋友发送文件，总会看到目录里有着大量莫名奇妙的文件夹。一是不方便找到目标文件所在，二是对于强迫症挺不舒服的。</p>
+<p><strong>优化前的根目录，充斥着各种文件夹</strong></p>
+<p>造成这种现象，主要是国内软件厂商不遵守开发规范导致。根据安卓规范，在 <code>Android/data/包名</code> 路径应该保存对应应用的数据文件，<code>Android/obb/包名</code>路径应该保存对应应用的数据包文件。这两个文件夹是用户不应该去访问的，因此安卓11的新规范禁止系统（仅对于定制UI）的文件管理直接访问。如果介意（例如MIUI的默认文件管理）访问受限，可以安装相应的旧版本。</p>
+<h3 id="安卓11的新限制"><a href="#安卓11的新限制" class="headerlink" title="安卓11的新限制"></a>安卓11的新限制</h3><p><strong>如图所示，MIUI的文件管理在一次升级中已经不在允许访问，点击前往查看将会跳转安卓原生的文件管理。</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/1.jpg"></p>
+<p>应用应该将自身数据保存在Android文件夹内部，将用户数据按照分类保存在标准文件夹，但是国内应用大部分不会遵循开发规范，便造成了安卓根目录混乱的现状。</p>
+<h3 id="某些应用开发者的错误理解"><a href="#某些应用开发者的错误理解" class="headerlink" title="某些应用开发者的错误理解"></a>某些应用开发者的错误理解</h3><p>很多应用开发者为了适配安卓11的要求，做出了很多令人迷惑的行为。这里以腾讯的令人迷惑的操作举例。在QQ 8.2.8版本之后，将用户的下载文件位置从根目录更改到了Android文件夹内部，同时也是自身的数据文件夹。这让用户去查看自己下载的文件时十分麻烦。而且QQ在根目录仍然有着许多未知用途的文件夹。</p>
+<h3 id="标准文件夹的示例（MIUI）"><a href="#标准文件夹的示例（MIUI）" class="headerlink" title="标准文件夹的示例（MIUI）"></a>标准文件夹的示例（MIUI）</h3><ul>
+<li>DCIM 保存相机拍摄的照片和视频（MIUI在该文件夹还存储了截图和屏幕录制）</li>
+<li>Documents 保存文档</li>
+<li>Download 保存下载文件</li>
+<li>Fonts 保存字体文件（MIUI系统字体文件保存在主题文件夹中）</li>
+<li>Movie 保存视频文件</li>
+<li>Music 保存音频文件</li>
+<li>Pictures 保存图片文件</li>
+<li>等等</li>
+</ul>
+<p>对于不同的定制系统同时也有自己存放关键系统文件的文件夹，例如MIUI会在根目录建立一个MIUI文件夹，用来存放各种系统软件的缓存文件和数据。</p>
+<h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><ul>
+<li>依靠安卓大版本更新更严格的文件访问策略，强制应用使用更高的targetAPI。</li>
+<li>依靠定制系统完善文件访问限制功能，感觉最近Flyme和MIUI的沙盒已经有了雏形了。</li>
+<li>依靠Rikka开发的存储空间隔离（原名存储重定向），这也是我写本文的目的。</li>
+</ul>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>这款软件在酷安上即有下载，原名存储重定向，现名存储空间隔离。<br>在使用这款软件之前，你需要接受以下的要求</p>
+<ul>
+<li>手机已经获取了root权限</li>
+<li>愿意为这款软件支付一定的费用</li>
+<li>有耐心</li>
+<li>可以接受某些奇奇怪怪的问题</li>
+<li>可以主动寻找问题的解决方法</li>
+</ul>
+<h2 id="第一步-安装必要的环境"><a href="#第一步-安装必要的环境" class="headerlink" title="第一步 安装必要的环境"></a>第一步 安装必要的环境</h2><h3 id="本机的使用环境为"><a href="#本机的使用环境为" class="headerlink" title="本机的使用环境为"></a>本机的使用环境为</h3><ul>
+<li>小米10 MIUI12.5 21.2.3 Simplicity官改</li>
+<li>Magsik 21.4 App 22.0</li>
+</ul>
+<h3 id="模块介绍"><a href="#模块介绍" class="headerlink" title="模块介绍"></a>模块介绍</h3><p><strong>在满足root的环境下，在Magsik模块安装页面，搜索riru关键字便可以看到riru系列模块</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/2.jpg"></p>
+<p><strong>我们这里只安装两个模块</strong></p>
+<p>Riru V23.6</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/4.jpg"></p>
+<p>Riru - Enhanced mode for Storage Isolation V23.6</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/3.jpg"></p>
+<p>这里提醒一下，如果不安装Riru，而先去安装Riru - Enhanced mode for Storage Isolation，将会无法安装。所以请按照顺序安装模块。</p>
+<h2 id="第二步-安装软件并进行基本配置"><a href="#第二步-安装软件并进行基本配置" class="headerlink" title="第二步 安装软件并进行基本配置"></a>第二步 安装软件并进行基本配置</h2><h3 id="下载途径"><a href="#下载途径" class="headerlink" title="下载途径"></a>下载途径</h3><h4 id="在酷安搜索存储空间隔离并下载"><a href="#在酷安搜索存储空间隔离并下载" class="headerlink" title="在酷安搜索存储空间隔离并下载"></a>在酷安搜索存储空间隔离并下载</h4><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/6_02.jpg"></p>
+<h4 id="在Google-Play搜索存储空间隔离并下载"><a href="#在Google-Play搜索存储空间隔离并下载" class="headerlink" title="在Google Play搜索存储空间隔离并下载"></a>在Google Play搜索存储空间隔离并下载</h4><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/6.jpg"></p>
+<p>这里我推荐从Google Play下载，在Play商店购买的该软件，使用同一个谷歌账号可以多设备使用。</p>
+<p>目前软件的内购验证做的很完善，如果你是在Google Play下载，无需登录外网，直接点击恢复购买即可。</p>
+<h3 id="安装过程"><a href="#安装过程" class="headerlink" title="安装过程"></a>安装过程</h3><p><strong>下载完成后打开软件，便显示了软件的基本介绍</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/8.jpg"></p>
+<p><strong>允许存储空间隔离获取Root权限，当出现提示成功时便可以进行下一步了。</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/9.jpg"></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/10.jpg"></p>
+<p>如果出现问题，请按照以上步骤重新安装环境。</p>
+<p>不过有的机型的确是有兼容问题。</p>
+<p><strong>到这一步，就已经安装完成了</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/11.jpg"></p>
+<h3 id="备份文件"><a href="#备份文件" class="headerlink" title="备份文件"></a>备份文件</h3><p>在这里，我会提供一份自己使用，基本没有错误的配置文件，你只需要在备份与还原里还原备份文件即可开始使用。</p>
+<blockquote>
+<p><strong><a href="https://cloud.sakurasep.club/s/wRcq">备份文件_密码0314</a></strong></p>
+</blockquote>
+<p>注意：</p>
+<ul>
+<li>本配置文件的应用可能无法包含你所使用的应用，如果你想达到近乎完美的效果，请继续看下去。</li>
+<li>本配置文件有的地方会有一些问题，你需要自行修改。已知QQ存在侧漏问题。</li>
+</ul>
+<h2 id="第三步-原理解释以及详细配置"><a href="#第三步-原理解释以及详细配置" class="headerlink" title="第三步 原理解释以及详细配置"></a>第三步 原理解释以及详细配置</h2><h3 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h3><p>在存储空间隔离的官网，我们可以找到一些我们所需要的内容</p>
+<blockquote>
+<p><a href="https://sr.rikka.app/zh-hans/">官方网站</a></p>
+</blockquote>
+<p>以下内容是对官网指南的部分摘录以及我自己的理解</p>
+<ul>
+<li>公共文件夹</li>
+</ul>
+<p>DCIM,Pictures,Download 等公共文件夹，用来保存用户的文件，允许应用在此根据需求新建文件夹来保存对应的文件。例如QQ应该将用户下载的文件保存在 <code>Download/QQ</code>，而不是<code>Android/data/包名</code>。</p>
+<p>但是应用对于公共文件夹的访问应该是一次性的，有目的的。例如在QQ发送图片给好友，QQ在获取用户的允许后访问DCIM和Pictures文件夹，发送结束后系统应该收回访问权限。</p>
+<ul>
+<li>数据文件夹</li>
+</ul>
+<p>Android文件夹内部对于用户来说是不应该进行访问的，对于应用来说则是无需授权就能够访问，在此保存应用的数据和缓存。</p>
+<p>遗憾的是，目前原生安卓对于存储权限的选项只有允许和拒绝，此外，国内存在的大量“坏应用”如果被拒绝授权将不会运行。</p>
+<p>存储空间隔离便是为了解决这一乱象而开发，这里感谢Rikka大佬开发了这款应用，在一定程度上很好解决了以上问题。</p>
+<p>一般来说，不规范的应用会在根目录创建各种各样的文件夹。在启用存储空间隔离之后，应用将会在<code>Android/data/包名/sdcard</code> 内保存文件。</p>
+<p>优点如下</p>
+<ul>
+<li>因为卸载应用时只会清理应用的数据文件夹，在对应用进行隔离后，卸载时将会将下载文件和应用数据一并删除</li>
+<li>系统统计应用占用空间大小仅会统计数据文件夹，在对应用进行隔离后，系统统计大小功能将会正常工作</li>
+</ul>
+<h3 id="使用教程"><a href="#使用教程" class="headerlink" title="使用教程"></a>使用教程</h3><h4 id="软件权限"><a href="#软件权限" class="headerlink" title="软件权限"></a>软件权限</h4><p>对于MIUI用户，因为MIUI魔改了很多对于应用的控制权限，这里需要手动为存储空间隔离打开部分权限</p>
+<ul>
+<li>在后台弹出界面</li>
+</ul>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/12.jpg"></p>
+<ul>
+<li>应用自启动以及省电策略</li>
+</ul>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/13.jpg"></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/14.jpg"></p>
+<h4 id="默认存储空间位置"><a href="#默认存储空间位置" class="headerlink" title="默认存储空间位置"></a>默认存储空间位置</h4><p><strong>在软件的设置 - 行为 - 默认隔离存储空间位置中，你有两种选择</strong></p>
+<ul>
+<li>保存在数据文件夹</li>
+<li>保存在缓存文件夹</li>
+<li>缓存文件夹有着和数据文件夹一样的特性，但是缓存文件夹可能被清理软件所清理。这里根据自己的需求吧。一般来说保存在数据文件夹即可。</li>
+</ul>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/15.jpg"></p>
+<h4 id="可访问文件夹模板"><a href="#可访问文件夹模板" class="headerlink" title="可访问文件夹模板"></a>可访问文件夹模板</h4><p>然后回到上一级，在可访问文件夹模板中进行设置<br>在这里所设置的文件夹就是允许应用访问的公共文件夹</p>
+<p><strong>我在默认的基础上添加了对于Movie文件夹的访问</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/16.jpg"></p>
+<p>现在回到主页面，点击应用管理，就可以对应用进行单独设置</p>
+<p><strong>为了避免重定向系统应用带来各种各样的bug，我们先对第三方应用进行配置</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/17.jpg"></p>
+<h3 id="根据需求配置"><a href="#根据需求配置" class="headerlink" title="根据需求配置"></a>根据需求配置</h3><p>白描是一款特别好用的OCR识别和PDF导出应用，这里我们拿它来讲解如何对一款应用重定向。</p>
+<h4 id="需求考虑"><a href="#需求考虑" class="headerlink" title="需求考虑"></a>需求考虑</h4><p>我们应该考虑，这款应用会获取什么信息，因为我常常用它将图片转成PDF格式，所以DCIM（拍摄的图片）和Pictures（下载的图片）是可访问的文件夹。所以说我们对白描设置可访问文件夹为DCIM和Pictures。</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/18.jpg"></p>
+<h4 id="模拟正常使用过程"><a href="#模拟正常使用过程" class="headerlink" title="模拟正常使用过程"></a>模拟正常使用过程</h4><p>使用白描正常导出一次PDF，在查看文件历史里可以看到PDF保存在Download&#x2F;Baimiao中。因为我希望保存在Document&#x2F;白描，所以我们打开白描的Download访问权限（刚才是白描试图访问Download，但是被定向到了数据文件夹内部的Download），重新保存一次PDF，这时白描就会创建此文件夹。</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/19.jpg"></p>
+<h4 id="将隔离的文件同步到标准文件夹"><a href="#将隔离的文件同步到标准文件夹" class="headerlink" title="将隔离的文件同步到标准文件夹"></a>将隔离的文件同步到标准文件夹</h4><p>在导出被隔离的文件中添加同步文件夹规则，来源路径选择Download（新版存储空间隔离导出时会将该应用在目录内的全部文件进行同步）</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/20.jpg"></p>
+<h4 id="4-检查结果"><a href="#4-检查结果" class="headerlink" title="4.检查结果"></a>4.检查结果</h4><p>可以看到PDF文件成功保存到指定位置</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/21.jpg"></p>
+<p>这里很多使用者都会有一个误区-既然我要把文件保存到Documents目录，那么为什么不把Documents设置为可访问的文件夹呢？其实很好解释，你把可访问的文件夹当做读取权限，把导出被隔离的文件当作写入权限，这样就明白了吧。</p>
+<p>但是有些应用是很规范的，他们保存在标准文件夹，所以你应该允许该应用访问。</p>
+<h3 id="应用之间互相访问"><a href="#应用之间互相访问" class="headerlink" title="应用之间互相访问"></a>应用之间互相访问</h3><p>用过存储重定向的老用户都应该遇到过哔哩哔哩的视频分享到QQ，会出现系统繁忙的提示，就算偶尔可能分享成功，视频的封面也不见了。</p>
+<p>这是因为哔哩哔哩老版本在根目录的tv.danmuku.bili存放自己的图片缓存，而对哔哩哔哩和QQ进行隔离后，QQ是访问不到这个文件夹的，就造成了分享失败的问题。</p>
+<p><del>目前这个问题貌似得到了解决，哔哩哔哩在某一个版本对缓存文件的位置做了更改，移动到了数据文件夹，这是一个可能的原因。此外还可能因为哔哩哔哩的分享在QQ上被改为了小程序分享，分享短链接包含了封面地址，所以分享成功进行。</del></p>
+<p><del>因为目前我并没有遇到该问题，所以希望各位可以在评论区反馈你们的使用情况，我会抽时间测试一下对应的软件版本。</del></p>
+<p>好了，最近遇到了这一问题。同时也讲一下解决方案。同类问题都可以按照此思路解决。</p>
+<p>哔哩哔哩的视频想要分享到QQ（空间，联系人等），QQ需要读取哔哩哔哩的封面缓存信息，而因为存储重定向的缘故，QQ无法对你允许访问文件夹之外的内容进行读取和写入操作，这就导致了分享的失败。所以为了解决这一问题，首先通过文件历史找到正常情况下哔哩哔哩的缓存保存位置。最新版缓存保存位置在 <code>Android/data/tv.danmaku.bili/files/Images</code> 。然后在QQ可访问的文件夹，在其他应用的文件夹中创建新的规则。</p>
+<p><strong>如下图所示。</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/22.jpg"></p>
+<h3 id="最终的清理"><a href="#最终的清理" class="headerlink" title="最终的清理"></a>最终的清理</h3><p>按照以上的例子，对用户应用一一设置。设置完成之后，删除除了标准文件夹的所有冗余文件，正常使用一段时间，你会发现根目录仍然会有一些文件夹，这时候就需要精准定位。</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/23.jpg"></p>
+<p>如上图所示，比如说我们想知道<code>com.miui.voiceassist</code>(其实很明显，是小爱同学，但请假装不知道)是由哪一个应用创建。</p>
+<p><strong>我们将文件夹名复制，在文件监视中粘贴。</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/24.jpg"></p>
+<p>然后就会显示有那些应用对该文件夹进行读取或者是写入。</p>
+<p>不过我们要清楚读取和写入的区别，比如说这里显示了媒体存储设备对该文件夹的访问，而我们了解一点相关内容便可以知道个该软件是在扫描各个文件夹来查找媒体文件，并没有进行写入，所以文件夹不是由它创建。</p>
+<p><strong>向下拉便可以找到小爱同学的文件访问记录。</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/25.jpg"></p>
+<p><strong>现在点击小爱同学，对其进行隔离。</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/26.jpg"></p>
+<h3 id="或许会更完美"><a href="#或许会更完美" class="headerlink" title="或许会更完美"></a>或许会更完美</h3><h4 id="解决某些文件无法读取媒体文件的问题"><a href="#解决某些文件无法读取媒体文件的问题" class="headerlink" title="解决某些文件无法读取媒体文件的问题"></a>解决某些文件无法读取媒体文件的问题</h4><p>在安卓11使用存储空间隔离会导致导出的媒体文件不在软件显示的问题。实际举例（QQ发送图片无法获取导出的媒体文件）。</p>
+<p><strong><a href="https://www.coolapk.com/feed/24310395?shareKey=NDVlZDZkYjUzNDBmNjA0Y2I2NmU~&shareUid=3334957&shareFrom=com.coolapk.market_11.0.3">酷安@余空_Yuk</a></strong></p>
+<p>开发的给安卓11启用sdcardfs的模块可以解决这一问题。</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/27.jpg"></p>
+<h4 id="2-解决下载文件被某些应用存储在Android目录的问题"><a href="#2-解决下载文件被某些应用存储在Android目录的问题" class="headerlink" title="2. 解决下载文件被某些应用存储在Android目录的问题"></a>2. 解决下载文件被某些应用存储在Android目录的问题</h4><p>QQ这类将用户下载的文件保存在数据文件夹的应用</p>
+<p>**<a href="https://www.coolapk.com/feed/24654978?shareKey=MzIxM2M0ZDcxYmE2NjA0Y2I3MzU~&shareUid=3334957&shareFrom=com.coolapk.market_11.0.3">酷安@阿巴酱</a>**给出了一种解决方案。</p>
+<p>我采用的是Rikka开发的另一款应用-保存副本</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/28.jpg"></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/29.jpg"></p>
+<p><strong>当你在QQ下载文件之后，只需要在打开方式里选择保存副本，软件就可以在Download目录复制一份相同的文件。</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/30.jpg"></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/31.jpg"></p>
+<h2 id="第四步-效果展示"><a href="#第四步-效果展示" class="headerlink" title="第四步 效果展示"></a>第四步 效果展示</h2><p>这里我自己把Malody的谱面文件存在了Map文件夹。</p>
+<p>miad这一个空文件是为了防止MIUI的应用开屏广告产生（直接卸载掉智能服务<code>com.miui.systemAdSolution</code>即可。可以使用搞机助手进行卸载。一直用官改，不知道MIUI将广告服务集成在此应用里，感谢<strong>酷安@水水水淼</strong>的建议）</p>
+<p>mm是Magsik的MM管理器</p>
+<p><strong>如果和文章开头对比一下，可以说是强迫症狂喜。</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/32.jpg"></p>
+<h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>简单说一些东西吧</p>
+<h2 id="个人情况"><a href="#个人情况" class="headerlink" title="个人情况"></a>个人情况</h2><p>我在寒假里策划了很多内容，从这一篇文章开始，我会逐渐向给各位展示我策划的优质内容。</p>
+<h2 id="新的开始"><a href="#新的开始" class="headerlink" title="新的开始"></a>新的开始</h2><p>这算是一个新坑，目的就是向各位推荐一些优质的应用，他们真的可以方便你的生活。目前我的更新频率（如果没有什么意外的话基本就是一个月更新两次，一次是安卓上的应用，一次是PC上的应用），毕竟我刚进入大学，自己安排了很多学习的内容，时间并不是很充裕，保证质量是第一位（还有要填坑）。</p>
+<h2 id="欢迎交流"><a href="#欢迎交流" class="headerlink" title="欢迎交流"></a>欢迎交流</h2><p>这些应用对于各位来说有的可能没用过，有的可能早就熟练上手。我希望我写的图文可以帮助小白零基础上手优质应用，从而提高效率。同时期待和各路大佬交流使用心得，不断完善文章内容和呈现形式。</p>
+<p>在这里我也会虚心听取意见，无论是对图文内容的建议，或是对某些优质应用的推荐等等。</p>
+<h1 id="多平台发布"><a href="#多平台发布" class="headerlink" title="多平台发布"></a>多平台发布</h1><p>周六晚八点：</p>
+<ul>
+<li><a href="https://blog.sakurasep.site/">个人博客</a></li>
+</ul>
+<p>周日晚八点：</p>
+<ul>
+<li>Bilibili专栏：上杉九月</li>
+<li>微信公众号：上杉九月的知识屋</li>
+<li>Weibo：上杉九月</li>
+<li>酷安：上杉九月</li>
+</ul>
+<hr>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png"></p>
+]]></content>
+      <categories>
+        <category>应用使用指南</category>
+      </categories>
+      <tags>
+        <tag>零基础</tag>
+        <tag>应用使用指南</tag>
+        <tag>安卓</tag>
       </tags>
   </entry>
   <entry>
