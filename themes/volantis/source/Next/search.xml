@@ -47,8 +47,56 @@
       </tags>
   </entry>
   <entry>
+    <title>《零基础教程》云服务器实现定时签到_第1期</title>
+    <url>/Next/HowToDo/%E9%9B%B6%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B%20-%20%E6%99%BA%E6%85%A7%E6%9B%B2%E5%9B%AD%E8%87%AA%E5%8A%A8%E6%89%93%E5%8D%A1%E4%BA%91%E7%AB%AF/</url>
+    <content><![CDATA[<h2 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h2><blockquote>
+<p>作者：上杉九月</p>
+<p>排版及发布：上杉九月</p>
+<p>项目原作者：Polo</p>
+<p><strong>本篇教程在腾讯云会出现问题，请等待更新！</strong></p>
+</blockquote>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>每日健康提交？要不是不交，要不是随便填。</p>
+<p>意义何在？</p>
+<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><blockquote>
+<p>原贴:<a href="https://polosec.github.io/2021/01/19/server%E9%85%B1%E5%AE%9E%E7%8E%B0%E7%AD%BE%E5%88%B0%E6%8F%90%E9%86%92/">Polo’s Blog 智慧曲园自动签到+微信推送</a></p>
+</blockquote>
+<blockquote>
+<p>github项目地址:<a href="https://github.com/polosec/qfnuAutoTemperatureSubmit">qfnuAutoTemperatureSubmit</a></p>
+</blockquote>
+<h3 id="1-需要准备"><a href="#1-需要准备" class="headerlink" title="1.需要准备"></a>1.需要准备</h3><ul>
+<li>云服务器（使用宝塔面板）</li>
+<li>配置好的python脚本 或者 项目原脚本</li>
+</ul>
+<h3 id="2-开始配置"><a href="#2-开始配置" class="headerlink" title="2.开始配置"></a>2.开始配置</h3><p>在宝塔面板的文件管理中新建文件夹用来存放项目的脚本文件。</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/1.jpg"></p>
+<h4 id="方案一：对python脚本进行单独配置"><a href="#方案一：对python脚本进行单独配置" class="headerlink" title="方案一：对python脚本进行单独配置"></a>方案一：对python脚本进行单独配置</h4><p>如图所示是我们宿舍四人的python脚本</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/2.jpg"></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/3.jpg"></p>
+<p>所以此时的脚本执行命令为</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">python3 /www/wwwroot/qfnuAutoTemperatureSubmit/xxx.py</span><br></pre></td></tr></table></figure>
+
+
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/4.jpg"></p>
+<h4 id="方案二：使用原python文件"><a href="#方案二：使用原python文件" class="headerlink" title="方案二：使用原python文件"></a>方案二：使用原python文件</h4><p>直接将demo1.py放在文件夹内<br>此时命令变为</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">python3 /www/wwwroot/qfnuAutoTemperatureSubmit/demo1.py 学号 密码</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-注意事项"><a href="#3-注意事项" class="headerlink" title="3.注意事项"></a>3.注意事项</h3><p>执行python脚本报错的话</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/5.png"></p>
+<hr>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png"></p>
+]]></content>
+      <categories>
+        <category>零基础教程</category>
+      </categories>
+      <tags>
+        <tag>零基础</tag>
+        <tag>Python</tag>
+        <tag>云服务器</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>博客日志-记录博客最新动态</title>
-    <url>/Next/About/%E5%8D%9A%E5%AE%A2%E5%85%AC%E5%91%8A%20-%20%E4%B8%8A%E6%9D%89%E4%B9%9D%E6%9C%88%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
+    <url>/Next/HexoAbout/%E5%8D%9A%E5%AE%A2%E5%85%AC%E5%91%8A%20-%20%E4%B8%8A%E6%9D%89%E4%B9%9D%E6%9C%88%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>如遇到问题请留言，谢谢支持。</p>
 <p>这里我想要感谢</p>
 <blockquote>
@@ -325,54 +373,6 @@
       </tags>
   </entry>
   <entry>
-    <title>《零基础教程》云服务器实现定时签到_第1期</title>
-    <url>/Next/HowToDo/%E9%9B%B6%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B%20-%20%E6%99%BA%E6%85%A7%E6%9B%B2%E5%9B%AD%E8%87%AA%E5%8A%A8%E6%89%93%E5%8D%A1%E4%BA%91%E7%AB%AF/</url>
-    <content><![CDATA[<h2 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h2><blockquote>
-<p>作者：上杉九月</p>
-<p>排版及发布：上杉九月</p>
-<p>项目原作者：Polo</p>
-<p><strong>本篇教程在腾讯云会出现问题，请等待更新！</strong></p>
-</blockquote>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>每日健康提交？要不是不交，要不是随便填。</p>
-<p>意义何在？</p>
-<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><blockquote>
-<p>原贴:<a href="https://polosec.github.io/2021/01/19/server%E9%85%B1%E5%AE%9E%E7%8E%B0%E7%AD%BE%E5%88%B0%E6%8F%90%E9%86%92/">Polo’s Blog 智慧曲园自动签到+微信推送</a></p>
-</blockquote>
-<blockquote>
-<p>github项目地址:<a href="https://github.com/polosec/qfnuAutoTemperatureSubmit">qfnuAutoTemperatureSubmit</a></p>
-</blockquote>
-<h3 id="1-需要准备"><a href="#1-需要准备" class="headerlink" title="1.需要准备"></a>1.需要准备</h3><ul>
-<li>云服务器（使用宝塔面板）</li>
-<li>配置好的python脚本 或者 项目原脚本</li>
-</ul>
-<h3 id="2-开始配置"><a href="#2-开始配置" class="headerlink" title="2.开始配置"></a>2.开始配置</h3><p>在宝塔面板的文件管理中新建文件夹用来存放项目的脚本文件。</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/1.jpg"></p>
-<h4 id="方案一：对python脚本进行单独配置"><a href="#方案一：对python脚本进行单独配置" class="headerlink" title="方案一：对python脚本进行单独配置"></a>方案一：对python脚本进行单独配置</h4><p>如图所示是我们宿舍四人的python脚本</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/2.jpg"></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/3.jpg"></p>
-<p>所以此时的脚本执行命令为</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">python3 /www/wwwroot/qfnuAutoTemperatureSubmit/xxx.py</span><br></pre></td></tr></table></figure>
-
-
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/4.jpg"></p>
-<h4 id="方案二：使用原python文件"><a href="#方案二：使用原python文件" class="headerlink" title="方案二：使用原python文件"></a>方案二：使用原python文件</h4><p>直接将demo1.py放在文件夹内<br>此时命令变为</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">python3 /www/wwwroot/qfnuAutoTemperatureSubmit/demo1.py 学号 密码</span><br></pre></td></tr></table></figure>
-
-<h3 id="3-注意事项"><a href="#3-注意事项" class="headerlink" title="3.注意事项"></a>3.注意事项</h3><p>执行python脚本报错的话</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/5.png"></p>
-<hr>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png"></p>
-]]></content>
-      <categories>
-        <category>零基础教程</category>
-      </categories>
-      <tags>
-        <tag>零基础</tag>
-        <tag>云服务器</tag>
-        <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>《应用使用指南》Perfdog_第2期</title>
     <url>/Next/HowToUse/%E5%BA%94%E7%94%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20-%20Perfdog/</url>
     <content><![CDATA[<h1 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h1><blockquote>
@@ -569,6 +569,436 @@
         <tag>零基础</tag>
         <tag>PC</tag>
         <tag>应用使用指南</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《应用使用指南》存储空间隔离_第1期</title>
+    <url>/Next/HowToUse/%E5%BA%94%E7%94%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20-%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E9%9A%94%E7%A6%BB/</url>
+    <content><![CDATA[<h1 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h1><blockquote>
+<p>作者： 上杉九月</p>
+</blockquote>
+<blockquote>
+<p>头图设计：上杉九月</p>
+</blockquote>
+<blockquote>
+<p>排版及发布：上杉九月</p>
+</blockquote>
+<blockquote>
+<p>感谢提供修改建议: </p>
+<ul>
+<li>酷安@量子米君 </li>
+<li>酷安@苍玄之包</li>
+</ul>
+</blockquote>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h3 id="安卓根目录的混乱现象"><a href="#安卓根目录的混乱现象" class="headerlink" title="安卓根目录的混乱现象"></a>安卓根目录的混乱现象</h3><p>每一次打开文件管理去寻找你所想要的文件，或是在聊天软件给朋友发送文件，总会看到目录里有着大量莫名奇妙的文件夹。一是不方便找到目标文件所在，二是对于强迫症挺不舒服的。</p>
+<p><strong>优化前的根目录，充斥着各种文件夹</strong></p>
+<p>造成这种现象，主要是国内软件厂商不遵守开发规范导致。根据安卓规范，在 <code>Android/data/包名</code> 路径应该保存对应应用的数据文件，<code>Android/obb/包名</code>路径应该保存对应应用的数据包文件。这两个文件夹是用户不应该去访问的，因此安卓11的新规范禁止系统（仅对于定制UI）的文件管理直接访问。如果介意（例如MIUI的默认文件管理）访问受限，可以安装相应的旧版本。</p>
+<h3 id="安卓11的新限制"><a href="#安卓11的新限制" class="headerlink" title="安卓11的新限制"></a>安卓11的新限制</h3><p><strong>如图所示，MIUI的文件管理在一次升级中已经不在允许访问，点击前往查看将会跳转安卓原生的文件管理。</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/1.jpg"></p>
+<p>应用应该将自身数据保存在Android文件夹内部，将用户数据按照分类保存在标准文件夹，但是国内应用大部分不会遵循开发规范，便造成了安卓根目录混乱的现状。</p>
+<h3 id="某些应用开发者的错误理解"><a href="#某些应用开发者的错误理解" class="headerlink" title="某些应用开发者的错误理解"></a>某些应用开发者的错误理解</h3><p>很多应用开发者为了适配安卓11的要求，做出了很多令人迷惑的行为。这里以腾讯的令人迷惑的操作举例。在QQ 8.2.8版本之后，将用户的下载文件位置从根目录更改到了Android文件夹内部，同时也是自身的数据文件夹。这让用户去查看自己下载的文件时十分麻烦。而且QQ在根目录仍然有着许多未知用途的文件夹。</p>
+<h3 id="标准文件夹的示例（MIUI）"><a href="#标准文件夹的示例（MIUI）" class="headerlink" title="标准文件夹的示例（MIUI）"></a>标准文件夹的示例（MIUI）</h3><ul>
+<li>DCIM 保存相机拍摄的照片和视频（MIUI在该文件夹还存储了截图和屏幕录制）</li>
+<li>Documents 保存文档</li>
+<li>Download 保存下载文件</li>
+<li>Fonts 保存字体文件（MIUI系统字体文件保存在主题文件夹中）</li>
+<li>Movie 保存视频文件</li>
+<li>Music 保存音频文件</li>
+<li>Pictures 保存图片文件</li>
+<li>等等</li>
+</ul>
+<p>对于不同的定制系统同时也有自己存放关键系统文件的文件夹，例如MIUI会在根目录建立一个MIUI文件夹，用来存放各种系统软件的缓存文件和数据。</p>
+<h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><ul>
+<li>依靠安卓大版本更新更严格的文件访问策略，强制应用使用更高的targetAPI。</li>
+<li>依靠定制系统完善文件访问限制功能，感觉最近Flyme和MIUI的沙盒已经有了雏形了。</li>
+<li>依靠Rikka开发的存储空间隔离（原名存储重定向），这也是我写本文的目的。</li>
+</ul>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>这款软件在酷安上即有下载，原名存储重定向，现名存储空间隔离。<br>在使用这款软件之前，你需要接受以下的要求</p>
+<ul>
+<li>手机已经获取了root权限</li>
+<li>愿意为这款软件支付一定的费用</li>
+<li>有耐心</li>
+<li>可以接受某些奇奇怪怪的问题</li>
+<li>可以主动寻找问题的解决方法</li>
+</ul>
+<h2 id="第一步-安装必要的环境"><a href="#第一步-安装必要的环境" class="headerlink" title="第一步 安装必要的环境"></a>第一步 安装必要的环境</h2><h3 id="本机的使用环境为"><a href="#本机的使用环境为" class="headerlink" title="本机的使用环境为"></a>本机的使用环境为</h3><ul>
+<li>小米10 MIUI12.5 21.2.3 Simplicity官改</li>
+<li>Magsik 21.4 App 22.0</li>
+</ul>
+<h3 id="模块介绍"><a href="#模块介绍" class="headerlink" title="模块介绍"></a>模块介绍</h3><p><strong>在满足root的环境下，在Magsik模块安装页面，搜索riru关键字便可以看到riru系列模块</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/2.jpg"></p>
+<p><strong>我们这里只安装两个模块</strong></p>
+<p>Riru V23.6</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/4.jpg"></p>
+<p>Riru - Enhanced mode for Storage Isolation V23.6</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/3.jpg"></p>
+<p>这里提醒一下，如果不安装Riru，而先去安装Riru - Enhanced mode for Storage Isolation，将会无法安装。所以请按照顺序安装模块。</p>
+<h2 id="第二步-安装软件并进行基本配置"><a href="#第二步-安装软件并进行基本配置" class="headerlink" title="第二步 安装软件并进行基本配置"></a>第二步 安装软件并进行基本配置</h2><h3 id="下载途径"><a href="#下载途径" class="headerlink" title="下载途径"></a>下载途径</h3><h4 id="在酷安搜索存储空间隔离并下载"><a href="#在酷安搜索存储空间隔离并下载" class="headerlink" title="在酷安搜索存储空间隔离并下载"></a>在酷安搜索存储空间隔离并下载</h4><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/6_02.jpg"></p>
+<h4 id="在Google-Play搜索存储空间隔离并下载"><a href="#在Google-Play搜索存储空间隔离并下载" class="headerlink" title="在Google Play搜索存储空间隔离并下载"></a>在Google Play搜索存储空间隔离并下载</h4><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/6.jpg"></p>
+<p>这里我推荐从Google Play下载，在Play商店购买的该软件，使用同一个谷歌账号可以多设备使用。</p>
+<p>目前软件的内购验证做的很完善，如果你是在Google Play下载，无需登录外网，直接点击恢复购买即可。</p>
+<h3 id="安装过程"><a href="#安装过程" class="headerlink" title="安装过程"></a>安装过程</h3><p><strong>下载完成后打开软件，便显示了软件的基本介绍</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/8.jpg"></p>
+<p><strong>允许存储空间隔离获取Root权限，当出现提示成功时便可以进行下一步了。</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/9.jpg"></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/10.jpg"></p>
+<p>如果出现问题，请按照以上步骤重新安装环境。</p>
+<p>不过有的机型的确是有兼容问题。</p>
+<p><strong>到这一步，就已经安装完成了</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/11.jpg"></p>
+<h3 id="备份文件"><a href="#备份文件" class="headerlink" title="备份文件"></a>备份文件</h3><p>在这里，我会提供一份自己使用，基本没有错误的配置文件，你只需要在备份与还原里还原备份文件即可开始使用。</p>
+<blockquote>
+<p><strong><a href="https://cloud.sakurasep.club/s/wRcq">备份文件_密码0314</a></strong></p>
+</blockquote>
+<p>注意：</p>
+<ul>
+<li>本配置文件的应用可能无法包含你所使用的应用，如果你想达到近乎完美的效果，请继续看下去。</li>
+<li>本配置文件有的地方会有一些问题，你需要自行修改。已知QQ存在侧漏问题。</li>
+</ul>
+<h2 id="第三步-原理解释以及详细配置"><a href="#第三步-原理解释以及详细配置" class="headerlink" title="第三步 原理解释以及详细配置"></a>第三步 原理解释以及详细配置</h2><h3 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h3><p>在存储空间隔离的官网，我们可以找到一些我们所需要的内容</p>
+<blockquote>
+<p><a href="https://sr.rikka.app/zh-hans/">官方网站</a></p>
+</blockquote>
+<p>以下内容是对官网指南的部分摘录以及我自己的理解</p>
+<ul>
+<li>公共文件夹</li>
+</ul>
+<p>DCIM,Pictures,Download 等公共文件夹，用来保存用户的文件，允许应用在此根据需求新建文件夹来保存对应的文件。例如QQ应该将用户下载的文件保存在 <code>Download/QQ</code>，而不是<code>Android/data/包名</code>。</p>
+<p>但是应用对于公共文件夹的访问应该是一次性的，有目的的。例如在QQ发送图片给好友，QQ在获取用户的允许后访问DCIM和Pictures文件夹，发送结束后系统应该收回访问权限。</p>
+<ul>
+<li>数据文件夹</li>
+</ul>
+<p>Android文件夹内部对于用户来说是不应该进行访问的，对于应用来说则是无需授权就能够访问，在此保存应用的数据和缓存。</p>
+<p>遗憾的是，目前原生安卓对于存储权限的选项只有允许和拒绝，此外，国内存在的大量“坏应用”如果被拒绝授权将不会运行。</p>
+<p>存储空间隔离便是为了解决这一乱象而开发，这里感谢Rikka大佬开发了这款应用，在一定程度上很好解决了以上问题。</p>
+<p>一般来说，不规范的应用会在根目录创建各种各样的文件夹。在启用存储空间隔离之后，应用将会在<code>Android/data/包名/sdcard</code> 内保存文件。</p>
+<p>优点如下</p>
+<ul>
+<li>因为卸载应用时只会清理应用的数据文件夹，在对应用进行隔离后，卸载时将会将下载文件和应用数据一并删除</li>
+<li>系统统计应用占用空间大小仅会统计数据文件夹，在对应用进行隔离后，系统统计大小功能将会正常工作</li>
+</ul>
+<h3 id="使用教程"><a href="#使用教程" class="headerlink" title="使用教程"></a>使用教程</h3><h4 id="软件权限"><a href="#软件权限" class="headerlink" title="软件权限"></a>软件权限</h4><p>对于MIUI用户，因为MIUI魔改了很多对于应用的控制权限，这里需要手动为存储空间隔离打开部分权限</p>
+<ul>
+<li>在后台弹出界面</li>
+</ul>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/12.jpg"></p>
+<ul>
+<li>应用自启动以及省电策略</li>
+</ul>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/13.jpg"></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/14.jpg"></p>
+<h4 id="默认存储空间位置"><a href="#默认存储空间位置" class="headerlink" title="默认存储空间位置"></a>默认存储空间位置</h4><p><strong>在软件的设置 - 行为 - 默认隔离存储空间位置中，你有两种选择</strong></p>
+<ul>
+<li>保存在数据文件夹</li>
+<li>保存在缓存文件夹</li>
+<li>缓存文件夹有着和数据文件夹一样的特性，但是缓存文件夹可能被清理软件所清理。这里根据自己的需求吧。一般来说保存在数据文件夹即可。</li>
+</ul>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/15.jpg"></p>
+<h4 id="可访问文件夹模板"><a href="#可访问文件夹模板" class="headerlink" title="可访问文件夹模板"></a>可访问文件夹模板</h4><p>然后回到上一级，在可访问文件夹模板中进行设置<br>在这里所设置的文件夹就是允许应用访问的公共文件夹</p>
+<p><strong>我在默认的基础上添加了对于Movie文件夹的访问</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/16.jpg"></p>
+<p>现在回到主页面，点击应用管理，就可以对应用进行单独设置</p>
+<p><strong>为了避免重定向系统应用带来各种各样的bug，我们先对第三方应用进行配置</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/17.jpg"></p>
+<h3 id="根据需求配置"><a href="#根据需求配置" class="headerlink" title="根据需求配置"></a>根据需求配置</h3><p>白描是一款特别好用的OCR识别和PDF导出应用，这里我们拿它来讲解如何对一款应用重定向。</p>
+<h4 id="需求考虑"><a href="#需求考虑" class="headerlink" title="需求考虑"></a>需求考虑</h4><p>我们应该考虑，这款应用会获取什么信息，因为我常常用它将图片转成PDF格式，所以DCIM（拍摄的图片）和Pictures（下载的图片）是可访问的文件夹。所以说我们对白描设置可访问文件夹为DCIM和Pictures。</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/18.jpg"></p>
+<h4 id="模拟正常使用过程"><a href="#模拟正常使用过程" class="headerlink" title="模拟正常使用过程"></a>模拟正常使用过程</h4><p>使用白描正常导出一次PDF，在查看文件历史里可以看到PDF保存在Download&#x2F;Baimiao中。因为我希望保存在Document&#x2F;白描，所以我们打开白描的Download访问权限（刚才是白描试图访问Download，但是被定向到了数据文件夹内部的Download），重新保存一次PDF，这时白描就会创建此文件夹。</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/19.jpg"></p>
+<h4 id="将隔离的文件同步到标准文件夹"><a href="#将隔离的文件同步到标准文件夹" class="headerlink" title="将隔离的文件同步到标准文件夹"></a>将隔离的文件同步到标准文件夹</h4><p>在导出被隔离的文件中添加同步文件夹规则，来源路径选择Download（新版存储空间隔离导出时会将该应用在目录内的全部文件进行同步）</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/20.jpg"></p>
+<h4 id="4-检查结果"><a href="#4-检查结果" class="headerlink" title="4.检查结果"></a>4.检查结果</h4><p>可以看到PDF文件成功保存到指定位置</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/21.jpg"></p>
+<p>这里很多使用者都会有一个误区-既然我要把文件保存到Documents目录，那么为什么不把Documents设置为可访问的文件夹呢？其实很好解释，你把可访问的文件夹当做读取权限，把导出被隔离的文件当作写入权限，这样就明白了吧。</p>
+<p>但是有些应用是很规范的，他们保存在标准文件夹，所以你应该允许该应用访问。</p>
+<h3 id="应用之间互相访问"><a href="#应用之间互相访问" class="headerlink" title="应用之间互相访问"></a>应用之间互相访问</h3><p>用过存储重定向的老用户都应该遇到过哔哩哔哩的视频分享到QQ，会出现系统繁忙的提示，就算偶尔可能分享成功，视频的封面也不见了。</p>
+<p>这是因为哔哩哔哩老版本在根目录的tv.danmuku.bili存放自己的图片缓存，而对哔哩哔哩和QQ进行隔离后，QQ是访问不到这个文件夹的，就造成了分享失败的问题。</p>
+<p><del>目前这个问题貌似得到了解决，哔哩哔哩在某一个版本对缓存文件的位置做了更改，移动到了数据文件夹，这是一个可能的原因。此外还可能因为哔哩哔哩的分享在QQ上被改为了小程序分享，分享短链接包含了封面地址，所以分享成功进行。</del></p>
+<p><del>因为目前我并没有遇到该问题，所以希望各位可以在评论区反馈你们的使用情况，我会抽时间测试一下对应的软件版本。</del></p>
+<p>好了，最近遇到了这一问题。同时也讲一下解决方案。同类问题都可以按照此思路解决。</p>
+<p>哔哩哔哩的视频想要分享到QQ（空间，联系人等），QQ需要读取哔哩哔哩的封面缓存信息，而因为存储重定向的缘故，QQ无法对你允许访问文件夹之外的内容进行读取和写入操作，这就导致了分享的失败。所以为了解决这一问题，首先通过文件历史找到正常情况下哔哩哔哩的缓存保存位置。最新版缓存保存位置在 <code>Android/data/tv.danmaku.bili/files/Images</code> 。然后在QQ可访问的文件夹，在其他应用的文件夹中创建新的规则。</p>
+<p><strong>如下图所示。</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/22.jpg"></p>
+<h3 id="最终的清理"><a href="#最终的清理" class="headerlink" title="最终的清理"></a>最终的清理</h3><p>按照以上的例子，对用户应用一一设置。设置完成之后，删除除了标准文件夹的所有冗余文件，正常使用一段时间，你会发现根目录仍然会有一些文件夹，这时候就需要精准定位。</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/23.jpg"></p>
+<p>如上图所示，比如说我们想知道<code>com.miui.voiceassist</code>(其实很明显，是小爱同学，但请假装不知道)是由哪一个应用创建。</p>
+<p><strong>我们将文件夹名复制，在文件监视中粘贴。</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/24.jpg"></p>
+<p>然后就会显示有那些应用对该文件夹进行读取或者是写入。</p>
+<p>不过我们要清楚读取和写入的区别，比如说这里显示了媒体存储设备对该文件夹的访问，而我们了解一点相关内容便可以知道个该软件是在扫描各个文件夹来查找媒体文件，并没有进行写入，所以文件夹不是由它创建。</p>
+<p><strong>向下拉便可以找到小爱同学的文件访问记录。</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/25.jpg"></p>
+<p><strong>现在点击小爱同学，对其进行隔离。</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/26.jpg"></p>
+<h3 id="或许会更完美"><a href="#或许会更完美" class="headerlink" title="或许会更完美"></a>或许会更完美</h3><h4 id="解决某些文件无法读取媒体文件的问题"><a href="#解决某些文件无法读取媒体文件的问题" class="headerlink" title="解决某些文件无法读取媒体文件的问题"></a>解决某些文件无法读取媒体文件的问题</h4><p>在安卓11使用存储空间隔离会导致导出的媒体文件不在软件显示的问题。实际举例（QQ发送图片无法获取导出的媒体文件）。</p>
+<p><strong><a href="https://www.coolapk.com/feed/24310395?shareKey=NDVlZDZkYjUzNDBmNjA0Y2I2NmU~&shareUid=3334957&shareFrom=com.coolapk.market_11.0.3">酷安@余空_Yuk</a></strong></p>
+<p>开发的给安卓11启用sdcardfs的模块可以解决这一问题。</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/27.jpg"></p>
+<h4 id="2-解决下载文件被某些应用存储在Android目录的问题"><a href="#2-解决下载文件被某些应用存储在Android目录的问题" class="headerlink" title="2. 解决下载文件被某些应用存储在Android目录的问题"></a>2. 解决下载文件被某些应用存储在Android目录的问题</h4><p>QQ这类将用户下载的文件保存在数据文件夹的应用</p>
+<p>**<a href="https://www.coolapk.com/feed/24654978?shareKey=MzIxM2M0ZDcxYmE2NjA0Y2I3MzU~&shareUid=3334957&shareFrom=com.coolapk.market_11.0.3">酷安@阿巴酱</a>**给出了一种解决方案。</p>
+<p>我采用的是Rikka开发的另一款应用-保存副本</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/28.jpg"></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/29.jpg"></p>
+<p><strong>当你在QQ下载文件之后，只需要在打开方式里选择保存副本，软件就可以在Download目录复制一份相同的文件。</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/30.jpg"></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/31.jpg"></p>
+<h2 id="第四步-效果展示"><a href="#第四步-效果展示" class="headerlink" title="第四步 效果展示"></a>第四步 效果展示</h2><p>这里我自己把Malody的谱面文件存在了Map文件夹。</p>
+<p>miad这一个空文件是为了防止MIUI的应用开屏广告产生（直接卸载掉智能服务<code>com.miui.systemAdSolution</code>即可。可以使用搞机助手进行卸载。一直用官改，不知道MIUI将广告服务集成在此应用里，感谢<strong>酷安@水水水淼</strong>的建议）</p>
+<p>mm是Magsik的MM管理器</p>
+<p><strong>如果和文章开头对比一下，可以说是强迫症狂喜。</strong></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/32.jpg"></p>
+<h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>简单说一些东西吧</p>
+<h2 id="个人情况"><a href="#个人情况" class="headerlink" title="个人情况"></a>个人情况</h2><p>我在寒假里策划了很多内容，从这一篇文章开始，我会逐渐向给各位展示我策划的优质内容。</p>
+<h2 id="新的开始"><a href="#新的开始" class="headerlink" title="新的开始"></a>新的开始</h2><p>这算是一个新坑，目的就是向各位推荐一些优质的应用，他们真的可以方便你的生活。目前我的更新频率（如果没有什么意外的话基本就是一个月更新两次，一次是安卓上的应用，一次是PC上的应用），毕竟我刚进入大学，自己安排了很多学习的内容，时间并不是很充裕，保证质量是第一位（还有要填坑）。</p>
+<h2 id="欢迎交流"><a href="#欢迎交流" class="headerlink" title="欢迎交流"></a>欢迎交流</h2><p>这些应用对于各位来说有的可能没用过，有的可能早就熟练上手。我希望我写的图文可以帮助小白零基础上手优质应用，从而提高效率。同时期待和各路大佬交流使用心得，不断完善文章内容和呈现形式。</p>
+<p>在这里我也会虚心听取意见，无论是对图文内容的建议，或是对某些优质应用的推荐等等。</p>
+<h1 id="多平台发布"><a href="#多平台发布" class="headerlink" title="多平台发布"></a>多平台发布</h1><p>周六晚八点：</p>
+<ul>
+<li><a href="https://blog.sakurasep.site/">个人博客</a></li>
+</ul>
+<p>周日晚八点：</p>
+<ul>
+<li>Bilibili专栏：上杉九月</li>
+<li>微信公众号：上杉九月的知识屋</li>
+<li>Weibo：上杉九月</li>
+<li>酷安：上杉九月</li>
+</ul>
+<hr>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png"></p>
+]]></content>
+      <categories>
+        <category>应用使用指南</category>
+      </categories>
+      <tags>
+        <tag>零基础</tag>
+        <tag>应用使用指南</tag>
+        <tag>安卓</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的2020年度总结</title>
+    <url>/Next/Year/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%20-%202020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</url>
+    <content><![CDATA[<h1 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h1><blockquote>
+<p>作者：上杉九月</p>
+<p>排版与发布：上杉九月</p>
+</blockquote>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>咕咕咕了好久的2020年度总结终于来啦！</p>
+<p>～～才不是因为我懒～～</p>
+<p>本文中所有内容截止于2021.1.1日</p>
+<p>未来，一定更精彩！</p>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="第一阶段-高三下学期–高考"><a href="#第一阶段-高三下学期–高考" class="headerlink" title="第一阶段 高三下学期–高考"></a>第一阶段 高三下学期–高考</h2><p>紧张的学习生活，每天基本都是两点一线的路线。</p>
+<p>枯燥的学习生活，在最后的高考100天尤为如此，从周考到天天做不完的卷子。</p>
+<p>温暖的学习生活，在向着理想的大学奋斗的路上，感谢每一位同学的陪伴，感谢老班的悉心辅导，感谢每一位老师的辛苦付出，满满的回忆。</p>
+<p>终究有一个好结果。</p>
+<p>下一个人生阶段，在曲师大度过。</p>
+<h2 id="第二阶段-暑假"><a href="#第二阶段-暑假" class="headerlink" title="第二阶段 暑假"></a>第二阶段 暑假</h2><p>放下了高三的压力，暑假便成为了我尽情发挥的舞台。</p>
+<h3 id="1-第一台自己组装的主机"><a href="#1-第一台自己组装的主机" class="headerlink" title="1. 第一台自己组装的主机"></a>1. 第一台自己组装的主机</h3><p>个人算是一个果粉吧。于是在进行配件选购的时候，并没有选择热门的AMD + N卡的组合，而是为了方便黑苹果的安装，选择了Intel + A卡的组合。</p>
+<p>配置如下</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">CPU：Intel i5-9600K </span><br><span class="line">GPU：AMD RX5700 XT</span><br><span class="line">内存：Kingston 骇客神条 3200MHz 8G x 2</span><br><span class="line">固态：Western Digital SN750 500GB x 2</span><br><span class="line">机械：TOSHIBA P300 3T</span><br><span class="line">主板：MSI Z390 Gaming Puls</span><br><span class="line">电源：Segotep 600W</span><br><span class="line">散热：玄冰400</span><br><span class="line">机箱：SAHARA 逆行者606</span><br><span class="line">显示器：AOC 23.8英寸 24G2 1080P144</span><br><span class="line">无线网卡：BCM943602CS</span><br></pre></td></tr></table></figure>
+
+<p>总体感觉还行吧，组装完成之后做了一个用OC引导的win10和macOS的双系统，这台电脑便是我暑假的主力机器。</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/1.png" alt="about_me"></p>
+<p>关于macOS Catalina 10.15.6的EFI文件，我是参考<a href="https://blog.xjn819.com/">Xjn´s Blog</a>进行自己配置和调试，截止到文章书写的2021.1.18日，一切运行正常</p>
+<p>关于macOS与其他苹果设备的联动，我个人用的是iPad mini2(网课专用板)。为了当前稳定的Wi-Fi链接和蓝牙功能(最初我是用的是USB网卡，不稳定，需要驱动支持)，我入手了BCM943602CS这一款PCIE网卡。</p>
+<p>从同学那里借来iPad Pro 2020做了一下测试，随航，接力，隔空投送都很完美。</p>
+<blockquote>
+<p>macOS镜像下载：<a href="https://blog.daliansky.net/">黑果小兵的部落阁</a></p>
+</blockquote>
+<blockquote>
+<p>本机EFI下载：<a href="https://cloud.sakurasep.club/s/OXFR">Cloudreve 密码:1234</a></p>
+</blockquote>
+<p>这里建议对于macOS或是苹果全家桶生态有着需求的，不要考虑黑苹果主机，黑苹果在稳定性和方便程度都不如白苹果，而且，M1的MacBook好香！</p>
+<h3 id="2-第一台个人笔记本"><a href="#2-第一台个人笔记本" class="headerlink" title="2. 第一台个人笔记本"></a>2. 第一台个人笔记本</h3><p>去上大学，当然不可以搬着一个MATX机箱去。<br>所以入手了一台R7000P(首发价格) </p>
+<blockquote>
+<p>用了两年，看到当年的我说AMD YES，我真想穿越回去，告诉当年的我，Intel YES。</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/2.png" alt="about_me"></p>
+<p>桌面如图</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/3.jpg" alt="about_me"></p>
+<p>用了仿macOS的软件，还不错，基本的动画实现了，UI设计也挺不错的，但是经常出现崩溃。</p>
+<p>正版macOS</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/4.png" alt="about_me"></p>
+<p>因为大学是软件工程专业，笔记本上搭建了python2，，python3，java，c等众多环境</p>
+<h3 id="3-小米9-–-小米10"><a href="#3-小米9-–-小米10" class="headerlink" title="3. 小米9 – 小米10"></a>3. 小米9 – 小米10</h3><blockquote>
+<p>2022年了 865还是顶，4750的电池还是比较大，90Hz的屏幕还是舒服，完全没有换手机的欲望。而且手机对我个人来说就是休闲小游戏加联系工具，下一次换手机估计换个Redmi Note了。</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/6.jpg" alt="about_me"></p>
+<h3 id="4-Sony-ZV-1"><a href="#4-Sony-ZV-1" class="headerlink" title="4. Sony ZV-1"></a>4. Sony ZV-1</h3><blockquote>
+<p>2022年了，还在吃灰。。。。</p>
+</blockquote>
+<h2 id="第三阶段-初步迈入大学生活"><a href="#第三阶段-初步迈入大学生活" class="headerlink" title="第三阶段 初步迈入大学生活"></a>第三阶段 初步迈入大学生活</h2><h3 id="1-Chevereto图片站"><a href="#1-Chevereto图片站" class="headerlink" title="1. Chevereto图片站"></a>1. Chevereto图片站</h3><p>通过自己搭建图床，学到了不少关于云服务器的知识(之前搭建Wordpress博客接触过)。</p>
+<blockquote>
+<h4 id="Demo：上杉九月的图片站"><a href="#Demo：上杉九月的图片站" class="headerlink" title="Demo：上杉九月的图片站"></a>Demo：<a href="https://pic.sakurasep.top/">上杉九月的图片站</a></h4></blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/7.png" alt="about_me"></p>
+<p>搭建教程已经出了</p>
+<blockquote>
+<h4 id="搭建教程：博客原文"><a href="#搭建教程：博客原文" class="headerlink" title="搭建教程：博客原文"></a>搭建教程：<a href="">博客原文</a></h4></blockquote>
+<h3 id="2-Hexo"><a href="#2-Hexo" class="headerlink" title="2. Hexo"></a>2. Hexo</h3><blockquote>
+<h4 id="上杉九月的博客"><a href="#上杉九月的博客" class="headerlink" title="上杉九月的博客"></a><a href="https://blog.sakurasep.site/">上杉九月的博客</a></h4></blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/8.png" alt="about_me"></p>
+<blockquote>
+<h4 id="九月的生活"><a href="#九月的生活" class="headerlink" title="九月的生活"></a><a href="https://blog.sakurasep.club/">九月的生活</a></h4></blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/9.png" alt="about_me"></p>
+<h3 id="3-云服务器"><a href="#3-云服务器" class="headerlink" title="3. 云服务器"></a>3. 云服务器</h3><p>云服务器定时执行python脚本</p>
+<blockquote>
+<p><a href="https://github.com/polosec/qfnuAutoTemperatureSubmit">python脚本原地址</a></p>
+</blockquote>
+<h3 id="4-初接触CTF"><a href="#4-初接触CTF" class="headerlink" title="4. 初接触CTF"></a>4. 初接触CTF</h3><p>想作为一个兴趣爱好，寒假继续学习。</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>2020年经历了人生大考，虽然有很多波折，但也是顺利的度过了。</p>
+<p>在2020年我个人多是在实践应用投入了精力，2021年我将会在原理以及应用的代码实现付出。</p>
+<p>目标就是有事情做，写写教程，平平安安就是理想啦。</p>
+<p>2020年真的是魔幻的一年，疫情迅速席卷全球，中国顶着巨大压力成功遏制，没想到（应该是意料之中），自由的西方资本主义国家没能遏制疫情传播，天灾人祸，诸如此类。</p>
+<p>2021年一定会好起来的，提前在这祝福各位新年快乐，事事顺利，一切安好。</p>
+<hr>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png"></p>
+]]></content>
+      <categories>
+        <category>年度总结</category>
+      </categories>
+      <tags>
+        <tag>年度总结</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的2021年度总结</title>
+    <url>/Next/Year/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%20-%202021%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</url>
+    <content><![CDATA[<h1 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h1><blockquote>
+<p>作者：上杉九月</p>
+</blockquote>
+<blockquote>
+<p>排版与发布：上杉九月</p>
+</blockquote>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>2021年，我对自己算是一半满意，一半不满意吧，有些事情不尽如人意，有些事情自己做的很好，希望在2022年我能够有所进步。</p>
+<p>本文中所有内容截止于2022.1.1</p>
+<p><strong>New Dream New Start</strong></p>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>这次的年终总结并不是按阶段划分的，而是分成了两个部分。</p>
+<p>第一部分是对2021年全年的回顾，自己做了什么，还有什么需要改进的地方。</p>
+<p>第二部分是对2022年的一个总体的规划，新的一年我应该向什么方向努力。</p>
+<h2 id="第一部分-我的2021"><a href="#第一部分-我的2021" class="headerlink" title="第一部分 我的2021"></a>第一部分 我的2021</h2><p>对于我来说，2021年研究了很多网站搭建的内容，熟练的掌握云服务器的各种应用方式，接下来就让我一一给各位梳理一下。</p>
+<h2 id="博客"><a href="#博客" class="headerlink" title="博客"></a>博客</h2><h3 id="上杉九月的博客-Hexo"><a href="#上杉九月的博客-Hexo" class="headerlink" title="上杉九月的博客 - Hexo"></a><a href="https://blog.sakurasep.site/">上杉九月的博客</a> - Hexo</h3><h4 id="图片介绍"><a href="#图片介绍" class="headerlink" title="图片介绍"></a>图片介绍</h4><blockquote>
+<p>首页图</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/1.jpg"></p>
+<blockquote>
+<p>主页信息流</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/3.jpg"></p>
+<blockquote>
+<p>文章阅读</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/2.jpg"></p>
+<h4 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h4><blockquote>
+<p>使用Hexo博客框架 + Github Pages</p>
+</blockquote>
+<p>Hexo作为目前活跃度较高的博客框架，主题丰富，功能齐全，个人是十分喜欢由Hexo框架生成的静态博客，Github Pages的访问速度还是可以的，而且如果担心访问速度的话也可以将博客部署到Gitee。</p>
+<blockquote>
+<p>主题使用了<a href="https://volantis.js.org/">Volantis 5.0 Beta</a> 美化思路参考<a href="https://inkss.cn/">枋柚梓的猫会发光 (inkss.cn)</a></p>
+</blockquote>
+<p>Volantis算是一个不错的博客主题，属于是上限高，下限也高，新手通过Volantis官方文档也能配置完成一个不错的页面，而如果想更进一步，Volantis官方还收录了很多大佬的美化教程，可以进行参考。</p>
+<blockquote>
+<p>该博客内容主攻计算机相关内容</p>
+</blockquote>
+<p>由于是静态博客，写作相比于其他博客框架稍微有些繁琐，不适合日常更新。（不过有大佬写的HPP组件看起来还不错，等完善）。我在新的一年保证文章更新的情况下也会记录一下自己的其他方面的内容，放到博客分站吧。</p>
+<blockquote>
+<p>还有些正在调试的内容</p>
+</blockquote>
+<p>Hexo是支持分站的，即可以将其他Hexo主题作为主站点的其他访问风格，目前还在做主站的调试，等主站稳定了把分站会恢复的。</p>
+<h3 id="上杉九月的博客-Halo"><a href="#上杉九月的博客-Halo" class="headerlink" title="上杉九月的博客 - Halo"></a><a href="https://halo.sakurasep.club/">上杉九月的博客</a> - Halo</h3><h4 id="图片介绍-1"><a href="#图片介绍-1" class="headerlink" title="图片介绍"></a>图片介绍</h4><blockquote>
+<p>首页图</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/4.jpg"></p>
+<blockquote>
+<p>主页信息流</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/5.jpg"></p>
+<blockquote>
+<p>文章阅读</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/6.jpg"></p>
+<h4 id="简介-1"><a href="#简介-1" class="headerlink" title="简介"></a>简介</h4><p>网站还处于调试期，打算把其他内容放在这里更新。</p>
+<blockquote>
+<p>网站是由<a href="https://halo.run/">Halo博客框架</a>搭建</p>
+</blockquote>
+<p>Halo博客框架属于是动态部署的博客类型，需要依托于Java环境。我把该博客部署在腾讯云上。</p>
+<p>主题使用的是<a href="https://github.com/LIlGG/halo-theme-sakura">GitHub - LIlGG&#x2F;halo-theme-sakura: Halo 版本的樱花🌸主题</a></p>
+<h3 id="上杉九月的博客-Typecho"><a href="#上杉九月的博客-Typecho" class="headerlink" title="上杉九月的博客 - Typecho"></a><a href="https://blog.sakurasep.club/">上杉九月的博客</a> - Typecho</h3><h4 id="图片介绍-2"><a href="#图片介绍-2" class="headerlink" title="图片介绍"></a>图片介绍</h4><blockquote>
+<p>首页图</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/7.jpg"></p>
+<blockquote>
+<p>文章阅读</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/8.jpg"></p>
+<h4 id="简介-2"><a href="#简介-2" class="headerlink" title="简介"></a>简介</h4><p>Typecho是我最喜欢的博客框架之一，响应速度快，写作方便。</p>
+<p>不过Typecho也有它的缺点，就是很多插件已经不更新了。</p>
+<p>Typecho的主题很多是需要付费的，当然也有免费的主题。这里我使用的是<a href="https://blog.zwying.com/">秦枫鸢梦 - 🌸花有重开日,人无再少年🏃‍♂️ (zwying.com)</a></p>
+<h2 id="图片站-Chevereto"><a href="#图片站-Chevereto" class="headerlink" title="图片站 - Chevereto"></a><a href="https://pic.sakurasep.top/">图片站</a> - Chevereto</h2><h4 id="图片介绍-3"><a href="#图片介绍-3" class="headerlink" title="图片介绍"></a>图片介绍</h4><blockquote>
+<p>首页</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/9.jpg"></p>
+<blockquote>
+<p>图片浏览</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/10.jpg"></p>
+<h4 id="简介-3"><a href="#简介-3" class="headerlink" title="简介"></a>简介</h4><p>图片站在去年年底就进入测试阶段，年初开始稳定运行。属于我这些网站中运行最为稳定的一个。。。</p>
+<p>图片站可以注册（目前仅为邀请码开放，如果想上传图片的话，可以评论区留言邮箱，私发邀请码）</p>
+<p>小服务器，空间不大，带宽不大，没法做到开放注册。</p>
+<p>当然如果只是浏览和下载还是完全开放的。</p>
+<p><strong>图片链接是无法进行引用的，网站开启了防盗链</strong></p>
+<h2 id="第二部分-我的2022"><a href="#第二部分-我的2022" class="headerlink" title="第二部分 我的2022"></a>第二部分 我的2022</h2><p>去年对于我来说，其实是荒废了很多时间。</p>
+<p>直到年底的几个月才认清了方向，明确了自己的未来的道路。</p>
+<h3 id="第一件事：健康的身体"><a href="#第一件事：健康的身体" class="headerlink" title="第一件事：健康的身体"></a>第一件事：健康的身体</h3><p>185cm的高个子 87KG的体重，BMI是稍微超标的。</p>
+<p>对于我来说，身体长时间处于一个亚健康状态，精神支撑不了我去干一些事情，容易累，嗜睡。</p>
+<details>
+<summary>2022 ：第一件事</summary>
+<ul>
+<li><input disabled="" type="checkbox"> BMI回归正常水平，适当的增加肌肉</li>
+</ul>
+</details>
+
+<h3 id="第二件事：英语"><a href="#第二件事：英语" class="headerlink" title="第二件事：英语"></a>第二件事：英语</h3><details>
+<summary>2022 ：第二件事</summary>
+<ul>
+<li><input disabled="" type="checkbox"> 2022年的两场考试，争取一遍过四级和六级</li>
+</ul>
+</details>
+
+<h3 id="第三件事：考研"><a href="#第三件事：考研" class="headerlink" title="第三件事：考研"></a>第三件事：考研</h3><details>
+<summary>2022 ：第三件事</summary>
+<ul>
+<li><input disabled="" type="checkbox"> 准备考研相关内容</li>
+</ul>
+</details>
+
+<h3 id="第四件事：专业水平"><a href="#第四件事：专业水平" class="headerlink" title="第四件事：专业水平"></a>第四件事：专业水平</h3><details>
+<summary>2022 ：第四件事</summary>
+<ul>
+<li><input disabled="" type="checkbox"> 全面提高自己的代码能力</li>
+</ul>
+</details>
+
+<h3 id="第五件事：文章更新"><a href="#第五件事：文章更新" class="headerlink" title="第五件事：文章更新"></a>第五件事：文章更新</h3><details>
+<summary>2022 ：第五件事</summary>
+<ul>
+<li><input disabled="" type="checkbox"> 持续产出高质量文章 </li>
+</ul>
+</details>
+
+<h3 id="第六件事：远足"><a href="#第六件事：远足" class="headerlink" title="第六件事：远足"></a>第六件事：远足</h3><details>
+<summary>2022 ：第六件事</summary>
+<ul>
+<li><input disabled="" type="checkbox"> 暑假里组织一次远足</li>
+</ul>
+</details>
+
+<hr>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png"></p>
+]]></content>
+      <categories>
+        <category>年度总结</category>
+      </categories>
+      <tags>
+        <tag>年度总结</tag>
       </tags>
   </entry>
   <entry>
@@ -1022,210 +1452,6 @@
       </tags>
   </entry>
   <entry>
-    <title>《应用使用指南》存储空间隔离_第1期</title>
-    <url>/Next/HowToUse/%E5%BA%94%E7%94%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20-%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E9%9A%94%E7%A6%BB/</url>
-    <content><![CDATA[<h1 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h1><blockquote>
-<p>作者： 上杉九月</p>
-</blockquote>
-<blockquote>
-<p>头图设计：上杉九月</p>
-</blockquote>
-<blockquote>
-<p>排版及发布：上杉九月</p>
-</blockquote>
-<blockquote>
-<p>感谢提供修改建议: </p>
-<ul>
-<li>酷安@量子米君 </li>
-<li>酷安@苍玄之包</li>
-</ul>
-</blockquote>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h3 id="安卓根目录的混乱现象"><a href="#安卓根目录的混乱现象" class="headerlink" title="安卓根目录的混乱现象"></a>安卓根目录的混乱现象</h3><p>每一次打开文件管理去寻找你所想要的文件，或是在聊天软件给朋友发送文件，总会看到目录里有着大量莫名奇妙的文件夹。一是不方便找到目标文件所在，二是对于强迫症挺不舒服的。</p>
-<p><strong>优化前的根目录，充斥着各种文件夹</strong></p>
-<p>造成这种现象，主要是国内软件厂商不遵守开发规范导致。根据安卓规范，在 <code>Android/data/包名</code> 路径应该保存对应应用的数据文件，<code>Android/obb/包名</code>路径应该保存对应应用的数据包文件。这两个文件夹是用户不应该去访问的，因此安卓11的新规范禁止系统（仅对于定制UI）的文件管理直接访问。如果介意（例如MIUI的默认文件管理）访问受限，可以安装相应的旧版本。</p>
-<h3 id="安卓11的新限制"><a href="#安卓11的新限制" class="headerlink" title="安卓11的新限制"></a>安卓11的新限制</h3><p><strong>如图所示，MIUI的文件管理在一次升级中已经不在允许访问，点击前往查看将会跳转安卓原生的文件管理。</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/1.jpg"></p>
-<p>应用应该将自身数据保存在Android文件夹内部，将用户数据按照分类保存在标准文件夹，但是国内应用大部分不会遵循开发规范，便造成了安卓根目录混乱的现状。</p>
-<h3 id="某些应用开发者的错误理解"><a href="#某些应用开发者的错误理解" class="headerlink" title="某些应用开发者的错误理解"></a>某些应用开发者的错误理解</h3><p>很多应用开发者为了适配安卓11的要求，做出了很多令人迷惑的行为。这里以腾讯的令人迷惑的操作举例。在QQ 8.2.8版本之后，将用户的下载文件位置从根目录更改到了Android文件夹内部，同时也是自身的数据文件夹。这让用户去查看自己下载的文件时十分麻烦。而且QQ在根目录仍然有着许多未知用途的文件夹。</p>
-<h3 id="标准文件夹的示例（MIUI）"><a href="#标准文件夹的示例（MIUI）" class="headerlink" title="标准文件夹的示例（MIUI）"></a>标准文件夹的示例（MIUI）</h3><ul>
-<li>DCIM 保存相机拍摄的照片和视频（MIUI在该文件夹还存储了截图和屏幕录制）</li>
-<li>Documents 保存文档</li>
-<li>Download 保存下载文件</li>
-<li>Fonts 保存字体文件（MIUI系统字体文件保存在主题文件夹中）</li>
-<li>Movie 保存视频文件</li>
-<li>Music 保存音频文件</li>
-<li>Pictures 保存图片文件</li>
-<li>等等</li>
-</ul>
-<p>对于不同的定制系统同时也有自己存放关键系统文件的文件夹，例如MIUI会在根目录建立一个MIUI文件夹，用来存放各种系统软件的缓存文件和数据。</p>
-<h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><ul>
-<li>依靠安卓大版本更新更严格的文件访问策略，强制应用使用更高的targetAPI。</li>
-<li>依靠定制系统完善文件访问限制功能，感觉最近Flyme和MIUI的沙盒已经有了雏形了。</li>
-<li>依靠Rikka开发的存储空间隔离（原名存储重定向），这也是我写本文的目的。</li>
-</ul>
-<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>这款软件在酷安上即有下载，原名存储重定向，现名存储空间隔离。<br>在使用这款软件之前，你需要接受以下的要求</p>
-<ul>
-<li>手机已经获取了root权限</li>
-<li>愿意为这款软件支付一定的费用</li>
-<li>有耐心</li>
-<li>可以接受某些奇奇怪怪的问题</li>
-<li>可以主动寻找问题的解决方法</li>
-</ul>
-<h2 id="第一步-安装必要的环境"><a href="#第一步-安装必要的环境" class="headerlink" title="第一步 安装必要的环境"></a>第一步 安装必要的环境</h2><h3 id="本机的使用环境为"><a href="#本机的使用环境为" class="headerlink" title="本机的使用环境为"></a>本机的使用环境为</h3><ul>
-<li>小米10 MIUI12.5 21.2.3 Simplicity官改</li>
-<li>Magsik 21.4 App 22.0</li>
-</ul>
-<h3 id="模块介绍"><a href="#模块介绍" class="headerlink" title="模块介绍"></a>模块介绍</h3><p><strong>在满足root的环境下，在Magsik模块安装页面，搜索riru关键字便可以看到riru系列模块</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/2.jpg"></p>
-<p><strong>我们这里只安装两个模块</strong></p>
-<p>Riru V23.6</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/4.jpg"></p>
-<p>Riru - Enhanced mode for Storage Isolation V23.6</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/3.jpg"></p>
-<p>这里提醒一下，如果不安装Riru，而先去安装Riru - Enhanced mode for Storage Isolation，将会无法安装。所以请按照顺序安装模块。</p>
-<h2 id="第二步-安装软件并进行基本配置"><a href="#第二步-安装软件并进行基本配置" class="headerlink" title="第二步 安装软件并进行基本配置"></a>第二步 安装软件并进行基本配置</h2><h3 id="下载途径"><a href="#下载途径" class="headerlink" title="下载途径"></a>下载途径</h3><h4 id="在酷安搜索存储空间隔离并下载"><a href="#在酷安搜索存储空间隔离并下载" class="headerlink" title="在酷安搜索存储空间隔离并下载"></a>在酷安搜索存储空间隔离并下载</h4><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/6_02.jpg"></p>
-<h4 id="在Google-Play搜索存储空间隔离并下载"><a href="#在Google-Play搜索存储空间隔离并下载" class="headerlink" title="在Google Play搜索存储空间隔离并下载"></a>在Google Play搜索存储空间隔离并下载</h4><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/6.jpg"></p>
-<p>这里我推荐从Google Play下载，在Play商店购买的该软件，使用同一个谷歌账号可以多设备使用。</p>
-<p>目前软件的内购验证做的很完善，如果你是在Google Play下载，无需登录外网，直接点击恢复购买即可。</p>
-<h3 id="安装过程"><a href="#安装过程" class="headerlink" title="安装过程"></a>安装过程</h3><p><strong>下载完成后打开软件，便显示了软件的基本介绍</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/8.jpg"></p>
-<p><strong>允许存储空间隔离获取Root权限，当出现提示成功时便可以进行下一步了。</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/9.jpg"></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/10.jpg"></p>
-<p>如果出现问题，请按照以上步骤重新安装环境。</p>
-<p>不过有的机型的确是有兼容问题。</p>
-<p><strong>到这一步，就已经安装完成了</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/11.jpg"></p>
-<h3 id="备份文件"><a href="#备份文件" class="headerlink" title="备份文件"></a>备份文件</h3><p>在这里，我会提供一份自己使用，基本没有错误的配置文件，你只需要在备份与还原里还原备份文件即可开始使用。</p>
-<blockquote>
-<p><strong><a href="https://cloud.sakurasep.club/s/wRcq">备份文件_密码0314</a></strong></p>
-</blockquote>
-<p>注意：</p>
-<ul>
-<li>本配置文件的应用可能无法包含你所使用的应用，如果你想达到近乎完美的效果，请继续看下去。</li>
-<li>本配置文件有的地方会有一些问题，你需要自行修改。已知QQ存在侧漏问题。</li>
-</ul>
-<h2 id="第三步-原理解释以及详细配置"><a href="#第三步-原理解释以及详细配置" class="headerlink" title="第三步 原理解释以及详细配置"></a>第三步 原理解释以及详细配置</h2><h3 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h3><p>在存储空间隔离的官网，我们可以找到一些我们所需要的内容</p>
-<blockquote>
-<p><a href="https://sr.rikka.app/zh-hans/">官方网站</a></p>
-</blockquote>
-<p>以下内容是对官网指南的部分摘录以及我自己的理解</p>
-<ul>
-<li>公共文件夹</li>
-</ul>
-<p>DCIM,Pictures,Download 等公共文件夹，用来保存用户的文件，允许应用在此根据需求新建文件夹来保存对应的文件。例如QQ应该将用户下载的文件保存在 <code>Download/QQ</code>，而不是<code>Android/data/包名</code>。</p>
-<p>但是应用对于公共文件夹的访问应该是一次性的，有目的的。例如在QQ发送图片给好友，QQ在获取用户的允许后访问DCIM和Pictures文件夹，发送结束后系统应该收回访问权限。</p>
-<ul>
-<li>数据文件夹</li>
-</ul>
-<p>Android文件夹内部对于用户来说是不应该进行访问的，对于应用来说则是无需授权就能够访问，在此保存应用的数据和缓存。</p>
-<p>遗憾的是，目前原生安卓对于存储权限的选项只有允许和拒绝，此外，国内存在的大量“坏应用”如果被拒绝授权将不会运行。</p>
-<p>存储空间隔离便是为了解决这一乱象而开发，这里感谢Rikka大佬开发了这款应用，在一定程度上很好解决了以上问题。</p>
-<p>一般来说，不规范的应用会在根目录创建各种各样的文件夹。在启用存储空间隔离之后，应用将会在<code>Android/data/包名/sdcard</code> 内保存文件。</p>
-<p>优点如下</p>
-<ul>
-<li>因为卸载应用时只会清理应用的数据文件夹，在对应用进行隔离后，卸载时将会将下载文件和应用数据一并删除</li>
-<li>系统统计应用占用空间大小仅会统计数据文件夹，在对应用进行隔离后，系统统计大小功能将会正常工作</li>
-</ul>
-<h3 id="使用教程"><a href="#使用教程" class="headerlink" title="使用教程"></a>使用教程</h3><h4 id="软件权限"><a href="#软件权限" class="headerlink" title="软件权限"></a>软件权限</h4><p>对于MIUI用户，因为MIUI魔改了很多对于应用的控制权限，这里需要手动为存储空间隔离打开部分权限</p>
-<ul>
-<li>在后台弹出界面</li>
-</ul>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/12.jpg"></p>
-<ul>
-<li>应用自启动以及省电策略</li>
-</ul>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/13.jpg"></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/14.jpg"></p>
-<h4 id="默认存储空间位置"><a href="#默认存储空间位置" class="headerlink" title="默认存储空间位置"></a>默认存储空间位置</h4><p><strong>在软件的设置 - 行为 - 默认隔离存储空间位置中，你有两种选择</strong></p>
-<ul>
-<li>保存在数据文件夹</li>
-<li>保存在缓存文件夹</li>
-<li>缓存文件夹有着和数据文件夹一样的特性，但是缓存文件夹可能被清理软件所清理。这里根据自己的需求吧。一般来说保存在数据文件夹即可。</li>
-</ul>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/15.jpg"></p>
-<h4 id="可访问文件夹模板"><a href="#可访问文件夹模板" class="headerlink" title="可访问文件夹模板"></a>可访问文件夹模板</h4><p>然后回到上一级，在可访问文件夹模板中进行设置<br>在这里所设置的文件夹就是允许应用访问的公共文件夹</p>
-<p><strong>我在默认的基础上添加了对于Movie文件夹的访问</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/16.jpg"></p>
-<p>现在回到主页面，点击应用管理，就可以对应用进行单独设置</p>
-<p><strong>为了避免重定向系统应用带来各种各样的bug，我们先对第三方应用进行配置</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/17.jpg"></p>
-<h3 id="根据需求配置"><a href="#根据需求配置" class="headerlink" title="根据需求配置"></a>根据需求配置</h3><p>白描是一款特别好用的OCR识别和PDF导出应用，这里我们拿它来讲解如何对一款应用重定向。</p>
-<h4 id="需求考虑"><a href="#需求考虑" class="headerlink" title="需求考虑"></a>需求考虑</h4><p>我们应该考虑，这款应用会获取什么信息，因为我常常用它将图片转成PDF格式，所以DCIM（拍摄的图片）和Pictures（下载的图片）是可访问的文件夹。所以说我们对白描设置可访问文件夹为DCIM和Pictures。</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/18.jpg"></p>
-<h4 id="模拟正常使用过程"><a href="#模拟正常使用过程" class="headerlink" title="模拟正常使用过程"></a>模拟正常使用过程</h4><p>使用白描正常导出一次PDF，在查看文件历史里可以看到PDF保存在Download&#x2F;Baimiao中。因为我希望保存在Document&#x2F;白描，所以我们打开白描的Download访问权限（刚才是白描试图访问Download，但是被定向到了数据文件夹内部的Download），重新保存一次PDF，这时白描就会创建此文件夹。</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/19.jpg"></p>
-<h4 id="将隔离的文件同步到标准文件夹"><a href="#将隔离的文件同步到标准文件夹" class="headerlink" title="将隔离的文件同步到标准文件夹"></a>将隔离的文件同步到标准文件夹</h4><p>在导出被隔离的文件中添加同步文件夹规则，来源路径选择Download（新版存储空间隔离导出时会将该应用在目录内的全部文件进行同步）</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/20.jpg"></p>
-<h4 id="4-检查结果"><a href="#4-检查结果" class="headerlink" title="4.检查结果"></a>4.检查结果</h4><p>可以看到PDF文件成功保存到指定位置</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/21.jpg"></p>
-<p>这里很多使用者都会有一个误区-既然我要把文件保存到Documents目录，那么为什么不把Documents设置为可访问的文件夹呢？其实很好解释，你把可访问的文件夹当做读取权限，把导出被隔离的文件当作写入权限，这样就明白了吧。</p>
-<p>但是有些应用是很规范的，他们保存在标准文件夹，所以你应该允许该应用访问。</p>
-<h3 id="应用之间互相访问"><a href="#应用之间互相访问" class="headerlink" title="应用之间互相访问"></a>应用之间互相访问</h3><p>用过存储重定向的老用户都应该遇到过哔哩哔哩的视频分享到QQ，会出现系统繁忙的提示，就算偶尔可能分享成功，视频的封面也不见了。</p>
-<p>这是因为哔哩哔哩老版本在根目录的tv.danmuku.bili存放自己的图片缓存，而对哔哩哔哩和QQ进行隔离后，QQ是访问不到这个文件夹的，就造成了分享失败的问题。</p>
-<p><del>目前这个问题貌似得到了解决，哔哩哔哩在某一个版本对缓存文件的位置做了更改，移动到了数据文件夹，这是一个可能的原因。此外还可能因为哔哩哔哩的分享在QQ上被改为了小程序分享，分享短链接包含了封面地址，所以分享成功进行。</del></p>
-<p><del>因为目前我并没有遇到该问题，所以希望各位可以在评论区反馈你们的使用情况，我会抽时间测试一下对应的软件版本。</del></p>
-<p>好了，最近遇到了这一问题。同时也讲一下解决方案。同类问题都可以按照此思路解决。</p>
-<p>哔哩哔哩的视频想要分享到QQ（空间，联系人等），QQ需要读取哔哩哔哩的封面缓存信息，而因为存储重定向的缘故，QQ无法对你允许访问文件夹之外的内容进行读取和写入操作，这就导致了分享的失败。所以为了解决这一问题，首先通过文件历史找到正常情况下哔哩哔哩的缓存保存位置。最新版缓存保存位置在 <code>Android/data/tv.danmaku.bili/files/Images</code> 。然后在QQ可访问的文件夹，在其他应用的文件夹中创建新的规则。</p>
-<p><strong>如下图所示。</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/22.jpg"></p>
-<h3 id="最终的清理"><a href="#最终的清理" class="headerlink" title="最终的清理"></a>最终的清理</h3><p>按照以上的例子，对用户应用一一设置。设置完成之后，删除除了标准文件夹的所有冗余文件，正常使用一段时间，你会发现根目录仍然会有一些文件夹，这时候就需要精准定位。</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/23.jpg"></p>
-<p>如上图所示，比如说我们想知道<code>com.miui.voiceassist</code>(其实很明显，是小爱同学，但请假装不知道)是由哪一个应用创建。</p>
-<p><strong>我们将文件夹名复制，在文件监视中粘贴。</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/24.jpg"></p>
-<p>然后就会显示有那些应用对该文件夹进行读取或者是写入。</p>
-<p>不过我们要清楚读取和写入的区别，比如说这里显示了媒体存储设备对该文件夹的访问，而我们了解一点相关内容便可以知道个该软件是在扫描各个文件夹来查找媒体文件，并没有进行写入，所以文件夹不是由它创建。</p>
-<p><strong>向下拉便可以找到小爱同学的文件访问记录。</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/25.jpg"></p>
-<p><strong>现在点击小爱同学，对其进行隔离。</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/26.jpg"></p>
-<h3 id="或许会更完美"><a href="#或许会更完美" class="headerlink" title="或许会更完美"></a>或许会更完美</h3><h4 id="解决某些文件无法读取媒体文件的问题"><a href="#解决某些文件无法读取媒体文件的问题" class="headerlink" title="解决某些文件无法读取媒体文件的问题"></a>解决某些文件无法读取媒体文件的问题</h4><p>在安卓11使用存储空间隔离会导致导出的媒体文件不在软件显示的问题。实际举例（QQ发送图片无法获取导出的媒体文件）。</p>
-<p><strong><a href="https://www.coolapk.com/feed/24310395?shareKey=NDVlZDZkYjUzNDBmNjA0Y2I2NmU~&shareUid=3334957&shareFrom=com.coolapk.market_11.0.3">酷安@余空_Yuk</a></strong></p>
-<p>开发的给安卓11启用sdcardfs的模块可以解决这一问题。</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/27.jpg"></p>
-<h4 id="2-解决下载文件被某些应用存储在Android目录的问题"><a href="#2-解决下载文件被某些应用存储在Android目录的问题" class="headerlink" title="2. 解决下载文件被某些应用存储在Android目录的问题"></a>2. 解决下载文件被某些应用存储在Android目录的问题</h4><p>QQ这类将用户下载的文件保存在数据文件夹的应用</p>
-<p>**<a href="https://www.coolapk.com/feed/24654978?shareKey=MzIxM2M0ZDcxYmE2NjA0Y2I3MzU~&shareUid=3334957&shareFrom=com.coolapk.market_11.0.3">酷安@阿巴酱</a>**给出了一种解决方案。</p>
-<p>我采用的是Rikka开发的另一款应用-保存副本</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/28.jpg"></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/29.jpg"></p>
-<p><strong>当你在QQ下载文件之后，只需要在打开方式里选择保存副本，软件就可以在Download目录复制一份相同的文件。</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/30.jpg"></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/31.jpg"></p>
-<h2 id="第四步-效果展示"><a href="#第四步-效果展示" class="headerlink" title="第四步 效果展示"></a>第四步 效果展示</h2><p>这里我自己把Malody的谱面文件存在了Map文件夹。</p>
-<p>miad这一个空文件是为了防止MIUI的应用开屏广告产生（直接卸载掉智能服务<code>com.miui.systemAdSolution</code>即可。可以使用搞机助手进行卸载。一直用官改，不知道MIUI将广告服务集成在此应用里，感谢<strong>酷安@水水水淼</strong>的建议）</p>
-<p>mm是Magsik的MM管理器</p>
-<p><strong>如果和文章开头对比一下，可以说是强迫症狂喜。</strong></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/32.jpg"></p>
-<h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>简单说一些东西吧</p>
-<h2 id="个人情况"><a href="#个人情况" class="headerlink" title="个人情况"></a>个人情况</h2><p>我在寒假里策划了很多内容，从这一篇文章开始，我会逐渐向给各位展示我策划的优质内容。</p>
-<h2 id="新的开始"><a href="#新的开始" class="headerlink" title="新的开始"></a>新的开始</h2><p>这算是一个新坑，目的就是向各位推荐一些优质的应用，他们真的可以方便你的生活。目前我的更新频率（如果没有什么意外的话基本就是一个月更新两次，一次是安卓上的应用，一次是PC上的应用），毕竟我刚进入大学，自己安排了很多学习的内容，时间并不是很充裕，保证质量是第一位（还有要填坑）。</p>
-<h2 id="欢迎交流"><a href="#欢迎交流" class="headerlink" title="欢迎交流"></a>欢迎交流</h2><p>这些应用对于各位来说有的可能没用过，有的可能早就熟练上手。我希望我写的图文可以帮助小白零基础上手优质应用，从而提高效率。同时期待和各路大佬交流使用心得，不断完善文章内容和呈现形式。</p>
-<p>在这里我也会虚心听取意见，无论是对图文内容的建议，或是对某些优质应用的推荐等等。</p>
-<h1 id="多平台发布"><a href="#多平台发布" class="headerlink" title="多平台发布"></a>多平台发布</h1><p>周六晚八点：</p>
-<ul>
-<li><a href="https://blog.sakurasep.site/">个人博客</a></li>
-</ul>
-<p>周日晚八点：</p>
-<ul>
-<li>Bilibili专栏：上杉九月</li>
-<li>微信公众号：上杉九月的知识屋</li>
-<li>Weibo：上杉九月</li>
-<li>酷安：上杉九月</li>
-</ul>
-<hr>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png"></p>
-]]></content>
-      <categories>
-        <category>应用使用指南</category>
-      </categories>
-      <tags>
-        <tag>零基础</tag>
-        <tag>应用使用指南</tag>
-        <tag>安卓</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>《算法学习笔记》</title>
     <url>/Next/Study/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20-%20%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h1><blockquote>
@@ -1250,232 +1476,6 @@
       <tags>
         <tag>C语言</tag>
         <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的2020年度总结</title>
-    <url>/Next/Year/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%20-%202020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</url>
-    <content><![CDATA[<h1 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h1><blockquote>
-<p>作者：上杉九月</p>
-<p>排版与发布：上杉九月</p>
-</blockquote>
-<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>咕咕咕了好久的2020年度总结终于来啦！</p>
-<p>～～才不是因为我懒～～</p>
-<p>本文中所有内容截止于2021.1.1日</p>
-<p>未来，一定更精彩！</p>
-<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="第一阶段-高三下学期–高考"><a href="#第一阶段-高三下学期–高考" class="headerlink" title="第一阶段 高三下学期–高考"></a>第一阶段 高三下学期–高考</h2><p>紧张的学习生活，每天基本都是两点一线的路线。</p>
-<p>枯燥的学习生活，在最后的高考100天尤为如此，从周考到天天做不完的卷子。</p>
-<p>温暖的学习生活，在向着理想的大学奋斗的路上，感谢每一位同学的陪伴，感谢老班的悉心辅导，感谢每一位老师的辛苦付出，满满的回忆。</p>
-<p>终究有一个好结果。</p>
-<p>下一个人生阶段，在曲师大度过。</p>
-<h2 id="第二阶段-暑假"><a href="#第二阶段-暑假" class="headerlink" title="第二阶段 暑假"></a>第二阶段 暑假</h2><p>放下了高三的压力，暑假便成为了我尽情发挥的舞台。</p>
-<h3 id="1-第一台自己组装的主机"><a href="#1-第一台自己组装的主机" class="headerlink" title="1. 第一台自己组装的主机"></a>1. 第一台自己组装的主机</h3><p>个人算是一个果粉吧。于是在进行配件选购的时候，并没有选择热门的AMD + N卡的组合，而是为了方便黑苹果的安装，选择了Intel + A卡的组合。</p>
-<p>配置如下</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">CPU：Intel i5-9600K </span><br><span class="line">GPU：AMD RX5700 XT</span><br><span class="line">内存：Kingston 骇客神条 3200MHz 8G x 2</span><br><span class="line">固态：Western Digital SN750 500GB x 2</span><br><span class="line">机械：TOSHIBA P300 3T</span><br><span class="line">主板：MSI Z390 Gaming Puls</span><br><span class="line">电源：Segotep 600W</span><br><span class="line">散热：玄冰400</span><br><span class="line">机箱：SAHARA 逆行者606</span><br><span class="line">显示器：AOC 23.8英寸 24G2 1080P144</span><br><span class="line">无线网卡：BCM943602CS</span><br></pre></td></tr></table></figure>
-
-<p>总体感觉还行吧，组装完成之后做了一个用OC引导的win10和macOS的双系统，这台电脑便是我暑假的主力机器。</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/1.png" alt="about_me"></p>
-<p>关于macOS Catalina 10.15.6的EFI文件，我是参考<a href="https://blog.xjn819.com/">Xjn´s Blog</a>进行自己配置和调试，截止到文章书写的2021.1.18日，一切运行正常</p>
-<p>关于macOS与其他苹果设备的联动，我个人用的是iPad mini2(网课专用板)。为了当前稳定的Wi-Fi链接和蓝牙功能(最初我是用的是USB网卡，不稳定，需要驱动支持)，我入手了BCM943602CS这一款PCIE网卡。</p>
-<p>从同学那里借来iPad Pro 2020做了一下测试，随航，接力，隔空投送都很完美。</p>
-<blockquote>
-<p>macOS镜像下载：<a href="https://blog.daliansky.net/">黑果小兵的部落阁</a></p>
-</blockquote>
-<blockquote>
-<p>本机EFI下载：<a href="https://cloud.sakurasep.club/s/OXFR">Cloudreve 密码:1234</a></p>
-</blockquote>
-<p>这里建议对于macOS或是苹果全家桶生态有着需求的，不要考虑黑苹果主机，黑苹果在稳定性和方便程度都不如白苹果，而且，M1的MacBook好香！</p>
-<h3 id="2-第一台个人笔记本"><a href="#2-第一台个人笔记本" class="headerlink" title="2. 第一台个人笔记本"></a>2. 第一台个人笔记本</h3><p>去上大学，当然不可以搬着一个MATX机箱去。<br>所以入手了一台R7000P(首发价格) </p>
-<blockquote>
-<p>用了两年，看到当年的我说AMD YES，我真想穿越回去，告诉当年的我，Intel YES。</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/2.png" alt="about_me"></p>
-<p>桌面如图</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/3.jpg" alt="about_me"></p>
-<p>用了仿macOS的软件，还不错，基本的动画实现了，UI设计也挺不错的，但是经常出现崩溃。</p>
-<p>正版macOS</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/4.png" alt="about_me"></p>
-<p>因为大学是软件工程专业，笔记本上搭建了python2，，python3，java，c等众多环境</p>
-<h3 id="3-小米9-–-小米10"><a href="#3-小米9-–-小米10" class="headerlink" title="3. 小米9 – 小米10"></a>3. 小米9 – 小米10</h3><blockquote>
-<p>2022年了 865还是顶，4750的电池还是比较大，90Hz的屏幕还是舒服，完全没有换手机的欲望。而且手机对我个人来说就是休闲小游戏加联系工具，下一次换手机估计换个Redmi Note了。</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/6.jpg" alt="about_me"></p>
-<h3 id="4-Sony-ZV-1"><a href="#4-Sony-ZV-1" class="headerlink" title="4. Sony ZV-1"></a>4. Sony ZV-1</h3><blockquote>
-<p>2022年了，还在吃灰。。。。</p>
-</blockquote>
-<h2 id="第三阶段-初步迈入大学生活"><a href="#第三阶段-初步迈入大学生活" class="headerlink" title="第三阶段 初步迈入大学生活"></a>第三阶段 初步迈入大学生活</h2><h3 id="1-Chevereto图片站"><a href="#1-Chevereto图片站" class="headerlink" title="1. Chevereto图片站"></a>1. Chevereto图片站</h3><p>通过自己搭建图床，学到了不少关于云服务器的知识(之前搭建Wordpress博客接触过)。</p>
-<blockquote>
-<h4 id="Demo：上杉九月的图片站"><a href="#Demo：上杉九月的图片站" class="headerlink" title="Demo：上杉九月的图片站"></a>Demo：<a href="https://pic.sakurasep.top/">上杉九月的图片站</a></h4></blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/7.png" alt="about_me"></p>
-<p>搭建教程已经出了</p>
-<blockquote>
-<h4 id="搭建教程：博客原文"><a href="#搭建教程：博客原文" class="headerlink" title="搭建教程：博客原文"></a>搭建教程：<a href="">博客原文</a></h4></blockquote>
-<h3 id="2-Hexo"><a href="#2-Hexo" class="headerlink" title="2. Hexo"></a>2. Hexo</h3><blockquote>
-<h4 id="上杉九月的博客"><a href="#上杉九月的博客" class="headerlink" title="上杉九月的博客"></a><a href="https://blog.sakurasep.site/">上杉九月的博客</a></h4></blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/8.png" alt="about_me"></p>
-<blockquote>
-<h4 id="九月的生活"><a href="#九月的生活" class="headerlink" title="九月的生活"></a><a href="https://blog.sakurasep.club/">九月的生活</a></h4></blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/9.png" alt="about_me"></p>
-<h3 id="3-云服务器"><a href="#3-云服务器" class="headerlink" title="3. 云服务器"></a>3. 云服务器</h3><p>云服务器定时执行python脚本</p>
-<blockquote>
-<p><a href="https://github.com/polosec/qfnuAutoTemperatureSubmit">python脚本原地址</a></p>
-</blockquote>
-<h3 id="4-初接触CTF"><a href="#4-初接触CTF" class="headerlink" title="4. 初接触CTF"></a>4. 初接触CTF</h3><p>想作为一个兴趣爱好，寒假继续学习。</p>
-<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>2020年经历了人生大考，虽然有很多波折，但也是顺利的度过了。</p>
-<p>在2020年我个人多是在实践应用投入了精力，2021年我将会在原理以及应用的代码实现付出。</p>
-<p>目标就是有事情做，写写教程，平平安安就是理想啦。</p>
-<p>2020年真的是魔幻的一年，疫情迅速席卷全球，中国顶着巨大压力成功遏制，没想到（应该是意料之中），自由的西方资本主义国家没能遏制疫情传播，天灾人祸，诸如此类。</p>
-<p>2021年一定会好起来的，提前在这祝福各位新年快乐，事事顺利，一切安好。</p>
-<hr>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png"></p>
-]]></content>
-      <categories>
-        <category>年度总结</category>
-      </categories>
-      <tags>
-        <tag>年度总结</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的2021年度总结</title>
-    <url>/Next/Year/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%20-%202021%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</url>
-    <content><![CDATA[<h1 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h1><blockquote>
-<p>作者：上杉九月</p>
-</blockquote>
-<blockquote>
-<p>排版与发布：上杉九月</p>
-</blockquote>
-<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>2021年，我对自己算是一半满意，一半不满意吧，有些事情不尽如人意，有些事情自己做的很好，希望在2022年我能够有所进步。</p>
-<p>本文中所有内容截止于2022.1.1</p>
-<p><strong>New Dream New Start</strong></p>
-<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>这次的年终总结并不是按阶段划分的，而是分成了两个部分。</p>
-<p>第一部分是对2021年全年的回顾，自己做了什么，还有什么需要改进的地方。</p>
-<p>第二部分是对2022年的一个总体的规划，新的一年我应该向什么方向努力。</p>
-<h2 id="第一部分-我的2021"><a href="#第一部分-我的2021" class="headerlink" title="第一部分 我的2021"></a>第一部分 我的2021</h2><p>对于我来说，2021年研究了很多网站搭建的内容，熟练的掌握云服务器的各种应用方式，接下来就让我一一给各位梳理一下。</p>
-<h2 id="博客"><a href="#博客" class="headerlink" title="博客"></a>博客</h2><h3 id="上杉九月的博客-Hexo"><a href="#上杉九月的博客-Hexo" class="headerlink" title="上杉九月的博客 - Hexo"></a><a href="https://blog.sakurasep.site/">上杉九月的博客</a> - Hexo</h3><h4 id="图片介绍"><a href="#图片介绍" class="headerlink" title="图片介绍"></a>图片介绍</h4><blockquote>
-<p>首页图</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/1.jpg"></p>
-<blockquote>
-<p>主页信息流</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/3.jpg"></p>
-<blockquote>
-<p>文章阅读</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/2.jpg"></p>
-<h4 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h4><blockquote>
-<p>使用Hexo博客框架 + Github Pages</p>
-</blockquote>
-<p>Hexo作为目前活跃度较高的博客框架，主题丰富，功能齐全，个人是十分喜欢由Hexo框架生成的静态博客，Github Pages的访问速度还是可以的，而且如果担心访问速度的话也可以将博客部署到Gitee。</p>
-<blockquote>
-<p>主题使用了<a href="https://volantis.js.org/">Volantis 5.0 Beta</a> 美化思路参考<a href="https://inkss.cn/">枋柚梓的猫会发光 (inkss.cn)</a></p>
-</blockquote>
-<p>Volantis算是一个不错的博客主题，属于是上限高，下限也高，新手通过Volantis官方文档也能配置完成一个不错的页面，而如果想更进一步，Volantis官方还收录了很多大佬的美化教程，可以进行参考。</p>
-<blockquote>
-<p>该博客内容主攻计算机相关内容</p>
-</blockquote>
-<p>由于是静态博客，写作相比于其他博客框架稍微有些繁琐，不适合日常更新。（不过有大佬写的HPP组件看起来还不错，等完善）。我在新的一年保证文章更新的情况下也会记录一下自己的其他方面的内容，放到博客分站吧。</p>
-<blockquote>
-<p>还有些正在调试的内容</p>
-</blockquote>
-<p>Hexo是支持分站的，即可以将其他Hexo主题作为主站点的其他访问风格，目前还在做主站的调试，等主站稳定了把分站会恢复的。</p>
-<h3 id="上杉九月的博客-Halo"><a href="#上杉九月的博客-Halo" class="headerlink" title="上杉九月的博客 - Halo"></a><a href="https://halo.sakurasep.club/">上杉九月的博客</a> - Halo</h3><h4 id="图片介绍-1"><a href="#图片介绍-1" class="headerlink" title="图片介绍"></a>图片介绍</h4><blockquote>
-<p>首页图</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/4.jpg"></p>
-<blockquote>
-<p>主页信息流</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/5.jpg"></p>
-<blockquote>
-<p>文章阅读</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/6.jpg"></p>
-<h4 id="简介-1"><a href="#简介-1" class="headerlink" title="简介"></a>简介</h4><p>网站还处于调试期，打算把其他内容放在这里更新。</p>
-<blockquote>
-<p>网站是由<a href="https://halo.run/">Halo博客框架</a>搭建</p>
-</blockquote>
-<p>Halo博客框架属于是动态部署的博客类型，需要依托于Java环境。我把该博客部署在腾讯云上。</p>
-<p>主题使用的是<a href="https://github.com/LIlGG/halo-theme-sakura">GitHub - LIlGG&#x2F;halo-theme-sakura: Halo 版本的樱花🌸主题</a></p>
-<h3 id="上杉九月的博客-Typecho"><a href="#上杉九月的博客-Typecho" class="headerlink" title="上杉九月的博客 - Typecho"></a><a href="https://blog.sakurasep.club/">上杉九月的博客</a> - Typecho</h3><h4 id="图片介绍-2"><a href="#图片介绍-2" class="headerlink" title="图片介绍"></a>图片介绍</h4><blockquote>
-<p>首页图</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/7.jpg"></p>
-<blockquote>
-<p>文章阅读</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/8.jpg"></p>
-<h4 id="简介-2"><a href="#简介-2" class="headerlink" title="简介"></a>简介</h4><p>Typecho是我最喜欢的博客框架之一，响应速度快，写作方便。</p>
-<p>不过Typecho也有它的缺点，就是很多插件已经不更新了。</p>
-<p>Typecho的主题很多是需要付费的，当然也有免费的主题。这里我使用的是<a href="https://blog.zwying.com/">秦枫鸢梦 - 🌸花有重开日,人无再少年🏃‍♂️ (zwying.com)</a></p>
-<h2 id="图片站-Chevereto"><a href="#图片站-Chevereto" class="headerlink" title="图片站 - Chevereto"></a><a href="https://pic.sakurasep.top/">图片站</a> - Chevereto</h2><h4 id="图片介绍-3"><a href="#图片介绍-3" class="headerlink" title="图片介绍"></a>图片介绍</h4><blockquote>
-<p>首页</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/9.jpg"></p>
-<blockquote>
-<p>图片浏览</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/10.jpg"></p>
-<h4 id="简介-3"><a href="#简介-3" class="headerlink" title="简介"></a>简介</h4><p>图片站在去年年底就进入测试阶段，年初开始稳定运行。属于我这些网站中运行最为稳定的一个。。。</p>
-<p>图片站可以注册（目前仅为邀请码开放，如果想上传图片的话，可以评论区留言邮箱，私发邀请码）</p>
-<p>小服务器，空间不大，带宽不大，没法做到开放注册。</p>
-<p>当然如果只是浏览和下载还是完全开放的。</p>
-<p><strong>图片链接是无法进行引用的，网站开启了防盗链</strong></p>
-<h2 id="第二部分-我的2022"><a href="#第二部分-我的2022" class="headerlink" title="第二部分 我的2022"></a>第二部分 我的2022</h2><p>去年对于我来说，其实是荒废了很多时间。</p>
-<p>直到年底的几个月才认清了方向，明确了自己的未来的道路。</p>
-<h3 id="第一件事：健康的身体"><a href="#第一件事：健康的身体" class="headerlink" title="第一件事：健康的身体"></a>第一件事：健康的身体</h3><p>185cm的高个子 87KG的体重，BMI是稍微超标的。</p>
-<p>对于我来说，身体长时间处于一个亚健康状态，精神支撑不了我去干一些事情，容易累，嗜睡。</p>
-<details>
-<summary>2022 ：第一件事</summary>
-<ul>
-<li><input disabled="" type="checkbox"> BMI回归正常水平，适当的增加肌肉</li>
-</ul>
-</details>
-
-<h3 id="第二件事：英语"><a href="#第二件事：英语" class="headerlink" title="第二件事：英语"></a>第二件事：英语</h3><details>
-<summary>2022 ：第二件事</summary>
-<ul>
-<li><input disabled="" type="checkbox"> 2022年的两场考试，争取一遍过四级和六级</li>
-</ul>
-</details>
-
-<h3 id="第三件事：考研"><a href="#第三件事：考研" class="headerlink" title="第三件事：考研"></a>第三件事：考研</h3><details>
-<summary>2022 ：第三件事</summary>
-<ul>
-<li><input disabled="" type="checkbox"> 准备考研相关内容</li>
-</ul>
-</details>
-
-<h3 id="第四件事：专业水平"><a href="#第四件事：专业水平" class="headerlink" title="第四件事：专业水平"></a>第四件事：专业水平</h3><details>
-<summary>2022 ：第四件事</summary>
-<ul>
-<li><input disabled="" type="checkbox"> 全面提高自己的代码能力</li>
-</ul>
-</details>
-
-<h3 id="第五件事：文章更新"><a href="#第五件事：文章更新" class="headerlink" title="第五件事：文章更新"></a>第五件事：文章更新</h3><details>
-<summary>2022 ：第五件事</summary>
-<ul>
-<li><input disabled="" type="checkbox"> 持续产出高质量文章 </li>
-</ul>
-</details>
-
-<h3 id="第六件事：远足"><a href="#第六件事：远足" class="headerlink" title="第六件事：远足"></a>第六件事：远足</h3><details>
-<summary>2022 ：第六件事</summary>
-<ul>
-<li><input disabled="" type="checkbox"> 暑假里组织一次远足</li>
-</ul>
-</details>
-
-<hr>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png"></p>
-]]></content>
-      <categories>
-        <category>年度总结</category>
-      </categories>
-      <tags>
-        <tag>年度总结</tag>
       </tags>
   </entry>
 </search>

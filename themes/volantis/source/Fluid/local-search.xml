@@ -20,9 +20,9 @@
     
     <tags>
       
-      <tag>Hexo</tag>
-      
       <tag>零基础</tag>
+      
+      <tag>Hexo</tag>
       
     </tags>
     
@@ -47,9 +47,9 @@
     
     <tags>
       
-      <tag>Hexo</tag>
-      
       <tag>零基础</tag>
+      
+      <tag>Hexo</tag>
       
     </tags>
     
@@ -136,8 +136,8 @@
   
   <entry>
     <title>博客日志-记录博客最新动态</title>
-    <link href="/Fluid/About/%E5%8D%9A%E5%AE%A2%E5%85%AC%E5%91%8A%20-%20%E4%B8%8A%E6%9D%89%E4%B9%9D%E6%9C%88%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
-    <url>/Fluid/About/%E5%8D%9A%E5%AE%A2%E5%85%AC%E5%91%8A%20-%20%E4%B8%8A%E6%9D%89%E4%B9%9D%E6%9C%88%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
+    <link href="/Fluid/HexoAbout/%E5%8D%9A%E5%AE%A2%E5%85%AC%E5%91%8A%20-%20%E4%B8%8A%E6%9D%89%E4%B9%9D%E6%9C%88%E7%9A%84%E5%8D%9A%E5%AE%A2/"/>
+    <url>/Fluid/HexoAbout/%E5%8D%9A%E5%AE%A2%E5%85%AC%E5%91%8A%20-%20%E4%B8%8A%E6%9D%89%E4%B9%9D%E6%9C%88%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
     
     <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>如遇到问题请留言，谢谢支持。</p><p>这里我想要感谢</p><blockquote><p><a href="http://wenchong.space/">雨中的博客(wenchong.space)</a>提供美化问题解答，非常感谢。</p><p><a href="https://inkss.cn/">枋柚梓的猫会发光 (inkss.cn)</a>提供自己网站的源码开放参考，对我的美化进程帮助很大，非常感谢。</p></blockquote><h1 id="网站公告"><a href="#网站公告" class="headerlink" title="网站公告"></a>网站公告</h1><h2 id="关于主站"><a href="#关于主站" class="headerlink" title="关于主站"></a>关于主站</h2><p><strong>网站基本信息</strong></p><p>主站使用的是<code>Github + Hexo + 腾讯云CDN</code>的部署模式，最大程度保证访问速度。</p><p>分享文件全部采用依靠Onedrive API的Cloudreve，毕竟没有限速，文件大小限制也少。</p><p>目前的加载速度已经经过很多优化，如果有加载缓慢的情况请联系站长。</p><p><strong>网站内容</strong></p><p>主要是分享知识。我个人认为知识应当没有门槛，做好知识分级，给不同阶段的朋友们都能带来收获。</p><p>目前个人技术有限，仅仅会写一些入门知识分享。</p><p>希望自己能够慢慢变强吧。</p><p>欢迎各位朋友能在思考之后积极的和我探讨交流。</p><h2 id="关于分站"><a href="#关于分站" class="headerlink" title="关于分站"></a>关于分站</h2><p>注意，分站仅仅是同步主站点的文章更新，有些信息可能没有及时更新。</p><p>当然，你在分站的评论博主也是能够看见的。</p><blockquote><p>本站将以往的配置的主题作为分站部署<code>https://blog.sakurasep.site/主题名称</code>下，通过导航栏可以直接访问</p></blockquote><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo_About/1.jpg" alt="about_me"></p><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo_About/2.jpg" alt="about_me"></p><blockquote><p>你可以选择你所喜欢的博客主题进行文章阅读，希望带给你最好的阅读体验。</p></blockquote><h2 id="关于评论"><a href="#关于评论" class="headerlink" title="关于评论"></a>关于评论</h2><ol><li>本站在主站的评论系统已经更换为Twikoo，更棒的评论系统，欢迎大家使用！</li><li>本站的评论邮件提醒已经恢复，你在主站的评论收到回复后将可以接收邮件提醒。</li></ol><h2 id="关于更新"><a href="#关于更新" class="headerlink" title="关于更新"></a>关于更新</h2><p>首先可以确定的是，我会首先保证质量，目前我的技术水平不足，很多地方做的不是很好，还希望各位能提出修改建议，我也会积极进行修改。</p><p>目前将学业与更新做个平衡的话，基本确定是月更，一篇or两篇，得看我的空闲时间。</p><p>目前的规划是</p><ul><li>旧文章的维护</li><li>稳定两个系列的更新（应用使用指南 + 学习笔记）</li></ul><p>以下是更新平台</p><ol><li>首发更新 ：</li></ol><ul><li><a href="https://blog.sakurasep.site/">上杉九月的博客</a></li><li>上杉九月的知识屋（微信公众号）</li></ul><ol start="2"><li>其他平台 ：</li></ol><ul><li>酷安数码 </li><li>哔哩哔哩</li><li>微博</li></ul><h1 id="博客日志"><a href="#博客日志" class="headerlink" title="博客日志"></a>博客日志</h1><h2 id="更新预告"><a href="#更新预告" class="headerlink" title="更新预告"></a>更新预告</h2><h3 id="老文章修改计划"><a href="#老文章修改计划" class="headerlink" title="老文章修改计划"></a>老文章修改计划</h3><h4 id="1-《应用使用指南》存储空间隔离-第1期"><a href="#1-《应用使用指南》存储空间隔离-第1期" class="headerlink" title="1. 《应用使用指南》存储空间隔离_第1期"></a>1. <a href="">《应用使用指南》存储空间隔离_第1期</a></h4><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/IndexImg.png"></p><h4 id="2-《应用使用指南》Perfdog-第2期"><a href="#2-《应用使用指南》Perfdog-第2期" class="headerlink" title="2. 《应用使用指南》Perfdog_第2期"></a>2. <a href="">《应用使用指南》Perfdog_第2期</a></h4><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/PerfDog/IndexImg.png"></p><h3 id="新系列"><a href="#新系列" class="headerlink" title="新系列"></a>新系列</h3><h4 id="1-《Hexo零基础教程》使用Hexo完成博客的基本搭建-第1期"><a href="#1-《Hexo零基础教程》使用Hexo完成博客的基本搭建-第1期" class="headerlink" title="1. 《Hexo零基础教程》使用Hexo完成博客的基本搭建_第1期"></a>1. <a href="">《Hexo零基础教程》使用Hexo完成博客的基本搭建_第1期</a></h4><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo/IndexImg.png"></p><h3 id="恢复更新系列"><a href="#恢复更新系列" class="headerlink" title="恢复更新系列"></a>恢复更新系列</h3><h4 id="1-《应用使用指南》FilterBox-第3期"><a href="#1-《应用使用指南》FilterBox-第3期" class="headerlink" title="1. 《应用使用指南》FilterBox_第3期"></a>1. <a href="">《应用使用指南》FilterBox_第3期</a></h4><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/FilterBox/IndexImg.jpg"></p><hr><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png" alt="about_me"></p>]]></content>
     
@@ -385,11 +385,11 @@
   
   
   <entry>
-    <title>番剧</title>
+    <title>关于</title>
     <link href="/Fluid/"/>
     <url>/Fluid/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=26135813&auto=0&height=66"></iframe><h1 id="Me"><a href="#Me" class="headerlink" title="Me"></a>Me</h1><blockquote><p>Always believe that something wonderful is about to happen.</p><p>希望自己能够安静的一天天生活下去</p><p>写写文章，做做创作</p><p>19岁了，为梦想付出努力中</p></blockquote><ul><li><p>爱好：ACGN，Coding，创作</p></li><li><p>喜欢：探索新奇的事物，可爱的女孩子（bushi</p></li><li><p>目前在玩的游戏：Arknights（二周年入坑），Mihoyo（半弃坑），GTAV（联机首选），各种各样的音游（首玩邦邦）</p></li><li><p>运动：散步，骑行</p></li><li><p>目标：人民教师||自由开发者||自媒体</p></li><li><p>希望拥有的技能：多国语言||美术设计||3D建模</p></li></ul><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/haimao01.gif" alt="很可怕"></p><h1 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h1><details><summary>此生想要完成的事情</summary><ul><li><input disabled="" type="checkbox"> 开源一些实用的工具软件</li><li><input disabled="" type="checkbox"> 有一个稳定的工作</li><li><input disabled="" type="checkbox"> 持续运营自己的自媒体频道</li><li><input disabled="" type="checkbox"> 给喜欢的妹子画插画</li><li><input disabled="" type="checkbox"> 我写的教程能帮助到初学者</li><li><input disabled="" type="checkbox"> 遇到命中注定的那一个人</li><li><input disabled="" type="checkbox"> 出Cos参加漫展</li><li><input disabled=""  type="checkbox"> 走遍大江南北，记录下来我的旅程</li></ul></details><h1 id="Sakura-Team"><a href="#Sakura-Team" class="headerlink" title="Sakura_Team"></a>Sakura_Team</h1><p>趁我现在还有足够的精力，我会和朋友一起建立一个团队</p><p>一个人的力量是单薄的，团队的力量是无穷的</p><p>目前团队还是初创阶段，名称和目标还在规划中</p><h1 id="Article"><a href="#Article" class="headerlink" title="Article"></a>Article</h1><blockquote><ul><li><a href="">2020年度总结</a></li><li><a href="">我的学习笔记</a></li><li><a href="">零基础教程系列</a></li><li><a href="">应用使用指南系列</a></li></ul></blockquote><h1 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h1><blockquote><ul><li><a href="https://pic.sakurasep.top/">上杉九月的图片站</a></li></ul></blockquote><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/About/1.png"></p><blockquote><ul><li><a href="https://sakurasep.site/">上杉九月的博客</a></li></ul></blockquote><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/blog_index.png"></p><blockquote><ul><li><a href="https://blog.sakurasep.club/">九月的生活(Typecho)</a></li></ul></blockquote><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/blog.png"></p><blockquote><ul><li><a href="https://halo.sakurasep.club/">九月的生活(Halo)</a></li></ul></blockquote><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/About/4.png"></p><blockquote><ul><li><a href="https://cloud.sakurasep.club/">Cloudreve</a></li></ul></blockquote><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/About/2.png"></p><blockquote><ul><li><a href="https://pic.sakurasep.club/">Oneindex</a></li></ul></blockquote><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/About/3.png"></p>]]></content>
     
   </entry>
   
@@ -407,11 +407,11 @@
   
   
   <entry>
-    <title>关于</title>
+    <title>番剧</title>
     <link href="/Fluid/"/>
     <url>/Fluid/</url>
     
-    <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=26135813&auto=0&height=66"></iframe><h1 id="Me"><a href="#Me" class="headerlink" title="Me"></a>Me</h1><blockquote><p>Always believe that something wonderful is about to happen.</p><p>希望自己能够安静的一天天生活下去</p><p>写写文章，做做创作</p><p>19岁了，为梦想付出努力中</p></blockquote><ul><li><p>爱好：ACGN，Coding，创作</p></li><li><p>喜欢：探索新奇的事物，可爱的女孩子（bushi</p></li><li><p>目前在玩的游戏：Arknights（二周年入坑），Mihoyo（半弃坑），GTAV（联机首选），各种各样的音游（首玩邦邦）</p></li><li><p>运动：散步，骑行</p></li><li><p>目标：人民教师||自由开发者||自媒体</p></li><li><p>希望拥有的技能：多国语言||美术设计||3D建模</p></li></ul><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/haimao01.gif" alt="很可怕"></p><h1 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h1><details><summary>此生想要完成的事情</summary><ul><li><input disabled="" type="checkbox"> 开源一些实用的工具软件</li><li><input disabled="" type="checkbox"> 有一个稳定的工作</li><li><input disabled="" type="checkbox"> 持续运营自己的自媒体频道</li><li><input disabled="" type="checkbox"> 给喜欢的妹子画插画</li><li><input disabled="" type="checkbox"> 我写的教程能帮助到初学者</li><li><input disabled="" type="checkbox"> 遇到命中注定的那一个人</li><li><input disabled="" type="checkbox"> 出Cos参加漫展</li><li><input disabled=""  type="checkbox"> 走遍大江南北，记录下来我的旅程</li></ul></details><h1 id="Sakura-Team"><a href="#Sakura-Team" class="headerlink" title="Sakura_Team"></a>Sakura_Team</h1><p>趁我现在还有足够的精力，我会和朋友一起建立一个团队</p><p>一个人的力量是单薄的，团队的力量是无穷的</p><p>目前团队还是初创阶段，名称和目标还在规划中</p><h1 id="Article"><a href="#Article" class="headerlink" title="Article"></a>Article</h1><blockquote><ul><li><a href="">2020年度总结</a></li><li><a href="">我的学习笔记</a></li><li><a href="">零基础教程系列</a></li><li><a href="">应用使用指南系列</a></li></ul></blockquote><h1 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h1><blockquote><ul><li><a href="https://pic.sakurasep.top/">上杉九月的图片站</a></li></ul></blockquote><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/About/1.png"></p><blockquote><ul><li><a href="https://sakurasep.site/">上杉九月的博客</a></li></ul></blockquote><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/blog_index.png"></p><blockquote><ul><li><a href="https://blog.sakurasep.club/">九月的生活(Typecho)</a></li></ul></blockquote><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/blog.png"></p><blockquote><ul><li><a href="https://halo.sakurasep.club/">九月的生活(Halo)</a></li></ul></blockquote><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/About/4.png"></p><blockquote><ul><li><a href="https://cloud.sakurasep.club/">Cloudreve</a></li></ul></blockquote><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/About/2.png"></p><blockquote><ul><li><a href="https://pic.sakurasep.club/">Oneindex</a></li></ul></blockquote><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/About/3.png"></p>]]></content>
+    <content type="html"><![CDATA[]]></content>
     
   </entry>
   
