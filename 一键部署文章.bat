@@ -42,6 +42,14 @@ hexo g
 md G:\Blog\Hexo\themes\volantis\source\Yun
 xcopy /s /q G:\Blog\Hexo_Lite\Yun\public\ G:\Blog\Hexo\themes\volantis\source\Yun
 
+cd G:\Blog\Hexo_Lite\Matery
+hexo clean
+hexo bangumi -u
+hexo cinema -u
+hexo g
+md G:\Blog\Hexo\themes\volantis\source\Matery
+xcopy /s /q G:\Blog\Hexo_Lite\Matery\public\ G:\Blog\Hexo\themes\volantis\source\Matery
+
 cd G:\Blog\Hexo
 hexo clean
 hexo bangumi -u

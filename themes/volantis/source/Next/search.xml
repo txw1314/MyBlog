@@ -47,125 +47,6 @@
       </tags>
   </entry>
   <entry>
-    <title>《零基础教程》云服务器实现定时签到_第1期</title>
-    <url>/Next/HowToDo/%E9%9B%B6%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B%20-%20%E6%99%BA%E6%85%A7%E6%9B%B2%E5%9B%AD%E8%87%AA%E5%8A%A8%E6%89%93%E5%8D%A1%E4%BA%91%E7%AB%AF/</url>
-    <content><![CDATA[<h2 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h2><blockquote>
-<p>作者：上杉九月</p>
-<p>排版及发布：上杉九月</p>
-<p>项目原作者：Polo</p>
-<p><strong>本篇教程在腾讯云会出现问题，请等待更新！</strong></p>
-</blockquote>
-<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>每日健康提交？要不是不交，要不是随便填。</p>
-<p>意义何在？</p>
-<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><blockquote>
-<p>原贴:<a href="https://polosec.github.io/2021/01/19/server%E9%85%B1%E5%AE%9E%E7%8E%B0%E7%AD%BE%E5%88%B0%E6%8F%90%E9%86%92/">Polo’s Blog 智慧曲园自动签到+微信推送</a></p>
-</blockquote>
-<blockquote>
-<p>github项目地址:<a href="https://github.com/polosec/qfnuAutoTemperatureSubmit">qfnuAutoTemperatureSubmit</a></p>
-</blockquote>
-<h3 id="1-需要准备"><a href="#1-需要准备" class="headerlink" title="1.需要准备"></a>1.需要准备</h3><ul>
-<li>云服务器（使用宝塔面板）</li>
-<li>配置好的python脚本 或者 项目原脚本</li>
-</ul>
-<h3 id="2-开始配置"><a href="#2-开始配置" class="headerlink" title="2.开始配置"></a>2.开始配置</h3><p>在宝塔面板的文件管理中新建文件夹用来存放项目的脚本文件。</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/1.jpg"></p>
-<h4 id="方案一：对python脚本进行单独配置"><a href="#方案一：对python脚本进行单独配置" class="headerlink" title="方案一：对python脚本进行单独配置"></a>方案一：对python脚本进行单独配置</h4><p>如图所示是我们宿舍四人的python脚本</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/2.jpg"></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/3.jpg"></p>
-<p>所以此时的脚本执行命令为</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">python3 /www/wwwroot/qfnuAutoTemperatureSubmit/xxx.py</span><br></pre></td></tr></table></figure>
-
-
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/4.jpg"></p>
-<h4 id="方案二：使用原python文件"><a href="#方案二：使用原python文件" class="headerlink" title="方案二：使用原python文件"></a>方案二：使用原python文件</h4><p>直接将demo1.py放在文件夹内<br>此时命令变为</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">python3 /www/wwwroot/qfnuAutoTemperatureSubmit/demo1.py 学号 密码</span><br></pre></td></tr></table></figure>
-
-<h3 id="3-注意事项"><a href="#3-注意事项" class="headerlink" title="3.注意事项"></a>3.注意事项</h3><p>执行python脚本报错的话</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/5.png"></p>
-<hr>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png"></p>
-]]></content>
-      <categories>
-        <category>零基础教程</category>
-      </categories>
-      <tags>
-        <tag>零基础</tag>
-        <tag>Python</tag>
-        <tag>云服务器</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客日志-记录博客最新动态</title>
-    <url>/Next/HexoAbout/%E5%8D%9A%E5%AE%A2%E5%85%AC%E5%91%8A%20-%20%E4%B8%8A%E6%9D%89%E4%B9%9D%E6%9C%88%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>如遇到问题请留言，谢谢支持。</p>
-<p>这里我想要感谢</p>
-<blockquote>
-<p><a href="http://wenchong.space/">雨中的博客(wenchong.space)</a>提供美化问题解答，非常感谢。</p>
-<p><a href="https://inkss.cn/">枋柚梓的猫会发光 (inkss.cn)</a>提供自己网站的源码开放参考，对我的美化进程帮助很大，非常感谢。</p>
-</blockquote>
-<h1 id="网站公告"><a href="#网站公告" class="headerlink" title="网站公告"></a>网站公告</h1><h2 id="关于主站"><a href="#关于主站" class="headerlink" title="关于主站"></a>关于主站</h2><p><strong>网站基本信息</strong></p>
-<p>主站使用的是<code>Github + Hexo + 腾讯云CDN</code>的部署模式，最大程度保证访问速度。</p>
-<p>分享文件全部采用依靠Onedrive API的Cloudreve，毕竟没有限速，文件大小限制也少。</p>
-<p>目前的加载速度已经经过很多优化，如果有加载缓慢的情况请联系站长。</p>
-<p><strong>网站内容</strong></p>
-<p>主要是分享知识。我个人认为知识应当没有门槛，做好知识分级，给不同阶段的朋友们都能带来收获。</p>
-<p>目前个人技术有限，仅仅会写一些入门知识分享。</p>
-<p>希望自己能够慢慢变强吧。</p>
-<p>欢迎各位朋友能在思考之后积极的和我探讨交流。</p>
-<h2 id="关于分站"><a href="#关于分站" class="headerlink" title="关于分站"></a>关于分站</h2><p>注意，分站仅仅是同步主站点的文章更新，有些信息可能没有及时更新。</p>
-<p>当然，你在分站的评论博主也是能够看见的。</p>
-<blockquote>
-<p>本站将以往的配置的主题作为分站部署<code>https://blog.sakurasep.site/主题名称</code>下，通过导航栏可以直接访问</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo_About/1.jpg" alt="about_me"></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo_About/2.jpg" alt="about_me"></p>
-<blockquote>
-<p>你可以选择你所喜欢的博客主题进行文章阅读，希望带给你最好的阅读体验。</p>
-</blockquote>
-<h2 id="关于评论"><a href="#关于评论" class="headerlink" title="关于评论"></a>关于评论</h2><ol>
-<li>本站在主站的评论系统已经更换为Twikoo，更棒的评论系统，欢迎大家使用！</li>
-<li>本站的评论邮件提醒已经恢复，你在主站的评论收到回复后将可以接收邮件提醒。</li>
-</ol>
-<h2 id="关于更新"><a href="#关于更新" class="headerlink" title="关于更新"></a>关于更新</h2><p>首先可以确定的是，我会首先保证质量，目前我的技术水平不足，很多地方做的不是很好，还希望各位能提出修改建议，我也会积极进行修改。</p>
-<p>目前将学业与更新做个平衡的话，基本确定是月更，一篇or两篇，得看我的空闲时间。</p>
-<p>目前的规划是</p>
-<ul>
-<li>旧文章的维护</li>
-<li>稳定两个系列的更新（应用使用指南 + 学习笔记）</li>
-</ul>
-<p>以下是更新平台</p>
-<ol>
-<li>首发更新 ：</li>
-</ol>
-<ul>
-<li><a href="https://blog.sakurasep.site/">上杉九月的博客</a></li>
-<li>上杉九月的知识屋（微信公众号）</li>
-</ul>
-<ol start="2">
-<li>其他平台 ：</li>
-</ol>
-<ul>
-<li>酷安数码 </li>
-<li>哔哩哔哩</li>
-<li>微博</li>
-</ul>
-<h1 id="博客日志"><a href="#博客日志" class="headerlink" title="博客日志"></a>博客日志</h1><h2 id="更新预告"><a href="#更新预告" class="headerlink" title="更新预告"></a>更新预告</h2><h3 id="老文章修改计划"><a href="#老文章修改计划" class="headerlink" title="老文章修改计划"></a>老文章修改计划</h3><h4 id="1-《应用使用指南》存储空间隔离-第1期"><a href="#1-《应用使用指南》存储空间隔离-第1期" class="headerlink" title="1. 《应用使用指南》存储空间隔离_第1期"></a>1. <a href="">《应用使用指南》存储空间隔离_第1期</a></h4><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/IndexImg.png"></p>
-<h4 id="2-《应用使用指南》Perfdog-第2期"><a href="#2-《应用使用指南》Perfdog-第2期" class="headerlink" title="2. 《应用使用指南》Perfdog_第2期"></a>2. <a href="">《应用使用指南》Perfdog_第2期</a></h4><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/PerfDog/IndexImg.png"></p>
-<h3 id="新系列"><a href="#新系列" class="headerlink" title="新系列"></a>新系列</h3><h4 id="1-《Hexo零基础教程》使用Hexo完成博客的基本搭建-第1期"><a href="#1-《Hexo零基础教程》使用Hexo完成博客的基本搭建-第1期" class="headerlink" title="1. 《Hexo零基础教程》使用Hexo完成博客的基本搭建_第1期"></a>1. <a href="">《Hexo零基础教程》使用Hexo完成博客的基本搭建_第1期</a></h4><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo/IndexImg.png"></p>
-<h3 id="恢复更新系列"><a href="#恢复更新系列" class="headerlink" title="恢复更新系列"></a>恢复更新系列</h3><h4 id="1-《应用使用指南》FilterBox-第3期"><a href="#1-《应用使用指南》FilterBox-第3期" class="headerlink" title="1. 《应用使用指南》FilterBox_第3期"></a>1. <a href="">《应用使用指南》FilterBox_第3期</a></h4><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/FilterBox/IndexImg.jpg"></p>
-<hr>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png" alt="about_me"></p>
-]]></content>
-      <categories>
-        <category>公告</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-        <tag>日志</tag>
-        <tag>公告</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>《零基础教程》Chevereto-年轻人的第一个私人图床_第2期</title>
     <url>/Next/HowToDo/%E9%9B%B6%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B%20-%20Chevereto%E5%9B%BE%E5%BA%8A/</url>
     <content><![CDATA[<h1 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h1><blockquote>
@@ -370,6 +251,125 @@
       <tags>
         <tag>云服务器</tag>
         <tag>图床</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>博客日志-记录博客最新动态</title>
+    <url>/Next/HexoAbout/%E5%8D%9A%E5%AE%A2%E5%85%AC%E5%91%8A%20-%20%E4%B8%8A%E6%9D%89%E4%B9%9D%E6%9C%88%E7%9A%84%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>如遇到问题请留言，谢谢支持。</p>
+<p>这里我想要感谢</p>
+<blockquote>
+<p><a href="http://wenchong.space/">雨中的博客(wenchong.space)</a>提供美化问题解答，非常感谢。</p>
+<p><a href="https://inkss.cn/">枋柚梓的猫会发光 (inkss.cn)</a>提供自己网站的源码开放参考，对我的美化进程帮助很大，非常感谢。</p>
+</blockquote>
+<h1 id="网站公告"><a href="#网站公告" class="headerlink" title="网站公告"></a>网站公告</h1><h2 id="关于主站"><a href="#关于主站" class="headerlink" title="关于主站"></a>关于主站</h2><p><strong>网站基本信息</strong></p>
+<p>主站使用的是<code>Github + Hexo + 腾讯云CDN</code>的部署模式，最大程度保证访问速度。</p>
+<p>分享文件全部采用依靠Onedrive API的Cloudreve，毕竟没有限速，文件大小限制也少。</p>
+<p>目前的加载速度已经经过很多优化，如果有加载缓慢的情况请联系站长。</p>
+<p><strong>网站内容</strong></p>
+<p>主要是分享知识。我个人认为知识应当没有门槛，做好知识分级，给不同阶段的朋友们都能带来收获。</p>
+<p>目前个人技术有限，仅仅会写一些入门知识分享。</p>
+<p>希望自己能够慢慢变强吧。</p>
+<p>欢迎各位朋友能在思考之后积极的和我探讨交流。</p>
+<h2 id="关于分站"><a href="#关于分站" class="headerlink" title="关于分站"></a>关于分站</h2><p>注意，分站仅仅是同步主站点的文章更新，有些信息可能没有及时更新。</p>
+<p>当然，你在分站的评论博主也是能够看见的。</p>
+<blockquote>
+<p>本站将以往的配置的主题作为分站部署<code>https://blog.sakurasep.site/主题名称</code>下，通过导航栏可以直接访问</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo_About/1.jpg" alt="about_me"></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo_About/2.jpg" alt="about_me"></p>
+<blockquote>
+<p>你可以选择你所喜欢的博客主题进行文章阅读，希望带给你最好的阅读体验。</p>
+</blockquote>
+<h2 id="关于评论"><a href="#关于评论" class="headerlink" title="关于评论"></a>关于评论</h2><ol>
+<li>本站在主站的评论系统已经更换为Twikoo，更棒的评论系统，欢迎大家使用！</li>
+<li>本站的评论邮件提醒已经恢复，你在主站的评论收到回复后将可以接收邮件提醒。</li>
+</ol>
+<h2 id="关于更新"><a href="#关于更新" class="headerlink" title="关于更新"></a>关于更新</h2><p>首先可以确定的是，我会首先保证质量，目前我的技术水平不足，很多地方做的不是很好，还希望各位能提出修改建议，我也会积极进行修改。</p>
+<p>目前将学业与更新做个平衡的话，基本确定是月更，一篇or两篇，得看我的空闲时间。</p>
+<p>目前的规划是</p>
+<ul>
+<li>旧文章的维护</li>
+<li>稳定两个系列的更新（应用使用指南 + 学习笔记）</li>
+</ul>
+<p>以下是更新平台</p>
+<ol>
+<li>首发更新 ：</li>
+</ol>
+<ul>
+<li><a href="https://blog.sakurasep.site/">上杉九月的博客</a></li>
+<li>上杉九月的知识屋（微信公众号）</li>
+</ul>
+<ol start="2">
+<li>其他平台 ：</li>
+</ol>
+<ul>
+<li>酷安数码 </li>
+<li>哔哩哔哩</li>
+<li>微博</li>
+</ul>
+<h1 id="博客日志"><a href="#博客日志" class="headerlink" title="博客日志"></a>博客日志</h1><h2 id="更新预告"><a href="#更新预告" class="headerlink" title="更新预告"></a>更新预告</h2><h3 id="老文章修改计划"><a href="#老文章修改计划" class="headerlink" title="老文章修改计划"></a>老文章修改计划</h3><h4 id="1-《应用使用指南》存储空间隔离-第1期"><a href="#1-《应用使用指南》存储空间隔离-第1期" class="headerlink" title="1. 《应用使用指南》存储空间隔离_第1期"></a>1. <a href="">《应用使用指南》存储空间隔离_第1期</a></h4><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/IndexImg.png"></p>
+<h4 id="2-《应用使用指南》Perfdog-第2期"><a href="#2-《应用使用指南》Perfdog-第2期" class="headerlink" title="2. 《应用使用指南》Perfdog_第2期"></a>2. <a href="">《应用使用指南》Perfdog_第2期</a></h4><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/PerfDog/IndexImg.png"></p>
+<h3 id="新系列"><a href="#新系列" class="headerlink" title="新系列"></a>新系列</h3><h4 id="1-《Hexo零基础教程》使用Hexo完成博客的基本搭建-第1期"><a href="#1-《Hexo零基础教程》使用Hexo完成博客的基本搭建-第1期" class="headerlink" title="1. 《Hexo零基础教程》使用Hexo完成博客的基本搭建_第1期"></a>1. <a href="">《Hexo零基础教程》使用Hexo完成博客的基本搭建_第1期</a></h4><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo/IndexImg.png"></p>
+<h3 id="恢复更新系列"><a href="#恢复更新系列" class="headerlink" title="恢复更新系列"></a>恢复更新系列</h3><h4 id="1-《应用使用指南》FilterBox-第3期"><a href="#1-《应用使用指南》FilterBox-第3期" class="headerlink" title="1. 《应用使用指南》FilterBox_第3期"></a>1. <a href="">《应用使用指南》FilterBox_第3期</a></h4><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/FilterBox/IndexImg.jpg"></p>
+<hr>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png" alt="about_me"></p>
+]]></content>
+      <categories>
+        <category>公告</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>日志</tag>
+        <tag>公告</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《零基础教程》云服务器实现定时签到_第1期</title>
+    <url>/Next/HowToDo/%E9%9B%B6%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B%20-%20%E6%99%BA%E6%85%A7%E6%9B%B2%E5%9B%AD%E8%87%AA%E5%8A%A8%E6%89%93%E5%8D%A1%E4%BA%91%E7%AB%AF/</url>
+    <content><![CDATA[<h2 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h2><blockquote>
+<p>作者：上杉九月</p>
+<p>排版及发布：上杉九月</p>
+<p>项目原作者：Polo</p>
+<p><strong>本篇教程在腾讯云会出现问题，请等待更新！</strong></p>
+</blockquote>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>每日健康提交？要不是不交，要不是随便填。</p>
+<p>意义何在？</p>
+<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><blockquote>
+<p>原贴:<a href="https://polosec.github.io/2021/01/19/server%E9%85%B1%E5%AE%9E%E7%8E%B0%E7%AD%BE%E5%88%B0%E6%8F%90%E9%86%92/">Polo’s Blog 智慧曲园自动签到+微信推送</a></p>
+</blockquote>
+<blockquote>
+<p>github项目地址:<a href="https://github.com/polosec/qfnuAutoTemperatureSubmit">qfnuAutoTemperatureSubmit</a></p>
+</blockquote>
+<h3 id="1-需要准备"><a href="#1-需要准备" class="headerlink" title="1.需要准备"></a>1.需要准备</h3><ul>
+<li>云服务器（使用宝塔面板）</li>
+<li>配置好的python脚本 或者 项目原脚本</li>
+</ul>
+<h3 id="2-开始配置"><a href="#2-开始配置" class="headerlink" title="2.开始配置"></a>2.开始配置</h3><p>在宝塔面板的文件管理中新建文件夹用来存放项目的脚本文件。</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/1.jpg"></p>
+<h4 id="方案一：对python脚本进行单独配置"><a href="#方案一：对python脚本进行单独配置" class="headerlink" title="方案一：对python脚本进行单独配置"></a>方案一：对python脚本进行单独配置</h4><p>如图所示是我们宿舍四人的python脚本</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/2.jpg"></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/3.jpg"></p>
+<p>所以此时的脚本执行命令为</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">python3 /www/wwwroot/qfnuAutoTemperatureSubmit/xxx.py</span><br></pre></td></tr></table></figure>
+
+
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/4.jpg"></p>
+<h4 id="方案二：使用原python文件"><a href="#方案二：使用原python文件" class="headerlink" title="方案二：使用原python文件"></a>方案二：使用原python文件</h4><p>直接将demo1.py放在文件夹内<br>此时命令变为</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">python3 /www/wwwroot/qfnuAutoTemperatureSubmit/demo1.py 学号 密码</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-注意事项"><a href="#3-注意事项" class="headerlink" title="3.注意事项"></a>3.注意事项</h3><p>执行python脚本报错的话</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/5.png"></p>
+<hr>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png"></p>
+]]></content>
+      <categories>
+        <category>零基础教程</category>
+      </categories>
+      <tags>
+        <tag>零基础</tag>
+        <tag>云服务器</tag>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -776,229 +776,35 @@
       </tags>
   </entry>
   <entry>
-    <title>我的2020年度总结</title>
-    <url>/Next/Year/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%20-%202020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</url>
+    <title>《CTF学习笔记》</title>
+    <url>/Next/Study/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20-%20CTF(Crypto)%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h1><blockquote>
 <p>作者：上杉九月</p>
-<p>排版与发布：上杉九月</p>
+<p>排版：上杉九月</p>
 </blockquote>
-<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>咕咕咕了好久的2020年度总结终于来啦！</p>
-<p>～～才不是因为我懒～～</p>
-<p>本文中所有内容截止于2021.1.1日</p>
-<p>未来，一定更精彩！</p>
-<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="第一阶段-高三下学期–高考"><a href="#第一阶段-高三下学期–高考" class="headerlink" title="第一阶段 高三下学期–高考"></a>第一阶段 高三下学期–高考</h2><p>紧张的学习生活，每天基本都是两点一线的路线。</p>
-<p>枯燥的学习生活，在最后的高考100天尤为如此，从周考到天天做不完的卷子。</p>
-<p>温暖的学习生活，在向着理想的大学奋斗的路上，感谢每一位同学的陪伴，感谢老班的悉心辅导，感谢每一位老师的辛苦付出，满满的回忆。</p>
-<p>终究有一个好结果。</p>
-<p>下一个人生阶段，在曲师大度过。</p>
-<h2 id="第二阶段-暑假"><a href="#第二阶段-暑假" class="headerlink" title="第二阶段 暑假"></a>第二阶段 暑假</h2><p>放下了高三的压力，暑假便成为了我尽情发挥的舞台。</p>
-<h3 id="1-第一台自己组装的主机"><a href="#1-第一台自己组装的主机" class="headerlink" title="1. 第一台自己组装的主机"></a>1. 第一台自己组装的主机</h3><p>个人算是一个果粉吧。于是在进行配件选购的时候，并没有选择热门的AMD + N卡的组合，而是为了方便黑苹果的安装，选择了Intel + A卡的组合。</p>
-<p>配置如下</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">CPU：Intel i5-9600K </span><br><span class="line">GPU：AMD RX5700 XT</span><br><span class="line">内存：Kingston 骇客神条 3200MHz 8G x 2</span><br><span class="line">固态：Western Digital SN750 500GB x 2</span><br><span class="line">机械：TOSHIBA P300 3T</span><br><span class="line">主板：MSI Z390 Gaming Puls</span><br><span class="line">电源：Segotep 600W</span><br><span class="line">散热：玄冰400</span><br><span class="line">机箱：SAHARA 逆行者606</span><br><span class="line">显示器：AOC 23.8英寸 24G2 1080P144</span><br><span class="line">无线网卡：BCM943602CS</span><br></pre></td></tr></table></figure>
-
-<p>总体感觉还行吧，组装完成之后做了一个用OC引导的win10和macOS的双系统，这台电脑便是我暑假的主力机器。</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/1.png" alt="about_me"></p>
-<p>关于macOS Catalina 10.15.6的EFI文件，我是参考<a href="https://blog.xjn819.com/">Xjn´s Blog</a>进行自己配置和调试，截止到文章书写的2021.1.18日，一切运行正常</p>
-<p>关于macOS与其他苹果设备的联动，我个人用的是iPad mini2(网课专用板)。为了当前稳定的Wi-Fi链接和蓝牙功能(最初我是用的是USB网卡，不稳定，需要驱动支持)，我入手了BCM943602CS这一款PCIE网卡。</p>
-<p>从同学那里借来iPad Pro 2020做了一下测试，随航，接力，隔空投送都很完美。</p>
-<blockquote>
-<p>macOS镜像下载：<a href="https://blog.daliansky.net/">黑果小兵的部落阁</a></p>
-</blockquote>
-<blockquote>
-<p>本机EFI下载：<a href="https://cloud.sakurasep.club/s/OXFR">Cloudreve 密码:1234</a></p>
-</blockquote>
-<p>这里建议对于macOS或是苹果全家桶生态有着需求的，不要考虑黑苹果主机，黑苹果在稳定性和方便程度都不如白苹果，而且，M1的MacBook好香！</p>
-<h3 id="2-第一台个人笔记本"><a href="#2-第一台个人笔记本" class="headerlink" title="2. 第一台个人笔记本"></a>2. 第一台个人笔记本</h3><p>去上大学，当然不可以搬着一个MATX机箱去。<br>所以入手了一台R7000P(首发价格) </p>
-<blockquote>
-<p>用了两年，看到当年的我说AMD YES，我真想穿越回去，告诉当年的我，Intel YES。</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/2.png" alt="about_me"></p>
-<p>桌面如图</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/3.jpg" alt="about_me"></p>
-<p>用了仿macOS的软件，还不错，基本的动画实现了，UI设计也挺不错的，但是经常出现崩溃。</p>
-<p>正版macOS</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/4.png" alt="about_me"></p>
-<p>因为大学是软件工程专业，笔记本上搭建了python2，，python3，java，c等众多环境</p>
-<h3 id="3-小米9-–-小米10"><a href="#3-小米9-–-小米10" class="headerlink" title="3. 小米9 – 小米10"></a>3. 小米9 – 小米10</h3><blockquote>
-<p>2022年了 865还是顶，4750的电池还是比较大，90Hz的屏幕还是舒服，完全没有换手机的欲望。而且手机对我个人来说就是休闲小游戏加联系工具，下一次换手机估计换个Redmi Note了。</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/6.jpg" alt="about_me"></p>
-<h3 id="4-Sony-ZV-1"><a href="#4-Sony-ZV-1" class="headerlink" title="4. Sony ZV-1"></a>4. Sony ZV-1</h3><blockquote>
-<p>2022年了，还在吃灰。。。。</p>
-</blockquote>
-<h2 id="第三阶段-初步迈入大学生活"><a href="#第三阶段-初步迈入大学生活" class="headerlink" title="第三阶段 初步迈入大学生活"></a>第三阶段 初步迈入大学生活</h2><h3 id="1-Chevereto图片站"><a href="#1-Chevereto图片站" class="headerlink" title="1. Chevereto图片站"></a>1. Chevereto图片站</h3><p>通过自己搭建图床，学到了不少关于云服务器的知识(之前搭建Wordpress博客接触过)。</p>
-<blockquote>
-<h4 id="Demo：上杉九月的图片站"><a href="#Demo：上杉九月的图片站" class="headerlink" title="Demo：上杉九月的图片站"></a>Demo：<a href="https://pic.sakurasep.top/">上杉九月的图片站</a></h4></blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/7.png" alt="about_me"></p>
-<p>搭建教程已经出了</p>
-<blockquote>
-<h4 id="搭建教程：博客原文"><a href="#搭建教程：博客原文" class="headerlink" title="搭建教程：博客原文"></a>搭建教程：<a href="">博客原文</a></h4></blockquote>
-<h3 id="2-Hexo"><a href="#2-Hexo" class="headerlink" title="2. Hexo"></a>2. Hexo</h3><blockquote>
-<h4 id="上杉九月的博客"><a href="#上杉九月的博客" class="headerlink" title="上杉九月的博客"></a><a href="https://blog.sakurasep.site/">上杉九月的博客</a></h4></blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/8.png" alt="about_me"></p>
-<blockquote>
-<h4 id="九月的生活"><a href="#九月的生活" class="headerlink" title="九月的生活"></a><a href="https://blog.sakurasep.club/">九月的生活</a></h4></blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/9.png" alt="about_me"></p>
-<h3 id="3-云服务器"><a href="#3-云服务器" class="headerlink" title="3. 云服务器"></a>3. 云服务器</h3><p>云服务器定时执行python脚本</p>
-<blockquote>
-<p><a href="https://github.com/polosec/qfnuAutoTemperatureSubmit">python脚本原地址</a></p>
-</blockquote>
-<h3 id="4-初接触CTF"><a href="#4-初接触CTF" class="headerlink" title="4. 初接触CTF"></a>4. 初接触CTF</h3><p>想作为一个兴趣爱好，寒假继续学习。</p>
-<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>2020年经历了人生大考，虽然有很多波折，但也是顺利的度过了。</p>
-<p>在2020年我个人多是在实践应用投入了精力，2021年我将会在原理以及应用的代码实现付出。</p>
-<p>目标就是有事情做，写写教程，平平安安就是理想啦。</p>
-<p>2020年真的是魔幻的一年，疫情迅速席卷全球，中国顶着巨大压力成功遏制，没想到（应该是意料之中），自由的西方资本主义国家没能遏制疫情传播，天灾人祸，诸如此类。</p>
-<p>2021年一定会好起来的，提前在这祝福各位新年快乐，事事顺利，一切安好。</p>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>最近一位朋友入坑CTF，想起来开学还加了一个相关社团参加了几场比赛。还是挺有趣的。</p>
+<p>每天做上一两个，就当是放松了。</p>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="BUUCTF在线评测-buuoj-cn-–-MD5"><a href="#BUUCTF在线评测-buuoj-cn-–-MD5" class="headerlink" title="BUUCTF在线评测 (buuoj.cn) – MD5"></a><a href="https://buuoj.cn/challenges#MD5">BUUCTF在线评测 (buuoj.cn) – MD5</a></h2><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/1.png"></p>
+<h3 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h3><p>e00cf25ad42683b3df678c61f42c6bda</p>
+<h3 id="解法"><a href="#解法" class="headerlink" title="解法"></a>解法</h3><p>题目写的很清楚 MD5，然后给出的这一端字符串（用多了能看出来很像MD5）</p>
+<p>扔到**<a href="https://www.cmd5.com/">MD5解密网站</a>**得到<code>flag&#123;admin1&#125;</code></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/2.png"></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/3.png"></p>
+<h2 id="BUUCTF在线评测-buuoj-cn-–-一眼就解密"><a href="#BUUCTF在线评测-buuoj-cn-–-一眼就解密" class="headerlink" title="BUUCTF在线评测 (buuoj.cn) – 一眼就解密"></a><a href="https://buuoj.cn/challenges#%E4%B8%80%E7%9C%BC%E5%B0%B1%E8%A7%A3%E5%AF%86">BUUCTF在线评测 (buuoj.cn) – 一眼就解密</a></h2><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/4.png"></p>
+<h2 id="题目-1"><a href="#题目-1" class="headerlink" title="题目"></a>题目</h2><p>flag：ZmxhZ3tUSEVfRkxBR19PRl9USElTX1NUUklOR30&#x3D;</p>
+<h2 id="解法-1"><a href="#解法-1" class="headerlink" title="解法"></a>解法</h2><p>Base64编码有个特点，编码末尾会出现<code>=</code></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/5.png"></p>
+<p>所以说仍然是放到**<a href="https://www.qqxiuzi.cn/bianma/base64.htm">Base64解密网站</a>**</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/6.png"></p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/7.png"></p>
 <hr>
 <p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png"></p>
 ]]></content>
       <categories>
-        <category>年度总结</category>
+        <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>年度总结</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的2021年度总结</title>
-    <url>/Next/Year/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%20-%202021%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</url>
-    <content><![CDATA[<h1 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h1><blockquote>
-<p>作者：上杉九月</p>
-</blockquote>
-<blockquote>
-<p>排版与发布：上杉九月</p>
-</blockquote>
-<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>2021年，我对自己算是一半满意，一半不满意吧，有些事情不尽如人意，有些事情自己做的很好，希望在2022年我能够有所进步。</p>
-<p>本文中所有内容截止于2022.1.1</p>
-<p><strong>New Dream New Start</strong></p>
-<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>这次的年终总结并不是按阶段划分的，而是分成了两个部分。</p>
-<p>第一部分是对2021年全年的回顾，自己做了什么，还有什么需要改进的地方。</p>
-<p>第二部分是对2022年的一个总体的规划，新的一年我应该向什么方向努力。</p>
-<h2 id="第一部分-我的2021"><a href="#第一部分-我的2021" class="headerlink" title="第一部分 我的2021"></a>第一部分 我的2021</h2><p>对于我来说，2021年研究了很多网站搭建的内容，熟练的掌握云服务器的各种应用方式，接下来就让我一一给各位梳理一下。</p>
-<h2 id="博客"><a href="#博客" class="headerlink" title="博客"></a>博客</h2><h3 id="上杉九月的博客-Hexo"><a href="#上杉九月的博客-Hexo" class="headerlink" title="上杉九月的博客 - Hexo"></a><a href="https://blog.sakurasep.site/">上杉九月的博客</a> - Hexo</h3><h4 id="图片介绍"><a href="#图片介绍" class="headerlink" title="图片介绍"></a>图片介绍</h4><blockquote>
-<p>首页图</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/1.jpg"></p>
-<blockquote>
-<p>主页信息流</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/3.jpg"></p>
-<blockquote>
-<p>文章阅读</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/2.jpg"></p>
-<h4 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h4><blockquote>
-<p>使用Hexo博客框架 + Github Pages</p>
-</blockquote>
-<p>Hexo作为目前活跃度较高的博客框架，主题丰富，功能齐全，个人是十分喜欢由Hexo框架生成的静态博客，Github Pages的访问速度还是可以的，而且如果担心访问速度的话也可以将博客部署到Gitee。</p>
-<blockquote>
-<p>主题使用了<a href="https://volantis.js.org/">Volantis 5.0 Beta</a> 美化思路参考<a href="https://inkss.cn/">枋柚梓的猫会发光 (inkss.cn)</a></p>
-</blockquote>
-<p>Volantis算是一个不错的博客主题，属于是上限高，下限也高，新手通过Volantis官方文档也能配置完成一个不错的页面，而如果想更进一步，Volantis官方还收录了很多大佬的美化教程，可以进行参考。</p>
-<blockquote>
-<p>该博客内容主攻计算机相关内容</p>
-</blockquote>
-<p>由于是静态博客，写作相比于其他博客框架稍微有些繁琐，不适合日常更新。（不过有大佬写的HPP组件看起来还不错，等完善）。我在新的一年保证文章更新的情况下也会记录一下自己的其他方面的内容，放到博客分站吧。</p>
-<blockquote>
-<p>还有些正在调试的内容</p>
-</blockquote>
-<p>Hexo是支持分站的，即可以将其他Hexo主题作为主站点的其他访问风格，目前还在做主站的调试，等主站稳定了把分站会恢复的。</p>
-<h3 id="上杉九月的博客-Halo"><a href="#上杉九月的博客-Halo" class="headerlink" title="上杉九月的博客 - Halo"></a><a href="https://halo.sakurasep.club/">上杉九月的博客</a> - Halo</h3><h4 id="图片介绍-1"><a href="#图片介绍-1" class="headerlink" title="图片介绍"></a>图片介绍</h4><blockquote>
-<p>首页图</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/4.jpg"></p>
-<blockquote>
-<p>主页信息流</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/5.jpg"></p>
-<blockquote>
-<p>文章阅读</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/6.jpg"></p>
-<h4 id="简介-1"><a href="#简介-1" class="headerlink" title="简介"></a>简介</h4><p>网站还处于调试期，打算把其他内容放在这里更新。</p>
-<blockquote>
-<p>网站是由<a href="https://halo.run/">Halo博客框架</a>搭建</p>
-</blockquote>
-<p>Halo博客框架属于是动态部署的博客类型，需要依托于Java环境。我把该博客部署在腾讯云上。</p>
-<p>主题使用的是<a href="https://github.com/LIlGG/halo-theme-sakura">GitHub - LIlGG&#x2F;halo-theme-sakura: Halo 版本的樱花🌸主题</a></p>
-<h3 id="上杉九月的博客-Typecho"><a href="#上杉九月的博客-Typecho" class="headerlink" title="上杉九月的博客 - Typecho"></a><a href="https://blog.sakurasep.club/">上杉九月的博客</a> - Typecho</h3><h4 id="图片介绍-2"><a href="#图片介绍-2" class="headerlink" title="图片介绍"></a>图片介绍</h4><blockquote>
-<p>首页图</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/7.jpg"></p>
-<blockquote>
-<p>文章阅读</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/8.jpg"></p>
-<h4 id="简介-2"><a href="#简介-2" class="headerlink" title="简介"></a>简介</h4><p>Typecho是我最喜欢的博客框架之一，响应速度快，写作方便。</p>
-<p>不过Typecho也有它的缺点，就是很多插件已经不更新了。</p>
-<p>Typecho的主题很多是需要付费的，当然也有免费的主题。这里我使用的是<a href="https://blog.zwying.com/">秦枫鸢梦 - 🌸花有重开日,人无再少年🏃‍♂️ (zwying.com)</a></p>
-<h2 id="图片站-Chevereto"><a href="#图片站-Chevereto" class="headerlink" title="图片站 - Chevereto"></a><a href="https://pic.sakurasep.top/">图片站</a> - Chevereto</h2><h4 id="图片介绍-3"><a href="#图片介绍-3" class="headerlink" title="图片介绍"></a>图片介绍</h4><blockquote>
-<p>首页</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/9.jpg"></p>
-<blockquote>
-<p>图片浏览</p>
-</blockquote>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/10.jpg"></p>
-<h4 id="简介-3"><a href="#简介-3" class="headerlink" title="简介"></a>简介</h4><p>图片站在去年年底就进入测试阶段，年初开始稳定运行。属于我这些网站中运行最为稳定的一个。。。</p>
-<p>图片站可以注册（目前仅为邀请码开放，如果想上传图片的话，可以评论区留言邮箱，私发邀请码）</p>
-<p>小服务器，空间不大，带宽不大，没法做到开放注册。</p>
-<p>当然如果只是浏览和下载还是完全开放的。</p>
-<p><strong>图片链接是无法进行引用的，网站开启了防盗链</strong></p>
-<h2 id="第二部分-我的2022"><a href="#第二部分-我的2022" class="headerlink" title="第二部分 我的2022"></a>第二部分 我的2022</h2><p>去年对于我来说，其实是荒废了很多时间。</p>
-<p>直到年底的几个月才认清了方向，明确了自己的未来的道路。</p>
-<h3 id="第一件事：健康的身体"><a href="#第一件事：健康的身体" class="headerlink" title="第一件事：健康的身体"></a>第一件事：健康的身体</h3><p>185cm的高个子 87KG的体重，BMI是稍微超标的。</p>
-<p>对于我来说，身体长时间处于一个亚健康状态，精神支撑不了我去干一些事情，容易累，嗜睡。</p>
-<details>
-<summary>2022 ：第一件事</summary>
-<ul>
-<li><input disabled="" type="checkbox"> BMI回归正常水平，适当的增加肌肉</li>
-</ul>
-</details>
-
-<h3 id="第二件事：英语"><a href="#第二件事：英语" class="headerlink" title="第二件事：英语"></a>第二件事：英语</h3><details>
-<summary>2022 ：第二件事</summary>
-<ul>
-<li><input disabled="" type="checkbox"> 2022年的两场考试，争取一遍过四级和六级</li>
-</ul>
-</details>
-
-<h3 id="第三件事：考研"><a href="#第三件事：考研" class="headerlink" title="第三件事：考研"></a>第三件事：考研</h3><details>
-<summary>2022 ：第三件事</summary>
-<ul>
-<li><input disabled="" type="checkbox"> 准备考研相关内容</li>
-</ul>
-</details>
-
-<h3 id="第四件事：专业水平"><a href="#第四件事：专业水平" class="headerlink" title="第四件事：专业水平"></a>第四件事：专业水平</h3><details>
-<summary>2022 ：第四件事</summary>
-<ul>
-<li><input disabled="" type="checkbox"> 全面提高自己的代码能力</li>
-</ul>
-</details>
-
-<h3 id="第五件事：文章更新"><a href="#第五件事：文章更新" class="headerlink" title="第五件事：文章更新"></a>第五件事：文章更新</h3><details>
-<summary>2022 ：第五件事</summary>
-<ul>
-<li><input disabled="" type="checkbox"> 持续产出高质量文章 </li>
-</ul>
-</details>
-
-<h3 id="第六件事：远足"><a href="#第六件事：远足" class="headerlink" title="第六件事：远足"></a>第六件事：远足</h3><details>
-<summary>2022 ：第六件事</summary>
-<ul>
-<li><input disabled="" type="checkbox"> 暑假里组织一次远足</li>
-</ul>
-</details>
-
-<hr>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png"></p>
-]]></content>
-      <categories>
-        <category>年度总结</category>
-      </categories>
-      <tags>
-        <tag>年度总结</tag>
+        <tag>CTF</tag>
       </tags>
   </entry>
   <entry>
@@ -1254,38 +1060,6 @@
       </tags>
   </entry>
   <entry>
-    <title>《CTF学习笔记》</title>
-    <url>/Next/Study/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20-%20CTF(Crypto)%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h1><blockquote>
-<p>作者：上杉九月</p>
-<p>排版：上杉九月</p>
-</blockquote>
-<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>最近一位朋友入坑CTF，想起来开学还加了一个相关社团参加了几场比赛。还是挺有趣的。</p>
-<p>每天做上一两个，就当是放松了。</p>
-<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="BUUCTF在线评测-buuoj-cn-–-MD5"><a href="#BUUCTF在线评测-buuoj-cn-–-MD5" class="headerlink" title="BUUCTF在线评测 (buuoj.cn) – MD5"></a><a href="https://buuoj.cn/challenges#MD5">BUUCTF在线评测 (buuoj.cn) – MD5</a></h2><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/1.png"></p>
-<h3 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h3><p>e00cf25ad42683b3df678c61f42c6bda</p>
-<h3 id="解法"><a href="#解法" class="headerlink" title="解法"></a>解法</h3><p>题目写的很清楚 MD5，然后给出的这一端字符串（用多了能看出来很像MD5）</p>
-<p>扔到**<a href="https://www.cmd5.com/">MD5解密网站</a>**得到<code>flag&#123;admin1&#125;</code></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/2.png"></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/3.png"></p>
-<h2 id="BUUCTF在线评测-buuoj-cn-–-一眼就解密"><a href="#BUUCTF在线评测-buuoj-cn-–-一眼就解密" class="headerlink" title="BUUCTF在线评测 (buuoj.cn) – 一眼就解密"></a><a href="https://buuoj.cn/challenges#%E4%B8%80%E7%9C%BC%E5%B0%B1%E8%A7%A3%E5%AF%86">BUUCTF在线评测 (buuoj.cn) – 一眼就解密</a></h2><p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/4.png"></p>
-<h2 id="题目-1"><a href="#题目-1" class="headerlink" title="题目"></a>题目</h2><p>flag：ZmxhZ3tUSEVfRkxBR19PRl9USElTX1NUUklOR30&#x3D;</p>
-<h2 id="解法-1"><a href="#解法-1" class="headerlink" title="解法"></a>解法</h2><p>Base64编码有个特点，编码末尾会出现<code>=</code></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/5.png"></p>
-<p>所以说仍然是放到**<a href="https://www.qqxiuzi.cn/bianma/base64.htm">Base64解密网站</a>**</p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/6.png"></p>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/7.png"></p>
-<hr>
-<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png"></p>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>CTF</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>《学习笔记》</title>
     <url>/Next/Study/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20-%20%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>要填的坑挺多的，精力有限，目前先集中更新本篇文章。</p>
@@ -1399,6 +1173,33 @@
       </tags>
   </entry>
   <entry>
+    <title>《算法学习笔记》</title>
+    <url>/Next/Study/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20-%20%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h1><blockquote>
+<p>作者：上杉九月</p>
+<p>排版及发布：上杉九月</p>
+</blockquote>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>开一个讲解算法的栏目？我准备准备。</p>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="普通判断法"><a href="#普通判断法" class="headerlink" title="普通判断法"></a>普通判断法</h2><h3 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h3><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> MAXN 10000000</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> pr[MAXN];</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Prime</span><span class="params">(<span class="type">int</span> num)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> temp;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">2</span>; i &lt;= num; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        temp = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j = <span class="number">2</span>; j &lt; <span class="built_in">sqrt</span>(i); j++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(i % j == <span class="number">0</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                temp++;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(temp &lt;= <span class="number">2</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            pr[i] = <span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> num;</span><br><span class="line">    cin&gt;&gt;num;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">2</span>; i &lt;= num; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(pr[i] == <span class="number">1</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            cout&lt;&lt;i&lt;&lt;<span class="string">&quot;\n&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="埃拉托斯特尼筛法"><a href="#埃拉托斯特尼筛法" class="headerlink" title="埃拉托斯特尼筛法"></a>埃拉托斯特尼筛法</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>埃拉托斯特尼筛法，简称埃氏筛或爱氏筛，是一种由希腊数学家埃拉托斯特尼所提出的一种简单检定素数的算法。要得到自然数n以内的全部素数，必须把不大于根号n的所有素数的倍数剔除，剩下的就是素数。</p>
+<h3 id="图片演示"><a href="#图片演示" class="headerlink" title="图片演示"></a>图片演示</h3><p><img data-src="https://cdn.jsdelivr.net/gh/sakurasep/images@1.4/stduy/idea/1.gif"></p>
+<h3 id="代码实现-1"><a href="#代码实现-1" class="headerlink" title="代码实现"></a>代码实现</h3><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> MAXN 10000000</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> prime[MAXN];</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">FindNum</span><span class="params">(<span class="type">int</span> num)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">2</span>; i &lt;= <span class="built_in">sqrt</span>(num); i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(prime[i] == <span class="number">0</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> j = i * <span class="number">2</span>; j &lt;= num; j += i)</span><br><span class="line">            &#123;</span><br><span class="line">                prime[j] = <span class="number">1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> num;</span><br><span class="line">    cin&gt;&gt;num;</span><br><span class="line">    <span class="built_in">FindNum</span>(num);</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">2</span>; i &lt; num; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(prime[i] == <span class="number">0</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            cout&lt;&lt;i&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure>
+
+<h2 id="线性筛"><a href="#线性筛" class="headerlink" title="线性筛"></a>线性筛</h2><h3 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h3><p><a href="https://www.luogu.com.cn/blog/cicos/notprime">洛谷用户@学委的原理性证明</a></p>
+<h3 id="代码实现-2"><a href="#代码实现-2" class="headerlink" title="代码实现"></a>代码实现</h3><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> MAXN 1000000</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> prime[MAXN];</span><br><span class="line"><span class="type">bool</span> check[MAXN];</span><br><span class="line"><span class="type">int</span> temp;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">FindNum</span><span class="params">(<span class="type">int</span> num)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">2</span>; i &lt;= num; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(check[i] == <span class="number">0</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            prime[++temp] = i;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j = <span class="number">1</span>; j &lt;= temp &amp;&amp; i * prime[j] &lt;= num; j++)</span><br><span class="line">        &#123;</span><br><span class="line">            check[i * prime[j]] = <span class="number">1</span>;</span><br><span class="line">            <span class="keyword">if</span>(i % prime[j] == <span class="number">0</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">             &#125; </span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> num;</span><br><span class="line">    cin&gt;&gt;num;</span><br><span class="line">    <span class="built_in">FindNum</span>(num);</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">2</span>; i &lt;= temp; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        cout&lt;&lt;prime[i]&lt;&lt;<span class="string">&quot;\n&quot;</span>; </span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<hr>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png"></p>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>C语言</tag>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>《洛谷刷题日记》</title>
     <url>/Next/Study/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20-%20%E6%B4%9B%E8%B0%B7%E5%88%B7%E9%A2%98%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<h1 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h1><blockquote>
@@ -1452,30 +1253,229 @@
       </tags>
   </entry>
   <entry>
-    <title>《算法学习笔记》</title>
-    <url>/Next/Study/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20-%20%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <title>我的2020年度总结</title>
+    <url>/Next/Year/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%20-%202020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</url>
     <content><![CDATA[<h1 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h1><blockquote>
 <p>作者：上杉九月</p>
-<p>排版及发布：上杉九月</p>
+<p>排版与发布：上杉九月</p>
 </blockquote>
-<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>开一个讲解算法的栏目？我准备准备。</p>
-<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="普通判断法"><a href="#普通判断法" class="headerlink" title="普通判断法"></a>普通判断法</h2><h3 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h3><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> MAXN 10000000</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> pr[MAXN];</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Prime</span><span class="params">(<span class="type">int</span> num)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> temp;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">2</span>; i &lt;= num; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        temp = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j = <span class="number">2</span>; j &lt; <span class="built_in">sqrt</span>(i); j++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>(i % j == <span class="number">0</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                temp++;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(temp &lt;= <span class="number">2</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            pr[i] = <span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> num;</span><br><span class="line">    cin&gt;&gt;num;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">2</span>; i &lt;= num; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(pr[i] == <span class="number">1</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            cout&lt;&lt;i&lt;&lt;<span class="string">&quot;\n&quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>咕咕咕了好久的2020年度总结终于来啦！</p>
+<p>～～才不是因为我懒～～</p>
+<p>本文中所有内容截止于2021.1.1日</p>
+<p>未来，一定更精彩！</p>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><h2 id="第一阶段-高三下学期–高考"><a href="#第一阶段-高三下学期–高考" class="headerlink" title="第一阶段 高三下学期–高考"></a>第一阶段 高三下学期–高考</h2><p>紧张的学习生活，每天基本都是两点一线的路线。</p>
+<p>枯燥的学习生活，在最后的高考100天尤为如此，从周考到天天做不完的卷子。</p>
+<p>温暖的学习生活，在向着理想的大学奋斗的路上，感谢每一位同学的陪伴，感谢老班的悉心辅导，感谢每一位老师的辛苦付出，满满的回忆。</p>
+<p>终究有一个好结果。</p>
+<p>下一个人生阶段，在曲师大度过。</p>
+<h2 id="第二阶段-暑假"><a href="#第二阶段-暑假" class="headerlink" title="第二阶段 暑假"></a>第二阶段 暑假</h2><p>放下了高三的压力，暑假便成为了我尽情发挥的舞台。</p>
+<h3 id="1-第一台自己组装的主机"><a href="#1-第一台自己组装的主机" class="headerlink" title="1. 第一台自己组装的主机"></a>1. 第一台自己组装的主机</h3><p>个人算是一个果粉吧。于是在进行配件选购的时候，并没有选择热门的AMD + N卡的组合，而是为了方便黑苹果的安装，选择了Intel + A卡的组合。</p>
+<p>配置如下</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">CPU：Intel i5-9600K </span><br><span class="line">GPU：AMD RX5700 XT</span><br><span class="line">内存：Kingston 骇客神条 3200MHz 8G x 2</span><br><span class="line">固态：Western Digital SN750 500GB x 2</span><br><span class="line">机械：TOSHIBA P300 3T</span><br><span class="line">主板：MSI Z390 Gaming Puls</span><br><span class="line">电源：Segotep 600W</span><br><span class="line">散热：玄冰400</span><br><span class="line">机箱：SAHARA 逆行者606</span><br><span class="line">显示器：AOC 23.8英寸 24G2 1080P144</span><br><span class="line">无线网卡：BCM943602CS</span><br></pre></td></tr></table></figure>
 
-<h2 id="埃拉托斯特尼筛法"><a href="#埃拉托斯特尼筛法" class="headerlink" title="埃拉托斯特尼筛法"></a>埃拉托斯特尼筛法</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>埃拉托斯特尼筛法，简称埃氏筛或爱氏筛，是一种由希腊数学家埃拉托斯特尼所提出的一种简单检定素数的算法。要得到自然数n以内的全部素数，必须把不大于根号n的所有素数的倍数剔除，剩下的就是素数。</p>
-<h3 id="图片演示"><a href="#图片演示" class="headerlink" title="图片演示"></a>图片演示</h3><p><img data-src="https://cdn.jsdelivr.net/gh/sakurasep/images@1.4/stduy/idea/1.gif"></p>
-<h3 id="代码实现-1"><a href="#代码实现-1" class="headerlink" title="代码实现"></a>代码实现</h3><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> MAXN 10000000</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> prime[MAXN];</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">FindNum</span><span class="params">(<span class="type">int</span> num)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">2</span>; i &lt;= <span class="built_in">sqrt</span>(num); i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(prime[i] == <span class="number">0</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> j = i * <span class="number">2</span>; j &lt;= num; j += i)</span><br><span class="line">            &#123;</span><br><span class="line">                prime[j] = <span class="number">1</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> num;</span><br><span class="line">    cin&gt;&gt;num;</span><br><span class="line">    <span class="built_in">FindNum</span>(num);</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">2</span>; i &lt; num; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(prime[i] == <span class="number">0</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            cout&lt;&lt;i&lt;&lt;<span class="string">&quot; &quot;</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure>
-
-<h2 id="线性筛"><a href="#线性筛" class="headerlink" title="线性筛"></a>线性筛</h2><h3 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h3><p><a href="https://www.luogu.com.cn/blog/cicos/notprime">洛谷用户@学委的原理性证明</a></p>
-<h3 id="代码实现-2"><a href="#代码实现-2" class="headerlink" title="代码实现"></a>代码实现</h3><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> MAXN 1000000</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">int</span> prime[MAXN];</span><br><span class="line"><span class="type">bool</span> check[MAXN];</span><br><span class="line"><span class="type">int</span> temp;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">FindNum</span><span class="params">(<span class="type">int</span> num)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">2</span>; i &lt;= num; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(check[i] == <span class="number">0</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            prime[++temp] = i;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j = <span class="number">1</span>; j &lt;= temp &amp;&amp; i * prime[j] &lt;= num; j++)</span><br><span class="line">        &#123;</span><br><span class="line">            check[i * prime[j]] = <span class="number">1</span>;</span><br><span class="line">            <span class="keyword">if</span>(i % prime[j] == <span class="number">0</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">             &#125; </span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="type">int</span> num;</span><br><span class="line">    cin&gt;&gt;num;</span><br><span class="line">    <span class="built_in">FindNum</span>(num);</span><br><span class="line">    <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">2</span>; i &lt;= temp; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        cout&lt;&lt;prime[i]&lt;&lt;<span class="string">&quot;\n&quot;</span>; </span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>总体感觉还行吧，组装完成之后做了一个用OC引导的win10和macOS的双系统，这台电脑便是我暑假的主力机器。</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/1.png" alt="about_me"></p>
+<p>关于macOS Catalina 10.15.6的EFI文件，我是参考<a href="https://blog.xjn819.com/">Xjn´s Blog</a>进行自己配置和调试，截止到文章书写的2021.1.18日，一切运行正常</p>
+<p>关于macOS与其他苹果设备的联动，我个人用的是iPad mini2(网课专用板)。为了当前稳定的Wi-Fi链接和蓝牙功能(最初我是用的是USB网卡，不稳定，需要驱动支持)，我入手了BCM943602CS这一款PCIE网卡。</p>
+<p>从同学那里借来iPad Pro 2020做了一下测试，随航，接力，隔空投送都很完美。</p>
+<blockquote>
+<p>macOS镜像下载：<a href="https://blog.daliansky.net/">黑果小兵的部落阁</a></p>
+</blockquote>
+<blockquote>
+<p>本机EFI下载：<a href="https://cloud.sakurasep.club/s/OXFR">Cloudreve 密码:1234</a></p>
+</blockquote>
+<p>这里建议对于macOS或是苹果全家桶生态有着需求的，不要考虑黑苹果主机，黑苹果在稳定性和方便程度都不如白苹果，而且，M1的MacBook好香！</p>
+<h3 id="2-第一台个人笔记本"><a href="#2-第一台个人笔记本" class="headerlink" title="2. 第一台个人笔记本"></a>2. 第一台个人笔记本</h3><p>去上大学，当然不可以搬着一个MATX机箱去。<br>所以入手了一台R7000P(首发价格) </p>
+<blockquote>
+<p>用了两年，看到当年的我说AMD YES，我真想穿越回去，告诉当年的我，Intel YES。</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/2.png" alt="about_me"></p>
+<p>桌面如图</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/3.jpg" alt="about_me"></p>
+<p>用了仿macOS的软件，还不错，基本的动画实现了，UI设计也挺不错的，但是经常出现崩溃。</p>
+<p>正版macOS</p>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/4.png" alt="about_me"></p>
+<p>因为大学是软件工程专业，笔记本上搭建了python2，，python3，java，c等众多环境</p>
+<h3 id="3-小米9-–-小米10"><a href="#3-小米9-–-小米10" class="headerlink" title="3. 小米9 – 小米10"></a>3. 小米9 – 小米10</h3><blockquote>
+<p>2022年了 865还是顶，4750的电池还是比较大，90Hz的屏幕还是舒服，完全没有换手机的欲望。而且手机对我个人来说就是休闲小游戏加联系工具，下一次换手机估计换个Redmi Note了。</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/6.jpg" alt="about_me"></p>
+<h3 id="4-Sony-ZV-1"><a href="#4-Sony-ZV-1" class="headerlink" title="4. Sony ZV-1"></a>4. Sony ZV-1</h3><blockquote>
+<p>2022年了，还在吃灰。。。。</p>
+</blockquote>
+<h2 id="第三阶段-初步迈入大学生活"><a href="#第三阶段-初步迈入大学生活" class="headerlink" title="第三阶段 初步迈入大学生活"></a>第三阶段 初步迈入大学生活</h2><h3 id="1-Chevereto图片站"><a href="#1-Chevereto图片站" class="headerlink" title="1. Chevereto图片站"></a>1. Chevereto图片站</h3><p>通过自己搭建图床，学到了不少关于云服务器的知识(之前搭建Wordpress博客接触过)。</p>
+<blockquote>
+<h4 id="Demo：上杉九月的图片站"><a href="#Demo：上杉九月的图片站" class="headerlink" title="Demo：上杉九月的图片站"></a>Demo：<a href="https://pic.sakurasep.top/">上杉九月的图片站</a></h4></blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/7.png" alt="about_me"></p>
+<p>搭建教程已经出了</p>
+<blockquote>
+<h4 id="搭建教程：博客原文"><a href="#搭建教程：博客原文" class="headerlink" title="搭建教程：博客原文"></a>搭建教程：<a href="">博客原文</a></h4></blockquote>
+<h3 id="2-Hexo"><a href="#2-Hexo" class="headerlink" title="2. Hexo"></a>2. Hexo</h3><blockquote>
+<h4 id="上杉九月的博客"><a href="#上杉九月的博客" class="headerlink" title="上杉九月的博客"></a><a href="https://blog.sakurasep.site/">上杉九月的博客</a></h4></blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/8.png" alt="about_me"></p>
+<blockquote>
+<h4 id="九月的生活"><a href="#九月的生活" class="headerlink" title="九月的生活"></a><a href="https://blog.sakurasep.club/">九月的生活</a></h4></blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2020/9.png" alt="about_me"></p>
+<h3 id="3-云服务器"><a href="#3-云服务器" class="headerlink" title="3. 云服务器"></a>3. 云服务器</h3><p>云服务器定时执行python脚本</p>
+<blockquote>
+<p><a href="https://github.com/polosec/qfnuAutoTemperatureSubmit">python脚本原地址</a></p>
+</blockquote>
+<h3 id="4-初接触CTF"><a href="#4-初接触CTF" class="headerlink" title="4. 初接触CTF"></a>4. 初接触CTF</h3><p>想作为一个兴趣爱好，寒假继续学习。</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>2020年经历了人生大考，虽然有很多波折，但也是顺利的度过了。</p>
+<p>在2020年我个人多是在实践应用投入了精力，2021年我将会在原理以及应用的代码实现付出。</p>
+<p>目标就是有事情做，写写教程，平平安安就是理想啦。</p>
+<p>2020年真的是魔幻的一年，疫情迅速席卷全球，中国顶着巨大压力成功遏制，没想到（应该是意料之中），自由的西方资本主义国家没能遏制疫情传播，天灾人祸，诸如此类。</p>
+<p>2021年一定会好起来的，提前在这祝福各位新年快乐，事事顺利，一切安好。</p>
 <hr>
 <p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png"></p>
 ]]></content>
       <categories>
-        <category>学习笔记</category>
+        <category>年度总结</category>
       </categories>
       <tags>
-        <tag>C语言</tag>
-        <tag>算法</tag>
+        <tag>年度总结</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的2021年度总结</title>
+    <url>/Next/Year/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93%20-%202021%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</url>
+    <content><![CDATA[<h1 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h1><blockquote>
+<p>作者：上杉九月</p>
+</blockquote>
+<blockquote>
+<p>排版与发布：上杉九月</p>
+</blockquote>
+<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>2021年，我对自己算是一半满意，一半不满意吧，有些事情不尽如人意，有些事情自己做的很好，希望在2022年我能够有所进步。</p>
+<p>本文中所有内容截止于2022.1.1</p>
+<p><strong>New Dream New Start</strong></p>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>这次的年终总结并不是按阶段划分的，而是分成了两个部分。</p>
+<p>第一部分是对2021年全年的回顾，自己做了什么，还有什么需要改进的地方。</p>
+<p>第二部分是对2022年的一个总体的规划，新的一年我应该向什么方向努力。</p>
+<h2 id="第一部分-我的2021"><a href="#第一部分-我的2021" class="headerlink" title="第一部分 我的2021"></a>第一部分 我的2021</h2><p>对于我来说，2021年研究了很多网站搭建的内容，熟练的掌握云服务器的各种应用方式，接下来就让我一一给各位梳理一下。</p>
+<h2 id="博客"><a href="#博客" class="headerlink" title="博客"></a>博客</h2><h3 id="上杉九月的博客-Hexo"><a href="#上杉九月的博客-Hexo" class="headerlink" title="上杉九月的博客 - Hexo"></a><a href="https://blog.sakurasep.site/">上杉九月的博客</a> - Hexo</h3><h4 id="图片介绍"><a href="#图片介绍" class="headerlink" title="图片介绍"></a>图片介绍</h4><blockquote>
+<p>首页图</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/1.jpg"></p>
+<blockquote>
+<p>主页信息流</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/3.jpg"></p>
+<blockquote>
+<p>文章阅读</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/2.jpg"></p>
+<h4 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h4><blockquote>
+<p>使用Hexo博客框架 + Github Pages</p>
+</blockquote>
+<p>Hexo作为目前活跃度较高的博客框架，主题丰富，功能齐全，个人是十分喜欢由Hexo框架生成的静态博客，Github Pages的访问速度还是可以的，而且如果担心访问速度的话也可以将博客部署到Gitee。</p>
+<blockquote>
+<p>主题使用了<a href="https://volantis.js.org/">Volantis 5.0 Beta</a> 美化思路参考<a href="https://inkss.cn/">枋柚梓的猫会发光 (inkss.cn)</a></p>
+</blockquote>
+<p>Volantis算是一个不错的博客主题，属于是上限高，下限也高，新手通过Volantis官方文档也能配置完成一个不错的页面，而如果想更进一步，Volantis官方还收录了很多大佬的美化教程，可以进行参考。</p>
+<blockquote>
+<p>该博客内容主攻计算机相关内容</p>
+</blockquote>
+<p>由于是静态博客，写作相比于其他博客框架稍微有些繁琐，不适合日常更新。（不过有大佬写的HPP组件看起来还不错，等完善）。我在新的一年保证文章更新的情况下也会记录一下自己的其他方面的内容，放到博客分站吧。</p>
+<blockquote>
+<p>还有些正在调试的内容</p>
+</blockquote>
+<p>Hexo是支持分站的，即可以将其他Hexo主题作为主站点的其他访问风格，目前还在做主站的调试，等主站稳定了把分站会恢复的。</p>
+<h3 id="上杉九月的博客-Halo"><a href="#上杉九月的博客-Halo" class="headerlink" title="上杉九月的博客 - Halo"></a><a href="https://halo.sakurasep.club/">上杉九月的博客</a> - Halo</h3><h4 id="图片介绍-1"><a href="#图片介绍-1" class="headerlink" title="图片介绍"></a>图片介绍</h4><blockquote>
+<p>首页图</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/4.jpg"></p>
+<blockquote>
+<p>主页信息流</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/5.jpg"></p>
+<blockquote>
+<p>文章阅读</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/6.jpg"></p>
+<h4 id="简介-1"><a href="#简介-1" class="headerlink" title="简介"></a>简介</h4><p>网站还处于调试期，打算把其他内容放在这里更新。</p>
+<blockquote>
+<p>网站是由<a href="https://halo.run/">Halo博客框架</a>搭建</p>
+</blockquote>
+<p>Halo博客框架属于是动态部署的博客类型，需要依托于Java环境。我把该博客部署在腾讯云上。</p>
+<p>主题使用的是<a href="https://github.com/LIlGG/halo-theme-sakura">GitHub - LIlGG&#x2F;halo-theme-sakura: Halo 版本的樱花🌸主题</a></p>
+<h3 id="上杉九月的博客-Typecho"><a href="#上杉九月的博客-Typecho" class="headerlink" title="上杉九月的博客 - Typecho"></a><a href="https://blog.sakurasep.club/">上杉九月的博客</a> - Typecho</h3><h4 id="图片介绍-2"><a href="#图片介绍-2" class="headerlink" title="图片介绍"></a>图片介绍</h4><blockquote>
+<p>首页图</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/7.jpg"></p>
+<blockquote>
+<p>文章阅读</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/8.jpg"></p>
+<h4 id="简介-2"><a href="#简介-2" class="headerlink" title="简介"></a>简介</h4><p>Typecho是我最喜欢的博客框架之一，响应速度快，写作方便。</p>
+<p>不过Typecho也有它的缺点，就是很多插件已经不更新了。</p>
+<p>Typecho的主题很多是需要付费的，当然也有免费的主题。这里我使用的是<a href="https://blog.zwying.com/">秦枫鸢梦 - 🌸花有重开日,人无再少年🏃‍♂️ (zwying.com)</a></p>
+<h2 id="图片站-Chevereto"><a href="#图片站-Chevereto" class="headerlink" title="图片站 - Chevereto"></a><a href="https://pic.sakurasep.top/">图片站</a> - Chevereto</h2><h4 id="图片介绍-3"><a href="#图片介绍-3" class="headerlink" title="图片介绍"></a>图片介绍</h4><blockquote>
+<p>首页</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/9.jpg"></p>
+<blockquote>
+<p>图片浏览</p>
+</blockquote>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/My2021/10.jpg"></p>
+<h4 id="简介-3"><a href="#简介-3" class="headerlink" title="简介"></a>简介</h4><p>图片站在去年年底就进入测试阶段，年初开始稳定运行。属于我这些网站中运行最为稳定的一个。。。</p>
+<p>图片站可以注册（目前仅为邀请码开放，如果想上传图片的话，可以评论区留言邮箱，私发邀请码）</p>
+<p>小服务器，空间不大，带宽不大，没法做到开放注册。</p>
+<p>当然如果只是浏览和下载还是完全开放的。</p>
+<p><strong>图片链接是无法进行引用的，网站开启了防盗链</strong></p>
+<h2 id="第二部分-我的2022"><a href="#第二部分-我的2022" class="headerlink" title="第二部分 我的2022"></a>第二部分 我的2022</h2><p>去年对于我来说，其实是荒废了很多时间。</p>
+<p>直到年底的几个月才认清了方向，明确了自己的未来的道路。</p>
+<h3 id="第一件事：健康的身体"><a href="#第一件事：健康的身体" class="headerlink" title="第一件事：健康的身体"></a>第一件事：健康的身体</h3><p>185cm的高个子 87KG的体重，BMI是稍微超标的。</p>
+<p>对于我来说，身体长时间处于一个亚健康状态，精神支撑不了我去干一些事情，容易累，嗜睡。</p>
+<details>
+<summary>2022 ：第一件事</summary>
+<ul>
+<li><input disabled="" type="checkbox"> BMI回归正常水平，适当的增加肌肉</li>
+</ul>
+</details>
+
+<h3 id="第二件事：英语"><a href="#第二件事：英语" class="headerlink" title="第二件事：英语"></a>第二件事：英语</h3><details>
+<summary>2022 ：第二件事</summary>
+<ul>
+<li><input disabled="" type="checkbox"> 2022年的两场考试，争取一遍过四级和六级</li>
+</ul>
+</details>
+
+<h3 id="第三件事：考研"><a href="#第三件事：考研" class="headerlink" title="第三件事：考研"></a>第三件事：考研</h3><details>
+<summary>2022 ：第三件事</summary>
+<ul>
+<li><input disabled="" type="checkbox"> 准备考研相关内容</li>
+</ul>
+</details>
+
+<h3 id="第四件事：专业水平"><a href="#第四件事：专业水平" class="headerlink" title="第四件事：专业水平"></a>第四件事：专业水平</h3><details>
+<summary>2022 ：第四件事</summary>
+<ul>
+<li><input disabled="" type="checkbox"> 全面提高自己的代码能力</li>
+</ul>
+</details>
+
+<h3 id="第五件事：文章更新"><a href="#第五件事：文章更新" class="headerlink" title="第五件事：文章更新"></a>第五件事：文章更新</h3><details>
+<summary>2022 ：第五件事</summary>
+<ul>
+<li><input disabled="" type="checkbox"> 持续产出高质量文章 </li>
+</ul>
+</details>
+
+<h3 id="第六件事：远足"><a href="#第六件事：远足" class="headerlink" title="第六件事：远足"></a>第六件事：远足</h3><details>
+<summary>2022 ：第六件事</summary>
+<ul>
+<li><input disabled="" type="checkbox"> 暑假里组织一次远足</li>
+</ul>
+</details>
+
+<hr>
+<p><img data-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png"></p>
+]]></content>
+      <categories>
+        <category>年度总结</category>
+      </categories>
+      <tags>
+        <tag>年度总结</tag>
       </tags>
   </entry>
 </search>

@@ -20,9 +20,9 @@
     
     <tags>
       
-      <tag>零基础</tag>
-      
       <tag>Hexo</tag>
+      
+      <tag>零基础</tag>
       
     </tags>
     
@@ -47,9 +47,9 @@
     
     <tags>
       
-      <tag>零基础</tag>
-      
       <tag>Hexo</tag>
+      
+      <tag>零基础</tag>
       
     </tags>
     
@@ -385,6 +385,17 @@
   
   
   <entry>
+    <title>所有分类</title>
+    <link href="/Fluid/"/>
+    <url>/Fluid/</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>关于</title>
     <link href="/Fluid/"/>
     <url>/Fluid/</url>
@@ -408,17 +419,6 @@
   
   <entry>
     <title>番剧</title>
-    <link href="/Fluid/"/>
-    <url>/Fluid/</url>
-    
-    <content type="html"><![CDATA[]]></content>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>所有分类</title>
     <link href="/Fluid/"/>
     <url>/Fluid/</url>
     
