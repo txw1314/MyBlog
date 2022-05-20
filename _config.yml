@@ -2,28 +2,15 @@
 # Hexo 配置
 # 汉化资料参考来源: https://blog.csdn.net/zemprogram/article/details/104288872
 # 由上杉九月(https://blog.sakurasep.site)，进行修改和测试
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
 
-# Site
-# 网站
-# 网站标题(必填)
-title: 九月的生活 
-# 副标题(在某些主题不生效)
-subtitle: New Dream New Start 
-# 网站描述(建议填写，优化SEO)
-description: 希望在这里分享我的经验与生活！ 
-# 网站的关键字(选填，优化SEO)
-keywords: 
-# 网站作者(必填)
-author: 上杉九月 
-# 网站使用的语言(取决于你主题目录下的语言文件)
-language:
-- zh-CN
-- en
-- zh-TW 
-# 网站对应的时区(无需设置)
-timezone: '' 
+# Site 网站
+title: 九月的生活 # 网站标题(必填)
+subtitle: New Dream New Start # 副标题(在某些主题不生效)
+description: 希望在这里分享我的经验与生活！ # 网站描述(建议填写，优化SEO)
+keywords: 上杉九月,博客,sakurasep,学习技术 # 网站的关键字(选填，优化SEO)
+author: 上杉九月 # 网站作者(必填)
+language: zh-CN # 网站使用的语言(取决于你主题目录下的语言文件)
+timezone: Asia/Shanghai # 网站对应的时区(无需设置) 
 
 # URL
 # 网址
@@ -32,10 +19,8 @@ timezone: ''
 # Github: https://Github用户名.github.io
 # Gitee: https://Gitee仓库路径名.gitee.io
 url: https://cdn.sakurasep.site/
-# 文章的永久链接格式(选择性修改)
-permalink: :title/  
-# (无需修改)
-permalink_defaults:
+permalink: :title/ # 文章的永久链接格式(选择性修改)
+permalink_defaults: # (无需修改)
 pretty_urls:
   trailing_index: true 
   trailing_html: true 
@@ -88,7 +73,7 @@ future: false
 # 代码块高亮设置(根据所用主题按需设置)
 highlight:
   enable: true
-  line_number: true
+  line_number: false
   auto_detect: false
   tab_replace: ''
   wrap: true
@@ -162,9 +147,10 @@ deploy:
   branch: master
 
 import:
-  link:
-    - <link href="https://cdn.jsdelivr.net/gh/inkss/common@1/css/roboto.min.css" rel="stylesheet" media="print" onload="this.media='all'">
-    - <link href="https://cdn.jsdelivr.net/gh/inkss/common@1/css/jetbrains.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+  head_end:
+    - <link rel="preconnect" href="https://css.sakurasep.club">
+    - <link rel="stylesheet" href="https://css.sakurasep.club/Volantis/CDN/css/roboto.css">
+    - <link rel="preload" href="/css/roboto-local.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     
 # 网站图标，更多尺寸等图标请使用import方式批量导入
 favicon: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/favicon.ico

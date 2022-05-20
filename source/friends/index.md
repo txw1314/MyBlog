@@ -1,6 +1,9 @@
 ---
-layout: page 
-title: 我的朋友们
+layout: friends
+seo_title: 我的朋友们
+sidebar: []
+twikoo:
+  placeholder: 欢迎交换友链，让我们一起在博客中书写我们的日常。
 ---
 
 # 欢迎来访
