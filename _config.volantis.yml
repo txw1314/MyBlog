@@ -8,13 +8,13 @@ custom_css:
   toc_smooth: true
   cursor:
     enable: true
-    text: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/text.png
-    pointer: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/pointer.png
-    default: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/left_ptr.png
-    not-allowed: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/circle.png
-    zoom-out: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/zoom-out.png
-    zoom-in: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/zoom-in.png
-    grab: https://cdn.jsdelivr.net/gh/inkss/common@1/cursor/openhand.png
+    text: https://css.sakurasep.club/Inkss-CDN/cursor/text.png
+    pointer: https://css.sakurasep.club/Inkss-CDN/cursor/pointer.png
+    default: https://css.sakurasep.club/Inkss-CDN/cursor/left_ptr.png
+    not-allowed: https://css.sakurasep.club/Inkss-CDN/cursor/circle.png
+    zoom-out: https://css.sakurasep.club/Inkss-CDN/cursor/zoom-out.png
+    zoom-in: https://css.sakurasep.club/Inkss-CDN/cursor/zoom-in.png
+    grab: https://css.sakurasep.club/Inkss-CDN/cursor/openhand.png
   scrollbar:
     size: 4px
     border: 2px  
@@ -279,7 +279,6 @@ site_footer:
   cpy: '<div class="footerMax490">Copyright 2019 - 2022 SakuraSep. All Rights Reserved</div>'
   me: '<a href="/">上杉九月</a> '
   icp: '<a href="https://beian.miit.gov.cn/#/Integrated/index"><span>鲁ICP备2020049838号-3</span></a>'
-  cdn: '<div class="footer-support"><p>本网站由</p><a class="footer-support-logo" href="https://www.upyun.com" target="blank" title="又拍云"><img height="35" src="https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/logo/upyun-logo.png" alt="又拍云"></a><p>提供 CDN 加速</p></div>'
 
 # 封面
 cover:
@@ -295,32 +294,32 @@ cover:
   features:
     - name: 博客
       url: /
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
+      img: https://css.sakurasep.club/Twemoji/assets/svg/1f4f0.svg
     - name: 分类
       icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5c3.svg
+      img: https://css.sakurasep.club/Twemoji/assets/svg/1f5c3.svg
       url: /categories/
     - name: 标签
       icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5d2.svg
+      img: https://css.sakurasep.club/Twemoji/assets/svg/1f5d2.svg
       url: /tags/
     - name: 归档
       icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5de.svg
+      img: https://css.sakurasep.club/Twemoji/assets/svg/1f5de.svg
       url: /archives/
     - name: 友链
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4e2.svg
+      img: https://css.sakurasep.club/Twemoji/assets/svg/1f4e2.svg
       url: /friends/
     - name: 关于
       icon: #
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f5a5.svg
+      img: https://css.sakurasep.club/Twemoji/assets/svg/1f5a5.svg
       url: /about/
 
 # 文章
 article:
   preview:
     line_style: hidden
-    pin_icon: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4cc.svg
+    pin_icon: https://css.sakurasep.club/Twemoji/assets/svg/1f4cc.svg
   body:
     top_meta: [author, wordcount, category, updated, counter]
     bottom_meta: [category, tags, updated, share]
@@ -424,7 +423,7 @@ plugins:
     enable: true
 
   bbtalk:
-    js: https://cdn.jsdelivr.net/npm/bbtalk@0.1.5/dist/bbtalk.min.js
+    js: https://css.sakurasep.club/Volantis/BBTalk
     appId: w69Q3H9ULXStdK6VmTfNxI2T-MdYXbMMI
     appKey: ug5wcVHclRzU1jeNf6m7yAoN
     serverURLs: https://w69Q3H9U.api.lncldglobal.com
@@ -523,7 +522,7 @@ comments:
   title: <i class='fas fa-comments POMEGRANATE'></i> 评论
   service: twikoo 
   twikoo:
-    js: https://cdn.jsdelivr.net/npm/twikoo@1.5.9
+    js: https://unpkg.com/twikoo@1.5.9
     envId: twikoo-8g109qz0365c3388
 
 # CSP
@@ -540,10 +539,6 @@ analytics:
   leancloud: 
     app_id: 6AlMmDb6FMNtaNh3XlKYsizU-MdYXbMMI
     app_key: jTB2tRPg1t2zVKxnRvrD0lYn
-
-
-# 替换
-replace:
 
 
 # HPP Talk
