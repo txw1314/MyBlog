@@ -175,8 +175,6 @@ navbar:
           url: Shoka/
         - name: Butterfly
           url: Butterfly/
-        - name: Next
-          url: Next/
         - name: Matery
           url: Matery/
         - name: Fluid
@@ -288,7 +286,7 @@ cover:
     home: true
     archive: true
     others: true
-  background: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper.jpg
+  background: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/20.jpg
   title: '上杉九月的博客'
   search: 搜索你想知道的内容...
   features:
@@ -393,17 +391,10 @@ plugins:
   parallax:
     enable: true
     position: fixed      
-    duration: 100000       
-    fade: 300            
+    duration: 0       
+    fade: 1500            
     images:
-      - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/2.jpg
-      - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/21.jpg
-      - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/20.jpg
-      - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/18.jpg
       - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/15.jpg
-      - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/14.jpg
-      - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/8.jpg
-      - https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/3.jpg
 
   scrollreveal:
     enable: true
@@ -522,7 +513,7 @@ comments:
   title: <i class='fas fa-comments POMEGRANATE'></i> 评论
   service: twikoo 
   twikoo:
-    js: https://unpkg.com/twikoo@1.5.9
+    js: https://cdn.staticfile.org/twikoo/1.5.11/twikoo.all.min.js
     envId: twikoo-8g109qz0365c3388
 
 # CSP
