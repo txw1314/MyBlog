@@ -5,7 +5,7 @@ sakura_team:
     - title: 上杉九月
       avatar: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.jpg
       url: https://blog.sakurasep.site/
-      screenshot: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/blog_index.png
+      screenshot: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo.png
       description: 分享生活，探索未来！
     - title: Ven_殃雾
       avatar: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/ven.jpg
@@ -17,9 +17,31 @@ sakurasep:
   title:
   description:
   items:
-    - title: 九月的生活
+    - title: 九月的生活-Typecho
       avatar: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.jpg
       url: https://blog.sakurasep.club/
-      screenshot: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/blog.png
+      screenshot: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Typecho_Index.png
       description: 分享自己的生活
+    - title: 九月的生活-halo
+      avatar: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.jpg
+      url: https://halo.sakurasep.club/
+      screenshot: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Halo_Index.png
+      description: 分享自己的生活
+    - title: Oneindex
+      avatar: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.jpg
+      url: https://pic.sakurasep.club/
+      screenshot: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Oneindex_Index.png
+      description: 图床-Onedrive
+    - title: Cloudreve
+      avatar: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.jpg
+      url: https://cloud.sakurasep.club/
+      screenshot: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Cloudreve_Index.png
+      description: 云盘-Onedrive
+    - title: Chevereto
+      avatar: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.jpg
+      url: https://pic.sakurasep.top/
+      screenshot: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chereveto_Index.png
+      description: 图片展示
+
+
 

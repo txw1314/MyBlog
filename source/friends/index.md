@@ -6,7 +6,61 @@ twikoo:
   placeholder: 欢迎交换友链，让我们一起在博客中书写我们的日常。
 ---
 
-# 欢迎来访
+{% p center logo gray large, 欢迎来访，无限进步！ %}
+
+{% tabs tab-id %}
+
+<!-- tab <i class="fa-solid fa-link"></i><i>本站信息</i> -->
+
+<p>
+<span class='not-select'>访问地址：</span><code>https://blog.sakurasep.site/</code><br>
+<span class='not-select'>站点名称：</span><code>上杉九月的博客</code><br>
+<span class='not-select'>头像地址：</span><code>https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.jpg</code><br>
+<span class='not-select'>网站缩略图：</span><code>https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo.png</code><br>
+<span class='not-select'>描述信息：</span><code>分享生活，探索未来！</code>
+</p>
+
+<!-- endtab -->
+
+<!-- tab <i class="fa-solid fa-book"></i>如何申请友链</i> -->
+
+本站有两种友链展示格式,如果你想要展示你网站的首页缩略图，请填写screenshot选项
+
+本站采用的是动态issue申请，请访问[Github Issue](https://github.com/sakurasep/MyFriends/issues)，按照模板添加友链申请。
+
+如果不方便打开Github，请在评论区按照本站信息模板留言，谢谢。
+
+<!-- endtab -->
+
+<!-- tab <i class="fa-solid fa-note"></i><i>申请要求</i>  -->
+
+{% checkbox green checked, HTTPS站点 %}
+{% checkbox green checked, 稳定的自有域名 %}
+{% checkbox green checked, 能够坚持运营博客 %}
+{% checkbox minus blue checked, 请先将本站加入友链 %}
+{% checkbox times red checked, 非法站点 %}
+
+<!-- endtab -->
+
+<!-- tab <i class="fa-solid fa-bug"></i><i>失效链接</i>  -->
+
+> 已经失效的站点
+
+| 名称         | 地址                      | 描述/标签                      | 备注              |
+| ------------ | ------------------------- | ------------------------------ | ----------------- |
+| Caviar-X             | https://pigeons.cyou/           | 无                          | 无法打开 |
+| LeFlacon’s Blog      | https://leflacon.top/           | 梦想做个靠谱的好人_(:з」∠)_    | 无法打开 |
+| wonder               | https://www.wonder1999.com/     | 一个励志进入阿里巴巴的惨淡大学生，或许前路茫茫，但我仍会砥砺前行 | 无法打开          |
+| 丧狼博客              | https://slbk.icu/               | 一把鐮刀，一把錘子，聯合起來，是最強的武器！ | 无法打开|
+| 雨中的博客            | https://wenchong.space/         | 频繁记录，只因生活和你太值得❤ | 域名注销 |
+| eeeeeeeeeeeeeeeea    | https://eeeeeeeeeeeeeeeea.cn    | 愿我们永远热泪盈眶！                       | 不再互为友链 + 非https|
+
+以上内容的最后更新日期：2022年05月21日
+
+<!-- endtab -->
+
+{% endtabs %}
+
 
 ## 上杉九月的其他站点
 
@@ -18,56 +72,4 @@ twikoo:
 
 ## 我的朋友们
 
-{% sites only:MyFriends %}
-
-## Github Issue
-
-
 {% sites repo:sakurasep/MyFriends %}
-
-
-# 注意事项
-
-## 如何申请友链
-
-本站有两种友链展示格式,如果你想要展示你网站的首页缩略图，请填写screenshot选项
-
-本站采用的是动态issue申请，请访问[Github Issue](https://github.com/sakurasep/MyFriends/issues)，按照模板添加友链申请。
-
-如果不方便打开Github，请在评论区按照本站信息模板留言，谢谢。
-
-## 友链须知
-* 请提供你的头像Url，如果担心头像文件失效可以留言，本站将会主动保存你的头像至仓库
-* 本站会定期清理无法访问的友链，如果更换了链接信息请至评论区留言，谢谢合作
-* 本站会定期查看双方是否互为友链，如果取消本站友链，本站也会将您的友链移除
-
-本站信息
-```yml
-    title: 上杉九月的博客
-    avatar: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.jpg
-    url: https://blog.sakurasep.site/
-    screenshot: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/blog_index.png
-    description: 分享生活，探索未来！
-```
-
-## 失效友链展示（以下网站暂时撤回友链）
-```yml
-    - title: 文武科技社
-      url: https://chengxuxiaohei.cn/
-    - title: 槿畔博客
-      url: https://blog.inpan.top/ 
-    - title: ChiHiro
-      url: https://sheep7.xyz 
-    - title: Caviar-X
-      url: https://pigeons.cyou/
-    - title: LeFlacon’s Blog
-      url: https://leflacon.top/
-    - title: Wonder
-      url: https://www.wonder1999.com/
-    - title: 雨中的博客
-      url: https://wenchong.space/
-    - title: eeeeeeeeeeeeeeeea
-      url: https://eeeeeeeeeeeeeeeea.cn
-    - title: 丧狼博客
-      url: https://slbk.icu/
-```

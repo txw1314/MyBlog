@@ -5,32 +5,32 @@
     border-radius: 0 !important
     max-width: 100% !important
 
-// 移动端不显示卡片
-#safearea
-  @media screen and (max-width: $device-mobile)
-    margin: 0
-    box-shadow: none
-    .body-wrapper
-      padding: 0
-    #l_main
-      article#comments,
-      article#friends,
-      article#post,
-      article#page,
-      article#arc      
-        border-radius: 0
-      article#cat,
-      article#tag
-        margin: 0
-        border-radius: 0
-      .post-wrapper
-        margin: 0 0 16px
-        .post
-          border-radius: 0
-    #l_side
-      .widget.mobile
-        border-radius: 0
-
+// 禁止选中
+.not-select,
+figcaption,
+footer,
+section,
+details summary,
+.new-meta-box,
+.nav-tabs
+  -webkit-touch-callout none
+  -webkit-user-select none
+  -khtml-user-select none
+  -moz-user-select none
+  -ms-user-select none
+  user-select none
+  & p,
+  & span
+    cursor: $default,default
+  &.default-cursor
+    cursor: $default,default !important
+.allow-select
+  -webkit-touch-callout all
+  -webkit-user-select all
+  -khtml-user-select all
+  -moz-user-select all
+  -ms-user-select all
+  user-select all
 
 // 修改链接的下划线样式
 .article a:not([class]):not([data-fancybox]),
@@ -115,7 +115,6 @@ div.note p
   font-family: 'SentyGoldenBell'
 
 
-
 // 标题大小
 details summary
   font-size 1rem !important
@@ -154,7 +153,7 @@ h1.title.common_read_h1
 // 个人卡片
 .blogger .text
   margin-bottom: 10px
-  font-family: $fontfamily-logo
+  font-family: $fontfamily-body
 
 
 // 文章页页脚导航

@@ -3,5 +3,5 @@ title: 留言板
 sidebar: []
 ---
 
-# 欢迎你的留言
+{% p center logo gray large, 欢迎留下你的建议 %}
 

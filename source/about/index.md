@@ -5,7 +5,19 @@ comments: true
 sidebar: []
 ---
 
+{% tabs tab-id %}
+
+<!-- tab <i class="fa-solid fa-cat"></i> <i>Ocean Cat</i> -->
+
+<div align="center">
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=26135813&auto=0&height=66"></iframe>
+</div>
+
+![很可怕](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/haimao01.gif)
+
+<!-- endtab -->
+
+<!-- tab <i class="fa-solid fa-user"></i></i> <i>关于我</i> -->
 
 # Me
 
@@ -29,7 +41,7 @@ sidebar: []
 
 * 希望拥有的技能：多国语言||美术设计||3D建模
 
-![很可怕](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/haimao01.gif)
+
 
 # 目标
 
@@ -47,58 +59,40 @@ sidebar: []
 </ul>
 </details>
 
-# Sakura_Team
+<!-- endtab -->
 
-趁我现在还有足够的精力，我会和朋友一起建立一个团队
+<!-- tab <i class="fa-solid fa-bucket"></i> </i> <i>我的小项目</i> -->
 
-一个人的力量是单薄的，团队的力量是无穷的
+>  [上杉九月的图片站](https://pic.sakurasep.top/)
 
-目前团队还是初创阶段，名称和目标还在规划中
-
-
-# Article
-
-> * [2020年度总结]()
-> * [我的学习笔记]()
-> * [零基础教程系列]()
-> * [应用使用指南系列]()
-
-# Demo
-
-
-> * [上杉九月的图片站](https://pic.sakurasep.top/)
-
-{% gallery  %}
 ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/About/1.png)
-{% endgallery  %}
 
-> * [上杉九月的博客](https://sakurasep.site/)
+>  [上杉九月的博客](https://sakurasep.site/)
 
-{% gallery  %}
 ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/blog_index.png)
-{% endgallery  %}
 
-> * [九月的生活(Typecho)](https://blog.sakurasep.club)
+>  [九月的生活(Typecho)](https://blog.sakurasep.club)
 
-{% gallery  %}
 ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/blog.png)
-{% endgallery  %}
 
-> * [九月的生活(Halo)](https://halo.sakurasep.club)
 
-{% gallery  %}
+>  [九月的生活(Halo)](https://halo.sakurasep.club)
+
 ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/About/4.png)
-{% endgallery  %}
 
-> * [Cloudreve](https://cloud.sakurasep.club/)
+>  [Cloudreve](https://cloud.sakurasep.club/)
 
-{% gallery  %}
 ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/About/2.png)
-{% endgallery  %}
 
-> * [Oneindex](https://pic.sakurasep.club/)
+>  [Oneindex](https://pic.sakurasep.club/)
 
-{% gallery  %}
 ![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/About/3.png)
-{% endgallery  %}
+
+<!-- endtab -->
+
+{% endtabs %}
+
+
+
+
 

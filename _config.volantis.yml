@@ -3,6 +3,20 @@ info:
   theme_name: Volantis-Sakurasep
   theme_version: '5.0.0-rc'
 
+# CDN
+cdn:
+  enable: true
+  # CDN 前缀，为空使用默认值，链接最后不加 "/",
+  prefix: https://css.sakurasep.club/Volantis/CDN/Local
+  set:
+    js:
+      app: /js/app.js
+    css:
+      style: /css/style.css
+
+# volantis static 静态资源文件 npm 包 CDN 地址 (后面加 "/" )
+volantis_static_cdn: https://css.sakurasep.club/Volantis/CDN/static/
+
 # 基本优化结束
 custom_css:
   toc_smooth: true
@@ -31,13 +45,14 @@ custom_css:
     effect: [floatable]
   fontfamily:
     logofont:
-      fontfamily: '"SentyGoldenBell", "Varela Round", "PingFang SC", "Microsoft YaHei", Helvetica, Arial'
-      url: https://css.sakurasep.club/SentyGoldenBell.woff2
+      fontfamily: 'MaShanZheng, Roboto, Noto Serif SC,-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif'
+      url: ''
     bodyfont:
-      fontfamily: '"Roboto,"Noto Serif SC","Microsoft Yahei",sans-serif,Menlo,Monaco,monospace,sans-serif'
+      fontfamily: '"Noto Serif SC", Roboto,-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif'
+      url: ''
     codefont:
-      fontfamily: 'JetBrainsMono,ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace'
-
+      fontfamily: 'JetBrainsMono, Menlo,Monaco,Consolas,Andale Mono,lucida console,Courier New,monospace'
+      url: ''
 #基本优化结束
 color_scheme:
   common:
@@ -166,10 +181,10 @@ navbar:
   search: 搜索你想知道的内容
   menu:
     - name: 首页
-      icon: fas fa-home SUNFLOWER faa-vertical
+      icon: fa-light fa-home SUNFLOWER faa-vertical
       url: /
     - name: 分站
-      icon: fas fa-rss CARROT faa-vertical
+      icon: fa-light fa-rss CARROT faa-vertical
       rows:
         - name: Shoka
           url: Shoka/
@@ -182,83 +197,83 @@ navbar:
         - name: Yun
           url: Yun/
     - name: 文章
-      icon: fas fa-book-reader GREENSEA faa-vertical
+      icon: fa-light fa-book-reader GREENSEA faa-vertical
       rows:
         - name: 分类
-          icon: fas fa-folder-open TURQUOISE faa-vertical
+          icon: fa-light fa-folder-open TURQUOISE faa-vertical
           url: categories/
         - name: 标签
-          icon: fas fa-tags PETERRIVE faa-vertical
+          icon: fa-light fa-tags PETERRIVE faa-vertical
           url: tags/
         - name: 归档
-          icon: fas fa-archive GREENSEA faa-vertical
+          icon: fa-light fa-archive GREENSEA faa-vertical
           url: archives/
     - name: 导航
-      icon: fas fa-cube NEPHRITIS faa-vertical
+      icon: fa-light fa-cube NEPHRITIS faa-vertical
       rows:
         - name: 关于
-          icon: fas fa-info-circle SUNFLOWER faa-vertical
+          icon: fa-light fa-info-circle SUNFLOWER faa-vertical
           url: about/
         - name: 留言板
-          icon: fas fa-comment-alt-dots GREENSEA faa-vertical
+          icon: fa-light fa-comment-alt-dots GREENSEA faa-vertical
           url: info/
         - name: hr
         - name: 追番
-          icon: fas fa-video EMERALD faa-vertical
+          icon: fa-light fa-video EMERALD faa-vertical
           url: bangumis/
         - name: 追剧
-          icon: fas fa-video EMERALD faa-vertical
+          icon: fa-light fa-video EMERALD faa-vertical
           url: cinemas/
         - name: hr
         - name: 友链
-          icon: fas fa-link POMEGRANATE faa-vertical
+          icon: fa-light fa-link POMEGRANATE faa-vertical
           url: friends/
         - name: 朋友的文章
-          icon: fas fa-user-friends ALIZARIN faa-vertical
+          icon: fa-light fa-user-friends ALIZARIN faa-vertical
           url: fcircle/
         - name: hr
         - name: BBTalk
-          icon: fas fa-comments PETERRIVE faa-vertical
+          icon: fa-light fa-comments PETERRIVE faa-vertical
           url: bb/  
         - name: ArtiTalk
-          icon: fas fa-comments PETERRIVE faa-vertical
+          icon: fa-light fa-comments PETERRIVE faa-vertical
           url: artitalk/
     - name: 功能
-      icon: fas fa-tools ALIZARIN faa-vertical
+      icon: fa-light fa-tools ALIZARIN faa-vertical
       rows:
         - name: 深色模式
-          icon: fas fa-moon POMEGRANATE faa-vertical
+          icon: fa-light fa-moon POMEGRANATE faa-vertical
           toggle: darkmode
         - name: 背景音乐
-          icon: fas fa-compact-disc EMERALD faa-vertical
+          icon: fa-light fa-compact-disc EMERALD faa-vertical
         - name: hr  
         - name: RSS 订阅
-          icon: fas fa-rss SUNFLOWER faa-vertical
+          icon: fa-light fa-rss SUNFLOWER faa-vertical
           url: atom.xml
         - name: 网站运行状态
-          icon: fas fa-user-clock PETERRIVE faa-vertical
+          icon: fa-light fa-user-clock PETERRIVE faa-vertical
           url: https://stats.uptimerobot.com/jJZj1SjwDJ
     - name: 更多 # 可自定义
-      icon: fas fa-compass WISTERIA faa-vertical # 可自定义
+      icon: fa-light fa-compass WISTERIA faa-vertical # 可自定义
       rows: 
         - name: Typecho
-          icon: fas fa-blog POMEGRANATE faa-vertical
+          icon: fa-light fa-blog POMEGRANATE faa-vertical
           url: https://blog.sakurasep.club/
         - name: Halo
-          icon: fas fa-blog ALIZARIN faa-vertical
+          icon: fa-light fa-blog ALIZARIN faa-vertical
           url: https://halo.sakurasep.club/
         - name: hr
         - name: Chevereto
-          icon: fas fa-images EMERALD faa-vertical
+          icon: fa-light fa-images EMERALD faa-vertical
           url: https://pic.sakurasep.top/
         - name: Oneindex
-          icon: fas fa-images SUNFLOWER faa-vertical
+          icon: fa-light fa-images SUNFLOWER faa-vertical
           url: https://pic.sakurasep.club/
         - name: Cloudreve
-          icon: fas fa-browser PETERRIVE faa-vertical
+          icon: fa-light fa-browser PETERRIVE faa-vertical
           url: https://cloud.sakurasep.club/
     - name: 开往
-      icon: fas fa-subway PETERRIVE faa-ring faa-slow
+      icon: fa-light fa-subway PETERRIVE faa-ring faa-slow
       url: https://travellings.link
 
 # 网站页脚
@@ -288,6 +303,7 @@ cover:
     others: true
   background: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/20.jpg
   title: '上杉九月的博客'
+  subtitle: '每天醒来，都会充满活力！'
   search: 搜索你想知道的内容...
   features:
     - name: 博客
@@ -327,20 +343,20 @@ article:
         name: 上杉九月
         url: /
       date:
-        icon: fas fa-calendar-alt BELIZEHOLE faa-vertical
+        icon: fa-light fa-calendar-alt BELIZEHOLE faa-vertical
       updated:
-        icon: fas fa-edit WISTERIA faa-vertical
+        icon: fa-light fa-edit WISTERIA faa-vertical
       category:
-        icon: fas fa-folder-open EMERALD faa-vertical
+        icon: fa-light fa-folder-open EMERALD faa-vertical
       counter:
-        icon: fas fa-eye SUNFLOWER faa-vertical
+        icon: fa-light fa-eye SUNFLOWER faa-vertical
       walinecount:
-        icon: fas fa-comment-dots SUNFLOWER faa-vertical
+        icon: fa-light fa-comment-dots SUNFLOWER faa-vertical
       wordcount:
-        icon_wordcount: fas fa-keyboard EMERALD
-        icon_duration: fas fa-hourglass-half EMERALD
+        icon_wordcount: fa-light fa-keyboard EMERALD
+        icon_duration: fa-light fa-hourglass-half EMERALD
       tags:
-        icon: fas fa-hashtag EMERALD
+        icon: fa-light fa-hashtag EMERALD
       share:
         - id: qq
           img:  volantis-static/media/org.volantis/logo/128/qq.png 
@@ -355,10 +371,10 @@ article:
     footer_widget:
       related_posts:
         enable: true
-        icon: fas fa-bookmark WISTERIA faa-vertical
+        icon: fa-light fa-bookmark WISTERIA faa-vertical
         placeholder_img: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/upload.jpg
       references:
-        icon: fas fa-quote-left WISTERIA faa-vertical
+        icon: fa-light fa-quote-left WISTERIA faa-vertical
       copyright:
         enable: true
         content:
@@ -414,7 +430,7 @@ plugins:
     enable: true
 
   bbtalk:
-    js: https://css.sakurasep.club/Volantis/BBTalk
+    js: https://css.sakurasep.club/Volantis/BBtalk/dist/bbtalk.js
     appId: w69Q3H9ULXStdK6VmTfNxI2T-MdYXbMMI
     appKey: ug5wcVHclRzU1jeNf6m7yAoN
     serverURLs: https://w69Q3H9U.api.lncldglobal.com
@@ -434,8 +450,8 @@ plugins:
 # 侧边栏
 sidebar:
   position: left
-  for_page: [blogger, navigation ,webinfo, category, tagcloud, lastupdate]
-  for_post: [blogger, navigation, toc]
+  for_page: [blogger, notice, navigation , webinfo, lastupdate]
+  for_post: []
   widget_library:
     blogger:
       display: [desktop]
@@ -448,22 +464,22 @@ sidebar:
     toc:
       class: toc
       header:
-        icon: fas fa-list SUNFLOWER faa-vertical
+        icon: fa-light fa-list SUNFLOWER faa-vertical
         title: 本文目录
       min_depth: 1
       max_depth: 6
 
     category:
       header:
-        icon: fas fa-folder-open SUNFLOWER faa-vertical
+        icon: fa-light fa-folder-open SUNFLOWER faa-vertical
 
     tagcloud:
       header:
-        icon: fas fa-tags SUNFLOWER faa-vertical
+        icon: fa-light fa-tags SUNFLOWER faa-vertical
 
     webinfo:
       header:
-        icon: fas fa-award SUNFLOWER faa-vertical
+        icon: fa-light fa-award SUNFLOWER faa-vertical
       type:
         runtime:
           data: '2019/07/27' 
@@ -472,8 +488,20 @@ sidebar:
 
     lastupdate:
       header:
-        icon: fas fa-clock WISTERIA faa-vertical
- 
+        icon: fa-light fa-clock WISTERIA faa-vertical
+    
+    notice:
+      class: text
+      display: [desktop]
+      header:
+        icon: fa-light fa-ghost PETERRIVE faa-vertical
+        title: 本站公告
+      content:
+        - '你好，欢迎访问我的个人博客'
+        - '本博客内容大多数为学习记录和科技向相关。'
+        - '[上杉九月的博客-Typecho](https://blog.sakurasep.club/)'
+        - '[九月的生活-Halo](https://halo.sakurasep.club/)'
+    
     navigation:
       class: grid
       display: [desktop]
@@ -510,10 +538,10 @@ default:
 
 # 评论
 comments:
-  title: <i class='fas fa-comments POMEGRANATE'></i> 评论
+  title: <i class='fa-light fa-comments POMEGRANATE'></i> 评论
   service: twikoo 
   twikoo:
-    js: https://cdn.staticfile.org/twikoo/1.5.11/twikoo.all.min.js
+    js: https://css.sakurasep.club/Volantis/CDN/twikoo.all.min.js
     envId: twikoo-8g109qz0365c3388
 
 # CSP

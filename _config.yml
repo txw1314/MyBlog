@@ -2,15 +2,25 @@
 # Hexo 配置
 # 汉化资料参考来源: https://blog.csdn.net/zemprogram/article/details/104288872
 # 由上杉九月(https://blog.sakurasep.site)，进行修改和测试
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
 
-# Site 网站
-title: 九月的生活 # 网站标题(必填)
-subtitle: New Dream New Start # 副标题(在某些主题不生效)
-description: 希望在这里分享我的经验与生活！ # 网站描述(建议填写，优化SEO)
-keywords: 上杉九月,博客,sakurasep,学习技术 # 网站的关键字(选填，优化SEO)
-author: 上杉九月 # 网站作者(必填)
-language: zh-CN # 网站使用的语言(取决于你主题目录下的语言文件)
-timezone: Asia/Shanghai # 网站对应的时区(无需设置) 
+# Site
+# 网站
+# 网站标题(必填)
+title: 九月的生活 
+# 副标题(在某些主题不生效)
+subtitle: New Dream New Start 
+# 网站描述(建议填写，优化SEO)
+description: 希望在这里分享我的经验与生活！ 
+# 网站的关键字(选填，优化SEO)
+keywords: 上杉九月,博客,Sakurasep,科技向
+# 网站作者(必填)
+author: 上杉九月 
+# 网站使用的语言(取决于你主题目录下的语言文件)
+language: zh-CN
+# 网站对应的时区(无需设置)
+timezone: Asia/Shanghai
 
 # URL
 # 网址
@@ -19,8 +29,11 @@ timezone: Asia/Shanghai # 网站对应的时区(无需设置)
 # Github: https://Github用户名.github.io
 # Gitee: https://Gitee仓库路径名.gitee.io
 url: https://cdn.sakurasep.site/
-permalink: :title/ # 文章的永久链接格式(选择性修改)
-permalink_defaults: # (无需修改)
+root: /
+# 文章的永久链接格式(选择性修改)
+permalink: :title/  
+# (无需修改)
+permalink_defaults:
 pretty_urls:
   trailing_index: true 
   trailing_html: true 
@@ -44,6 +57,7 @@ skip_render:
   - Shoka
   - Matery
   - Yun
+
 # Writing
 # 新建文章的默认名称(无需修改)
 new_post_name: :title.md 
@@ -51,7 +65,7 @@ new_post_name: :title.md
 default_layout: post
 # 将标题转换为首字母大写(无需修改)
 # 影响的是title属性，后续可以通过安装插件实现该功能，所以此处的设置在某些主题不生效
-titlecase: false
+titlecase: true
 # 是否在新标签页中打开链接(按需修改)
 external_link:
   enable: true 
@@ -65,7 +79,7 @@ filename_case: 0
 render_drafts: false
 # 是否启用资源文件夹(按需修改)
 # 开启此选项后在hexo new文章时，会创建一个同名文件夹，用于保存你文章中所需资源。不过我建议使用网络图床。
-post_asset_folder: false
+post_asset_folder: true
 # 相对链接(无需修改)
 relative_link: false
 # 是否显示未来的文章(按需修改)
@@ -91,7 +105,7 @@ prismjs:
 index_generator:
   path: ''
   # 每页显示的文章数量(按需修改)
-  per_page: 5
+  per_page: 7
   # 文章排序方式，默认最新日期在最前面(无需修改)
   order_by: -date
 
@@ -107,7 +121,7 @@ tag_map:
 
 # Metadata elements
 # 元数据元素(无需修改)
-meta_generator: true
+meta_generator: false
 
 # Date / Time format
 # 时间/日期格式(无需修改)
@@ -123,7 +137,7 @@ updated_option: 'mtime'
 # Pagination
 # 分页
 # 分页时每页文章数量 设置为0 不分页(按需修改)
-per_page: 0
+per_page: 10
 pagination_dir: page
 
 # Include / Exclude file(s)
@@ -148,11 +162,12 @@ deploy:
   # 仓库分支
   branch: master
 
+# Volantis
 import:
   head_end:
     - <link rel="preconnect" href="https://css.sakurasep.club">
     - <link rel="stylesheet" href="https://css.sakurasep.club/Volantis/CDN/css/roboto.css">
-    - <link rel="preload" href="/css/roboto-local.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
     
 # 网站图标，更多尺寸等图标请使用import方式批量导入
 favicon: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/favicon.ico
