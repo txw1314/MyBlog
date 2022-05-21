@@ -33,9 +33,9 @@
     <category term="Hexo系列" scheme="https://cdn.sakurasep.site/Shoka/categories/Hexo/"/>
     
     
-    <category term="Hexo" scheme="https://cdn.sakurasep.site/Shoka/tags/Hexo/"/>
-    
     <category term="零基础" scheme="https://cdn.sakurasep.site/Shoka/tags/%E9%9B%B6%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="Hexo" scheme="https://cdn.sakurasep.site/Shoka/tags/Hexo/"/>
     
   </entry>
   
@@ -56,9 +56,9 @@
     <category term="Hexo系列" scheme="https://cdn.sakurasep.site/Shoka/categories/Hexo/"/>
     
     
-    <category term="Hexo" scheme="https://cdn.sakurasep.site/Shoka/tags/Hexo/"/>
-    
     <category term="零基础" scheme="https://cdn.sakurasep.site/Shoka/tags/%E9%9B%B6%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="Hexo" scheme="https://cdn.sakurasep.site/Shoka/tags/Hexo/"/>
     
   </entry>
   
@@ -263,11 +263,11 @@
     <category term="零基础教程" scheme="https://cdn.sakurasep.site/Shoka/categories/HowToDo/"/>
     
     
-    <category term="零基础" scheme="https://cdn.sakurasep.site/Shoka/tags/%E9%9B%B6%E5%9F%BA%E7%A1%80/"/>
-    
     <category term="云服务器" scheme="https://cdn.sakurasep.site/Shoka/tags/%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
     <category term="Python" scheme="https://cdn.sakurasep.site/Shoka/tags/Python/"/>
+    
+    <category term="零基础" scheme="https://cdn.sakurasep.site/Shoka/tags/%E9%9B%B6%E5%9F%BA%E7%A1%80/"/>
     
   </entry>
   

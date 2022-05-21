@@ -25,7 +25,7 @@ document.addEventListener("pjax:success", initScrollReveal);
   const wordcloud_canvas = document.getElementById('wordcloud-canvas')
   wordcloud_canvas.width = document.querySelector('#page').clientWidth - 16
   wordcloud_canvas.height = 350
-  let wordcloud_config = {"list":[["Hexo",1.2,"/Yun/tags/Hexo/"],["零基础",1.5,"/Yun/tags/零基础/"],["博客",1.1,"/Yun/tags/博客/"],["日志",1.1,"/Yun/tags/日志/"],["公告",1.1,"/Yun/tags/公告/"],["云服务器",1.2,"/Yun/tags/云服务器/"],["图床",1.1,"/Yun/tags/图床/"],["Python",1.1,"/Yun/tags/Python/"],["PC",1.1,"/Yun/tags/PC/"],["应用使用指南",1.2,"/Yun/tags/应用使用指南/"],["安卓",1.1,"/Yun/tags/安卓/"],["年度总结",1.2,"/Yun/tags/年度总结/"],["C语言",1.4,"/Yun/tags/C语言/"],["算法",1.2,"/Yun/tags/算法/"],["CTF",1.1,"/Yun/tags/CTF/"],["洛谷",1.1,"/Yun/tags/洛谷/"]],"fontFamily":"'PingFang SC', 'Microsoft YaHei', Roboto, Arial, sans-serif","fontWeight":400,"gridSize":10,"weightFactor":13,"backgroundColor":"transparent","color":"random-dark"}
+  let wordcloud_config = {"list":[["Hexo",1.2,"/Yun/tags/Hexo/"],["零基础",1.5,"/Yun/tags/零基础/"],["博客",1.1,"/Yun/tags/博客/"],["日志",1.1,"/Yun/tags/日志/"],["公告",1.1,"/Yun/tags/公告/"],["云服务器",1.2,"/Yun/tags/云服务器/"],["图床",1.1,"/Yun/tags/图床/"],["Python",1.1,"/Yun/tags/Python/"],["应用使用指南",1.2,"/Yun/tags/应用使用指南/"],["安卓",1.1,"/Yun/tags/安卓/"],["PC",1.1,"/Yun/tags/PC/"],["CTF",1.1,"/Yun/tags/CTF/"],["C语言",1.4,"/Yun/tags/C语言/"],["洛谷",1.1,"/Yun/tags/洛谷/"],["算法",1.2,"/Yun/tags/算法/"],["年度总结",1.2,"/Yun/tags/年度总结/"]],"fontFamily":"'PingFang SC', 'Microsoft YaHei', Roboto, Arial, sans-serif","fontWeight":400,"gridSize":10,"weightFactor":13,"backgroundColor":"transparent","color":"random-dark"}
   wordcloud_config.hover = function(item, dimension){
     if (!dimension) {
       wordbox.hidden = true
