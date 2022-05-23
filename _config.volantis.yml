@@ -400,6 +400,10 @@ plugins:
   fontawesome_animation:
     enable: true
 
+  preload:
+    enable: true
+    service: instant_page
+
   aplayer:
     enable: true
     id: 2768120286
