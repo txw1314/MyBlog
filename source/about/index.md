@@ -27,7 +27,7 @@ sidebar: []
 >
 > 写写文章，做做创作
 >
-> 19岁了，为梦想付出努力中
+> 20岁了，为梦想付出努力中
 
 * 爱好：ACGN，Coding，创作
 
@@ -65,28 +65,28 @@ sidebar: []
 
 >  [上杉九月的图片站](https://pic.sakurasep.top/)
 
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/About/1.png)
+![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chereveto_Index.png)
 
->  [上杉九月的博客](https://sakurasep.site/)
+>  [上杉九月的博客](https://blog.sakurasep.site/)
 
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/blog_index.png)
+![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Halo_Index.png)
 
 >  [九月的生活(Typecho)](https://blog.sakurasep.club)
 
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/wallpaper/blog.png)
+![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Typecho_Index.png)
 
 
 >  [九月的生活(Halo)](https://halo.sakurasep.club)
 
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/About/4.png)
+![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Halo_Index.png)
 
 >  [Cloudreve](https://cloud.sakurasep.club/)
 
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/About/2.png)
+![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Cloudreve_Index.png)
 
 >  [Oneindex](https://pic.sakurasep.club/)
 
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/About/3.png)
+![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Oneindex_Index.png)
 
 <!-- endtab -->
 
