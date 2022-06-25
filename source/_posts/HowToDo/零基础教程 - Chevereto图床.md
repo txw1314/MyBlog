@@ -33,7 +33,7 @@ mathjax: true
 math: false
 comments: true
 hide: false
-
+abbrlink: chevereto
 ---
 
 # 文章简介

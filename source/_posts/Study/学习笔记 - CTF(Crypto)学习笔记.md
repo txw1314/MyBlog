@@ -21,6 +21,7 @@ mathjax: false
 math: false
 comments: true
 hide: false
+abbrlink: ctf
 ## Aplayer播放器设置
 music:
   server: netease

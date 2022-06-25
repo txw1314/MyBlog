@@ -455,7 +455,7 @@ plugins:
 sidebar:
   position: left
   for_page: [blogger, notice, navigation , webinfo, lastupdate]
-  for_post: []
+  for_post: [toc, webinfo]
   widget_library:
     blogger:
       display: [desktop]

@@ -28,10 +28,10 @@ timezone: Asia/Shanghai
 # 网站网址，如果设置了自定义域名，这里改为自定义的域名(必填)
 # Github: https://Github用户名.github.io
 # Gitee: https://Gitee仓库路径名.gitee.io
-url: https://cdn.sakurasep.site/
+url: https://blog.sakurasep.site/
 root: /
 # 文章的永久链接格式(选择性修改)
-permalink: :title/  
+permalink: posts/:abbrlink/  
 # (无需修改)
 permalink_defaults:
 pretty_urls:
@@ -213,3 +213,7 @@ feed:
 type: atom
 path: atom.xml
 limit: 20
+
+## 推荐文章设置
+popularPosts:
+  eyeCatchImageAttributeName: headimg

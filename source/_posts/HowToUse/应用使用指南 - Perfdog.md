@@ -29,6 +29,7 @@ mathjax: false
 math: false
 comments: true
 hide: false
+abbrlink: perfdog
 ---
 # 文章简介
 

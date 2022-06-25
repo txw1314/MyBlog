@@ -1,7 +1,8 @@
 ---
-title: 从零开始部署Hexo博客(番外篇一)
+title: Hexo_02-博客的配置文件解析
 author: 上杉九月
 date: 2022-04-11 19:20:50
+updated: 2022-06-25 17:07:41
 ## 基本设置
 tags: 
 - Hexo
@@ -9,44 +10,44 @@ tags:
 categories: Hexo系列
 excerpt: 本篇文章讲述了`_config.yml`的内容配置
 ## 密码设置
-password: 20220411
-abstract: 本文章暂不开放
+password: 
+abstract: 
 wrong_pass_message: 密码错误,请重新输入
 ## 置顶设置
 sticky: 10000
 top: false
 pin: false
 ## 文章头图设置
-index_img: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/8.jpg
-banner_img: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/8.jpg
-headimg: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/8.jpg
-img: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/8.jpg
-cover: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/8.jpg
+index_img: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo/index_2.jpg
+banner_img: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo/index_2.jpg
+headimg: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo/index_2.jpg
+img: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo/index_2.jpg
+cover: https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo/index_2.jpg
 ## 相关开关
 mermaid: false
 mathjax: false
 math: false
 comments: true
 hide: false
-abbrlink:
+abbrlink: hexo02
 ## Aplayer播放器设置
 music:
   server: netease
   type: song
-  id: 31134461
+  id: 1403774122
+## 博客引用了哪些文章
+references:
+  - title: '个人博客搭建笔记-hexo根目录下的`_config.yml`配置解释-前端小黑的博客-CSDN博客'
+    url: 'https://blog.csdn.net/zemprogram/article/details/104288872'
 ---
 
-# 前言
-
+{% noteblock info::config文件介绍 %}
 此文件是对于Hexo最基本的修改，在使用主题后，由于主题作者设计的不同，某些设置将不会生效，你只需要填写必要设置，并且按照主题作者的文档进行修改即可。
-
-本文参考了以下文章，对部分内容进行了修改
-
-[个人博客搭建笔记-hexo根目录下的`_config.yml`配置解释-前端小黑的博客-CSDN博客](https://blog.csdn.net/zemprogram/article/details/104288872)
-
+{% endnoteblock %}
 ## Site
 
-```yml
+{% folding green, Site部分 %}
+```yaml
 # 网站标题(必填)
 title: 九月的生活 
 # 副标题(在某些主题不生效)
@@ -65,10 +66,11 @@ language:
 # 网站对应的时区(无需设置)
 timezone: '' 
 ```
+{% endfolding %}
 
 ## Url
-
-```yml
+{% folding green, Url部分 %}
+```yaml
 ## url这里有个主题分站的玩法，后期会讲到
 # 网站网址，如果设置了自定义域名，这里改为自定义的域名(必填)
 # Github: https://Github用户名.github.io
@@ -82,10 +84,11 @@ pretty_urls:
   trailing_index: true 
   trailing_html: true 
 ```
+{% endfolding %}
 
 ## Directory
-
-```yml
+{% folding green, Directory部分 %}
+```yaml
 # 以下内容保持默认即可
 source_dir: source
 public_dir: public
@@ -97,10 +100,11 @@ i18n_dir: :lang
 # 跳过指定文件的渲染，这里在后期做分站时需要跳过分站的目录，防止二次渲染
 skip_render:
 ```
+{% endfolding %}
 
 ## Writing
-
-```yml
+{% folding green, Writing部分 %}
+```yaml
 # 新建文章的默认名称(无需修改)
 new_post_name: :title.md 
 # 预设布局，hexo new命令可以创建post,draft,page三种页面，这里的值为post，hexo new "文章名“ 默认生成的是post
@@ -142,10 +146,11 @@ prismjs:
   line_number: true
   tab_replace: ''
 ```
+{% endfolding %}
 
 ## Home page setting
-
-```yml
+{% folding green, Home page setting部分 %}
+```yaml
 index_generator:
   path: ''
   # 每页显示的文章数量(按需修改)
@@ -153,10 +158,11 @@ index_generator:
   # 文章排序方式，默认最新日期在最前面(无需修改)
   order_by: -date
 ```
+{% endfolding %}
 
 ## Category & Tag
-
-```yml
+{% folding green, Category & Tag部分 %}
+```yaml
 # 以下内容不建议修改
 # 默认分类
 default_category: uncategorized
@@ -165,17 +171,19 @@ category_map:
 # 标签别名
 tag_map:
 ```
+{% endfolding %}
 
 ## Metadata elements
-
-```yml
+{% folding green, Metadata elements部分 %}
+```yaml
 # 元数据元素(无需修改)
 meta_generator: true
 ```
+{% endfolding %}
 
 ## Date / Time format
-
-```yml
+{% folding green, Date / Time format部分 %}
+```yaml
 # 时间/日期格式(无需修改)
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
@@ -186,35 +194,39 @@ time_format: HH:mm:ss
 # empty: 没有文章更新时间
 updated_option: 'mtime'
 ```
+{% endfolding %}
 
 ## Pagination
-
-```yml
+{% folding green, Pagination部分 %}
+```yaml
 # 分页时每页文章数量 设置为0 不分页(按需修改)
 per_page: 7
 pagination_dir: page
 ```
+{% endfolding %}
 
 ## Include / Exclude file(s)
-
-```yml
+{% folding green, Include / Exclude file(s)部分 %}
+```yaml
 # 包括/不包括的文件(无需修改)
 include:
 exclude:
 ignore:
 ```
+{% endfolding %}
 
 ## Extensions
-
-```yml
+{% folding green, Extensions部分 %}
+```yaml
 # 主题
 # 使用的主题名
 theme: volantis
 ```
+{% endfolding %}
 
 ## Deployment
-
-```yml
+{% folding green, Deployment部分 %}
+```yaml
 # 部署设置
 deploy:
   type: git
@@ -223,9 +235,10 @@ deploy:
   # 仓库分支
   branch: master
 ```
+{% endfolding %}
 
 ---
 
 {% gallery %}
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png)
+![关于我](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png)
 {% endgallery %}

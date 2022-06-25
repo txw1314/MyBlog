@@ -31,6 +31,7 @@ mermaid: false
 mathjax: false
 math: false
 comments: true
+abbrlink: cplusplus
 hide: false
 ---
 
