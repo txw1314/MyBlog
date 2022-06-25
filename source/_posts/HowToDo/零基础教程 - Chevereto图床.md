@@ -1,5 +1,5 @@
 ---
-title: 《零基础教程》Chevereto-年轻人的第一个私人图床_第2期
+title: Chevereto-属于你自己的图片站
 date: 2020-12-25 20:20:23
 uodate: 2022-04-19
 author: 上杉九月
@@ -7,8 +7,9 @@ author: 上杉九月
 tags:
   - 云服务器
   - 图床
+  - 零基础
 categories: 零基础教程
-excerpt: 哪一个男孩子不想拥有一个属于自己的图床？
+excerpt: Chevereto算是一个集图床功能与图片展示为一体的项目，同时还提供了注册功能，如果你的服务器带宽允许，你可以邀请小伙伴为你的图片站扩充资源！
 ## 密码设置
 password: 
 abstract: 
@@ -18,10 +19,10 @@ top: false
 pin: false
 sticky: 10000
 ## 文章头图设置
-index_img: 'https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/IndexImg.jpg'
-banner_img: 'https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/IndexImg.jpg'
-headimg: 'https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/IndexImg.jpg'
-cover: 'https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/IndexImg.jpg'
+index_img: 'https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/index.jpg'
+banner_img: 'https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/index.jpg'
+headimg: 'https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/index.jpg'
+cover: 'https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/index.jpg'
 ## Aplayer播放器设置
 music:
   server: netease

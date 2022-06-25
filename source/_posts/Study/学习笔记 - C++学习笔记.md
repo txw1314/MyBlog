@@ -1,12 +1,12 @@
 ---
-title: 《C语言学习笔记》
+title: 程序开发实训-学习记录
 date: 2021-05-06 19:04:37
 author: 上杉九月
 ## 基本设置
 tags:
-  - C语言
+  - C++
 categories: 学习笔记
-excerpt: 零散的一些C语言习题
+excerpt: 零散的一些习题
 ## 密码设置
 password: 
 abstract: 
@@ -21,11 +21,11 @@ music:
   type: song
   id: 1466878839
 ## 文章头图设置
-index_img: 'https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/1.jpg'
-banner_img: 'https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/1.jpg'
-headimg: 'https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/1.jpg'
-img: 'https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/1.jpg'
-cover: 'https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/1.jpg'
+index_img: 'https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Study/index.jpg'
+banner_img: 'https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Study/index.jpg'
+headimg: 'https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Study/index.jpg'
+img: 'https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Study/index.jpg'
+cover: 'https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Study/index.jpg'
 ## 相关开关
 mermaid: false
 mathjax: false
