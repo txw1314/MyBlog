@@ -165,8 +165,7 @@ deploy:
 # Volantis
 import:
   head_end:
-    - <link rel="preconnect" href="https://css.sakurasep.club">
-    - <link rel="stylesheet" href="https://css.sakurasep.club/Volantis/CDN/css/roboto.css">
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@master/Volantis/Css/roboto.css">
 
     
 # 网站图标，更多尺寸等图标请使用import方式批量导入

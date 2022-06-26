@@ -7,7 +7,7 @@ info:
 cdn:
   enable: true
   # CDN 前缀，为空使用默认值，链接最后不加 "/",
-  prefix: https://css.sakurasep.club/Volantis/CDN/Local
+  prefix: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@master/Volantis/Local
   set:
     js:
       app: /js/app.js
@@ -15,20 +15,20 @@ cdn:
       style: /css/style.css
 
 # volantis static 静态资源文件 npm 包 CDN 地址 (后面加 "/" )
-volantis_static_cdn: https://css.sakurasep.club/Volantis/CDN/static/
+volantis_static_cdn: https://unpkg.com/browse/volantis-static@0.0.1654736714924/
 
 # 基本优化结束
 custom_css:
   toc_smooth: true
   cursor:
     enable: true
-    text: https://css.sakurasep.club/Inkss-CDN/cursor/text.png
-    pointer: https://css.sakurasep.club/Inkss-CDN/cursor/pointer.png
-    default: https://css.sakurasep.club/Inkss-CDN/cursor/left_ptr.png
-    not-allowed: https://css.sakurasep.club/Inkss-CDN/cursor/circle.png
-    zoom-out: https://css.sakurasep.club/Inkss-CDN/cursor/zoom-out.png
-    zoom-in: https://css.sakurasep.club/Inkss-CDN/cursor/zoom-in.png
-    grab: https://css.sakurasep.club/Inkss-CDN/cursor/openhand.png
+    text: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@master/Volantis/Other/cursor/text.png
+    pointer: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@master/Volantis/Other/cursor/pointer.png
+    default: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@master/Volantis/Other/cursor/left_ptr.png
+    not-allowed: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@master/Volantis/Other/cursor/circle.png
+    zoom-out: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@master/Volantis/Other/cursor/zoom-out.png
+    zoom-in: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@master/Volantis/Other/cursor/zoom-in.png
+    grab: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@master/Volantis/Other/cursor/openhand.png
   scrollbar:
     size: 4px
     border: 2px  
@@ -308,32 +308,32 @@ cover:
   features:
     - name: 博客
       url: /
-      img: https://css.sakurasep.club/Twemoji/assets/svg/1f4f0.svg
+      img: https://cdn.jsdelivr.net/gh/sakurasep/img-cdn@1.0/Twemoji/assets/svg/1f4f0.svg
     - name: 分类
       icon: #
-      img: https://css.sakurasep.club/Twemoji/assets/svg/1f5c3.svg
+      img: https://cdn.jsdelivr.net/gh/sakurasep/img-cdn@1.0/Twemoji/assets/svg/1f5c3.svg
       url: /categories/
     - name: 标签
       icon: #
-      img: https://css.sakurasep.club/Twemoji/assets/svg/1f5d2.svg
+      img: https://cdn.jsdelivr.net/gh/sakurasep/img-cdn@1.0/Twemoji/assets/svg/1f5d2.svg
       url: /tags/
     - name: 归档
       icon: #
-      img: https://css.sakurasep.club/Twemoji/assets/svg/1f5de.svg
+      img: https://cdn.jsdelivr.net/gh/sakurasep/img-cdn@1.0/Twemoji/assets/svg/1f5de.svg
       url: /archives/
     - name: 友链
-      img: https://css.sakurasep.club/Twemoji/assets/svg/1f4e2.svg
+      img: https://cdn.jsdelivr.net/gh/sakurasep/img-cdn@1.0/Twemoji/assets/svg/1f4e2.svg
       url: /friends/
     - name: 关于
       icon: #
-      img: https://css.sakurasep.club/Twemoji/assets/svg/1f5a5.svg
+      img: https://cdn.jsdelivr.net/gh/sakurasep/img-cdn@1.0/Twemoji/assets/svg/1f5a5.svg
       url: /about/
 
 # 文章
 article:
   preview:
     line_style: hidden
-    pin_icon: https://css.sakurasep.club/Twemoji/assets/svg/1f4cc.svg
+    pin_icon: https://cdn.jsdelivr.net/gh/sakurasep/img-cdn@1.0/Twemoji/assets/svg/1f4cc.svg
   body:
     top_meta: [author, wordcount, category, updated, counter]
     bottom_meta: [category, tags, updated, share]
@@ -396,7 +396,7 @@ plugins:
   contributorsjs:
     enable: true
 
-  fontawesome: https://css.sakurasep.club/fontawesome/css/all.min.css
+  fontawesome: https://cdn.jsdelivr.net/gh/inkss/fontawesome@6.0.0/css/all.min.css
   fontawesome_animation:
     enable: true
 
@@ -434,7 +434,7 @@ plugins:
     enable: true
 
   bbtalk:
-    js: https://css.sakurasep.club/Volantis/BBtalk/dist/bbtalk.js
+    js: https://unpkg.com/bbtalk@0.1.5/dist/bbtalk.js
     appId: w69Q3H9ULXStdK6VmTfNxI2T-MdYXbMMI
     appKey: ug5wcVHclRzU1jeNf6m7yAoN
     serverURLs: https://w69Q3H9U.api.lncldglobal.com
@@ -545,7 +545,7 @@ comments:
   title: <i class='fa-light fa-comments POMEGRANATE'></i> 评论
   service: twikoo 
   twikoo:
-    js: https://css.sakurasep.club/Volantis/CDN/twikoo.all.min.js
+    js: https://cdn.staticfile.org/twikoo/1.5.11/twikoo.all.min.js
     envId: twikoo-8g109qz0365c3388
 
 # CSP
