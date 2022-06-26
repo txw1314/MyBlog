@@ -64,7 +64,7 @@ volantis_static_cdn: https://unpkg.com/volantis-static@0.0.1654736714924/
 # 全局页面字符串替换  A => B (可用于临时修改错字等)
 replace:
   - https://cdn.jsdelivr.net/npm/ => https://unpkg.com/
-  - https://cdn.jsdelivr.net/gh/ => https://fastly.jsdelivr.net/gh/
+#  - https://cdn.jsdelivr.net/gh/ => https://fastly.jsdelivr.net/gh/
 #  - https://unpkg.com/ => https://npm.elemecdn.com/
 
 # dns-prefetch preconnect x-dns-prefetch-control
