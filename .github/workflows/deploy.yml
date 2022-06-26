@@ -32,6 +32,7 @@ jobs:
           ssh-keyscan github.com >> ~/.ssh/known_hosts
           git config --global user.email "13562008871@163.com"
           git config --global user.name "sakurasep"
+          npm config set registry https://registry.npm.taobao.org
           npm install hexo-cli -g
           npm install
 
