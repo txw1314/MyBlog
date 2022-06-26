@@ -7,7 +7,7 @@ info:
 cdn:
   enable: true
   # CDN 前缀，为空使用默认值，链接最后不加 "/",
-  prefix: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@master/Volantis/Local
+  prefix: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@1.0/Volantis/Local
   set:
     js:
       app: /js/app.js
@@ -22,13 +22,13 @@ custom_css:
   toc_smooth: true
   cursor:
     enable: true
-    text: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@master/Volantis/Other/cursor/text.png
-    pointer: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@master/Volantis/Other/cursor/pointer.png
-    default: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@master/Volantis/Other/cursor/left_ptr.png
-    not-allowed: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@master/Volantis/Other/cursor/circle.png
-    zoom-out: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@master/Volantis/Other/cursor/zoom-out.png
-    zoom-in: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@master/Volantis/Other/cursor/zoom-in.png
-    grab: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@master/Volantis/Other/cursor/openhand.png
+    text: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@1.0/Volantis/Other/cursor/text.png
+    pointer: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@1.0/Volantis/Other/cursor/pointer.png
+    default: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@1.0/Volantis/Other/cursor/left_ptr.png
+    not-allowed: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@1.0/Volantis/Other/cursor/circle.png
+    zoom-out: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@1.0/Volantis/Other/cursor/zoom-out.png
+    zoom-in: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@1.0/Volantis/Other/cursor/zoom-in.png
+    grab: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@1.0/Volantis/Other/cursor/openhand.png
   scrollbar:
     size: 4px
     border: 2px  
