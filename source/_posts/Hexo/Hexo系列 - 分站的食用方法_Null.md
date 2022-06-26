@@ -1,55 +1,63 @@
 ---
 title: 使用Cmd批处理命令同步主站更新
 date: 2021-05-14 07:53:42
-
+updated: 2022-06-26 14:38:52
 author: 上杉九月
+## 基本设置
 tags:
-  - Hexo
-  - Cmd
-  - 零基础
+- Hexo
+- Cmd
+- 零基础
 categories: Hexo系列教程
 excerpt: Cmd可以简化博文部署的操作，这使得分站在数量较多时，内容仍然可以同步主站更新。
+## 密码设置
+password:
+abstract:
 wrong_pass_message: '密码错误,请重新输入'
-sticky: true
-top: true
-pin: true
+## 置顶设置
+sticky: 10000
+top: false
+pin: false
+## 相关开关
 mermaid: false
+mathjax: false
 math: false
 comments: true
-hide: true
+hide: false
+abbrlink: hexo04
+## Aplayer播放器设置
 music:
   server: netease
   type: song
-  id: 31134461
+  id: 1403774122
+## 博客引用了哪些文章
+references:
+  - title: 'Volantis5-官方文档'
+    url: 'https://volantis.js.org/v5/getting-started/'
+## 头图设置
 index_img: 'https://cdn.jsdelivr.net/gh/sakurasep/images_01@1.3/Cmd/headimg.jpg'
 banner_img: 'https://cdn.jsdelivr.net/gh/sakurasep/images_01@1.3/Cmd/headimg.jpg'
 headimg: 'https://cdn.jsdelivr.net/gh/sakurasep/images_01@1.3/Cmd/headimg.jpg'
 img: 'https://cdn.jsdelivr.net/gh/sakurasep/images_01@1.3/Cmd/headimg.jpg'
 cover: 'https://cdn.jsdelivr.net/gh/sakurasep/images_01@1.3/Cmd/headimg.jpg'
-abbrlink: 39030
-password:
-abstract:
+
 ---
 
-# 文章简介
+Hexo博客框架将根目录的`source`以及主题文件夹的`source`博客资源部署到`public`文件夹。因为Hexo编译的是静态页面。
 
-> 作者：上杉九月
-> 排版与发布：上杉九月
-
-# 前言
-Hexo博客框架是静态部署的，它通过将文件编译到`public`文件夹，使用Git推送到远程仓库，实现博客网站显示。
-
-同时，我们依据这一原理，在`主域名`下开设分站，将以往所配置的主题部署在`主域名/分站`
+所以说，我们依据这一原理，在`主域名`下可以设置分站点，将以往所配置的过的不同主题部署在`主域名/分站`目录
 
 例如本站使用Volantis为主站点，将以往配置过的众多主题部署在分站网址，给博客增加了一些可玩性
 
-> Volantis: https://sakurasep.site/
-> Next: https://sakurasep.site/next
+{% noteblock link::目录解析 %}
+Volantis主站点: https://blog.sakurasep.site/
+
 > Shoka: https://sakurasep.site/shoka
 > Butterfly: https://sakurasep.site/butterfly
 > Yun: https://sakurasep.site/yun
 > Fluid: https://sakurasep.site/fluid
 > Matery: https://sakurasep.site/matery
+{% endnoteblock %}
 
 但是，在`Volantis`目录下进行操作，分站内容是无法同步更新的，需要将在`Volantis`下写的文章复制到其他主题目录下，然后编译出`public`文件夹，复制文件夹内容到`Volantis/theme/volantis/source/分站名称`，最后统一编译部署。
 这一过程还是稍微繁琐的。
