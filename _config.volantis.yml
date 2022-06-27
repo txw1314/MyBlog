@@ -7,7 +7,7 @@ info:
 cdn:
   enable: true
   # CDN 前缀，为空使用默认值，链接最后不加 "/",
-  prefix: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@2.0/Volantis/Local
+  prefix: https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@2.2/Volantis/Local
   set:
     js:
       app: /js/app.js
