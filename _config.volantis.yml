@@ -308,32 +308,32 @@ cover:
   features:
     - name: 博客
       url: /
-      img: https://cdn.jsdelivr.net/gh/sakurasep/img-cdn@2.0/Twemoji/assets/svg/1f4f0.svg
+      img: https://cdn.jsdelivr.net/gh/sakurasep/img-cdn@1.1/Twemoji/assets/svg/1f4f0.svg
     - name: 分类
       icon: #
-      img: https://cdn.jsdelivr.net/gh/sakurasep/img-cdn@2.0/Twemoji/assets/svg/1f5c3.svg
+      img: https://cdn.jsdelivr.net/gh/sakurasep/img-cdn@1.1/Twemoji/assets/svg/1f5c3.svg
       url: /categories/
     - name: 标签
       icon: #
-      img: https://cdn.jsdelivr.net/gh/sakurasep/img-cdn@2.0/Twemoji/assets/svg/1f5d2.svg
+      img: https://cdn.jsdelivr.net/gh/sakurasep/img-cdn@1.1/Twemoji/assets/svg/1f5d2.svg
       url: /tags/
     - name: 归档
       icon: #
-      img: https://cdn.jsdelivr.net/gh/sakurasep/img-cdn@2.0/Twemoji/assets/svg/1f5de.svg
+      img: https://cdn.jsdelivr.net/gh/sakurasep/img-cdn@1.1/Twemoji/assets/svg/1f5de.svg
       url: /archives/
     - name: 友链
-      img: https://cdn.jsdelivr.net/gh/sakurasep/img-cdn@2.0/Twemoji/assets/svg/1f4e2.svg
+      img: https://cdn.jsdelivr.net/gh/sakurasep/img-cdn@1.1/Twemoji/assets/svg/1f4e2.svg
       url: /friends/
     - name: 关于
       icon: #
-      img: https://cdn.jsdelivr.net/gh/sakurasep/img-cdn@2.0/Twemoji/assets/svg/1f5a5.svg
+      img: https://cdn.jsdelivr.net/gh/sakurasep/img-cdn@1.1/Twemoji/assets/svg/1f5a5.svg
       url: /about/
 
 # 文章
 article:
   preview:
     line_style: hidden
-    pin_icon: https://cdn.jsdelivr.net/gh/sakurasep/img-cdn@2.0/Twemoji/assets/svg/1f4cc.svg
+    pin_icon: https://cdn.jsdelivr.net/gh/sakurasep/img-cdn@1.1/Twemoji/assets/svg/1f4cc.svg
   body:
     top_meta: [author, wordcount, category, updated, counter]
     bottom_meta: [category, tags, updated, share]
