@@ -12,7 +12,7 @@ cdn:
     js:
       app: /js/app.js
     css:
-      style: /css/style.css
+      style: 
 
 # volantis static 静态资源文件 npm 包 CDN 地址 (后面加 "/" )
 volantis_static_cdn: https://unpkg.com/browse/volantis-static@0.0.1654736714924/
