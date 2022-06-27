@@ -1,0 +1,1071 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN,en,zh-TW,default" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.png">
+  <link rel="icon" href="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="上杉九月">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="安卓系统的根目录，本不应该如此混乱。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="《应用使用指南》存储空间隔离_第1期">
+<meta property="og:url" content="https://blog.sakurasep.site/Fluid/HowToUse/%E5%BA%94%E7%94%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20-%20%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4%E9%9A%94%E7%A6%BB/index.html">
+<meta property="og:site_name" content="九月的生活">
+<meta property="og:description" content="安卓系统的根目录，本不应该如此混乱。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/IndexImg.png">
+<meta property="article:published_time" content="2021-03-13T13:35:26.000Z">
+<meta property="article:modified_time" content="2022-05-19T10:51:54.279Z">
+<meta property="article:author" content="上杉九月">
+<meta property="article:tag" content="零基础">
+<meta property="article:tag" content="应用使用指南">
+<meta property="article:tag" content="安卓">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/IndexImg.png">
+  
+  
+  
+  <title>《应用使用指南》存储空间隔离_第1期 - 九月的生活</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/Fluid/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/Fluid/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/Fluid/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"blog.sakurasep.site","root":"/Fluid/","version":"1.9.0","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"touch","icon":"§"},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"6AlMmDb6FMNtaNh3XlKYsizU-MdYXbMMI","app_key":"jTB2tRPg1t2zVKxnRvrD0lYn","server_url":null,"path":"window.location.pathname","ignore_local":true}},"search_path":"/Fluid/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/Fluid/js/utils.js" ></script>
+  <script  src="/Fluid/js/color-schema.js" ></script>
+
+  
+<meta name="generator" content="Hexo 6.1.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/Fluid/">
+      <strong>上杉九月的博客</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Fluid/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" target="_self" href="javascript:;" role="button"
+                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="iconfont icon-bookmark-fill"></i>
+                分站
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="https://blog.sakurasep.site/Shoka">
+                    
+                    Shoka
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="https://blog.sakurasep.site/Butterfly">
+                    
+                    Butterfly
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="https://blog.sakurasep.site/Yun">
+                    
+                    Yun
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="https://blog.sakurasep.site/Matery">
+                    
+                    Matery
+                  </a>
+                
+                  
+                  
+                  
+                  <a class="dropdown-item" href="https://blog.sakurasep.site/">
+                    
+                    Volantis
+                  </a>
+                
+              </div>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Fluid/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Fluid/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Fluid/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Fluid/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Fluid/links/">
+                <i class="iconfont icon-link-fill"></i>
+                友链
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Fluid/bangumis/">
+                <i class="iconfont icon-bilibili"></i>
+                追番
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/Fluid/cinemas/">
+                <i class="iconfont icon-youtube-fill"></i>
+                追剧
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/IndexImg.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="《应用使用指南》存储空间隔离_第1期"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-author" aria-hidden="true"></i>
+        上杉九月
+      </span>
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2021-03-13 21:35" pubdate>
+          2021年3月13日 晚上
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          5k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          42 分钟
+        
+      </span>
+    
+
+    
+    
+      
+        <span id="leancloud-page-views-container" class="post-meta" style="display: none">
+          <i class="iconfont icon-eye" aria-hidden="true"></i>
+          <span id="leancloud-page-views"></span> 次
+        </span>
+        
+      
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">《应用使用指南》存储空间隔离_第1期</h1>
+            
+              <p class="note note-info">
+                
+                  
+                    本文最后更新于：2022年5月19日 晚上
+                  
+                
+              </p>
+            
+            <div class="markdown-body">
+              
+              <h1 id="文章简介"><a href="#文章简介" class="headerlink" title="文章简介"></a>文章简介</h1><blockquote>
+<p>作者： 上杉九月</p>
+</blockquote>
+<blockquote>
+<p>头图设计：上杉九月</p>
+</blockquote>
+<blockquote>
+<p>排版及发布：上杉九月</p>
+</blockquote>
+<blockquote>
+<p>感谢提供修改建议: </p>
+<ul>
+<li>酷安@量子米君 </li>
+<li>酷安@苍玄之包</li>
+</ul>
+</blockquote>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h3 id="安卓根目录的混乱现象"><a href="#安卓根目录的混乱现象" class="headerlink" title="安卓根目录的混乱现象"></a>安卓根目录的混乱现象</h3><p>每一次打开文件管理去寻找你所想要的文件，或是在聊天软件给朋友发送文件，总会看到目录里有着大量莫名奇妙的文件夹。一是不方便找到目标文件所在，二是对于强迫症挺不舒服的。</p>
+<p><strong>优化前的根目录，充斥着各种文件夹</strong></p>
+<p>造成这种现象，主要是国内软件厂商不遵守开发规范导致。根据安卓规范，在 <code>Android/data/包名</code> 路径应该保存对应应用的数据文件，<code>Android/obb/包名</code>路径应该保存对应应用的数据包文件。这两个文件夹是用户不应该去访问的，因此安卓11的新规范禁止系统（仅对于定制UI）的文件管理直接访问。如果介意（例如MIUI的默认文件管理）访问受限，可以安装相应的旧版本。</p>
+<h3 id="安卓11的新限制"><a href="#安卓11的新限制" class="headerlink" title="安卓11的新限制"></a>安卓11的新限制</h3><p><strong>如图所示，MIUI的文件管理在一次升级中已经不在允许访问，点击前往查看将会跳转安卓原生的文件管理。</strong></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/1.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<p>应用应该将自身数据保存在Android文件夹内部，将用户数据按照分类保存在标准文件夹，但是国内应用大部分不会遵循开发规范，便造成了安卓根目录混乱的现状。</p>
+<h3 id="某些应用开发者的错误理解"><a href="#某些应用开发者的错误理解" class="headerlink" title="某些应用开发者的错误理解"></a>某些应用开发者的错误理解</h3><p>很多应用开发者为了适配安卓11的要求，做出了很多令人迷惑的行为。这里以腾讯的令人迷惑的操作举例。在QQ 8.2.8版本之后，将用户的下载文件位置从根目录更改到了Android文件夹内部，同时也是自身的数据文件夹。这让用户去查看自己下载的文件时十分麻烦。而且QQ在根目录仍然有着许多未知用途的文件夹。</p>
+<h3 id="标准文件夹的示例（MIUI）"><a href="#标准文件夹的示例（MIUI）" class="headerlink" title="标准文件夹的示例（MIUI）"></a>标准文件夹的示例（MIUI）</h3><ul>
+<li>DCIM 保存相机拍摄的照片和视频（MIUI在该文件夹还存储了截图和屏幕录制）</li>
+<li>Documents 保存文档</li>
+<li>Download 保存下载文件</li>
+<li>Fonts 保存字体文件（MIUI系统字体文件保存在主题文件夹中）</li>
+<li>Movie 保存视频文件</li>
+<li>Music 保存音频文件</li>
+<li>Pictures 保存图片文件</li>
+<li>等等</li>
+</ul>
+<p>对于不同的定制系统同时也有自己存放关键系统文件的文件夹，例如MIUI会在根目录建立一个MIUI文件夹，用来存放各种系统软件的缓存文件和数据。</p>
+<h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><ul>
+<li>依靠安卓大版本更新更严格的文件访问策略，强制应用使用更高的targetAPI。</li>
+<li>依靠定制系统完善文件访问限制功能，感觉最近Flyme和MIUI的沙盒已经有了雏形了。</li>
+<li>依靠Rikka开发的存储空间隔离（原名存储重定向），这也是我写本文的目的。</li>
+</ul>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>这款软件在酷安上即有下载，原名存储重定向，现名存储空间隔离。<br>在使用这款软件之前，你需要接受以下的要求</p>
+<ul>
+<li>手机已经获取了root权限</li>
+<li>愿意为这款软件支付一定的费用</li>
+<li>有耐心</li>
+<li>可以接受某些奇奇怪怪的问题</li>
+<li>可以主动寻找问题的解决方法</li>
+</ul>
+<h2 id="第一步-安装必要的环境"><a href="#第一步-安装必要的环境" class="headerlink" title="第一步 安装必要的环境"></a>第一步 安装必要的环境</h2><h3 id="本机的使用环境为"><a href="#本机的使用环境为" class="headerlink" title="本机的使用环境为"></a>本机的使用环境为</h3><ul>
+<li>小米10 MIUI12.5 21.2.3 Simplicity官改</li>
+<li>Magsik 21.4 App 22.0</li>
+</ul>
+<h3 id="模块介绍"><a href="#模块介绍" class="headerlink" title="模块介绍"></a>模块介绍</h3><p><strong>在满足root的环境下，在Magsik模块安装页面，搜索riru关键字便可以看到riru系列模块</strong></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/2.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<p><strong>我们这里只安装两个模块</strong></p>
+<p>Riru V23.6</p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/4.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<p>Riru - Enhanced mode for Storage Isolation V23.6</p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/3.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<p>这里提醒一下，如果不安装Riru，而先去安装Riru - Enhanced mode for Storage Isolation，将会无法安装。所以请按照顺序安装模块。</p>
+<h2 id="第二步-安装软件并进行基本配置"><a href="#第二步-安装软件并进行基本配置" class="headerlink" title="第二步 安装软件并进行基本配置"></a>第二步 安装软件并进行基本配置</h2><h3 id="下载途径"><a href="#下载途径" class="headerlink" title="下载途径"></a>下载途径</h3><h4 id="在酷安搜索存储空间隔离并下载"><a href="#在酷安搜索存储空间隔离并下载" class="headerlink" title="在酷安搜索存储空间隔离并下载"></a>在酷安搜索存储空间隔离并下载</h4><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/6_02.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<h4 id="在Google-Play搜索存储空间隔离并下载"><a href="#在Google-Play搜索存储空间隔离并下载" class="headerlink" title="在Google Play搜索存储空间隔离并下载"></a>在Google Play搜索存储空间隔离并下载</h4><p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/6.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<p>这里我推荐从Google Play下载，在Play商店购买的该软件，使用同一个谷歌账号可以多设备使用。</p>
+<p>目前软件的内购验证做的很完善，如果你是在Google Play下载，无需登录外网，直接点击恢复购买即可。</p>
+<h3 id="安装过程"><a href="#安装过程" class="headerlink" title="安装过程"></a>安装过程</h3><p><strong>下载完成后打开软件，便显示了软件的基本介绍</strong></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/8.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<p><strong>允许存储空间隔离获取Root权限，当出现提示成功时便可以进行下一步了。</strong></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/9.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/10.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<p>如果出现问题，请按照以上步骤重新安装环境。</p>
+<p>不过有的机型的确是有兼容问题。</p>
+<p><strong>到这一步，就已经安装完成了</strong></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/11.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<h3 id="备份文件"><a href="#备份文件" class="headerlink" title="备份文件"></a>备份文件</h3><p>在这里，我会提供一份自己使用，基本没有错误的配置文件，你只需要在备份与还原里还原备份文件即可开始使用。</p>
+<blockquote>
+<p><strong><a target="_blank" rel="noopener" href="https://cloud.sakurasep.club/s/wRcq">备份文件_密码0314</a></strong></p>
+</blockquote>
+<p>注意：</p>
+<ul>
+<li>本配置文件的应用可能无法包含你所使用的应用，如果你想达到近乎完美的效果，请继续看下去。</li>
+<li>本配置文件有的地方会有一些问题，你需要自行修改。已知QQ存在侧漏问题。</li>
+</ul>
+<h2 id="第三步-原理解释以及详细配置"><a href="#第三步-原理解释以及详细配置" class="headerlink" title="第三步 原理解释以及详细配置"></a>第三步 原理解释以及详细配置</h2><h3 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h3><p>在存储空间隔离的官网，我们可以找到一些我们所需要的内容</p>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://sr.rikka.app/zh-hans/">官方网站</a></p>
+</blockquote>
+<p>以下内容是对官网指南的部分摘录以及我自己的理解</p>
+<ul>
+<li>公共文件夹</li>
+</ul>
+<p>DCIM,Pictures,Download 等公共文件夹，用来保存用户的文件，允许应用在此根据需求新建文件夹来保存对应的文件。例如QQ应该将用户下载的文件保存在 <code>Download/QQ</code>，而不是<code>Android/data/包名</code>。</p>
+<p>但是应用对于公共文件夹的访问应该是一次性的，有目的的。例如在QQ发送图片给好友，QQ在获取用户的允许后访问DCIM和Pictures文件夹，发送结束后系统应该收回访问权限。</p>
+<ul>
+<li>数据文件夹</li>
+</ul>
+<p>Android文件夹内部对于用户来说是不应该进行访问的，对于应用来说则是无需授权就能够访问，在此保存应用的数据和缓存。</p>
+<p>遗憾的是，目前原生安卓对于存储权限的选项只有允许和拒绝，此外，国内存在的大量“坏应用”如果被拒绝授权将不会运行。</p>
+<p>存储空间隔离便是为了解决这一乱象而开发，这里感谢Rikka大佬开发了这款应用，在一定程度上很好解决了以上问题。</p>
+<p>一般来说，不规范的应用会在根目录创建各种各样的文件夹。在启用存储空间隔离之后，应用将会在<code>Android/data/包名/sdcard</code> 内保存文件。</p>
+<p>优点如下</p>
+<ul>
+<li>因为卸载应用时只会清理应用的数据文件夹，在对应用进行隔离后，卸载时将会将下载文件和应用数据一并删除</li>
+<li>系统统计应用占用空间大小仅会统计数据文件夹，在对应用进行隔离后，系统统计大小功能将会正常工作</li>
+</ul>
+<h3 id="使用教程"><a href="#使用教程" class="headerlink" title="使用教程"></a>使用教程</h3><h4 id="软件权限"><a href="#软件权限" class="headerlink" title="软件权限"></a>软件权限</h4><p>对于MIUI用户，因为MIUI魔改了很多对于应用的控制权限，这里需要手动为存储空间隔离打开部分权限</p>
+<ul>
+<li>在后台弹出界面</li>
+</ul>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/12.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<ul>
+<li>应用自启动以及省电策略</li>
+</ul>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/13.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/14.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<h4 id="默认存储空间位置"><a href="#默认存储空间位置" class="headerlink" title="默认存储空间位置"></a>默认存储空间位置</h4><p><strong>在软件的设置 - 行为 - 默认隔离存储空间位置中，你有两种选择</strong></p>
+<ul>
+<li>保存在数据文件夹</li>
+<li>保存在缓存文件夹</li>
+<li>缓存文件夹有着和数据文件夹一样的特性，但是缓存文件夹可能被清理软件所清理。这里根据自己的需求吧。一般来说保存在数据文件夹即可。</li>
+</ul>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/15.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<h4 id="可访问文件夹模板"><a href="#可访问文件夹模板" class="headerlink" title="可访问文件夹模板"></a>可访问文件夹模板</h4><p>然后回到上一级，在可访问文件夹模板中进行设置<br>在这里所设置的文件夹就是允许应用访问的公共文件夹</p>
+<p><strong>我在默认的基础上添加了对于Movie文件夹的访问</strong></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/16.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<p>现在回到主页面，点击应用管理，就可以对应用进行单独设置</p>
+<p><strong>为了避免重定向系统应用带来各种各样的bug，我们先对第三方应用进行配置</strong></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/17.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<h3 id="根据需求配置"><a href="#根据需求配置" class="headerlink" title="根据需求配置"></a>根据需求配置</h3><p>白描是一款特别好用的OCR识别和PDF导出应用，这里我们拿它来讲解如何对一款应用重定向。</p>
+<h4 id="需求考虑"><a href="#需求考虑" class="headerlink" title="需求考虑"></a>需求考虑</h4><p>我们应该考虑，这款应用会获取什么信息，因为我常常用它将图片转成PDF格式，所以DCIM（拍摄的图片）和Pictures（下载的图片）是可访问的文件夹。所以说我们对白描设置可访问文件夹为DCIM和Pictures。</p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/18.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<h4 id="模拟正常使用过程"><a href="#模拟正常使用过程" class="headerlink" title="模拟正常使用过程"></a>模拟正常使用过程</h4><p>使用白描正常导出一次PDF，在查看文件历史里可以看到PDF保存在Download&#x2F;Baimiao中。因为我希望保存在Document&#x2F;白描，所以我们打开白描的Download访问权限（刚才是白描试图访问Download，但是被定向到了数据文件夹内部的Download），重新保存一次PDF，这时白描就会创建此文件夹。</p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/19.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<h4 id="将隔离的文件同步到标准文件夹"><a href="#将隔离的文件同步到标准文件夹" class="headerlink" title="将隔离的文件同步到标准文件夹"></a>将隔离的文件同步到标准文件夹</h4><p>在导出被隔离的文件中添加同步文件夹规则，来源路径选择Download（新版存储空间隔离导出时会将该应用在目录内的全部文件进行同步）</p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/20.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<h4 id="4-检查结果"><a href="#4-检查结果" class="headerlink" title="4.检查结果"></a>4.检查结果</h4><p>可以看到PDF文件成功保存到指定位置</p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/21.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<p>这里很多使用者都会有一个误区-既然我要把文件保存到Documents目录，那么为什么不把Documents设置为可访问的文件夹呢？其实很好解释，你把可访问的文件夹当做读取权限，把导出被隔离的文件当作写入权限，这样就明白了吧。</p>
+<p>但是有些应用是很规范的，他们保存在标准文件夹，所以你应该允许该应用访问。</p>
+<h3 id="应用之间互相访问"><a href="#应用之间互相访问" class="headerlink" title="应用之间互相访问"></a>应用之间互相访问</h3><p>用过存储重定向的老用户都应该遇到过哔哩哔哩的视频分享到QQ，会出现系统繁忙的提示，就算偶尔可能分享成功，视频的封面也不见了。</p>
+<p>这是因为哔哩哔哩老版本在根目录的tv.danmuku.bili存放自己的图片缓存，而对哔哩哔哩和QQ进行隔离后，QQ是访问不到这个文件夹的，就造成了分享失败的问题。</p>
+<p><del>目前这个问题貌似得到了解决，哔哩哔哩在某一个版本对缓存文件的位置做了更改，移动到了数据文件夹，这是一个可能的原因。此外还可能因为哔哩哔哩的分享在QQ上被改为了小程序分享，分享短链接包含了封面地址，所以分享成功进行。</del></p>
+<p><del>因为目前我并没有遇到该问题，所以希望各位可以在评论区反馈你们的使用情况，我会抽时间测试一下对应的软件版本。</del></p>
+<p>好了，最近遇到了这一问题。同时也讲一下解决方案。同类问题都可以按照此思路解决。</p>
+<p>哔哩哔哩的视频想要分享到QQ（空间，联系人等），QQ需要读取哔哩哔哩的封面缓存信息，而因为存储重定向的缘故，QQ无法对你允许访问文件夹之外的内容进行读取和写入操作，这就导致了分享的失败。所以为了解决这一问题，首先通过文件历史找到正常情况下哔哩哔哩的缓存保存位置。最新版缓存保存位置在 <code>Android/data/tv.danmaku.bili/files/Images</code> 。然后在QQ可访问的文件夹，在其他应用的文件夹中创建新的规则。</p>
+<p><strong>如下图所示。</strong></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/22.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<h3 id="最终的清理"><a href="#最终的清理" class="headerlink" title="最终的清理"></a>最终的清理</h3><p>按照以上的例子，对用户应用一一设置。设置完成之后，删除除了标准文件夹的所有冗余文件，正常使用一段时间，你会发现根目录仍然会有一些文件夹，这时候就需要精准定位。</p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/23.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<p>如上图所示，比如说我们想知道<code>com.miui.voiceassist</code>(其实很明显，是小爱同学，但请假装不知道)是由哪一个应用创建。</p>
+<p><strong>我们将文件夹名复制，在文件监视中粘贴。</strong></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/24.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<p>然后就会显示有那些应用对该文件夹进行读取或者是写入。</p>
+<p>不过我们要清楚读取和写入的区别，比如说这里显示了媒体存储设备对该文件夹的访问，而我们了解一点相关内容便可以知道个该软件是在扫描各个文件夹来查找媒体文件，并没有进行写入，所以文件夹不是由它创建。</p>
+<p><strong>向下拉便可以找到小爱同学的文件访问记录。</strong></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/25.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<p><strong>现在点击小爱同学，对其进行隔离。</strong></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/26.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<h3 id="或许会更完美"><a href="#或许会更完美" class="headerlink" title="或许会更完美"></a>或许会更完美</h3><h4 id="解决某些文件无法读取媒体文件的问题"><a href="#解决某些文件无法读取媒体文件的问题" class="headerlink" title="解决某些文件无法读取媒体文件的问题"></a>解决某些文件无法读取媒体文件的问题</h4><p>在安卓11使用存储空间隔离会导致导出的媒体文件不在软件显示的问题。实际举例（QQ发送图片无法获取导出的媒体文件）。</p>
+<p><strong><a target="_blank" rel="noopener" href="https://www.coolapk.com/feed/24310395?shareKey=NDVlZDZkYjUzNDBmNjA0Y2I2NmU~&shareUid=3334957&shareFrom=com.coolapk.market_11.0.3">酷安@余空_Yuk</a></strong></p>
+<p>开发的给安卓11启用sdcardfs的模块可以解决这一问题。</p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/27.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<h4 id="2-解决下载文件被某些应用存储在Android目录的问题"><a href="#2-解决下载文件被某些应用存储在Android目录的问题" class="headerlink" title="2. 解决下载文件被某些应用存储在Android目录的问题"></a>2. 解决下载文件被某些应用存储在Android目录的问题</h4><p>QQ这类将用户下载的文件保存在数据文件夹的应用</p>
+<p>**<a target="_blank" rel="noopener" href="https://www.coolapk.com/feed/24654978?shareKey=MzIxM2M0ZDcxYmE2NjA0Y2I3MzU~&shareUid=3334957&shareFrom=com.coolapk.market_11.0.3">酷安@阿巴酱</a>**给出了一种解决方案。</p>
+<p>我采用的是Rikka开发的另一款应用-保存副本</p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/28.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/29.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<p><strong>当你在QQ下载文件之后，只需要在打开方式里选择保存副本，软件就可以在Download目录复制一份相同的文件。</strong></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/30.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/31.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<h2 id="第四步-效果展示"><a href="#第四步-效果展示" class="headerlink" title="第四步 效果展示"></a>第四步 效果展示</h2><p>这里我自己把Malody的谱面文件存在了Map文件夹。</p>
+<p>miad这一个空文件是为了防止MIUI的应用开屏广告产生（直接卸载掉智能服务<code>com.miui.systemAdSolution</code>即可。可以使用搞机助手进行卸载。一直用官改，不知道MIUI将广告服务集成在此应用里，感谢<strong>酷安@水水水淼</strong>的建议）</p>
+<p>mm是Magsik的MM管理器</p>
+<p><strong>如果和文章开头对比一下，可以说是强迫症狂喜。</strong></p>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/RedirectStorage/32.jpg" srcset="/Fluid/img/loading.gif" lazyload></p>
+<h1 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h1><p>简单说一些东西吧</p>
+<h2 id="个人情况"><a href="#个人情况" class="headerlink" title="个人情况"></a>个人情况</h2><p>我在寒假里策划了很多内容，从这一篇文章开始，我会逐渐向给各位展示我策划的优质内容。</p>
+<h2 id="新的开始"><a href="#新的开始" class="headerlink" title="新的开始"></a>新的开始</h2><p>这算是一个新坑，目的就是向各位推荐一些优质的应用，他们真的可以方便你的生活。目前我的更新频率（如果没有什么意外的话基本就是一个月更新两次，一次是安卓上的应用，一次是PC上的应用），毕竟我刚进入大学，自己安排了很多学习的内容，时间并不是很充裕，保证质量是第一位（还有要填坑）。</p>
+<h2 id="欢迎交流"><a href="#欢迎交流" class="headerlink" title="欢迎交流"></a>欢迎交流</h2><p>这些应用对于各位来说有的可能没用过，有的可能早就熟练上手。我希望我写的图文可以帮助小白零基础上手优质应用，从而提高效率。同时期待和各路大佬交流使用心得，不断完善文章内容和呈现形式。</p>
+<p>在这里我也会虚心听取意见，无论是对图文内容的建议，或是对某些优质应用的推荐等等。</p>
+<h1 id="多平台发布"><a href="#多平台发布" class="headerlink" title="多平台发布"></a>多平台发布</h1><p>周六晚八点：</p>
+<ul>
+<li><a href="https://blog.sakurasep.site/">个人博客</a></li>
+</ul>
+<p>周日晚八点：</p>
+<ul>
+<li>Bilibili专栏：上杉九月</li>
+<li>微信公众号：上杉九月的知识屋</li>
+<li>Weibo：上杉九月</li>
+<li>酷安：上杉九月</li>
+</ul>
+<hr>
+<p><img src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png" srcset="/Fluid/img/loading.gif" lazyload></p>
+
+              
+            </div>
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/Fluid/categories/%E5%BA%94%E7%94%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/" class="category-chain-item">应用使用指南</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/Fluid/tags/%E9%9B%B6%E5%9F%BA%E7%A1%80/">#零基础</a>
+      
+        <a href="/Fluid/tags/%E5%BA%94%E7%94%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/">#应用使用指南</a>
+      
+        <a href="/Fluid/tags/%E5%AE%89%E5%8D%93/">#安卓</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>《应用使用指南》存储空间隔离_第1期</div>
+      <div>https://blog.sakurasep.site/Fluid/HowToUse/应用使用指南 - 存储空间隔离/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>上杉九月</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2021年3月13日</div>
+        </div>
+      
+      
+      <div class="license-meta-item">
+        <div>许可协议</div>
+        <div>
+          
+            
+            
+              <a target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+              <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                <i class="iconfont icon-by"></i>
+              </span>
+              </a>
+            
+          
+        </div>
+      </div>
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/Fluid/HowToUse/%E5%BA%94%E7%94%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20-%20Perfdog/" title="《应用使用指南》Perfdog_第2期">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">《应用使用指南》Perfdog_第2期</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/Fluid/HowToDo/%E9%9B%B6%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B%20-%20%E6%99%BA%E6%85%A7%E6%9B%B2%E5%9B%AD%E8%87%AA%E5%8A%A8%E6%89%93%E5%8D%A1%E4%BA%91%E7%AB%AF/" title="《零基础教程》云服务器实现定时签到_第1期">
+                        <span class="hidden-mobile">《零基础教程》云服务器实现定时签到_第1期</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  <article id="comments" lazyload>
+    
+  <div id="twikoo"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#comments', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/twikoo/1.4.17/twikoo.all.min.js', function() {
+        var options = Object.assign(
+          {"envId":"twikoo-8g109qz0365c3388","region":"ap-shanghai","path":"window.location.pathname"},
+          {
+            el: '#twikoo',
+            path: 'window.location.pathname',
+            onCommentLoaded: function() {
+              var imgSelector = '#twikoo .tk-content img:not(.tk-owo-emotion)';
+              Fluid.plugins.imageCaption(imgSelector);
+              Fluid.plugins.fancyBox(imgSelector);
+            }
+          }
+        )
+        twikoo.init(options)
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+  </article>
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <div class="footerMax490">Copyright 2019 - 2022 SakuraSep. All Rights Reserved</div> <a href="/">上杉九月</a>  <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+
+    </div>
+  
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="leancloud-site-pv-container" style="display: none">
+        总访问量 
+        <span id="leancloud-site-pv"></span>
+         次
+      </span>
+    
+    
+      <span id="leancloud-site-uv-container" style="display: none">
+        总访客数 
+        <span id="leancloud-site-uv"></span>
+         人
+      </span>
+    
+    
+
+  
+</div>
+
+  
+  
+    <!-- 备案信息 ICP for China -->
+    <div class="beian">
+  <span>
+    <a href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">
+      鲁ICP备2020049838号-3
+    </a>
+  </span>
+  
+</div>
+
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/Fluid/js/events.js" ></script>
+<script  src="/Fluid/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+
+
+
+  
+    <script  src="/Fluid/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.0/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      headingSelector : CONFIG.toc.headingSelector || 'h1,h2,h3,h4,h5,h6',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      collapseDepth   : CONFIG.toc.collapseDepth || 0,
+      scrollSmooth    : true,
+      headingsOffset  : -boardTop
+    });
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+  });
+</script>
+
+
+  <script>
+  (function() {
+    var enableLang = CONFIG.code_language.enable && CONFIG.code_language.default;
+    var enableCopy = CONFIG.copy_btn;
+    if (!enableLang && !enableCopy) {
+      return;
+    }
+
+    function getBgClass(ele) {
+      return Fluid.utils.getBackgroundLightness(ele) >= 0 ? 'code-widget-light' : 'code-widget-dark';
+    }
+
+    var copyTmpl = '';
+    copyTmpl += '<div class="code-widget">';
+    copyTmpl += 'LANG';
+    copyTmpl += '</div>';
+    jQuery('.markdown-body pre').each(function() {
+      var $pre = jQuery(this);
+      if ($pre.find('code.mermaid').length > 0) {
+        return;
+      }
+      if ($pre.find('span.line').length > 0) {
+        return;
+      }
+
+      var lang = '';
+
+      if (enableLang) {
+        lang = CONFIG.code_language.default;
+        if ($pre[0].children.length > 0 && $pre[0].children[0].classList.length >= 2 && $pre.children().hasClass('hljs')) {
+          lang = $pre[0].children[0].classList[1];
+        } else if ($pre[0].getAttribute('data-language')) {
+          lang = $pre[0].getAttribute('data-language');
+        } else if ($pre.parent().hasClass('sourceCode') && $pre[0].children.length > 0 && $pre[0].children[0].classList.length >= 2) {
+          lang = $pre[0].children[0].classList[1];
+          $pre.parent().addClass('code-wrapper');
+        } else if ($pre.parent().hasClass('markdown-body') && $pre[0].classList.length === 0) {
+          $pre.wrap('<div class="code-wrapper"></div>');
+        }
+        lang = lang.toUpperCase().replace('NONE', CONFIG.code_language.default);
+      }
+      $pre.append(copyTmpl.replace('LANG', lang).replace('code-widget">',
+        getBgClass($pre[0]) + (enableCopy ? ' code-widget copy-btn" data-clipboard-snippet><i class="iconfont icon-copy"></i>' : ' code-widget">')));
+
+      if (enableCopy) {
+        Fluid.utils.createScript('https://lib.baomitu.com/clipboard.js/2.0.10/clipboard.min.js', function() {
+          var clipboard = new window.ClipboardJS('.copy-btn', {
+            target: function(trigger) {
+              var nodes = trigger.parentNode.childNodes;
+              for (var i = 0; i < nodes.length; i++) {
+                if (nodes[i].tagName === 'CODE') {
+                  return nodes[i];
+                }
+              }
+            }
+          });
+          clipboard.on('success', function(e) {
+            e.clearSelection();
+            e.trigger.innerHTML = e.trigger.innerHTML.replace('icon-copy', 'icon-success');
+            setTimeout(function() {
+              e.trigger.innerHTML = e.trigger.innerHTML.replace('icon-success', 'icon-copy');
+            }, 2000);
+          });
+        });
+      }
+    });
+  })();
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/Fluid/js/local-search.js" ></script>
+
+  <script defer src="/Fluid/js/leancloud.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/Fluid/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
