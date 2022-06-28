@@ -1,7 +1,7 @@
 ---
 title: Chevereto-属于你自己的图片站
 date: 2020-12-25 20:20:23
-uodate: 2022-04-19
+updated: 2022-06-28
 author: 上杉九月
 ## 基本设置
 tags:
@@ -37,133 +37,122 @@ hide: false
 abbrlink: chevereto
 ---
 
-# 文章简介
+## 前言
 
-> 作者：上杉九月
+前几天用hexo搭建博客首页的时候，想给网站来一张高清的壁纸。然后用picgo把一张比较大的图片上传到gitee。
 
-> 排版：上杉九月
+{% gallery %}
+![Picgo](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/1.png)
+{% endgallery %}
 
-> 封面设计：苍玄之包
+这时出现了第一个问题，picgo不显示该图片的缩略图
 
+{% gallery %}
+![无法显示缩略图](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/2.png)
+{% endgallery %}
 
-# 前言
+本来以为是picgo的bug（beta3版本），便用手机上的图床软件上传
 
-**前几天用hexo搭建博客首页的时候，想给网站来一张高清的壁纸。然后用picgo把一张比较大的图片上传到gitee。**
-
-{% gallery  %}
-![chevereto](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/1.png)
-{% endgallery  %}
-
-**这时出现了第一个问题，picgo不显示该图片的缩略图**
-
-{% gallery  %}
-![chevereto](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/2.png)
-{% endgallery  %}
-
-**本来以为是picgo的bug（beta3版本），便用手机上的图床软件上传**
-
-{% gallery  %}
-![chevereto](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/3.png)
-{% endgallery  %}
+{% gallery %}
+![上传完成](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/3.png)
+{% endgallery %}
 
 显示上传成功，打开gitee的仓库也可以正常访问
 
 在感到很疑惑的同时，我将该图片的URL发到了群里，让朋友看看能不能访问
 
-**然后我收到了朋友的截图**
+然后我收到了朋友的截图
 
-{% gallery  %}
-![chevereto](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/4.png)
-{% endgallery  %}
+{% gallery %}
+![Gitee限制图片大小](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/4.png)
+{% endgallery %}
 
-gitee图床大于1M以上的图片必须登录访问
+{% noteblock warning:: Gitee图床存在的问题 %}
+1. 不能上传超过1M大小的图片，否则不能显示
+2. Gitee有段时间开启了防盗链，第三方引用全部失效
+{% endnoteblock %}
 
-也就是说把大于1M的图片URL引用到博客，其实并不会跳转显示图片
+这时候我在图床APP的其他图床中看到了一段对于chevereto图床的描述
 
-**这时候我在图床APP的其他图床中看到了一段对于chevereto图床的描述**
-
-{% gallery  %}
-![chevereto](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/5.png)
-{% endgallery  %}
+{% gallery %}
+![试试？](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/5.png)
+{% endgallery %}
 
 粗略的看了一下教程，实现效果还不错。
 
-> [上杉九月的图片站](https://pic.sakurasep.top/)
+{% note green link :: [上杉九月的图片站-Chevereto](https://pic.sakurasep.top/) %}
 
-# 正文
 
-## 方案总结
+## 一. 方案总结
 
+{% noteblock info %}
 * 方案一：神枫云 + FTP外部存储
 * 方案二：域名 + 轻量应用服务器
 * 方案三：备案域名 + ECS服务器
+{% endnoteblock %}
 
 我个人最推荐方案二
 
-我个人是在腾讯云购买了一个轻量应用服务器，地区中国香港，这样就免去了备案的繁琐
+学生优惠或者新用户购买腾讯云或者阿里云的服务器挺便宜的，大概是一年60左右。
 
-阿里云的服务器不知道为啥访问比较慢，买了之后就退款了
-
-建议买腾讯云，价格是相同的**34RMB一个月**
-
-{% gallery  %}
-![chevereto](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/6.png)
-{% endgallery  %}
+{% gallery %}
+![腾讯云](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/6.png)
+{% endgallery %}
 
 当然我之前介绍的神枫云也可以，而且可以省去配置宝塔面板的步骤
 
-## 基本安装
+## 二. 方案实施
 
-### 方案一：神枫云 + FTP外部存储
+### 2.1 方案一：神枫云 + FTP外部存储
 
-[神枫云首页](https://www.sfxyun.cn/)注册账号，充值，购买主机。
+{% note green link ::[神枫云首页](https://www.sfxyun.cn/) %}
 
 建议购买这个3RMB/月的服务器
 
 相比于1RMB/月的，月流量变为无限是很重要的
 
-{% gallery  %}
-![chevereto](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/7.png)
-{% endgallery  %}
+{% gallery %}
+![服务器](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/7.png)
+{% endgallery %}
 
-**稍微配置一下，进入主机的管理界面，进入在线文件管理**
+稍微配置一下，进入主机的管理界面，进入在线文件管理
 
-{% gallery  %}
-![chevereto](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/8.png)
-{% endgallery  %}
+{% gallery %}
+![管理面板](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/8.png)
+{% endgallery %}
 
-**上传chevereto底包到根目录**
+上传chevereto底包到根目录
 
-{% gallery  %}
+{% gallery %}
 ![chevereto](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/9.png)
-{% endgallery  %}
+{% endgallery %}
 
 这里chevereto有免费版和付费版，我们使用付费版来进行搭建，因为付费版才可以使用外部存储，神枫云只提供了300M的数据库，存不了几张图片
 
-> [chevereto免费版-Cloudreve-密码2333](https://cloud.sakurasep.club/s/M9sR)
-> [chevereto收费版-Cloudreve-密码2333](https://cloud.sakurasep.club/s/ZyIE)
+{% note paperclip blue:: [chevereto免费版-Cloudreve-密码0628](https://cloud.sakurasep.club/s/8YCM) %}
+{% note paperclip blue:: [chevereto收费版-Cloudreve-密码0628](https://cloud.sakurasep.club/s/GJU0) %}
 
 然后解压底包到wwwroot文件夹
 
-**此时wwwroot文件夹内应该是下图所示的目录结构**
+此时wwwroot文件夹内应该是下图所示的目录结构
 
-{% gallery  %}
-![chevereto](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/16.png)
-{% endgallery  %}
+{% gallery %}
+![目录结构](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/16.png)
+{% endgallery %}
 
-**解压完成之后，进入域名绑定选项，这里有一个赠送的域名**
+解压完成之后，进入域名绑定选项，这里有一个赠送的域名
 
-{% gallery  %}
-![chevereto](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/13.png)
-{% endgallery  %}
+{% gallery %}
+![默认域名](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/13.png)
+{% endgallery %}
 
 访问该域名进入安装进程，只修改三项
 
-**如果忘记了可以在面板首页-虚拟主机信息找到**
+如果忘记了可以在面板首页-虚拟主机信息找到
 
-{% gallery  %}
+{% gallery %}
 ![chevereto](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/13.png)
-{% endgallery  %}
+{% endgallery %}
 
 **然后是注册管理员的界面**
 

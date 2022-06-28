@@ -238,11 +238,14 @@ navbar:
       icon: fa-light fa-compass WISTERIA faa-vertical # 可自定义
       rows: 
         - name: Typecho
-          icon: fa-light fa-blog POMEGRANATE faa-vertical
+          icon: fa-light fa-blog ALIZARIN faa-vertical
           url: https://blog.sakurasep.club/
         - name: Halo
           icon: fa-light fa-blog ALIZARIN faa-vertical
           url: https://halo.sakurasep.club/
+        - name: MX Space
+          icon: fa-light fa-blog ALIZARIN faa-vertical
+          url: https://space.sakurasep.site/
         - name: hr
         - name: Chevereto
           icon: fa-light fa-images EMERALD faa-vertical

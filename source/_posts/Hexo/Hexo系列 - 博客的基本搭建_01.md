@@ -58,11 +58,9 @@ references:
 
 我们会将搭建好的Hexo上传到Github，所以需要Git命令行支持。
 
-{% gallery %}
+{% gallery stretch::2 %}
 ![Git官网页面](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/4.jpg)
-{% endgallery %}
 
-{% gallery %}
 ![根据系统选择64/32位](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/5.jpg)
 {% endgallery %}
 
@@ -241,12 +239,9 @@ ssh-keygen -t rsa -C "你的GitHub注册邮箱"
 
 打开`id_rsa.pub`，复制文件内容，添加到
 
-{% gallery %}
+{% gallery stretch::2 %}
 ![添加SSH公钥](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/17.jpg)
-{% endgallery %}
 
-
-{% gallery %}
 ![添加SSH公钥](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/hexo/18.jpg)
 {% endgallery %}
 
@@ -503,5 +498,5 @@ Vercel默认提供了域名，你也可以更改。
 ---
 
 {% gallery %}
-![关于我](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png)
+![关注上杉九月，关注上杉九月谢谢喵！](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png)
 {% endgallery %}

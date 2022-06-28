@@ -1,5 +1,5 @@
 ---
-title: 《应用使用指南》Perfdog_第2期
+title: Perfdog-简单直观的性能测试工具
 date: 2021-03-22 20:04:51
 author: 上杉九月
 ## 基本设置
