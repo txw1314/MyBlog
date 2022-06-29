@@ -1,0 +1,487 @@
+<!DOCTYPE html><html lang="[&quot;zh-CN&quot;,&quot;zh-TW&quot;,&quot;en&quot;,&quot;default&quot;]" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Hexo_02-博客的配置文件解析 | 九月的生活</title><meta name="keywords" content="Hexo,零基础"><meta name="author" content="上杉九月"><meta name="copyright" content="上杉九月"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="本篇文章讲述了&#96;_config.yml&#96;的内容配置">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo_02-博客的配置文件解析">
+<meta property="og:url" content="https://blog.sakurasep.site/Butterfly/Hexo/Hexo%E7%B3%BB%E5%88%97%20-%20%E5%8D%9A%E5%AE%A2%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E6%9E%90_02/index.html">
+<meta property="og:site_name" content="九月的生活">
+<meta property="og:description" content="本篇文章讲述了&#96;_config.yml&#96;的内容配置">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo/index_2.jpg">
+<meta property="article:published_time" content="2022-04-11T11:20:50.000Z">
+<meta property="article:modified_time" content="2022-06-25T09:07:41.000Z">
+<meta property="article:author" content="上杉九月">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="零基础">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo/index_2.jpg"><link rel="shortcut icon" href="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.svg"><link rel="canonical" href="https://blog.sakurasep.site/Butterfly/Hexo/Hexo%E7%B3%BB%E5%88%97%20-%20%E5%8D%9A%E5%AE%A2%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E6%9E%90_02/"><link rel="preconnect" href="//fastly.jsdelivr.net"/><link rel="preconnect" href="//static.cloudflareinsights.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/Butterfly/css/index.css"><link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://unpkg.com/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://unpkg.com/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script defer="defer" data-pjax="data-pjax" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;11acc261212e48a790220e80fd47a4b4&quot;}"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sakurasep/fonts-cdn@master/SentyGoldenBell.woff2" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/Butterfly/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: {"limitDay":365,"position":"top","messagePrev":"这篇文章有","messageNext":"天没有更新了，内容可能已经过时。"},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":150,"languages":{"author":"作者: 上杉九月","link":"链接: ","source":"来源: 九月的生活","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-left"},
+  source: {
+    justifiedGallery: {
+      js: 'https://unpkg.com/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://unpkg.com/flickr-justified-gallery@2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Hexo_02-博客的配置文件解析',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: true,
+  isToc: true,
+  postUpdate: '2022-06-25 17:07:41'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/inkss/fontawesome@6.0.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sakurasep/main-cdn@2.0/Butterfly/sakurasep.css"><meta name="generator" content="Hexo 6.1.0"><link rel="alternate" href="/Butterfly/atom.xml" title="九月的生活" type="application/atom+xml">
+</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/touxiang.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/Butterfly/archives/"><div class="headline">文章</div><div class="length-num">15</div></a><a href="/Butterfly/tags/"><div class="headline">标签</div><div class="length-num">17</div></a><a href="/Butterfly/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/Butterfly/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-rss"></i><span> 分站</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="https://blog.sakurasep.site"><i class="fa-fw fas fa-browser"></i><span> Volantis</span></a></li><li><a class="site-page child" href="https://blog.sakurasep.site/Shoka"><i class="fa-fw fas fa-browser"></i><span> Shoka</span></a></li><li><a class="site-page child" href="https://blog.sakurasep.site/Matery"><i class="fa-fw fas fa-browser"></i><span> Matery</span></a></li><li><a class="site-page child" href="https://blog.sakurasep.site/Fluid"><i class="fa-fw fas fa-browser"></i><span> Fluid</span></a></li><li><a class="site-page child" href="https://blog.sakurasep.site/Yun"><i class="fa-fw fas fa-browser"></i><span> Yun</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-book-reader"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/Butterfly/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/Butterfly/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/Butterfly/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-cube"></i><span> 导航</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/Butterfly/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></li><li><a class="site-page child" href="/Butterfly/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></li><li><a class="site-page child" href="/Butterfly/info/"><i class="fa-fw fas fa-comment-alt-dots"></i><span> 留言板</span></a></li><li><a class="site-page child" href="/Butterfly/bangumis/"><i class="fa-fw fas fa-video"></i><span> 追番</span></a></li><li><a class="site-page child" href="/Butterfly/cinemas/"><i class="fa-fw fas fa-video"></i><span> 追剧</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-tools"></i><span> 功能</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/Butterfly/atom.xml"><i class="fa-fw fas fa-rss"></i><span> RSS</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://stats.uptimerobot.com/jJZj1SjwDJ"><i class="fa-fw fas fa-user-clock"></i><span> 网站运行状态</span></a></li><li><a class="site-page child" href="/Butterfly/artitalk/"><i class="fa-fw fas fa-notebook"></i><span> 说说</span></a></li><li><a class="site-page child" href="/Butterfly/hpptalk/"><i class="fa-fw fas fa-notebook"></i><span> HPP说说</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-compass"></i><span> 更多</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener" href="https://blog.sakurasep.club/"><i class="fa-fw fas fa-blog"></i><span> Typecho</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://halo.sakurasep.club/"><i class="fa-fw fas fa-blog"></i><span> Halo</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://pic.sakurasep.top/"><i class="fa-fw fas fa-images"></i><span> Chevereto</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://pic.sakurasep.club/"><i class="fa-fw fas fa-images"></i><span> Oneindex</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://cloud.sakurasep.club/"><i class="fa-fw fas fa-browser"></i><span> Cloudreve</span></a></li></ul></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://travellings.link"><i class="fa-fw fas fa-subway"></i><span> 开往</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo/index_2.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/Butterfly/">九月的生活</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/Butterfly/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-rss"></i><span> 分站</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="https://blog.sakurasep.site"><i class="fa-fw fas fa-browser"></i><span> Volantis</span></a></li><li><a class="site-page child" href="https://blog.sakurasep.site/Shoka"><i class="fa-fw fas fa-browser"></i><span> Shoka</span></a></li><li><a class="site-page child" href="https://blog.sakurasep.site/Matery"><i class="fa-fw fas fa-browser"></i><span> Matery</span></a></li><li><a class="site-page child" href="https://blog.sakurasep.site/Fluid"><i class="fa-fw fas fa-browser"></i><span> Fluid</span></a></li><li><a class="site-page child" href="https://blog.sakurasep.site/Yun"><i class="fa-fw fas fa-browser"></i><span> Yun</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-book-reader"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/Butterfly/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/Butterfly/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/Butterfly/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-cube"></i><span> 导航</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/Butterfly/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></li><li><a class="site-page child" href="/Butterfly/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></li><li><a class="site-page child" href="/Butterfly/info/"><i class="fa-fw fas fa-comment-alt-dots"></i><span> 留言板</span></a></li><li><a class="site-page child" href="/Butterfly/bangumis/"><i class="fa-fw fas fa-video"></i><span> 追番</span></a></li><li><a class="site-page child" href="/Butterfly/cinemas/"><i class="fa-fw fas fa-video"></i><span> 追剧</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-tools"></i><span> 功能</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/Butterfly/atom.xml"><i class="fa-fw fas fa-rss"></i><span> RSS</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://stats.uptimerobot.com/jJZj1SjwDJ"><i class="fa-fw fas fa-user-clock"></i><span> 网站运行状态</span></a></li><li><a class="site-page child" href="/Butterfly/artitalk/"><i class="fa-fw fas fa-notebook"></i><span> 说说</span></a></li><li><a class="site-page child" href="/Butterfly/hpptalk/"><i class="fa-fw fas fa-notebook"></i><span> HPP说说</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-compass"></i><span> 更多</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" target="_blank" rel="noopener" href="https://blog.sakurasep.club/"><i class="fa-fw fas fa-blog"></i><span> Typecho</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://halo.sakurasep.club/"><i class="fa-fw fas fa-blog"></i><span> Halo</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://pic.sakurasep.top/"><i class="fa-fw fas fa-images"></i><span> Chevereto</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://pic.sakurasep.club/"><i class="fa-fw fas fa-images"></i><span> Oneindex</span></a></li><li><a class="site-page child" target="_blank" rel="noopener" href="https://cloud.sakurasep.club/"><i class="fa-fw fas fa-browser"></i><span> Cloudreve</span></a></li></ul></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://travellings.link"><i class="fa-fw fas fa-subway"></i><span> 开往</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Hexo_02-博客的配置文件解析</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-04-11T11:20:50.000Z" title="发表于 2022-04-11 19:20:50">2022-04-11</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-06-25T09:07:41.000Z" title="更新于 2022-06-25 17:07:41">2022-06-25</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/Butterfly/categories/Hexo%E7%B3%BB%E5%88%97/">Hexo系列</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">933</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>3分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Hexo_02-博客的配置文件解析"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>此文件是对于Hexo最基本的修改，在使用主题后，由于主题作者设计的不同，某些设置将不会生效，你只需要填写必要设置，并且按照主题作者的文档进行修改即可。</p>
+<h2 id="Site"><a href="#Site" class="headerlink" title="Site"></a>Site</h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 网站标题(必填)</span></span><br><span class="line"><span class="attr">title:</span> <span class="string">九月的生活</span> </span><br><span class="line"><span class="comment"># 副标题(在某些主题不生效)</span></span><br><span class="line"><span class="attr">subtitle:</span> <span class="string">New</span> <span class="string">Dream</span> <span class="string">New</span> <span class="string">Start</span> </span><br><span class="line"><span class="comment"># 网站描述(建议填写，优化SEO)</span></span><br><span class="line"><span class="attr">description:</span> <span class="string">希望在这里分享我的经验与生活！</span> </span><br><span class="line"><span class="comment"># 网站的关键字(选填，优化SEO)</span></span><br><span class="line"><span class="attr">keywords:</span> </span><br><span class="line"><span class="comment"># 网站作者(必填)</span></span><br><span class="line"><span class="attr">author:</span> <span class="string">上杉九月</span> </span><br><span class="line"><span class="comment"># 网站使用的语言(取决于你主题目录下的语言文件)</span></span><br><span class="line"><span class="attr">language:</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">zh-CN</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">en</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">zh-TW</span> </span><br><span class="line"><span class="comment"># 网站对应的时区(无需设置)</span></span><br><span class="line"><span class="attr">timezone:</span> <span class="string">&#x27;&#x27;</span> </span><br></pre></td></tr></table></figure>
+<h2 id="Url"><a href="#Url" class="headerlink" title="Url"></a>Url</h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## url这里有个主题分站的玩法，后期会讲到</span></span><br><span class="line"><span class="comment"># 网站网址，如果设置了自定义域名，这里改为自定义的域名(必填)</span></span><br><span class="line"><span class="comment"># Github: https://Github用户名.github.io</span></span><br><span class="line"><span class="comment"># Gitee: https://Gitee仓库路径名.gitee.io</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">https://sakurasep.gitee.io</span> </span><br><span class="line"><span class="comment"># 文章的永久链接格式(选择性修改)</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:title/</span>  </span><br><span class="line"><span class="comment"># (无需修改)</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br><span class="line"><span class="attr">pretty_urls:</span></span><br><span class="line">  <span class="attr">trailing_index:</span> <span class="literal">true</span> </span><br><span class="line">  <span class="attr">trailing_html:</span> <span class="literal">true</span> </span><br></pre></td></tr></table></figure>
+<h2 id="Directory"><a href="#Directory" class="headerlink" title="Directory"></a>Directory</h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 以下内容保持默认即可</span></span><br><span class="line"><span class="attr">source_dir:</span> <span class="string">source</span></span><br><span class="line"><span class="attr">public_dir:</span> <span class="string">public</span></span><br><span class="line"><span class="attr">tag_dir:</span> <span class="string">tags</span></span><br><span class="line"><span class="attr">archive_dir:</span> <span class="string">archives</span></span><br><span class="line"><span class="attr">category_dir:</span> <span class="string">categories</span></span><br><span class="line"><span class="attr">code_dir:</span> <span class="string">downloads/code</span></span><br><span class="line"><span class="attr">i18n_dir:</span> <span class="string">:lang</span></span><br><span class="line"><span class="comment"># 跳过指定文件的渲染，这里在后期做分站时需要跳过分站的目录，防止二次渲染</span></span><br><span class="line"><span class="attr">skip_render:</span></span><br></pre></td></tr></table></figure>
+<h2 id="Writing"><a href="#Writing" class="headerlink" title="Writing"></a>Writing</h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 新建文章的默认名称(无需修改)</span></span><br><span class="line"><span class="attr">new_post_name:</span> <span class="string">:title.md</span> </span><br><span class="line"><span class="comment"># 预设布局，hexo new命令可以创建post,draft,page三种页面，这里的值为post，hexo new &quot;文章名“ 默认生成的是post</span></span><br><span class="line"><span class="attr">default_layout:</span> <span class="string">post</span></span><br><span class="line"><span class="comment"># 将标题转换为首字母大写(无需修改)</span></span><br><span class="line"><span class="comment"># 影响的是title属性，后续可以通过安装插件实现该功能，所以此处的设置在某些主题不生效</span></span><br><span class="line"><span class="attr">titlecase:</span> <span class="literal">false</span></span><br><span class="line"><span class="comment"># 是否在新标签页中打开链接(按需修改)</span></span><br><span class="line"><span class="attr">external_link:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span> </span><br><span class="line">  <span class="comment"># 仅仅对post类型的文章生效</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">site</span> </span><br><span class="line">  <span class="comment"># 排除的域名</span></span><br><span class="line">  <span class="attr">exclude:</span> <span class="string">&#x27;&#x27;</span></span><br><span class="line"><span class="comment"># 文件名称转换 0是不转换 1小写 2大写(无需修改)</span></span><br><span class="line"><span class="attr">filename_case:</span> <span class="number">0</span></span><br><span class="line"><span class="comment"># 是否渲染草稿文件(无需修改)</span></span><br><span class="line"><span class="attr">render_drafts:</span> <span class="literal">false</span></span><br><span class="line"><span class="comment"># 是否启用资源文件夹(按需修改)</span></span><br><span class="line"><span class="comment"># 开启此选项后在hexo new文章时，会创建一个同名文件夹，用于保存你文章中所需资源。不过我建议使用网络图床。</span></span><br><span class="line"><span class="attr">post_asset_folder:</span> <span class="literal">false</span></span><br><span class="line"><span class="comment"># 相对链接(无需修改)</span></span><br><span class="line"><span class="attr">relative_link:</span> <span class="literal">false</span></span><br><span class="line"><span class="comment"># 是否显示未来的文章(按需修改)</span></span><br><span class="line"><span class="comment"># 如果你文章的时间设置的未来的时间，打开这个即可显示</span></span><br><span class="line"><span class="comment"># 这个可以用于定时发布某些文章，建议关闭</span></span><br><span class="line"><span class="attr">future:</span> <span class="literal">false</span></span><br><span class="line"><span class="comment"># 代码块高亮设置(根据所用主题按需设置)</span></span><br><span class="line"><span class="attr">highlight:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">line_number:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">auto_detect:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">tab_replace:</span> <span class="string">&#x27;&#x27;</span></span><br><span class="line">  <span class="attr">wrap:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">hljs:</span> <span class="literal">false</span></span><br><span class="line"><span class="attr">prismjs:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">preprocess:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">line_number:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">tab_replace:</span> <span class="string">&#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
+<h2 id="Home-page-setting"><a href="#Home-page-setting" class="headerlink" title="Home page setting"></a>Home page setting</h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">index_generator:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">&#x27;&#x27;</span></span><br><span class="line">  <span class="comment"># 每页显示的文章数量(按需修改)</span></span><br><span class="line">  <span class="attr">per_page:</span> <span class="number">7</span></span><br><span class="line">  <span class="comment"># 文章排序方式，默认最新日期在最前面(无需修改)</span></span><br><span class="line">  <span class="attr">order_by:</span> <span class="string">-date</span></span><br></pre></td></tr></table></figure>
+<h2 id="Category-amp-Tag"><a href="#Category-amp-Tag" class="headerlink" title="Category &amp; Tag"></a>Category &amp; Tag</h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 以下内容不建议修改</span></span><br><span class="line"><span class="comment"># 默认分类</span></span><br><span class="line"><span class="attr">default_category:</span> <span class="string">uncategorized</span></span><br><span class="line"><span class="comment"># 分类别名</span></span><br><span class="line"><span class="attr">category_map:</span></span><br><span class="line"><span class="comment"># 标签别名</span></span><br><span class="line"><span class="attr">tag_map:</span></span><br></pre></td></tr></table></figure>
+<h2 id="Metadata-elements"><a href="#Metadata-elements" class="headerlink" title="Metadata elements"></a>Metadata elements</h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 元数据元素(无需修改)</span></span><br><span class="line"><span class="attr">meta_generator:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<h2 id="Date-Time-format"><a href="#Date-Time-format" class="headerlink" title="Date / Time format"></a>Date / Time format</h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 时间/日期格式(无需修改)</span></span><br><span class="line"><span class="attr">date_format:</span> <span class="string">YYYY-MM-DD</span></span><br><span class="line"><span class="attr">time_format:</span> <span class="string">HH:mm:ss</span></span><br><span class="line"><span class="comment"># 文章更新时间格式(按需修改)</span></span><br><span class="line"><span class="comment"># 提供了三个选项 </span></span><br><span class="line"><span class="comment"># mtime: 将文章修改时间作为文章更新时间</span></span><br><span class="line"><span class="comment"># date: 将文章创建时间作为文章更新时间</span></span><br><span class="line"><span class="comment"># empty: 没有文章更新时间</span></span><br><span class="line"><span class="attr">updated_option:</span> <span class="string">&#x27;mtime&#x27;</span></span><br></pre></td></tr></table></figure>
+<h2 id="Pagination"><a href="#Pagination" class="headerlink" title="Pagination"></a>Pagination</h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 分页时每页文章数量 设置为0 不分页(按需修改)</span></span><br><span class="line"><span class="attr">per_page:</span> <span class="number">7</span></span><br><span class="line"><span class="attr">pagination_dir:</span> <span class="string">page</span></span><br></pre></td></tr></table></figure>
+<h2 id="Include-Exclude-file-s"><a href="#Include-Exclude-file-s" class="headerlink" title="Include / Exclude file(s)"></a>Include / Exclude file(s)</h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 包括/不包括的文件(无需修改)</span></span><br><span class="line"><span class="attr">include:</span></span><br><span class="line"><span class="attr">exclude:</span></span><br><span class="line"><span class="attr">ignore:</span></span><br></pre></td></tr></table></figure>
+<h2 id="Extensions"><a href="#Extensions" class="headerlink" title="Extensions"></a>Extensions</h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 主题</span></span><br><span class="line"><span class="comment"># 使用的主题名</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">volantis</span></span><br></pre></td></tr></table></figure>
+<h2 id="Deployment"><a href="#Deployment" class="headerlink" title="Deployment"></a>Deployment</h2><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 部署设置</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="comment"># 仓库地址</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">https://gitee.com/sakurasep/sakurasep.git</span></span><br><span class="line">  <span class="comment"># 仓库分支</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></table></figure>
+<hr>
+<p><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png" alt="关于我"></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://blog.sakurasep.site/Butterfly">上杉九月</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://blog.sakurasep.site/Butterfly/Hexo/Hexo%E7%B3%BB%E5%88%97%20-%20%E5%8D%9A%E5%AE%A2%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%A7%A3%E6%9E%90_02/">https://blog.sakurasep.site/Butterfly/Hexo/Hexo系列 - 博客的配置文件解析_02/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://blog.sakurasep.site/Butterfly" target="_blank">九月的生活</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/Butterfly/tags/Hexo/">Hexo</a><a class="post-meta__tags" href="/Butterfly/tags/%E9%9B%B6%E5%9F%BA%E7%A1%80/">零基础</a></div><div class="post_share"><div class="social-share" data-image="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo/index_2.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://unpkg.com/butterfly-extsrc@1/ShareJS/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://unpkg.com/butterfly-extsrc@1/ShareJS/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wechat.png" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wechat.png" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/AliPay.png" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/AliPay.png" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/Butterfly/Hexo/Hexo%E7%B3%BB%E5%88%97%20-%20Volantis%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97_03/"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo/index_3.jpg" onerror="onerror=null;src='/Butterfly/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Hexo_03-Volantis主题的使用指南(一)</div></div></a></div><div class="next-post pull-right"><a href="/Butterfly/Hexo/Hexo%E7%B3%BB%E5%88%97%20-%20%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%90%AD%E5%BB%BA_01/"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo/index_1.jpg" onerror="onerror=null;src='/Butterfly/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Hexo_01-博客的安装与部署</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/Butterfly/Hexo/Hexo%E7%B3%BB%E5%88%97%20-%20Volantis%E4%B8%BB%E9%A2%98%E7%9A%84%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97_03/" title="Hexo_03-Volantis主题的使用指南(一)"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo/index_3.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-06-25</div><div class="title">Hexo_03-Volantis主题的使用指南(一)</div></div></a></div><div><a href="/Butterfly/Hexo/Hexo%E7%B3%BB%E5%88%97%20-%20%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%90%AD%E5%BB%BA_01/" title="Hexo_01-博客的安装与部署"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Hexo/index_1.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-04-11</div><div class="title">Hexo_01-博客的安装与部署</div></div></a></div><div><a href="/Butterfly/HowToDo/%E9%9B%B6%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B%20-%20Chevereto%E5%9B%BE%E5%BA%8A/" title="Chevereto-属于你自己的图片站"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Chevereto/index.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-12-25</div><div class="title">Chevereto-属于你自己的图片站</div></div></a></div><div><a href="/Butterfly/HowToDo/%E9%9B%B6%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B%20-%20%E6%99%BA%E6%85%A7%E6%9B%B2%E5%9B%AD%E4%BA%91%E7%AB%AF%E8%87%AA%E5%8A%A8%E6%89%93%E5%8D%A1/" title="智慧曲园云端自动打卡"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Qfnu/index.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-01-20</div><div class="title">智慧曲园云端自动打卡</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div id="comment-switch"><span class="first-comment">Twikoo</span><span class="switch-btn"></span><span class="second-comment">Gitalk</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div><div><div id="gitalk-container"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content is-expand"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Site"><span class="toc-number">1.</span> <span class="toc-text">Site</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Url"><span class="toc-number">2.</span> <span class="toc-text">Url</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Directory"><span class="toc-number">3.</span> <span class="toc-text">Directory</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Writing"><span class="toc-number">4.</span> <span class="toc-text">Writing</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Home-page-setting"><span class="toc-number">5.</span> <span class="toc-text">Home page setting</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Category-amp-Tag"><span class="toc-number">6.</span> <span class="toc-text">Category &amp; Tag</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Metadata-elements"><span class="toc-number">7.</span> <span class="toc-text">Metadata elements</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Date-Time-format"><span class="toc-number">8.</span> <span class="toc-text">Date &#x2F; Time format</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Pagination"><span class="toc-number">9.</span> <span class="toc-text">Pagination</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Include-Exclude-file-s"><span class="toc-number">10.</span> <span class="toc-text">Include &#x2F; Exclude file(s)</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Extensions"><span class="toc-number">11.</span> <span class="toc-text">Extensions</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Deployment"><span class="toc-number">12.</span> <span class="toc-text">Deployment</span></a></li></ol></div></div></div></div></main><footer id="footer" style="background-image: url('https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/Wallpaper/04.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2022 By 上杉九月</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"><a target="_blank" rel="noopener" href="https://beian.miit.gov.cn/#/Integrated/index"><span>鲁ICP备2020049838号-3</span></a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/Butterfly/js/utils.js"></script><script src="/Butterfly/js/main.js"></script><script src="/Butterfly/js/tw_cn.js"></script><script src="https://unpkg.com/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://unpkg.com/instant.page@5/instantpage.js" type="module"></script><script src="https://unpkg.com/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="https://unpkg.com/node-snackbar/dist/snackbar.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://unpkg.com/pangu@4/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><script>var preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',preloader.endLoading())</script><div class="js-pjax"><script>(() => {
+  const $mermaidWrap = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaidWrap.length) {
+    window.runMermaid = () => {
+      window.loadMermaid = true
+      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+      Array.from($mermaidWrap).forEach((item, index) => {
+        const mermaidSrc = item.firstElementChild
+        const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+        const mermaidID = 'mermaid-' + index
+        const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+        mermaid.mermaidAPI.render(mermaidID, mermaidDefinition, (svgCode) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svgCode)
+        })
+      })
+    }
+
+    const loadMermaid = () => {
+      window.loadMermaid ? runMermaid() : getScript('https://unpkg.com/mermaid/dist/mermaid.min.js').then(runMermaid)
+    }
+
+    window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+  }
+})()</script><script>(()=>{
+  const init = () => {
+    twikoo.init(Object.assign({
+      el: '#twikoo-wrap',
+      envId: 'twikoo-8g109qz0365c3388',
+      region: '',
+      onCommentLoaded: function () {
+        btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      }
+    }, null))
+  }
+
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: 'twikoo-8g109qz0365c3388',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(function (res) {
+      countELement.innerText = res[0].count
+    }).catch(function (err) {
+      console.error(err);
+    });
+  }
+
+  const runFn = () => {
+    init()
+    GLOBAL_CONFIG_SITE.isPost && getCount()
+  }
+
+  const loadTwikoo = () => {
+    if (typeof twikoo === 'object') {
+      setTimeout(runFn,0)
+      return
+    } 
+    getScript('https://unpkg.com/twikoo@1/dist/twikoo.all.min.js').then(runFn)
+  }
+
+  if ('Twikoo' === 'Twikoo' || !true) {
+    if (true) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo()
+  } else {
+    window.loadOtherComment = () => {
+      loadTwikoo()
+    }
+  }
+})()</script><script>function addGitalkSource () {
+  const ele = document.createElement('link')
+  ele.rel = 'stylesheet'
+  ele.href= 'https://unpkg.com/gitalk/dist/gitalk.css'
+  document.getElementsByTagName('head')[0].appendChild(ele)
+}
+
+function loadGitalk () {
+  function initGitalk () {
+    var gitalk = new Gitalk(Object.assign({
+      clientID: '6966beba6fe5a86aaed2',
+      clientSecret: '51133a8c88bd9c4cfd93ceec472a012133bd2a5b',
+      repo: 'gitalk-comments',
+      owner: 'sakurasep',
+      admin: ['sakurasep'],
+      id: '049bc23aaac4ba783b36b66449748f41',
+      updateCountCallback: commentCount
+    },))
+
+    gitalk.render('gitalk-container')
+  }
+
+  if (typeof Gitalk === 'function') initGitalk()
+  else {
+    addGitalkSource()
+    getScript('https://unpkg.com/gitalk@latest/dist/gitalk.min.js').then(initGitalk)
+  }
+}
+
+function commentCount(n){
+  let isCommentCount = document.querySelector('#post-meta .gitalk-comment-count')
+  if (isCommentCount) {
+    isCommentCount.innerHTML= n
+  }
+}
+
+if ('Twikoo' === 'Gitalk' || !true) {
+  if (true) btf.loadComment(document.getElementById('gitalk-container'), loadGitalk)
+  else loadGitalk()
+} else {
+  function loadOtherComment () {
+    loadGitalk()
+  }
+}</script></div><script>window.addEventListener('load', () => {
+  const changeContent = (content) => {
+    if (content === '') return content
+
+    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
+    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
+    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
+    content = content.replace(/<[^>]+>/g,"") // remove html tag
+
+    if (content.length > 150) {
+      content = content.substring(0,150) + '...'
+    }
+    return content
+  }
+
+  const getComment = () => {
+    const runTwikoo = () => {
+      twikoo.getRecentComments({
+        envId: 'twikoo-8g109qz0365c3388',
+        region: '',
+        pageSize: 6,
+        includeReply: true
+      }).then(function (res) {
+        const twikooArray = res.map(e => {
+          return {
+            'content': changeContent(e.comment),
+            'avatar': e.avatar,
+            'nick': e.nick,
+            'url': e.url + '#' + e.id,
+            'date': new Date(e.created).toISOString()
+          }
+        })
+
+        saveToLocal.set('twikoo-newest-comments', JSON.stringify(twikooArray), 10/(60*24))
+        generateHtml(twikooArray)
+      }).catch(function (err) {
+        const $dom = document.querySelector('#card-newest-comments .aside-list')
+        $dom.innerHTML= "无法获取评论，请确认相关配置是否正确"
+      })
+    }
+
+    if (typeof twikoo === 'object') {
+      runTwikoo()
+    } else {
+      getScript('https://unpkg.com/twikoo@1/dist/twikoo.all.min.js').then(runTwikoo)
+    }
+  }
+
+  const generateHtml = array => {
+    let result = ''
+
+    if (array.length) {
+      for (let i = 0; i < array.length; i++) {
+        result += '<div class=\'aside-list-item\'>'
+
+        if (true) {
+          const name = 'data-lazy-src'
+          result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'></a>`
+        }
+        
+        result += `<div class='content'>
+        <a class='comment' href='${array[i].url}' title='${array[i].content}'>${array[i].content}</a>
+        <div class='name'><span>${array[i].nick} / </span><time datetime="${array[i].date}">${btf.diffDate(array[i].date, true)}</time></div>
+        </div></div>`
+      }
+    } else {
+      result += '没有评论'
+    }
+
+    let $dom = document.querySelector('#card-newest-comments .aside-list')
+    $dom.innerHTML= result
+    window.lazyLoadInstance && window.lazyLoadInstance.update()
+    window.pjax && window.pjax.refresh($dom)
+  }
+
+  const newestCommentInit = () => {
+    if (document.querySelector('#card-newest-comments .aside-list')) {
+      const data = saveToLocal.get('twikoo-newest-comments')
+      if (data) {
+        generateHtml(JSON.parse(data))
+      } else {
+        getComment()
+      }
+    }
+  }
+
+  newestCommentInit()
+  document.addEventListener('pjax:complete', newestCommentInit)
+})</script><div class="aplayer no-destroy" data-id="2768120286" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="false"> </div><canvas class="fireworks" mobile="false"></canvas><script src="https://unpkg.com/butterfly-extsrc@1/dist/fireworks.min.js"></script><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://unpkg.com/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js"></script><script src="https://unpkg.com/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><link rel="stylesheet" href="https://unpkg.com/aplayer@1/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://unpkg.com/aplayer@1/dist/APlayer.min.js"></script><script src="https://unpkg.com/butterfly-extsrc@1/MetingJS/dist/Meting.min.js"></script><script src="https://unpkg.com/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
+  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+
+  typeof preloader === 'object' && preloader.initLoading()
+  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+
+  typeof preloader === 'object' && preloader.endLoading()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

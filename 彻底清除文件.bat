@@ -17,7 +17,7 @@ md G:\Blog\Hexo_Lite\Fluid\source\_posts
 md G:\Blog\Hexo_Lite\Matery\source\_posts
 md G:\Blog\Hexo_Lite\Yun\source\_posts
 
-xcopy /s /q G:\Blog\Article\Normal G:\Blog\Hexo_Lite\Butterfly\source\_posts
+xcopy /s /q G:\Blog\Article\NoLabel G:\Blog\Hexo_Lite\Butterfly\source\_posts
 xcopy /s /q G:\Blog\Article\NoLabel G:\Blog\Hexo_Lite\Fluid\source\_posts
 xcopy /s /q G:\Blog\Article\NoLabel G:\Blog\Hexo_Lite\Shoka\source\_posts
 xcopy /s /q G:\Blog\Article\NoLabel G:\Blog\Hexo_Lite\Matery\source\_posts

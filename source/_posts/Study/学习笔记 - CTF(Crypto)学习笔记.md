@@ -36,24 +36,18 @@ cover: 'https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CT
 
 ---
 
-# 文章简介
-
-> 作者：上杉九月
->
-> 排版：上杉九月
-
-# 前言
+## 前言
 
 最近一位朋友入坑CTF，想起来开学还加了一个相关社团参加了几场比赛。还是挺有趣的。
 
 每天做上一两个，就当是放松了。
 
-# 正文
+## 正文
 
 ## [BUUCTF在线评测 (buuoj.cn) -- MD5](https://buuoj.cn/challenges#MD5)
-
+{% folding green, 详细过程 %}
 {% gallery %}
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/1.png)
+![题目](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/1.png)
 {% endgallery %}
 
 ### 题目
@@ -66,18 +60,17 @@ e00cf25ad42683b3df678c61f42c6bda
 
 扔到**[MD5解密网站](https://www.cmd5.com/)**得到`flag{admin1}`
 
-{% gallery %}
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/2.png)
+{% gallery stretch::2 %}
+![解密网站](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/2.png)
+![PASS](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/3.png)
 {% endgallery %}
 
-{% gallery %}
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/3.png)
-{% endgallery %}
+{% endfolding %}
 
 ## [BUUCTF在线评测 (buuoj.cn) -- 一眼就解密](https://buuoj.cn/challenges#一眼就解密)
-
+{% folding green, 详细过程 %}
 {% gallery %}
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/4.png)
+![题目](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/4.png)
 {% endgallery %}
 
 ## 题目
@@ -89,20 +82,21 @@ flag：ZmxhZ3tUSEVfRkxBR19PRl9USElTX1NUUklOR30=
 Base64编码有个特点，编码末尾会出现`=`
 
 {% gallery %}
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/5.png)
+![特点](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/5.png)
 {% endgallery %}
 
 所以说仍然是放到**[Base64解密网站](https://www.qqxiuzi.cn/bianma/base64.htm)**
 
 {% gallery %}
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/6.png)
+![解密得到](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/6.png)
 {% endgallery %}
 
 {% gallery %}
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/7.png)
+![PASS](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/CTF_Crypto/7.png)
 {% endgallery %}
+{% endfolding %}
 ---
 
 {% gallery %}
-![](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png)
+![关注上杉九月，关注上杉九月谢谢喵！](https://xingqiu-tuchuang-1256524210.cos.ap-shanghai.myqcloud.com/5199/about_me.png)
 {% endgallery %}
