@@ -361,7 +361,7 @@
         </item>
         <item>
             <guid isPermalink="true">https://cdn.sakurasep.site/Shoka/Study/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20-%20CTF(Crypto)%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
-            <title>《CTF学习笔记》</title>
+            <title>CTF-Crypto</title>
             <link>https://cdn.sakurasep.site/Shoka/Study/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20-%20CTF(Crypto)%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
             <category term="学习笔记" scheme="https://cdn.sakurasep.site/Shoka/categories/Study/" />
             <category term="CTF" scheme="https://cdn.sakurasep.site/Shoka/tags/CTF/" />
@@ -395,7 +395,7 @@
         </item>
         <item>
             <guid isPermalink="true">https://cdn.sakurasep.site/Shoka/Study/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20-%20%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
-            <title>《学习笔记》</title>
+            <title>我的学习日常</title>
             <link>https://cdn.sakurasep.site/Shoka/Study/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20-%20%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
             <category term="学习笔记" scheme="https://cdn.sakurasep.site/Shoka/categories/Study/" />
             <category term="C语言" scheme="https://cdn.sakurasep.site/Shoka/tags/C%E8%AF%AD%E8%A8%80/" />
@@ -1216,8 +1216,8 @@ M1001 80h400000v40h-400000z&#39;/&gt;&lt;/svg&gt;&lt;/span&gt;&lt;/span&gt;&lt;/
             <title>Perfdog-简单直观的性能测试工具</title>
             <link>https://cdn.sakurasep.site/Shoka/HowToUse/%E5%BA%94%E7%94%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%20-%20Perfdog/</link>
             <category term="应用使用指南" scheme="https://cdn.sakurasep.site/Shoka/categories/HowToUse/" />
-            <category term="PC" scheme="https://cdn.sakurasep.site/Shoka/tags/PC/" />
             <category term="应用使用指南" scheme="https://cdn.sakurasep.site/Shoka/tags/%E5%BA%94%E7%94%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/" />
+            <category term="PC" scheme="https://cdn.sakurasep.site/Shoka/tags/PC/" />
             <pubDate>Mon, 22 Mar 2021 20:04:51 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;一-基本介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-基本介绍&#34;&gt;#&lt;/a&gt; 一。基本介绍&lt;/h2&gt;
 &lt;p&gt;当我们作为一位消费者购买电子产品时，我们获取第一手信息的方式大多是从各大视频平台的自媒体的首发测评。当我们拿到电子产品之后，如何对它的性能进行测试呢？&lt;/p&gt;
@@ -2086,7 +2086,7 @@ GPU：AMD RX5700 XT
         </item>
         <item>
             <guid isPermalink="true">https://cdn.sakurasep.site/Shoka/Study/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20-%20%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
-            <title>《算法学习笔记》</title>
+            <title>算法学习日记</title>
             <link>https://cdn.sakurasep.site/Shoka/Study/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20-%20%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
             <category term="学习笔记" scheme="https://cdn.sakurasep.site/Shoka/categories/Study/" />
             <category term="C语言" scheme="https://cdn.sakurasep.site/Shoka/tags/C%E8%AF%AD%E8%A8%80/" />

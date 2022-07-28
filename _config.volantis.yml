@@ -380,7 +380,7 @@ plugins:
   contributorsjs:
     enable: true
 
-  fontawesome: https://cdn.jsdelivr.net/gh/inkss/fontawesome@6.0.0/css/all.min.css
+  fontawesome: https://fonts.sakurasep.club/fontawesome/css/all.min.css
   fontawesome_animation:
     enable: true
 

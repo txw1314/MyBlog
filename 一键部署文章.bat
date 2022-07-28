@@ -43,12 +43,5 @@ xcopy /s /q G:\Blog\Hexo_Lite\Matery\public\ G:\Blog\Hexo\themes\volantis\source
 
 cd G:\Blog\Hexo
 hexo clean
-hexo bangumi -u
-hexo cinema -u
-hexo g
-gulp
 
-git add .
-git commit -m "fix bugs"
-git push -u origin master
 pause
